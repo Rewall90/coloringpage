@@ -5,16 +5,5 @@
     }
   },
   "buildCommand": "hugo --minify",
-  "outputDirectory": "./public",
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow, noarchive, nosnippet, noimageindex"
-        }
-      ]
-    }
-  ]
+  "outputDirectory": "./public"
 }
