@@ -1,0 +1,39 @@
+# Hugo default output directory
+/public/
+/resources/_gen/
+
+# Hugo lock file
+.hugo_build.lock
+
+# npm dependencies (if using npm for asset pipeline)
+node_modules/
+
+# Sanity specific
+sanity/node_modules/
+sanity/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
