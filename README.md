@@ -1,12 +1,20 @@
-# Hugo Site with Blowfish Theme
+# Coloring Page Website
 
-This Hugo site uses the Blowfish theme and follows Hugo best practices.
+Hugo static site with Sanity CMS integration for managing coloring pages.
+
+## Stack
+
+- **Hugo** - Static site generator
+- **Blowfish Theme** - Modern responsive theme
+- **Sanity CMS** - Headless content management
+- **TypeScript** - Type-safe development
 
 ## Structure
 
 - `/config/_default/` - Configuration directory (Hugo best practice)
 - `/content/` - Content files
 - `/themes/blowfish/` - Blowfish theme (git submodule)
+- `/sanity/` - Sanity CMS configuration and schemas
 - `/static/` - Static assets
 - `/layouts/` - Custom layouts (overrides theme)
 - `/assets/` - Processed assets (SCSS, JS, etc.)
@@ -16,6 +24,9 @@ This Hugo site uses the Blowfish theme and follows Hugo best practices.
 ```bash
 # Start development server
 hugo server -D
+
+# Start Sanity Studio
+cd sanity && npm run dev
 
 # Build site
 hugo
@@ -36,3 +47,4 @@ All configuration is in `/config/_default/`:
 
 - [Hugo Documentation](https://gohugo.io/documentation/)
 - [Blowfish Theme Documentation](https://blowfish.page/docs/)
+- [Sanity Documentation](https://www.sanity.io/docs)
