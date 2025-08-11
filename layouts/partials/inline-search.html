@@ -1,0 +1,29 @@
+{{/* Inline Search Component */}}
+<div class="inline-search-container mt-6 mb-8">
+  <div class="inline-search-wrapper">
+    <div class="inline-search-input-group">
+      <svg class="inline-search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+      <input 
+        type="text" 
+        id="inline-search-input"
+        class="inline-search-input" 
+        placeholder="{{ i18n "search.input_placeholder" | default "Search for coloring pages..." }}"
+        aria-label="Search"
+        autocomplete="off"
+        data-url="{{ "" | absLangURL }}"
+      >
+    </div>
+    
+    {{/* Results container */}}
+    <div id="inline-search-results" class="inline-search-results hidden">
+      <ul id="inline-search-list" class="inline-search-list">
+        {{/* Results will be populated by JavaScript */}}
+      </ul>
+      <div id="inline-search-no-results" class="inline-search-no-results hidden">
+        <p>No results found</p>
+      </div>
+    </div>
+  </div>
+</div>

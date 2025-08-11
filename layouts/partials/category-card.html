@@ -1,0 +1,35 @@
+{{/* Category Card Partial - Used on homepage to display category tiles */}}
+{{ $category := .category }}
+
+<a href="{{ $category.RelPermalink }}" class="group block relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+  {{/* Category Image */}}
+  {{ with $category.Params.featureimage }}
+    <img 
+      src="{{ . }}" 
+      alt="{{ $category.Params.image_alt | default $category.Title }}"
+      class="absolute inset-0 w-full h-full object-cover"
+      loading="lazy"
+    >
+  {{ else }}
+    {{/* Fallback if no image */}}
+    <div class="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600"></div>
+  {{ end }}
+  
+  {{/* Overlay with title */}}
+  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+  
+  {{/* Category Title */}}
+  <div class="absolute bottom-0 left-0 right-0 p-3">
+    <h3 class="text-white font-bold text-sm md:text-base lg:text-lg">
+      {{ $category.Title }}
+    </h3>
+  </div>
+  
+  {{/* Item count badge (optional) */}}
+  {{ $count := len (where $category.Pages "Type" "coloring-page") }}
+  {{ if gt $count 0 }}
+    <div class="absolute top-2 right-2 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1">
+      <span class="text-xs font-semibold text-neutral-700">{{ $count }}</span>
+    </div>
+  {{ end }}
+</a>

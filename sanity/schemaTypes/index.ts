@@ -4,6 +4,6 @@ import {post} from './post'
 import {socialMedia} from './socialMedia'
 import {pinterestBoard} from './pinterestBoard'
 import {hashtagGroup} from './hashtagGroup'
-import {coloringPage} from './objects/coloringPage'
+import {coloringPage} from './coloringPage'
 
 export const schemaTypes = [category, page, post, socialMedia, pinterestBoard, hashtagGroup, coloringPage]

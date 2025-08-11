@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Hugo build output
+public/
+resources/
+
+# Theme files (external)
+themes/
+
+# Generated content
+content/posts/
+content/pages/
+content/categories/
+content/coloring-pages/
+
+# Minified files
+*.min.js
+*.min.css
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.production

@@ -1,0 +1,14 @@
+{{/* Custom head extensions - Debug version */}}
+{{/* Include inline search JavaScript when search is enabled */}}
+{{ $inlineSearchJS := resources.Get "js/inline-search.js" }}
+{{ if $inlineSearchJS }}
+  {{ $inlineSearchJS := $inlineSearchJS | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $inlineSearchJS.RelPermalink }}" integrity="{{ $inlineSearchJS.Data.Integrity }}"></script>
+{{ end }}
+
+{{/* Include coloring pages search JavaScript on coloring pages */}}
+{{ $coloringSearchJS := resources.Get "js/coloring-pages-search.js" }}
+{{ if $coloringSearchJS }}
+  {{ $coloringSearchJS := $coloringSearchJS | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $coloringSearchJS.RelPermalink }}" integrity="{{ $coloringSearchJS.Data.Integrity }}"></script>
+{{ end }}

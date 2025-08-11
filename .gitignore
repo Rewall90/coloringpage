@@ -1,4 +1,31 @@
 # Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Node / JS
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+.pnp*
+.next/
+.vercel/
+
+# Sanity Studio
+sanity/node_modules/
+sanity/.sanity/
+sanity/dist/
+sanity/.next/
+
+# OS / IDE / Misc
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+nul
+# Hugo
 /public/
 /resources/_gen/
 .hugo_build.lock

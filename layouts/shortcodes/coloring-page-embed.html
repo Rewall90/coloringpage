@@ -1,0 +1,75 @@
+{{/* Coloring Page Embed Shortcode */}}
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $image := .Get "image" }}
+{{ $pdf := .Get "pdf" }}
+
+<div class="coloring-page-embed my-8 p-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700">
+  <div class="flex flex-col gap-4">
+    {{/* Image section */}}
+    {{ if $image }}
+      <div class="w-full">
+        <img 
+          src="{{ $image }}" 
+          alt="{{ $title }}"
+          class="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 aspect-square object-cover"
+          loading="lazy"
+        >
+      </div>
+    {{ end }}
+    
+    {{/* Content section */}}
+    <div class="flex-1 space-y-3">
+      <h3 class="text-lg font-bold text-neutral-900 dark:text-neutral-100">
+        🎨 {{ $title }}
+      </h3>
+      
+      {{ if $description }}
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">
+          {{ $description }}
+        </p>
+      {{ end }}
+      
+      {{/* Download and Print buttons */}}
+      <div class="flex flex-col gap-2">
+        {{ if $pdf }}
+          <a 
+            href="{{ $pdf }}" 
+            download
+            class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-300 text-base text-center"
+          >
+            Download Coloring Page
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Print functionality script */}}
+<script>
+function printColoringPage(imageUrl, title) {
+  const printWindow = window.open('', '_blank');
+  printWindow.document.write(`
+    <html>
+      <head>
+        <title>Print: ${title}</title>
+        <style>
+          body { margin: 0; padding: 20px; text-align: center; }
+          img { max-width: 100%; height: auto; }
+          h1 { font-family: Arial, sans-serif; margin-bottom: 20px; }
+          @media print {
+            body { padding: 0; }
+            h1 { page-break-after: avoid; }
+          }
+        </style>
+      </head>
+      <body>
+        <h1>${title}</h1>
+        <img src="${imageUrl}" alt="${title}" onload="window.print(); window.close();">
+      </body>
+    </html>
+  `);
+  printWindow.document.close();
+}
+</script>

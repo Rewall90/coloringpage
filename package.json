@@ -1,0 +1,53 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "Hugo static site with Sanity CMS integration for managing coloring pages",
+  "type": "module",
+  "scripts": {
+    "fetch-content": "node scripts/fetch-sanity-content.js",
+    "fetch-content-sections": "node scripts/fetch-sanity-content-sections.js",
+    "build": "npm run fetch-content-sections && hugo",
+    "build:hugo": "hugo",
+    "dev": "npm run fetch-content-sections && hugo server -D",
+    "preview": "npm run fetch-content-sections && hugo server --environment production",
+    "clean": "rm -rf public resources",
+    "lint": "eslint scripts",
+    "lint:fix": "eslint scripts --fix",
+    "format": "prettier --write scripts/**/*.js *.json *.md",
+    "format:check": "prettier --check scripts/**/*.js *.json *.md",
+    "code-quality": "npm run lint && npm run format:check",
+    "code-quality:fix": "npm run lint:fix && npm run format",
+    "prepare": "husky install",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "hugo",
+    "sanity",
+    "static-site",
+    "coloring-pages",
+    "cms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/client": "^6.10.0",
+    "dotenv": "^16.3.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "eslint": "^8.57.0",
+    "@eslint/js": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

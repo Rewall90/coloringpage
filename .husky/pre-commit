@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# Husky v9+/v10 compatible hook (no sourcing of _/husky.sh)
+
+# Run code quality checks before commit
+npm run code-quality

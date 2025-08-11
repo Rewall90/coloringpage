@@ -3,7 +3,7 @@ import {defineField, defineType} from 'sanity'
 export const coloringPage = defineType({
   name: 'coloringPage',
   title: 'Coloring Page',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
       name: 'title',
@@ -12,10 +12,39 @@ export const coloringPage = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 96,
+      },
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'description',
       title: 'Description',
       type: 'text',
       rows: 2,
+    }),
+    defineField({
+      name: 'publishedAt',
+      title: 'Published At',
+      type: 'datetime',
+      initialValue: () => new Date().toISOString(),
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'categories',
+      title: 'Categories',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'category'}],
+        },
+      ],
+      validation: (rule) => rule.min(1).required().error('At least one category is required'),
     }),
     defineField({
       name: 'difficulty',

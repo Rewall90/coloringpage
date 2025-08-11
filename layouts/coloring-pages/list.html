@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="coloring-pages-list">
+  
+  {{/* Page Header */}}
+  <section class="page-header py-8 mb-8">
+    <div class="max-w-7xl mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral mb-4 text-center">
+        {{ .Title }}
+      </h1>
+      {{ with .Params.description }}
+        <p class="text-xl text-neutral-600 dark:text-neutral-400 text-center max-w-3xl mx-auto">
+          {{ . }}
+        </p>
+      {{ end }}
+      
+      {{/* Inline Search for Coloring Pages */}}
+      <div class="mt-8 max-w-2xl mx-auto">
+        {{ partial "coloring-pages-search.html" . }}
+      </div>
+    </div>
+  </section>
+
+  {{/* Coloring Pages Grid */}}
+  <section class="coloring-pages-grid-section">
+    <div class="max-w-7xl mx-auto px-6">
+      {{/* Get all posts from all category sections */}}
+      {{ $allPosts := slice }}
+      
+      {{/* Collect posts from each category section */}}
+      {{ $categories := slice "animals" "cartoons" "celebrations" "flowers" "fruit-and-vegetables" "months" "mythical-creatures" "nature" "science" "superheroes" "vechicles" "video-games" }}
+      
+      {{ range $categories }}
+        {{ $section := site.GetPage (printf "/%s" .) }}
+        {{ if $section }}
+          {{ range $section.Pages }}
+            {{ $allPosts = $allPosts | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{/* Note: We exclude /posts/ section as it's for blog posts, not coloring pages */}}
+      
+      {{ if $allPosts }}
+        <div class="coloring-pages-list-grid">
+          {{ range $allPosts }}
+            {{ partial "coloring-page-card.html" . }}
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="text-center py-16">
+          <p class="text-neutral-600 dark:text-neutral-400 text-lg">
+            No coloring pages available yet.
+          </p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

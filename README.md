@@ -8,6 +8,24 @@ Hugo static site with Sanity CMS integration for managing coloring pages.
 - **Blowfish Theme** - Modern responsive theme
 - **Sanity CMS** - Headless content management
 - **TypeScript** - Type-safe development
+- **Vercel** - Deployment and hosting
+
+## Automation Workflow
+
+The project uses an automated content pipeline:
+
+1. **Content Management** - Editors create content in Sanity Studio
+2. **Content Fetching** - Build process fetches from Sanity API
+3. **Content Generation** - Converts to Hugo-compatible markdown files
+4. **Image Optimization** - Applies CDN parameters for performance
+5. **Static Generation** - Hugo builds the final HTML
+6. **Deployment** - Vercel serves the site globally
+
+This automation ensures:
+- Fresh content on every build
+- No manual content synchronization
+- Optimized images without manual processing
+- Single command deployment (`npm run build`)
 
 ## Structure
 
@@ -21,17 +39,49 @@ Hugo static site with Sanity CMS integration for managing coloring pages.
 
 ## Quick Start
 
+### Development
+
 ```bash
-# Start development server
-hugo server -D
+# Install dependencies
+npm install
 
-# Start Sanity Studio
+# Start development server (fetches content + starts Hugo)
+npm run dev
+
+# Start Sanity Studio (in separate terminal)
 cd sanity && npm run dev
+```
 
-# Build site
-hugo
+### Available Scripts
 
-# Update theme
+| Command | Description |
+|---------|------------|
+| `npm run dev` | Fetches Sanity content and starts Hugo dev server |
+| `npm run build` | Production build (fetches content + builds Hugo) |
+| `npm run preview` | Preview production build locally |
+| `npm run fetch-content` | Fetch latest content from Sanity CMS |
+| `npm run build:hugo` | Build Hugo site only (without fetching) |
+| `npm run clean` | Remove build artifacts (public/ and resources/) |
+| `npm run lint` | Check code quality |
+| `npm run format` | Auto-format code |
+| `npm run test` | Run tests (when configured) |
+
+### Build Process
+
+The build process automatically:
+1. Fetches latest content from Sanity CMS
+2. Generates Hugo-compatible markdown files with frontmatter
+3. Optimizes images with CDN parameters
+4. Builds the static site with Hugo
+
+```bash
+# Full production build
+npm run build
+
+# Clean build (remove old files first)
+npm run clean && npm run build
+
+# Update theme submodule
 git submodule update --remote --merge
 ```
 
@@ -42,6 +92,90 @@ All configuration is in `/config/_default/`:
 - `params.toml` - Theme parameters
 - `menus.*.toml` - Menu configuration
 - `languages.*.toml` - Language settings
+
+## Image Optimization
+
+The site automatically optimizes images from Sanity CDN for different contexts:
+
+### Features
+- **Automatic format conversion** - Serves WebP to supported browsers
+- **Responsive images** - Multiple sizes for different devices
+- **Smart sizing** - Predefined sizes for thumbnails, heroes, and content
+- **SEO-friendly** - Includes dimensions to prevent layout shift (CLS)
+- **Quality optimization** - Different quality levels based on image type
+
+### Image Types
+- **Coloring Pages**: Main (1200x1200), thumbnail (800x800), small (200x200)
+- **Categories**: Thumbnail (400x300), hero (1920x600)
+- **Posts**: Hero (1920x600), thumbnail (800x800)
+
+### How It Works
+1. Fetches image metadata from Sanity including dimensions
+2. Generates optimized URLs with CDN parameters
+3. Creates responsive srcset for modern browsers
+4. Stores dimensions in frontmatter for proper HTML rendering
+
+The optimization happens during build time in `scripts/fetch-sanity-content.js` using utilities from `scripts/utils/image-helpers.js`.
+
+## Deployment
+
+### Vercel Configuration
+
+The site is deployed on Vercel with the following settings:
+
+| Setting | Value |
+|---------|-------|
+| **Build Command** | `npm run build` |
+| **Output Directory** | `public` |
+| **Install Command** | `npm install` |
+| **Node Version** | 18.x or higher |
+
+### Environment Variables
+
+See `.env.example` for a complete list of all environment variables with descriptions.
+
+**Required variables:**
+- `SANITY_PROJECT_ID` - Your Sanity project ID (currently: zjqmnotc)
+- `SANITY_DATASET` - Dataset name (usually: production)
+
+**Optional variables:**
+- `SANITY_TOKEN` - API token for private datasets
+- `HUGO_ENV` - Build environment (development/production)
+- Image optimization settings
+- Feature flags
+- Service integrations
+
+**Setup:**
+```bash
+# Copy the example file
+cp .env.example .env.local
+
+# Edit with your values
+nano .env.local
+```
+
+### Deployment Workflow
+
+1. **Push to GitHub** - Triggers automatic deployment
+2. **Vercel Build Process**:
+   - Installs dependencies (`npm install`)
+   - Fetches latest Sanity content
+   - Builds Hugo static site
+   - Deploys to CDN
+3. **Content Updates** - Rebuild triggered via:
+   - Git pushes
+   - Manual redeploy in Vercel dashboard
+   - Webhook from Sanity (when configured)
+
+### Manual Deployment
+
+```bash
+# Build locally
+npm run build
+
+# Deploy public/ folder to any static host
+# The public/ folder contains the complete static site
+```
 
 ## Documentation
 

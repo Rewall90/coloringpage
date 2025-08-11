@@ -1,8 +1,8 @@
 ---
-title: "Welcome"
-description: "Welcome to our site built with Hugo and Blowfish theme"
+title: "Coloring Pages"
+description: "Discover amazing coloring pages for all ages. Browse our collection of nature, superheroes, and many more categories!"
 ---
 
-Welcome to our new Hugo site powered by the Blowfish theme!
+# Welcome to Our Coloring Page Collection
 
-🚧 **Development Mode** - This is a preview deployment for development work.<\!-- Preview test -->
+Discover amazing coloring pages for all ages! Browse through our carefully curated categories below to find the perfect coloring pages for creative fun.
