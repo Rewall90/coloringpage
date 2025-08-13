@@ -1,0 +1,12 @@
+{{/* Cookie Settings Button - Persistent access to preferences */}}
+{{ if site.Params.cookieConsent.enabled }}
+<button
+  id="cookie-settings-button"
+  class="cookie-settings-btn"
+  style="display: none;"
+  aria-label="Cookie settings"
+  title="Manage cookie preferences">
+  🍪
+  <span class="sr-only">Cookie Settings</span>
+</button>
+{{ end }}

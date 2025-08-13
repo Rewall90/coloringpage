@@ -1,6 +1,6 @@
 /**
  * Portable Text to Markdown Conversion Utilities
- * 
+ *
  * Comprehensive handling of Sanity's Portable Text format, converting
  * rich text content to Hugo-compatible markdown with proper formatting.
  */
@@ -9,7 +9,7 @@
 
 /**
  * Convert Portable Text to Markdown with full formatting support
- * 
+ *
  * Handles:
  * - Bold, italic, code formatting
  * - Headings (h1-h6)
@@ -18,75 +18,81 @@
  * - Block quotes
  * - Custom objects (coloringPage references, images, etc.)
  */
-export const portableTextToMarkdown = (blocks) => {
-  if (!blocks || !Array.isArray(blocks)) return '';
-  
+export const portableTextToMarkdown = blocks => {
+  if (!blocks || !Array.isArray(blocks)) {
+    return '';
+  }
+
   try {
     const results = [];
     const processed = new Set(); // Track which blocks we've already processed
-    
+
     for (let i = 0; i < blocks.length; i++) {
       // Skip if we've already processed this block as part of a group
-      if (processed.has(i)) continue;
-      
+      if (processed.has(i)) {
+        continue;
+      }
+
       const block = blocks[i];
-      
+
       if (block._type === 'block') {
         const style = block.style || 'normal';
         const children = block.children || [];
-        const text = children.map(child => {
-          let content = child.text || '';
-          
-          // Apply marks/formatting
-          if (child.marks) {
-            child.marks.forEach(mark => {
-              switch (mark) {
-                case 'strong':
-                  content = `**${content}**`;
-                  break;
-                case 'em':
-                  content = `*${content}*`;
-                  break;
-                case 'code':
-                  content = `\`${content}\``;
-                  break;
-                case 'underline':
-                  content = `*${content}*`;
-                  break;
-                case 'strike-through':
-                  content = `~~${content}~~`;
-                  break;
-              }
-            });
-          }
-          
-          return content;
-        }).join('');
-        
+        const text = children
+          .map(child => {
+            let content = child.text || '';
+
+            // Apply marks/formatting
+            if (child.marks) {
+              child.marks.forEach(mark => {
+                switch (mark) {
+                  case 'strong':
+                    content = `**${content}**`;
+                    break;
+                  case 'em':
+                    content = `*${content}*`;
+                    break;
+                  case 'code':
+                    content = `\`${content}\``;
+                    break;
+                  case 'underline':
+                    content = `*${content}*`;
+                    break;
+                  case 'strike-through':
+                    content = `~~${content}~~`;
+                    break;
+                }
+              });
+            }
+
+            return content;
+          })
+          .join('');
+
         // Apply block style
         switch (style) {
-          case 'h1': 
+          case 'h1':
             results.push(`# ${text}\n`);
             break;
-          case 'h2': 
+          case 'h2':
             results.push(`## ${text}\n`);
             break;
-          case 'h3': 
+          case 'h3':
             results.push(`### ${text}\n`);
             break;
-          case 'h4': 
+          case 'h4':
             results.push(`#### ${text}\n`);
             break;
-          case 'h5': 
+          case 'h5':
             results.push(`##### ${text}\n`);
             break;
-          case 'h6': 
+          case 'h6':
             results.push(`###### ${text}\n`);
             break;
-          case 'blockquote': 
+          case 'blockquote':
             results.push(`> ${text}\n`);
             break;
-          default: 
+          default:
             results.push(`${text}\n`);
             break;
         }
@@ -102,14 +108,14 @@ export const portableTextToMarkdown = (blocks) => {
         // Check if this starts a group of consecutive coloring pages
         const coloringGroup = [];
         let j = i;
-        
+
         // Collect all consecutive coloring pages starting from current position
         while (j < blocks.length && blocks[j]._type === 'coloringPage') {
           coloringGroup.push(blocks[j]);
           processed.add(j); // Mark this block as processed
           j++;
         }
-        
+
         // Generate output based on group size
         if (coloringGroup.length === 1) {
           // Single coloring page - use individual format
@@ -125,12 +131,12 @@ export const portableTextToMarkdown = (blocks) => {
         }
       }
     }
-    
+
     return results.join('\n');
   } catch (error) {
     console.warn('⚠️  Error converting portable text to markdown:', error.message);
     console.warn('   Falling back to simplified conversion');
-    
+
     // Fallback to simplified conversion if main conversion fails
     return portableTextToMarkdownSimple(blocks);
   }
@@ -139,14 +145,16 @@ export const portableTextToMarkdown = (blocks) => {
 /**
  * Generate a coloring page shortcode from a coloringPage block
  */
-const generateColoringPageShortcode = (block) => {
+const generateColoringPageShortcode = block => {
   const title = block.title || 'Coloring Page';
   const description = block.description || '';
-  
+
   // Create a coloring page embed shortcode
   let markdown = `\n{{< coloring-page-embed\n`;
   markdown += `  title="${title}"\n`;
-  if (description) markdown += `  description="${description}"\n`;
+  if (description) {
+    markdown += `  description="${description}"\n`;
+  }
   if (block.image?.asset?._ref) {
     // Extract image ID from reference
     const imageId = block.image.asset._ref.replace('image-', '').replace(/-([a-z]+)$/, '.$1');
@@ -158,34 +166,42 @@ const generateColoringPageShortcode = (block) => {
     markdown += `  pdf="https://cdn.sanity.io/files/zjqmnotc/production/${fileId}"\n`;
   }
   markdown += `>}}\n`;
-  
+
   return markdown;
 };
 
 /**
  * Simplified fallback conversion for when the main converter fails
  */
-const portableTextToMarkdownSimple = (blocks) => {
-  return blocks.map(block => {
-    if (block._type === 'block' && block.children) {
-      return block.children.map(child => child.text || '').join('');
-    }
-    return '';
-  }).filter(Boolean).join('\n\n');
+const portableTextToMarkdownSimple = blocks => {
+  return blocks
+    .map(block => {
+      if (block._type === 'block' && block.children) {
+        return block.children.map(child => child.text || '').join('');
+      }
+      return '';
+    })
+    .filter(Boolean)
+    .join('\n\n');
 };
 
 /**
  * Extract plain text from portable text (useful for excerpts, descriptions)
  */
-export const portableTextToPlainText = (blocks) => {
-  if (!blocks || !Array.isArray(blocks)) return '';
-  
-  return blocks.map(block => {
-    if (block._type === 'block' && block.children) {
-      return block.children.map(child => child.text || '').join('');
-    }
+export const portableTextToPlainText = blocks => {
+  if (!blocks || !Array.isArray(blocks)) {
     return '';
-  }).filter(Boolean).join(' ');
+  }
+
+  return blocks
+    .map(block => {
+      if (block._type === 'block' && block.children) {
+        return block.children.map(child => child.text || '').join('');
+      }
+      return '';
+    })
+    .filter(Boolean)
+    .join(' ');
 };
 
 /**
@@ -194,10 +210,10 @@ export const portableTextToPlainText = (blocks) => {
 export const portableTextToExcerpt = (blocks, wordLimit = 30) => {
   const plainText = portableTextToPlainText(blocks);
   const words = plainText.split(/\s+/).filter(Boolean);
-  
+
   if (words.length <= wordLimit) {
     return plainText;
   }
-  
+
   return words.slice(0, wordLimit).join(' ') + '...';
 };

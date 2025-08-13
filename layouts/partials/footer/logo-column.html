@@ -1,0 +1,70 @@
+<div class="footer-logo-column">
+  {{/* Footer Logo */}}
+  <div class="mb-6">
+    {{ $footerLogo := resources.Get "images/coloringvault-coloring-pages-logo-footer.png" }}
+    {{ if $footerLogo }}
+      <a href="{{ "" | relLangURL }}" class="footer-logo-link">
+        <img
+          src="{{ $footerLogo.RelPermalink }}"
+          alt="{{ .Site.Title }} - Free Printable Coloring Pages"
+          class="footer-logo w-24 h-24 md:w-28 md:h-28 object-contain"
+          width="112"
+          height="112">
+      </a>
+    {{ else }}
+      {{/* Fallback if logo not found */}}
+      <div class="w-24 h-24 md:w-28 md:h-28 bg-neutral-200 dark:bg-neutral-700 rounded flex items-center justify-center">
+        <span class="text-lg font-bold text-neutral-600 dark:text-neutral-400">CV</span>
+      </div>
+    {{ end }}
+  </div>
+
+  {{/* Description text */}}
+  <div class="mb-6">
+    <p class="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+      ColoringVault offers a handpicked collection of premium coloring pages for all ages. Explore captivating designs that spark creativity and make learning fun.
+    </p>
+  </div>
+
+  {{/* Social media icons */}}
+  <div class="social-links">
+    <h4 class="text-base font-semibold text-neutral-800 dark:text-neutral-200 mb-4 uppercase tracking-wide">Follow Us</h4>
+    <div class="flex space-x-4">
+      {{/* Pinterest */}}
+      <a 
+        href="#" 
+        class="w-10 h-10 bg-red-600 hover:bg-red-700 rounded-full flex items-center justify-center text-white transition-all duration-200 hover:scale-110 hover:shadow-lg"
+        aria-label="Follow us on Pinterest"
+        title="Pinterest"
+      >
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.219-.359-1.219c0-1.142.662-1.995 1.488-1.995.703 0 1.042.527 1.042 1.16 0 .705-.449 1.759-.68 2.735-.194.820.41 1.488 1.219 1.488 1.463 0 2.588-1.543 2.588-3.771 0-1.974-1.417-3.353-3.441-3.353-2.344 0-3.721 1.758-3.721 3.577 0 .708.273 1.467.614 1.881.067.082.077.154.057.238-.061.256-.196.798-.223.908-.035.146-.116.177-.268.107-1.003-.467-1.632-1.934-1.632-3.112 0-2.598 1.889-4.986 5.446-4.986 2.859 0 5.082 2.037 5.082 4.758 0 2.841-1.789 5.126-4.27 5.126-.833 0-1.618-.434-1.886-1.009l-.51 1.945c-.184.714-.679 1.607-1.011 2.151.761.234 1.574.359 2.417.359 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001.017 0z"/>
+        </svg>
+      </a>
+
+      {{/* Instagram */}}
+      <a 
+        href="#" 
+        class="w-10 h-10 bg-gradient-to-br from-purple-600 via-pink-600 to-yellow-500 hover:from-purple-700 hover:via-pink-700 hover:to-yellow-600 rounded-full flex items-center justify-center text-white transition-all duration-200 hover:scale-110 hover:shadow-lg"
+        aria-label="Follow us on Instagram"
+        title="Instagram"
+      >
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+
+      {{/* Facebook */}}
+      <a 
+        href="#" 
+        class="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center text-white transition-all duration-200 hover:scale-110 hover:shadow-lg"
+        aria-label="Follow us on Facebook"
+        title="Facebook"
+      >
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>

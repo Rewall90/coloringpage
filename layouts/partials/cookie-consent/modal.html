@@ -1,0 +1,281 @@
+{{/* Cookie Preferences Modal */}}
+{{ if site.Params.cookieConsent.enabled }}
+<div id="cookie-preferences-modal" class="cookie-modal-overlay" style="display: none;">
+  <div class="cookie-modal-backdrop" aria-hidden="true"></div>
+  <div class="cookie-modal-content" role="dialog" aria-modal="true" aria-labelledby="cookie-modal-title">
+    
+    {{/* Modal Header */}}
+    <div class="cookie-modal-header">
+      <h2 id="cookie-modal-title" class="cookie-modal-title">
+        {{ site.Params.cookieConsent.text.modalTitle }}
+      </h2>
+      <button 
+        id="cookie-modal-close" 
+        class="cookie-modal-close"
+        aria-label="Close modal"
+        type="button">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    {{/* Modal Description */}}
+    <div class="cookie-modal-description">
+      <p>{{ site.Params.cookieConsent.text.modalDescription }}</p>
+    </div>
+
+    {{/* Cookie Categories */}}
+    <div class="cookie-categories">
+      
+      {{/* Necessary Cookies - Always Required */}}
+      {{ with site.Params.cookieConsent.categories.necessary }}
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div class="cookie-category-info">
+            <h3 class="cookie-category-name">{{ .name }}</h3>
+            <p class="cookie-category-desc">{{ .description }}</p>
+          </div>
+          <div class="cookie-toggle-wrapper">
+            <input 
+              type="checkbox" 
+              id="cookie-necessary" 
+              class="cookie-toggle"
+              checked 
+              disabled>
+            <label for="cookie-necessary" class="cookie-toggle-label">
+              <span class="cookie-toggle-slider"></span>
+            </label>
+            <span class="cookie-required-text">Required</span>
+          </div>
+        </div>
+        <div class="cookie-details" id="necessary-details">
+          <div class="cookie-list">
+            {{ range .cookies }}
+            <div class="cookie-item">
+              <div class="cookie-item-header">
+                <span class="cookie-name">{{ .name }}</span>
+                <span class="cookie-duration">{{ .duration }}</span>
+              </div>
+              <div class="cookie-item-details">
+                <p class="cookie-purpose">{{ .purpose }}</p>
+                <p class="cookie-provider">Provider: {{ .provider }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="cookie-show-details" data-target="necessary-details">
+          <span class="show-text">{{ site.Params.cookieConsent.text.showMore }}</span>
+          <span class="hide-text" style="display: none;">{{ site.Params.cookieConsent.text.showLess }}</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" class="details-arrow">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      {{ end }}
+
+      {{/* Functional Cookies */}}
+      {{ with site.Params.cookieConsent.categories.functional }}
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div class="cookie-category-info">
+            <h3 class="cookie-category-name">{{ .name }}</h3>
+            <p class="cookie-category-desc">{{ .description }}</p>
+          </div>
+          <div class="cookie-toggle-wrapper">
+            <input 
+              type="checkbox" 
+              id="cookie-functional" 
+              class="cookie-toggle"
+              data-category="functional">
+            <label for="cookie-functional" class="cookie-toggle-label">
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="cookie-details" id="functional-details">
+          <div class="cookie-list">
+            {{ range .cookies }}
+            <div class="cookie-item">
+              <div class="cookie-item-header">
+                <span class="cookie-name">{{ .name }}</span>
+                <span class="cookie-duration">{{ .duration }}</span>
+              </div>
+              <div class="cookie-item-details">
+                <p class="cookie-purpose">{{ .purpose }}</p>
+                <p class="cookie-provider">Provider: {{ .provider }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="cookie-show-details" data-target="functional-details">
+          <span class="show-text">{{ site.Params.cookieConsent.text.showMore }}</span>
+          <span class="hide-text" style="display: none;">{{ site.Params.cookieConsent.text.showLess }}</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" class="details-arrow">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      {{ end }}
+
+      {{/* Analytics Cookies */}}
+      {{ with site.Params.cookieConsent.categories.analytics }}
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div class="cookie-category-info">
+            <h3 class="cookie-category-name">{{ .name }}</h3>
+            <p class="cookie-category-desc">{{ .description }}</p>
+          </div>
+          <div class="cookie-toggle-wrapper">
+            <input 
+              type="checkbox" 
+              id="cookie-analytics" 
+              class="cookie-toggle"
+              data-category="analytics">
+            <label for="cookie-analytics" class="cookie-toggle-label">
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="cookie-details" id="analytics-details">
+          <div class="cookie-list">
+            {{ range .cookies }}
+            <div class="cookie-item">
+              <div class="cookie-item-header">
+                <span class="cookie-name">{{ .name }}</span>
+                <span class="cookie-duration">{{ .duration }}</span>
+              </div>
+              <div class="cookie-item-details">
+                <p class="cookie-purpose">{{ .purpose }}</p>
+                <p class="cookie-provider">Provider: {{ .provider }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="cookie-show-details" data-target="analytics-details">
+          <span class="show-text">{{ site.Params.cookieConsent.text.showMore }}</span>
+          <span class="hide-text" style="display: none;">{{ site.Params.cookieConsent.text.showLess }}</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" class="details-arrow">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      {{ end }}
+
+      {{/* Performance Cookies */}}
+      {{ with site.Params.cookieConsent.categories.performance }}
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div class="cookie-category-info">
+            <h3 class="cookie-category-name">{{ .name }}</h3>
+            <p class="cookie-category-desc">{{ .description }}</p>
+          </div>
+          <div class="cookie-toggle-wrapper">
+            <input 
+              type="checkbox" 
+              id="cookie-performance" 
+              class="cookie-toggle"
+              data-category="performance">
+            <label for="cookie-performance" class="cookie-toggle-label">
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="cookie-details" id="performance-details">
+          <div class="cookie-list">
+            {{ range .cookies }}
+            <div class="cookie-item">
+              <div class="cookie-item-header">
+                <span class="cookie-name">{{ .name }}</span>
+                <span class="cookie-duration">{{ .duration }}</span>
+              </div>
+              <div class="cookie-item-details">
+                <p class="cookie-purpose">{{ .purpose }}</p>
+                <p class="cookie-provider">Provider: {{ .provider }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="cookie-show-details" data-target="performance-details">
+          <span class="show-text">{{ site.Params.cookieConsent.text.showMore }}</span>
+          <span class="hide-text" style="display: none;">{{ site.Params.cookieConsent.text.showLess }}</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" class="details-arrow">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      {{ end }}
+
+      {{/* Advertising Cookies */}}
+      {{ with site.Params.cookieConsent.categories.advertising }}
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div class="cookie-category-info">
+            <h3 class="cookie-category-name">{{ .name }}</h3>
+            <p class="cookie-category-desc">{{ .description }}</p>
+          </div>
+          <div class="cookie-toggle-wrapper">
+            <input 
+              type="checkbox" 
+              id="cookie-advertising" 
+              class="cookie-toggle"
+              data-category="advertising">
+            <label for="cookie-advertising" class="cookie-toggle-label">
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="cookie-details" id="advertising-details">
+          <div class="cookie-list">
+            {{ range .cookies }}
+            <div class="cookie-item">
+              <div class="cookie-item-header">
+                <span class="cookie-name">{{ .name }}</span>
+                <span class="cookie-duration">{{ .duration }}</span>
+              </div>
+              <div class="cookie-item-details">
+                <p class="cookie-purpose">{{ .purpose }}</p>
+                <p class="cookie-provider">Provider: {{ .provider }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="cookie-show-details" data-target="advertising-details">
+          <span class="show-text">{{ site.Params.cookieConsent.text.showMore }}</span>
+          <span class="hide-text" style="display: none;">{{ site.Params.cookieConsent.text.showLess }}</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" class="details-arrow">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      {{ end }}
+
+    </div>
+
+    {{/* Modal Actions */}}
+    <div class="cookie-modal-actions">
+      <button 
+        id="cookie-modal-accept-all" 
+        class="cookie-btn cookie-btn-primary">
+        {{ site.Params.cookieConsent.text.acceptAll }}
+      </button>
+      <button 
+        id="cookie-modal-save" 
+        class="cookie-btn cookie-btn-secondary">
+        {{ site.Params.cookieConsent.text.savePreferences }}
+      </button>
+      <button 
+        id="cookie-modal-reject-all" 
+        class="cookie-btn cookie-btn-outline">
+        {{ site.Params.cookieConsent.text.reject }}
+      </button>
+    </div>
+
+  </div>
+</div>
+{{ end }}

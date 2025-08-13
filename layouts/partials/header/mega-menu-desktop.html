@@ -1,0 +1,78 @@
+{{/* Desktop Mega Menu - 6 Column Grid Layout */}}
+<div class="mega-menu-container">
+  <div class="cursor-pointer flex items-center mega-menu-trigger">
+    {{ if .Pre }}
+      <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
+        {{ partial "icon.html" .Pre }}
+      </span>
+    {{ end }}
+    <a
+      {{ if .URL }}
+        href="{{ .URL }}"
+        {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
+          target="_blank"
+        {{ end }}
+      {{ end }}
+      class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
+      title="{{ .Title }}">
+      <p>{{ .Name | markdownify }}</p>
+    </a>
+    <span class="ml-1">
+      {{ partial "icon.html" "chevron-down" }}
+    </span>
+  </div>
+  
+  {{/* Mega Menu Dropdown */}}
+  <div class="mega-menu-dropdown">
+    <div class="mega-menu-content">
+      <div class="mega-menu-grid">
+        
+        {{/* HIGHLIGHT: Main 5 categories - Easy to change later */}}
+        {{ $mainCategories := slice "animals" "mythical-creatures" "superheroes" "cartoons" "celebrations" }}
+        
+        {{ range $mainCategories }}
+          {{ $section := site.GetPage (printf "/%s" .) }}
+          {{ if $section }}
+            <div class="mega-menu-column">
+              <h3 class="mega-menu-category-title">
+                <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
+              </h3>
+              <ul class="mega-menu-posts">
+                {{ range first 4 $section.Pages }}
+                  <li>
+                    <a href="{{ .RelPermalink }}" class="mega-menu-post-link">
+                      {{ .Title }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+              <a href="{{ $section.RelPermalink }}" class="mega-menu-all-link">
+                → All Pages
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+        
+        {{/* 6th Column: Other Categories */}}
+        <div class="mega-menu-column mega-menu-other-categories">
+          <h3 class="mega-menu-category-title">Other Categories</h3>
+          <ul class="mega-menu-posts">
+            {{/* HIGHLIGHT: Remaining categories - Easy to change later */}}
+            {{ $otherCategories := slice "months" "video-games" "science" "fruit-and-vegetables" "vechicles" "flowers" "nature" }}
+            {{ range $otherCategories }}
+              {{ $section := site.GetPage (printf "/%s" .) }}
+              {{ if $section }}
+                <li>
+                  <a href="{{ $section.RelPermalink }}" class="mega-menu-post-link">
+                    {{ $section.Title }}
+                  </a>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>

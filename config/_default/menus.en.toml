@@ -15,6 +15,33 @@
   pageRef = "coloring-pages"
   weight = 10
 
+[[main]]
+  name = "Categories"
+  weight = 20
+
+# Dummy child to trigger nested template (this creates .HasChildren = true)
+[[main]]
+  name = "All Categories"
+  parent = "Categories"
+  pageRef = "coloring-pages"
+  weight = 21
+
+[[main]]
+  name = "About"
+  weight = 30
+
+[[main]]
+  name = "About Us"
+  parent = "About"
+  pageRef = "pages/about-us"
+  weight = 31
+
+[[main]]
+  name = "Contact"
+  parent = "About"
+  pageRef = "pages/contact"
+  weight = 32
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

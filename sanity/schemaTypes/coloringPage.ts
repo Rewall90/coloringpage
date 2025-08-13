@@ -4,17 +4,23 @@ export const coloringPage = defineType({
   name: 'coloringPage',
   title: 'Coloring Page',
   type: 'document',
+  groups: [
+    {name: 'content', title: 'Content', default: true},
+    {name: 'hashtags', title: 'Hashtags'},
+  ],
   fields: [
     defineField({
       name: 'title',
       title: 'Title',
       type: 'string',
+      group: 'content',
       validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',
+      group: 'content',
       options: {
         source: 'title',
         maxLength: 96,
@@ -25,46 +31,14 @@ export const coloringPage = defineType({
       name: 'description',
       title: 'Description',
       type: 'text',
+      group: 'content',
       rows: 2,
-    }),
-    defineField({
-      name: 'publishedAt',
-      title: 'Published At',
-      type: 'datetime',
-      initialValue: () => new Date().toISOString(),
-      validation: (rule) => rule.required(),
-    }),
-    defineField({
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{type: 'category'}],
-        },
-      ],
-      validation: (rule) => rule.min(1).required().error('At least one category is required'),
-    }),
-    defineField({
-      name: 'difficulty',
-      title: 'Difficulty Level',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'Easy', value: 'easy'},
-          {title: 'Medium', value: 'medium'},
-          {title: 'Hard', value: 'hard'},
-        ],
-        layout: 'dropdown',
-      },
-      validation: (rule) => rule.required(),
-      initialValue: 'medium',
     }),
     defineField({
       name: 'image',
       title: 'Coloring Image',
       type: 'image',
+      group: 'content',
       options: {hotspot: true},
       validation: (rule) => rule.required(),
       fields: [
@@ -81,6 +55,7 @@ export const coloringPage = defineType({
       name: 'pdfFile',
       title: 'PDF File',
       type: 'file',
+      group: 'content',
       description: 'The downloadable PDF for this coloring page',
       options: {
         accept: 'application/pdf',
@@ -91,6 +66,7 @@ export const coloringPage = defineType({
       name: 'metadata',
       title: 'Filtering Metadata',
       type: 'object',
+      group: 'content',
       description: 'Optional - only for items that need filtering (e.g., flags, animals by type)',
       fields: [
         {
@@ -136,6 +112,77 @@ export const coloringPage = defineType({
         collapsible: true,
         collapsed: true,
       },
+    }),
+    defineField({
+      name: 'hashtagInstagram',
+      title: 'Instagram Hashtags',
+      type: 'array',
+      group: 'hashtags',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags',
+      },
+      description: 'Hashtags specifically for Instagram (without # symbol)',
+    }),
+    defineField({
+      name: 'hashtagPinterest',
+      title: 'Pinterest Hashtags',
+      type: 'array',
+      group: 'hashtags',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags',
+      },
+      description: 'Hashtags specifically for Pinterest (without # symbol)',
+    }),
+    defineField({
+      name: 'pinDescriptionTemplate',
+      title: 'Pin Description Template',
+      type: 'text',
+      group: 'hashtags',
+      rows: 3,
+      initialValue: 'Check out our {{title}} coloring page from {{category}}! #coloringpage #{{category}}',
+      description: 'Template for pin descriptions. Use {{title}}, {{category}}, {{difficulty}} variables',
+    }),
+    defineField({
+      name: 'pinterestImage',
+      title: 'Pinterest Image',
+      type: 'image',
+      group: 'content',
+      description: 'Custom image for Pinterest sharing',
+      options: {hotspot: true},
+    }),
+    defineField({
+      name: 'instagramImage',
+      title: 'Instagram Image',
+      type: 'image',
+      group: 'content',
+      description: 'Custom image for Instagram sharing',
+      options: {hotspot: true},
+    }),
+    defineField({
+      name: 'facebookImage',
+      title: 'Facebook Image',
+      type: 'image',
+      group: 'content',
+      description: 'Custom image for Facebook sharing',
+      options: {hotspot: true},
+    }),
+    defineField({
+      name: 'isPostedToFacebook',
+      title: 'Is Posted to Facebook',
+      type: 'boolean',
+      group: 'content',
+      description: 'Toggle to track if this coloring page has been posted to Facebook',
+      initialValue: false,
+    }),
+    defineField({
+      name: 'isPostedToInstagram',
+      title: 'Is Posted to Instagram',
+      type: 'boolean',
+      group: 'content',
+      description: 'Toggle to track if this coloring page has been posted to Instagram',
+      initialValue: false,
     }),
   ],
   preview: {

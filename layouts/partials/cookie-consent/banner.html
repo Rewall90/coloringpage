@@ -1,0 +1,36 @@
+{{/* Cookie Consent Banner */}}
+{{ if site.Params.cookieConsent.enabled }}
+<div id="cookie-consent-banner" class="cookie-consent-banner" style="display: none;">
+  <div class="cookie-content">
+    <div class="cookie-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM10 8.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM12 17.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM16 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="cookie-text">
+      <h3>We respect your privacy</h3>
+      <p>{{ site.Params.cookieConsent.text.message }}</p>
+    </div>
+    <div class="cookie-actions">
+      <button 
+        id="cookie-accept-all" 
+        class="cookie-btn cookie-btn-primary"
+        aria-label="Accept all cookies">
+        {{ site.Params.cookieConsent.text.acceptAll }}
+      </button>
+      <button 
+        id="cookie-customize" 
+        class="cookie-btn cookie-btn-secondary"
+        aria-label="Customize cookie preferences">
+        {{ site.Params.cookieConsent.text.customize }}
+      </button>
+      <button 
+        id="cookie-reject" 
+        class="cookie-btn cookie-btn-outline"
+        aria-label="Reject all cookies">
+        {{ site.Params.cookieConsent.text.reject }}
+      </button>
+    </div>
+  </div>
+</div>
+{{ end }}

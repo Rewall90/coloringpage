@@ -1,0 +1,72 @@
+{{/* Mobile Mega Menu - Single Column Sidebar Layout */}}
+<li class="mega-menu-mobile-container">
+  <div class="mega-menu-mobile-header">
+    <a
+      {{ if .URL }}
+        href="{{ .URL }}"
+        {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
+          target="_blank"
+        {{ end }}
+      {{ end }}
+      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      {{ if .Pre }}
+        <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
+          {{ partial "icon.html" .Pre }}
+        </span>
+      {{ end }}
+      <p class="text-lg font-medium" title="{{ .Title }}">
+        {{ .Name | markdownify }}
+      </p>
+    </a>
+  </div>
+  
+  {{/* Mobile Categories List */}}
+  <div class="mega-menu-mobile-content">
+    
+    {{/* HIGHLIGHT: Main 5 categories - Same as desktop, easy to change */}}
+    {{ $mainCategories := slice "animals" "mythical-creatures" "superheroes" "cartoons" "celebrations" }}
+    
+    {{ range $mainCategories }}
+      {{ $section := site.GetPage (printf "/%s" .) }}
+      {{ if $section }}
+        <div class="mega-menu-mobile-category">
+          <h4 class="mega-menu-mobile-category-title">
+            <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
+          </h4>
+          <ul class="mega-menu-mobile-posts">
+            {{ range first 4 $section.Pages }}
+              <li>
+                <a href="{{ .RelPermalink }}" class="mega-menu-mobile-post-link">
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+          <a href="{{ $section.RelPermalink }}" class="mega-menu-mobile-all-link">
+            → All Pages
+          </a>
+        </div>
+      {{ end }}
+    {{ end }}
+    
+    {{/* Other Categories Section */}}
+    <div class="mega-menu-mobile-category mega-menu-mobile-other">
+      <h4 class="mega-menu-mobile-category-title">Other Categories</h4>
+      <ul class="mega-menu-mobile-posts">
+        {{/* HIGHLIGHT: Remaining categories - Same as desktop, easy to change */}}
+        {{ $otherCategories := slice "months" "video-games" "science" "fruit-and-vegetables" "vechicles" "flowers" "nature" }}
+        {{ range $otherCategories }}
+          {{ $section := site.GetPage (printf "/%s" .) }}
+          {{ if $section }}
+            <li>
+              <a href="{{ $section.RelPermalink }}" class="mega-menu-mobile-post-link">
+                {{ $section.Title }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+    
+  </div>
+</li>

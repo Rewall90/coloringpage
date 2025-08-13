@@ -1,0 +1,28 @@
+{{/* Author Image Shortcode - Creates a floating image with text wrapping */}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "Author Photo" -}}
+{{- $position := .Get "position" | default "left" -}}
+{{- $size := .Get "size" | default "medium" -}}
+
+{{/* Get the image resource */}}
+{{- $image := resources.Get $src -}}
+{{- if not $image -}}
+  {{/* Fallback if image not found */}}
+  <div class="author-image-wrapper author-image-{{ $position }} author-image-{{ $size }}">
+    <div class="author-image-error">Image not found: {{ $src }}</div>
+  </div>
+{{- else -}}
+  {{/* Process the image for optimization */}}
+  {{- $processed := $image.Resize "360x360 webp q80" -}}
+  
+  <div class="author-image-wrapper author-image-{{ $position }} author-image-{{ $size }}">
+    <img 
+      src="{{ $processed.RelPermalink }}" 
+      alt="{{ $alt }}" 
+      class="author-image"
+      width="{{ $processed.Width }}"
+      height="{{ $processed.Height }}"
+      loading="lazy"
+    >
+  </div>
+{{- end -}}

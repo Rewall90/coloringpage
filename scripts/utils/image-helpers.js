@@ -1,6 +1,6 @@
 /**
  * Image Optimization Utilities
- * 
+ *
  * Helper functions for optimizing Sanity CDN image URLs with proper sizing,
  * format conversion, and quality settings for different use cases.
  */
@@ -28,7 +28,7 @@ export const QUALITY_PRESETS = {
 
 /**
  * Optimize Sanity image URL with parameters
- * 
+ *
  * @param {string} url - The base Sanity image URL
  * @param {Object} params - URL parameters for optimization
  * @param {number} params.w - Width in pixels
@@ -40,37 +40,41 @@ export const QUALITY_PRESETS = {
  * @returns {string} Optimized image URL
  */
 export const optimizeImageUrl = (url, params = {}) => {
-  if (!url) return '';
-  
+  if (!url) {
+    return '';
+  }
+
   // Default optimization parameters
   const defaults = {
     auto: 'format', // Auto-detect best format (WebP for supported browsers)
     q: QUALITY_PRESETS.standard,
   };
-  
+
   // Merge defaults with provided params
   const finalParams = { ...defaults, ...params };
-  
+
   // Build query string
-  const queryParams = new URLSearchParams(finalParams);
-  
+  const queryParams = new globalThis.URLSearchParams(finalParams);
+
   // Check if URL already has query params
   const separator = url.includes('?') ? '&' : '?';
-  
+
   return `${url}${separator}${queryParams.toString()}`;
 };
 
 /**
  * Generate responsive image URLs for srcset
- * 
+ *
  * @param {string} url - The base Sanity image URL
  * @param {Array} widths - Array of widths for responsive images
  * @param {Object} baseParams - Base parameters to apply to all sizes
  * @returns {string} Formatted srcset string
  */
 export const generateSrcset = (url, widths = [400, 800, 1200, 1600], baseParams = {}) => {
-  if (!url) return '';
-  
+  if (!url) {
+    return '';
+  }
+
   return widths
     .map(w => {
       const optimized = optimizeImageUrl(url, { ...baseParams, w });
@@ -81,11 +85,11 @@ export const generateSrcset = (url, widths = [400, 800, 1200, 1600], baseParams 
 
 /**
  * Get optimized URLs for a coloring page
- * 
+ *
  * @param {string} imageUrl - The base Sanity image URL
  * @returns {Object} Object with optimized URLs for different uses
  */
-export const getColoringPageImages = (imageUrl) => {
+export const getColoringPageImages = imageUrl => {
   if (!imageUrl) {
     return {
       main: '',
@@ -94,35 +98,35 @@ export const getColoringPageImages = (imageUrl) => {
       srcset: '',
     };
   }
-  
+
   return {
     // Main image for display
     main: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.post_image,
       q: QUALITY_PRESETS.standard,
     }),
-    
+
     // Thumbnail for listings
     thumbnail: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.post_thumbnail,
       q: QUALITY_PRESETS.thumbnail,
       fit: 'crop',
     }),
-    
+
     // Small thumbnail for compact lists
     small_thumbnail: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.small_thumbnail,
       q: QUALITY_PRESETS.thumbnail,
       fit: 'crop',
     }),
-    
+
     // Hero image if used in featured section
     hero: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.hero,
       q: QUALITY_PRESETS.hero,
       fit: 'crop',
     }),
-    
+
     // Responsive srcset for modern browsers
     srcset: generateSrcset(imageUrl, [400, 800, 1200, 1600]),
   };
@@ -130,11 +134,11 @@ export const getColoringPageImages = (imageUrl) => {
 
 /**
  * Get optimized URLs for a category
- * 
+ *
  * @param {string} imageUrl - The base Sanity image URL
  * @returns {Object} Object with optimized URLs for different uses
  */
-export const getCategoryImages = (imageUrl) => {
+export const getCategoryImages = imageUrl => {
   if (!imageUrl) {
     return {
       thumbnail: '',
@@ -142,7 +146,7 @@ export const getCategoryImages = (imageUrl) => {
       srcset: '',
     };
   }
-  
+
   return {
     // Category thumbnail
     thumbnail: optimizeImageUrl(imageUrl, {
@@ -150,14 +154,14 @@ export const getCategoryImages = (imageUrl) => {
       q: QUALITY_PRESETS.thumbnail,
       fit: 'crop',
     }),
-    
+
     // Category hero (if used as featured)
     hero: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.hero,
       q: QUALITY_PRESETS.hero,
       fit: 'crop',
     }),
-    
+
     // Responsive srcset
     srcset: generateSrcset(imageUrl, [400, 800, 1200]),
   };
@@ -165,11 +169,11 @@ export const getCategoryImages = (imageUrl) => {
 
 /**
  * Get optimized URLs for a blog post
- * 
+ *
  * @param {string} imageUrl - The base Sanity image URL
  * @returns {Object} Object with optimized URLs for different uses
  */
-export const getPostImages = (imageUrl) => {
+export const getPostImages = imageUrl => {
   if (!imageUrl) {
     return {
       hero: '',
@@ -177,21 +181,21 @@ export const getPostImages = (imageUrl) => {
       srcset: '',
     };
   }
-  
+
   return {
     // Hero image for post header
     hero: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.hero,
       q: QUALITY_PRESETS.hero,
     }),
-    
+
     // Thumbnail for post listings
     thumbnail: optimizeImageUrl(imageUrl, {
       ...IMAGE_SIZES.post_thumbnail,
       q: QUALITY_PRESETS.thumbnail,
       fit: 'crop',
     }),
-    
+
     // Responsive srcset
     srcset: generateSrcset(imageUrl, [400, 800, 1200, 1920]),
   };
@@ -199,7 +203,7 @@ export const getPostImages = (imageUrl) => {
 
 /**
  * Extract dimensions from Sanity image metadata
- * 
+ *
  * @param {Object} dimensions - Dimensions object from Sanity
  * @param {Object} sizePreset - Size preset to use as fallback
  * @returns {Object} Width and height values

@@ -12,20 +12,20 @@ const client = createClient({
   dataset: process.env.SANITY_DATASET || 'production',
   apiVersion: '2024-01-01',
   useCdn: false,
-  token: process.env.SANITY_TOKEN
+  token: process.env.SANITY_TOKEN,
 });
 
 // Check all document types
 async function checkTypes() {
   console.log('Checking all document types in Sanity...\n');
-  
+
   // Get count of each document type
   const types = ['post', 'page', 'category', 'coloringPage'];
-  
+
   for (const type of types) {
     const count = await client.fetch(`count(*[_type == "${type}"])`);
     console.log(`${type}: ${count} documents`);
-    
+
     if (count > 0 && type === 'post') {
       // Show posts with their categories
       const posts = await client.fetch(`*[_type == "post"]{
@@ -38,7 +38,7 @@ async function checkTypes() {
       });
     }
   }
-  
+
   // Check for any other document types
   console.log('\nAll document types:');
   const allTypes = await client.fetch(`array::unique(*[]._type)`);

@@ -12,7 +12,7 @@ const client = createClient({
   dataset: process.env.SANITY_DATASET || 'production',
   apiVersion: '2024-01-01',
   useCdn: false,
-  token: process.env.SANITY_TOKEN
+  token: process.env.SANITY_TOKEN,
 });
 
 // Debug post content
@@ -23,7 +23,7 @@ async function debugPost() {
     content,
     "categoryTitle": category->title
   }`);
-  
+
   if (posts.length > 0) {
     const post = posts[0];
     console.log('Post Title:', post.title);

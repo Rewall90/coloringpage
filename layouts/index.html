@@ -25,7 +25,7 @@
           <div class="flex justify-center lg:justify-end">
             <img src="{{ . }}" 
                  alt="Hero Image" 
-                 class="rounded-xl shadow-xl w-full max-w-md lg:max-w-full object-cover"
+                 class="hidden lg:block nozoom w-full max-w-md lg:max-w-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
                  loading="eager">
           </div>
         {{ end }}
@@ -33,19 +33,11 @@
     </div>
   </section>
 
-  {{/* Main Content */}}
-  {{ if .Content }}
-    <section class="homepage-content prose dark:prose-invert max-w-4xl mx-auto mb-16 px-6">
-      {{ .Content }}
-    </section>
-  {{ end }}
+  {{/* Main Content - Removed */}}
 
   {{/* Categories Section */}}
   <section class="categories-showcase">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-neutral text-center mb-8">
-        Browse Categories
-      </h2>
       
       {{/* Get all category sections - excluding system sections */}}
       {{ $categories := slice }}
@@ -64,16 +56,6 @@
             {{ partialCached "category-card.html" (dict "category" . "size" "grid") .RelPermalink "grid" }}
           {{ end }}
         </div>
-        
-        {{/* View All Categories Link */}}
-        <div class="text-center">
-          <a href="/categories/" class="inline-flex items-center px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors duration-300 text-sm">
-            View All Categories
-            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
       {{ else }}
         {{/* No categories found */}}
         <div class="text-center py-16">
@@ -82,6 +64,35 @@
           </p>
         </div>
       {{ end }}
+    </div>
+  </section>
+
+  {{/* Pre-Footer Section - 2 Column Layout */}}
+  <section class="pre-footer-section py-16 mt-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
+        {{/* Left Column - Text Content */}}
+        <div class="text-left mb-8 lg:mb-0">
+          <h2 class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-6">
+            Coloring Vault
+          </h2>
+          <p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-6">
+            <strong>ColoringVault</strong> is your go-to source for <strong>coloring pages</strong>.<br><br>
+            
+            Discover a vast collection of high-quality, themed <strong>coloring pages</strong> for <strong>kids</strong>, <strong>adults</strong>, <strong>classrooms</strong>, and <strong>creative hobbies</strong>. All <strong>pages</strong> are easy to <strong>download</strong>, <strong>print</strong>, and enjoy — completely <strong>free</strong>.<br><br>
+            
+            From fun <strong>designs</strong> for <strong>children</strong> to intricate <strong>patterns</strong> for <strong>relaxation</strong> and <strong>learning</strong>, <strong>ColoringVault</strong> makes it simple to find the perfect <strong>coloring page</strong> for any occasion.
+          </p>
+        </div>
+        
+        {{/* Right Column - Image */}}
+        <div class="flex justify-center lg:justify-end">
+          <img src="/images/coloringvault-pre-footer-section.webp" 
+               alt="Children coloring with crayons" 
+               class="nozoom w-full max-w-md lg:max-w-full object-cover rounded-lg opacity-90 hover:opacity-100 transition-opacity duration-300"
+               loading="lazy">
+        </div>
+      </div>
     </div>
   </section>
 </div>

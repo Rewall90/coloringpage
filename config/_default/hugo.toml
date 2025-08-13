@@ -21,6 +21,9 @@ enableEmoji = true
 [pagination]
   pagerSize = 100
 
+[permalinks]
+  pages = "/:filename/"
+
 [imaging]
   anchor = 'Center'
 

@@ -1,0 +1,660 @@
+/* Custom Styles for Category Pages */
+
+/* Homepage Category Grid - 6 Column Responsive Layout */
+.homepage-category-grid {
+  display: grid !important;
+  gap: 1rem !important;
+  grid-template-columns: 1fr; /* Mobile: 1 column */
+}
+
+/* Mobile: 2 columns */
+@media (min-width: 640px) {
+  .homepage-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Tablet: 3 columns */
+@media (min-width: 768px) {
+  .homepage-category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Desktop: 4 columns */
+@media (min-width: 1024px) {
+  .homepage-category-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Large Desktop: 5 columns */
+@media (min-width: 1280px) {
+  .homepage-category-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Extra Large: 6 columns */
+@media (min-width: 1536px) {
+  .homepage-category-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Category Hero Image Effects */
+.category-hero img {
+  transition: transform 0.3s ease;
+}
+
+.category-hero:hover img {
+  transform: scale(1.02);
+}
+
+/* Card Hover Effects */
+.category-card, .coloring-page-card {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover, .coloring-page-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Horizontal Category Card Specific Styles */
+.category-card.group a.flex {
+  min-height: 80px;
+}
+
+@media (min-width: 768px) {
+  .category-card.group a.flex {
+    min-height: 96px;
+  }
+}
+
+/* Ensure consistent spacing for horizontal cards */
+.categories-showcase .space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* Image Aspect Ratios */
+.aspect-\[3\/4\] {
+  aspect-ratio: 3/4;
+}
+
+.aspect-\[4\/5\] {
+  aspect-ratio: 4/5;
+}
+
+/* Line Clamp Utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Category Grid Responsive Improvements */
+.categories-grid .category-card {
+  min-height: 300px;
+}
+
+/* Grid Category Card Styles */
+.category-card-grid {
+  position: relative;
+  min-width: 12rem;
+  max-width: 16rem;
+}
+
+.category-card-grid:hover {
+  z-index: 10;
+}
+
+/* Flexible card content layout */
+.category-card-grid .w-48 {
+  width: 12rem;
+  min-height: 10rem;
+  max-height: 12rem;
+}
+
+.category-card-grid .h-40 {
+  height: auto !important;
+  min-height: 10rem;
+  padding: 1.5rem 1rem;
+}
+
+/* Responsive flexbox adjustments */
+@media (max-width: 640px) {
+  .categories-grid .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .category-card-grid .w-48 {
+    width: 12rem !important; /* Appropriate width for mobile screens */
+  }
+  
+  .category-card-grid .h-40 {
+    height: 9rem !important; /* Proportional height for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .categories-grid .flex {
+    gap: 0.75rem; /* Tighter spacing on very small screens */
+  }
+  
+  .category-card-grid .w-48 {
+    width: 10rem !important; /* Even smaller for very small screens */
+  }
+  
+  .category-card-grid .h-40 {
+    height: 7.5rem !important; /* Maintain proportions */
+  }
+}
+
+@media (min-width: 641px) {
+  .categories-grid .flex {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Consistent teal gradient theme for all category cards - matches design description */
+.teal-gradient {
+  background: linear-gradient(135deg, #14b8a6, #0d9488) !important; /* teal-500 to teal-600 */
+}
+
+.teal-gradient:hover {
+  background: linear-gradient(135deg, #0d9488, #0f766e) !important; /* teal-600 to teal-700 */
+}
+
+/* Smooth Transitions for specific elements */
+.category-card, .coloring-page-card, .category-card-grid, .teal-gradient {
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card a, .category-card-grid a {
+  transition: all 0.2s ease;
+}
+
+/* Focus states for accessibility */
+.category-card a:focus, .category-card-grid a:focus {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+  border-radius: 0.75rem;
+}
+
+.category-card a:focus-visible, .category-card-grid a:focus-visible {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.1);
+}
+
+/* Enhanced focus state for grid cards */
+.category-card-grid a:focus .teal-gradient,
+.category-card-grid a:focus-visible .teal-gradient {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Custom Category Colors (Optional) */
+.category-nature {
+  --primary-color: #10b981; /* Green */
+}
+
+.category-superheroes {
+  --primary-color: #3b82f6; /* Blue */
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .category-hero .text-6xl {
+    font-size: 2.5rem;
+  }
+  
+  .category-hero .text-2xl {
+    font-size: 1.25rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .category-hero {
+    background: none !important;
+  }
+  
+  .category-hero img {
+    display: none;
+  }
+}
+
+/* Coloring Pages Grid - Simple and Clean */
+.coloring-pages-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Mobile: 1 column */
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Tablet and up: 2 columns max */
+@media (min-width: 768px) {
+  .coloring-pages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ensure embeds within grid don't have extra margins */
+.coloring-pages-grid .coloring-page-embed {
+  margin: 0; /* Remove default margins when in grid */
+}
+
+/* Increase Post Width from 65ch to 75ch */
+.prose {
+  max-width: 140ch !important;
+}
+
+.max-w-prose {
+  max-width: 140ch !important;
+}
+
+/* Hero Search Box Styles */
+.hero-search-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-search-wrapper {
+  width: 100%;
+}
+
+.hero-search-input-group {
+  position: relative;
+  width: 100%;
+}
+
+.hero-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #6b7280; /* gray-500 */
+  pointer-events: none;
+}
+
+.hero-search-input {
+  width: 100%;
+  padding: 12px 12px 12px 44px;
+  font-size: 16px;
+  border: 2px solid #14b8a6; /* teal-500 */
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.hero-search-input:hover {
+  border-color: #0d9488; /* teal-600 */
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.hero-search-input:focus {
+  border-color: #0d9488; /* teal-600 */
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.2);
+}
+
+/* Dark mode support */
+.dark .hero-search-input {
+  background-color: #374151; /* gray-700 */
+  border-color: #14b8a6;
+  color: #f3f4f6; /* gray-100 */
+}
+
+.dark .hero-search-input::placeholder {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .hero-search-icon {
+  color: #9ca3af; /* gray-400 */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .hero-search-input {
+    font-size: 14px;
+    padding: 10px 10px 10px 40px;
+  }
+  
+  .hero-search-icon {
+    width: 18px;
+    height: 18px;
+    left: 10px;
+  }
+}
+
+/* Inline Search Styles */
+.inline-search-container {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.inline-search-wrapper {
+  width: 100%;
+}
+
+.inline-search-input-group {
+  position: relative;
+  width: 100%;
+}
+
+.inline-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #6b7280; /* gray-500 */
+  pointer-events: none;
+  z-index: 1;
+}
+
+.inline-search-input {
+  width: 100%;
+  padding: 12px 12px 12px 44px;
+  font-size: 16px;
+  border: 2px solid #14b8a6; /* teal-500 */
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.inline-search-input:hover {
+  border-color: #0d9488; /* teal-600 */
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.inline-search-input:focus {
+  border-color: #0d9488; /* teal-600 */
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.2);
+}
+
+/* Results Container */
+.inline-search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #e5e7eb; /* gray-200 */
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 50;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.inline-search-results.hidden {
+  display: none;
+}
+
+/* Loading State */
+.inline-search-loading {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.inline-search-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e5e7eb;
+  border-top: 2px solid #14b8a6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Results List */
+.inline-search-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inline-search-result-item {
+  border-bottom: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.inline-search-result-item:last-child {
+  border-bottom: none;
+}
+
+.inline-search-result-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.inline-search-result-link:hover {
+  background-color: #f9fafb; /* gray-50 */
+}
+
+.inline-search-result-link:focus {
+  background-color: #eff6ff; /* blue-50 */
+  outline: 2px solid #3b82f6; /* blue-500 */
+  outline-offset: -2px;
+}
+
+.inline-search-result-item.selected .inline-search-result-link {
+  background-color: #eff6ff; /* blue-50 */
+}
+
+.inline-search-result-title {
+  font-weight: 600;
+  color: #111827; /* gray-900 */
+  margin-bottom: 0.25rem;
+  line-height: 1.25;
+}
+
+.inline-search-result-meta {
+  font-size: 0.875rem;
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 0.25rem;
+}
+
+.inline-search-result-summary {
+  font-size: 0.875rem;
+  color: #4b5563; /* gray-600 */
+  line-height: 1.4;
+}
+
+/* Search Highlighting - Disabled */
+.inline-search-highlight {
+  /* Remove highlighting - just show normal text */
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-weight: inherit;
+}
+
+/* No Results Message */
+.inline-search-no-results {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280; /* gray-500 */
+}
+
+/* Dark Mode Support */
+.dark .inline-search-input {
+  background-color: #374151; /* gray-700 */
+  border-color: #14b8a6;
+  color: #f3f4f6; /* gray-100 */
+}
+
+.dark .inline-search-input::placeholder {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .inline-search-icon {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .inline-search-results {
+  background-color: #374151; /* gray-700 */
+  border-color: #4b5563; /* gray-600 */
+}
+
+.dark .inline-search-result-item {
+  border-color: #4b5563; /* gray-600 */
+}
+
+.dark .inline-search-result-link:hover {
+  background-color: #4b5563; /* gray-600 */
+}
+
+.dark .inline-search-result-link:focus {
+  background-color: #1e3a8a; /* blue-800 */
+  outline-color: #3b82f6; /* blue-500 */
+}
+
+.dark .inline-search-result-item.selected .inline-search-result-link {
+  background-color: #1e3a8a; /* blue-800 */
+}
+
+.dark .inline-search-result-title {
+  color: #f3f4f6; /* gray-100 */
+}
+
+.dark .inline-search-result-meta {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .inline-search-result-summary {
+  color: #d1d5db; /* gray-300 */
+}
+
+.dark .inline-search-loading {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .inline-search-no-results {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .inline-search-highlight {
+  /* Remove highlighting - just show normal text */
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  .inline-search-input {
+    font-size: 14px;
+    padding: 10px 10px 10px 40px;
+  }
+  
+  .inline-search-icon {
+    width: 18px;
+    height: 18px;
+    left: 10px;
+  }
+  
+  .inline-search-results {
+    max-height: 300px;
+  }
+  
+  .inline-search-result-link {
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .inline-search-result-title {
+    font-size: 0.9rem;
+  }
+  
+  .inline-search-result-meta,
+  .inline-search-result-summary {
+    font-size: 0.8rem;
+  }
+}
+
+/* Coloring Pages List Grid - For the /coloring-pages/ section */
+.coloring-pages-list-grid {
+  display: grid !important;
+  gap: 1.5rem !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Mobile: 2 columns */
+}
+
+/* Tablet: 3 columns */
+@media (min-width: 640px) {
+  .coloring-pages-list-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Desktop: 4 columns */
+@media (min-width: 768px) {
+  .coloring-pages-list-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Large Desktop: 5 columns */
+@media (min-width: 1024px) {
+  .coloring-pages-list-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Extra Large: 6 columns */
+@media (min-width: 1280px) {
+  .coloring-pages-list-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Coloring Page Card Styles */
+.coloring-page-card {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.coloring-page-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Coloring Pages Search Container */
+.coloring-pages-search-container {
+  width: 100%;
+  position: relative;
+}
+
+.coloring-pages-search-wrapper {
+  width: 100%;
+}

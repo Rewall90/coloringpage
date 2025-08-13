@@ -1,4 +1,9 @@
 {{/* Custom head extensions - Debug version */}}
+
+{{/* Preconnect to improve performance */}}
+<link rel="preconnect" href="https://cdn.sanity.io">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 {{/* Include inline search JavaScript when search is enabled */}}
 {{ $inlineSearchJS := resources.Get "js/inline-search.js" }}
 {{ if $inlineSearchJS }}
@@ -11,4 +16,35 @@
 {{ if $coloringSearchJS }}
   {{ $coloringSearchJS := $coloringSearchJS | resources.Minify | resources.Fingerprint "sha512" }}
   <script type="text/javascript" src="{{ $coloringSearchJS.RelPermalink }}" integrity="{{ $coloringSearchJS.Data.Integrity }}"></script>
+{{ end }}
+
+{{/* Include mega menu hover intent JavaScript */}}
+{{ $megaMenuJS := resources.Get "js/mega-menu.js" }}
+{{ if $megaMenuJS }}
+  {{ $megaMenuJS := $megaMenuJS | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $megaMenuJS.RelPermalink }}" integrity="{{ $megaMenuJS.Data.Integrity }}"></script>
+{{ end }}
+
+{{/* Include forms JavaScript for contact and newsletter forms */}}
+{{ $formsJS := resources.Get "js/forms.js" }}
+{{ if $formsJS }}
+  {{ $formsJS := $formsJS | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $formsJS.RelPermalink }}" integrity="{{ $formsJS.Data.Integrity }}"></script>
+{{ end }}
+
+{{/* Cookie Consent Assets */}}
+{{ if site.Params.cookieConsent.enabled }}
+  {{/* Cookie Consent CSS */}}
+  {{ $cookieCSS := resources.Get "css/cookie-consent.css" }}
+  {{ if $cookieCSS }}
+    {{ $cookieCSS := $cookieCSS | resources.Minify | resources.Fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $cookieCSS.RelPermalink }}" integrity="{{ $cookieCSS.Data.Integrity }}">
+  {{ end }}
+  
+  {{/* Cookie Consent JavaScript */}}
+  {{ $cookieJS := resources.Get "js/cookie-consent.js" }}
+  {{ if $cookieJS }}
+    {{ $cookieJS := $cookieJS | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $cookieJS.RelPermalink }}" integrity="{{ $cookieJS.Data.Integrity }}"></script>
+  {{ end }}
 {{ end }}

@@ -2,32 +2,43 @@
 
 /**
  * Hugo + Sanity Content Generation Script
- * 
+ *
  * This script fetches content from Sanity CMS and generates Hugo-compatible
  * markdown files with proper YAML frontmatter. It handles all content types:
  * posts, pages, categories, and coloring pages.
- * 
+ *
  * Usage:
  *   node scripts/fetch-sanity-content.js
  *   npm run fetch-content
- * 
+ *
  * Environment Variables Required:
  *   SANITY_PROJECT_ID - Your Sanity project ID
  *   SANITY_DATASET - Dataset name (usually 'production')
  *   SANITY_TOKEN - API token (optional, for private datasets)
  */
 
-import { createClient } from '@sanity/client';
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+
+// Removed unused imports - createClient and yaml
 import dotenv from 'dotenv';
 
 // Import utility functions
 import { validateEnvironment, createSanityClient, testConnection } from './utils/sanity-helpers.js';
-import { generateMarkdown, cleanDirectory, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
+import {
+  generateMarkdown,
+  cleanDirectory,
+  generateSafeFilename,
+  writeMarkdownFile,
+} from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
-import { getColoringPageImages, getCategoryImages, getPostImages, getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
+import {
+  getColoringPageImages,
+  getCategoryImages,
+  getPostImages,
+  getImageDimensions,
+  IMAGE_SIZES,
+} from './utils/image-helpers.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -105,17 +116,19 @@ const generatePosts = async () => {
 
       const safeFilename = generateSafeFilename(post.slug, post.title, post._id, usedFilenames);
       const contentMarkdown = portableTextToMarkdown(post.content);
-      
+
       // Auto-generate excerpt if none provided
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
-      
+
       // Get optimized image URLs for post
       const images = getPostImages(post.heroImageUrl);
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
-      
+
       const frontmatter = {
         title: post.title,
-        date: post.publishedAt ? new Date(post.publishedAt).toISOString() : new Date().toISOString(),
+        date: post.publishedAt
+          ? new Date(post.publishedAt).toISOString()
+          : new Date().toISOString(),
         description: description,
         image: images.hero,
         thumbnail: images.thumbnail,
@@ -130,11 +143,10 @@ const generatePosts = async () => {
         seo_title: post.seoTitle,
         seo_description: post.seoDescription,
       };
-      
+
       const markdown = generateMarkdown(frontmatter, contentMarkdown);
       writeMarkdownFile(outputDir, safeFilename, markdown, post.title);
       generated++;
-      
     } catch (error) {
       console.error(`❌ Error processing post "${post.title}" (${post._id}):`, error.message);
       skipped++;
@@ -187,10 +199,10 @@ const generatePages = async () => {
 
       const safeFilename = generateSafeFilename(page.slug, page.title, page._id, usedFilenames);
       const contentMarkdown = portableTextToMarkdown(page.content);
-      
+
       // Auto-generate description if none provided
       const description = page.excerpt || portableTextToExcerpt(page.content, 30);
-      
+
       const frontmatter = {
         title: page.title,
         type: page.pageType || 'page',
@@ -203,11 +215,10 @@ const generatePages = async () => {
         seo_title: page.seoTitle,
         seo_description: page.seoDescription,
       };
-      
+
       const markdown = generateMarkdown(frontmatter, contentMarkdown);
       writeMarkdownFile(outputDir, safeFilename, markdown, page.title);
       generated++;
-      
     } catch (error) {
       console.error(`❌ Error processing page "${page.title}" (${page._id}):`, error.message);
       skipped++;
@@ -220,16 +231,17 @@ const generatePages = async () => {
 // Generate Categories
 const generateCategories = async () => {
   const outputDir = './content';
-  
+
   // Clean up existing category files (but not other content)
-  const existingFiles = fs.readdirSync(outputDir)
+  const existingFiles = fs
+    .readdirSync(outputDir)
     .filter(file => file.endsWith('.md') && !['_index.md', 'categories.md'].includes(file));
-  
+
   for (const file of existingFiles) {
     try {
       const filePath = path.join(outputDir, file);
       const content = fs.readFileSync(filePath, 'utf8');
-      
+
       // Check if it's a category file by looking for main-category layout
       if (content.includes('layout: main-category')) {
         fs.unlinkSync(filePath);
@@ -263,12 +275,20 @@ const generateCategories = async () => {
         continue;
       }
 
-      const safeFilename = generateSafeFilename(category.slug, category.title, category._id, usedFilenames);
-      
+      const safeFilename = generateSafeFilename(
+        category.slug,
+        category.title,
+        category._id,
+        usedFilenames
+      );
+
       // Get optimized image URLs for category
       const images = getCategoryImages(category.imageUrl);
-      const dimensions = getImageDimensions(category.imageDimensions, IMAGE_SIZES.category_thumbnail);
-      
+      const dimensions = getImageDimensions(
+        category.imageDimensions,
+        IMAGE_SIZES.category_thumbnail
+      );
+
       const frontmatter = {
         title: category.title,
         description: category.description,
@@ -282,13 +302,15 @@ const generateCategories = async () => {
         parent: category.parentTitle,
         weight: category.sortOrder,
       };
-      
+
       const markdown = generateMarkdown(frontmatter, category.description || '');
       writeMarkdownFile(outputDir, safeFilename, markdown, category.title);
       generated++;
-      
     } catch (error) {
-      console.error(`❌ Error processing category "${category.title}" (${category._id}):`, error.message);
+      console.error(
+        `❌ Error processing category "${category.title}" (${category._id}):`,
+        error.message
+      );
       skipped++;
     }
   }
@@ -347,15 +369,17 @@ const generateColoringPages = async () => {
       }
 
       const safeFilename = generateSafeFilename(page.slug, page.title, page._id, usedFilenames);
-      
+
       // Get optimized image URLs
       const images = getColoringPageImages(page.imageUrl);
       const dimensions = getImageDimensions(page.imageDimensions, IMAGE_SIZES.post_image);
-      
+
       const frontmatter = {
         title: page.title,
         description: page.description,
-        date: page.publishedAt ? new Date(page.publishedAt).toISOString() : new Date().toISOString(),
+        date: page.publishedAt
+          ? new Date(page.publishedAt).toISOString()
+          : new Date().toISOString(),
         difficulty: page.difficulty,
         image: images.main,
         thumbnail: images.thumbnail,
@@ -373,18 +397,22 @@ const generateColoringPages = async () => {
         type: 'coloring-page',
         layout: 'single',
       };
-      
+
       const markdown = generateMarkdown(frontmatter, page.description || '');
       writeMarkdownFile(outputDir, safeFilename, markdown, page.title);
       generated++;
-      
     } catch (error) {
-      console.error(`❌ Error processing coloring page "${page.title}" (${page._id}):`, error.message);
+      console.error(
+        `❌ Error processing coloring page "${page.title}" (${page._id}):`,
+        error.message
+      );
       skipped++;
     }
   }
 
-  console.log(`✅ Generated ${generated} coloring pages${skipped > 0 ? `, skipped ${skipped}` : ''}`);
+  console.log(
+    `✅ Generated ${generated} coloring pages${skipped > 0 ? `, skipped ${skipped}` : ''}`
+  );
 };
 
 // Main execution
@@ -392,33 +420,32 @@ const generateColoringPages = async () => {
   console.log('🚀 Starting Hugo + Sanity content generation...');
   console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`   Timestamp: ${new Date().toISOString()}\n`);
-  
+
   try {
     // Validate environment and test connection
     validateEnvironment();
     await testConnection(client);
-    
+
     console.log('📝 Generating content...');
     const startTime = Date.now();
-    
+
     // Run all content generation in parallel for faster builds
     await Promise.all([
       generatePosts(),
-      generatePages(),  
+      generatePages(),
       generateCategories(),
-      generateColoringPages()
+      generateColoringPages(),
     ]);
-    
+
     const endTime = Date.now();
     const duration = ((endTime - startTime) / 1000).toFixed(2);
-    
+
     console.log('\n🎉 Content generation completed successfully!');
     console.log(`   Duration: ${duration}s`);
     console.log(`   Generated at: ${new Date().toISOString()}`);
-    
   } catch (error) {
     console.error('\n❌ Content generation failed:', error.message);
-    
+
     // Provide helpful debugging info
     if (error.message.includes('fetch')) {
       console.error('💡 This might be a network or permissions issue');
@@ -426,7 +453,7 @@ const generateColoringPages = async () => {
       console.error('   - Verify SANITY_PROJECT_ID and SANITY_DATASET');
       console.error('   - If dataset is private, set SANITY_TOKEN');
     }
-    
+
     process.exit(1);
   }
 })();

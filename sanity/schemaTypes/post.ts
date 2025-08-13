@@ -8,6 +8,8 @@ export const post = defineType({
     {name: 'content', title: 'Content', default: true},
     {name: 'settings', title: 'Settings'},
     {name: 'seo', title: 'SEO'},
+    {name: 'socialMedia', title: 'Social Media'},
+    {name: 'pinterest', title: 'Pinterest'},
   ],
   fields: [
     // Main Content Fields
@@ -140,12 +142,6 @@ export const post = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'author',
-      title: 'Author',
-      type: 'string',
-      group: 'settings',
-    }),
-    defineField({
       name: 'publishedAt',
       title: 'Published At',
       type: 'datetime',
@@ -158,6 +154,29 @@ export const post = defineType({
       type: 'boolean',
       group: 'settings',
       description: 'Feature this post on the homepage',
+      initialValue: false,
+    }),
+
+    // Social Media Fields
+    defineField({
+      name: 'hashtags',
+      title: 'Hashtags',
+      type: 'array',
+      group: 'socialMedia',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags',
+      },
+      description: 'Hashtags for social media (without # symbol)',
+    }),
+
+    // Pinterest Fields
+    defineField({
+      name: 'isPostedToPinterest',
+      title: 'Is Posted to Pinterest',
+      type: 'boolean',
+      group: 'pinterest',
+      description: 'Toggle to track if this post has been posted to Pinterest',
       initialValue: false,
     }),
 

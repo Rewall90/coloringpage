@@ -1,6 +1,6 @@
 /**
  * Sanity Client Utilities
- * 
+ *
  * Helper functions for initializing and working with the Sanity client,
  * including environment validation and connection testing.
  */
@@ -11,10 +11,7 @@ import { createClient } from '@sanity/client';
  * Validate required environment variables
  */
 export const validateEnvironment = () => {
-  const requiredEnvVars = [
-    'SANITY_PROJECT_ID',
-    'SANITY_DATASET',
-  ];
+  const requiredEnvVars = ['SANITY_PROJECT_ID', 'SANITY_DATASET'];
 
   const optionalEnvVars = [
     'SANITY_TOKEN', // For private datasets or webhooks
@@ -49,17 +46,17 @@ export const validateEnvironment = () => {
     missingVars.forEach(varName => {
       console.error(`   ${varName}`);
     });
-    
+
     console.error('\n💡 Setup instructions:');
     console.error('   Local development: Create .env.local with:');
     missingVars.forEach(varName => {
       console.error(`     ${varName}=your_value_here`);
     });
-    
+
     console.error('\n   Vercel: Run `vercel env add` or set in dashboard');
     console.error('   Netlify: Set in Site settings > Environment variables');
     console.error('   GitHub Actions: Set in repository Secrets');
-    
+
     process.exit(1);
   }
 
@@ -78,7 +75,7 @@ export const createSanityClient = () => {
       apiVersion: '2023-05-03',
       token: process.env.SANITY_TOKEN, // Optional, for private datasets
     });
-    
+
     console.log('🔌 Sanity client initialized successfully');
     return client;
   } catch (error) {
@@ -90,7 +87,7 @@ export const createSanityClient = () => {
 /**
  * Test connection to Sanity
  */
-export const testConnection = async (client) => {
+export const testConnection = async client => {
   try {
     console.log('🧪 Testing Sanity connection...');
     const result = await client.fetch('count(*)');

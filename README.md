@@ -22,6 +22,7 @@ The project uses an automated content pipeline:
 6. **Deployment** - Vercel serves the site globally
 
 This automation ensures:
+
 - Fresh content on every build
 - No manual content synchronization
 - Optimized images without manual processing
@@ -54,21 +55,22 @@ cd sanity && npm run dev
 
 ### Available Scripts
 
-| Command | Description |
-|---------|------------|
-| `npm run dev` | Fetches Sanity content and starts Hugo dev server |
-| `npm run build` | Production build (fetches content + builds Hugo) |
-| `npm run preview` | Preview production build locally |
-| `npm run fetch-content` | Fetch latest content from Sanity CMS |
-| `npm run build:hugo` | Build Hugo site only (without fetching) |
-| `npm run clean` | Remove build artifacts (public/ and resources/) |
-| `npm run lint` | Check code quality |
-| `npm run format` | Auto-format code |
-| `npm run test` | Run tests (when configured) |
+| Command                 | Description                                       |
+| ----------------------- | ------------------------------------------------- |
+| `npm run dev`           | Fetches Sanity content and starts Hugo dev server |
+| `npm run build`         | Production build (fetches content + builds Hugo)  |
+| `npm run preview`       | Preview production build locally                  |
+| `npm run fetch-content` | Fetch latest content from Sanity CMS              |
+| `npm run build:hugo`    | Build Hugo site only (without fetching)           |
+| `npm run clean`         | Remove build artifacts (public/ and resources/)   |
+| `npm run lint`          | Check code quality                                |
+| `npm run format`        | Auto-format code                                  |
+| `npm run test`          | Run tests (when configured)                       |
 
 ### Build Process
 
 The build process automatically:
+
 1. Fetches latest content from Sanity CMS
 2. Generates Hugo-compatible markdown files with frontmatter
 3. Optimizes images with CDN parameters
@@ -88,6 +90,7 @@ git submodule update --remote --merge
 ## Configuration
 
 All configuration is in `/config/_default/`:
+
 - `hugo.toml` - Main Hugo configuration
 - `params.toml` - Theme parameters
 - `menus.*.toml` - Menu configuration
@@ -98,6 +101,7 @@ All configuration is in `/config/_default/`:
 The site automatically optimizes images from Sanity CDN for different contexts:
 
 ### Features
+
 - **Automatic format conversion** - Serves WebP to supported browsers
 - **Responsive images** - Multiple sizes for different devices
 - **Smart sizing** - Predefined sizes for thumbnails, heroes, and content
@@ -105,11 +109,13 @@ The site automatically optimizes images from Sanity CDN for different contexts:
 - **Quality optimization** - Different quality levels based on image type
 
 ### Image Types
+
 - **Coloring Pages**: Main (1200x1200), thumbnail (800x800), small (200x200)
 - **Categories**: Thumbnail (400x300), hero (1920x600)
 - **Posts**: Hero (1920x600), thumbnail (800x800)
 
 ### How It Works
+
 1. Fetches image metadata from Sanity including dimensions
 2. Generates optimized URLs with CDN parameters
 3. Creates responsive srcset for modern browsers
@@ -123,22 +129,24 @@ The optimization happens during build time in `scripts/fetch-sanity-content.js` 
 
 The site is deployed on Vercel with the following settings:
 
-| Setting | Value |
-|---------|-------|
-| **Build Command** | `npm run build` |
-| **Output Directory** | `public` |
-| **Install Command** | `npm install` |
-| **Node Version** | 18.x or higher |
+| Setting              | Value           |
+| -------------------- | --------------- |
+| **Build Command**    | `npm run build` |
+| **Output Directory** | `public`        |
+| **Install Command**  | `npm install`   |
+| **Node Version**     | 18.x or higher  |
 
 ### Environment Variables
 
 See `.env.example` for a complete list of all environment variables with descriptions.
 
 **Required variables:**
+
 - `SANITY_PROJECT_ID` - Your Sanity project ID (currently: zjqmnotc)
 - `SANITY_DATASET` - Dataset name (usually: production)
 
 **Optional variables:**
+
 - `SANITY_TOKEN` - API token for private datasets
 - `HUGO_ENV` - Build environment (development/production)
 - Image optimization settings
@@ -146,6 +154,7 @@ See `.env.example` for a complete list of all environment variables with descrip
 - Service integrations
 
 **Setup:**
+
 ```bash
 # Copy the example file
 cp .env.example .env.local

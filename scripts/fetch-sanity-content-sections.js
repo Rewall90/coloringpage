@@ -2,26 +2,37 @@
 
 /**
  * Hugo + Sanity Content Generation Script - Section-based Structure
- * 
+ *
  * This script fetches content from Sanity CMS and generates Hugo-compatible
  * section-based structure with clean URLs.
- * 
+ *
  * Usage:
  *   node scripts/fetch-sanity-content-sections.js
  *   npm run fetch-content-sections
  */
 
-import { createClient } from '@sanity/client';
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+
+// Removed unused imports - createClient and yaml
 import dotenv from 'dotenv';
 
 // Import utility functions
 import { validateEnvironment, createSanityClient, testConnection } from './utils/sanity-helpers.js';
-import { generateMarkdown, cleanDirectory, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
+import {
+  generateMarkdown,
+  cleanDirectory,
+  generateSafeFilename,
+  writeMarkdownFile,
+} from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
-import { getColoringPageImages, getCategoryImages, getPostImages, getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
+import {
+  getColoringPageImages,
+  getCategoryImages,
+  getPostImages,
+  getImageDimensions,
+  IMAGE_SIZES,
+} from './utils/image-helpers.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -47,16 +58,17 @@ const usedFilenames = new Set();
 // Clean up old category files
 const cleanupOldCategories = () => {
   const contentDir = './content';
-  
+
   // Remove old category .md files at root level
-  const existingFiles = fs.readdirSync(contentDir)
+  const existingFiles = fs
+    .readdirSync(contentDir)
     .filter(file => file.endsWith('.md') && !['_index.md'].includes(file));
-  
+
   for (const file of existingFiles) {
     try {
       const filePath = path.join(contentDir, file);
       const content = fs.readFileSync(filePath, 'utf8');
-      
+
       // Check if it's an old category file
       if (content.includes('layout: main-category') || content.includes('categories:')) {
         fs.unlinkSync(filePath);
@@ -71,10 +83,10 @@ const cleanupOldCategories = () => {
 // Generate Category Sections with Coloring Pages
 const generateCategorySections = async () => {
   console.log('📁 Creating section-based structure...');
-  
+
   // First, clean up old structure
   cleanupOldCategories();
-  
+
   // Fetch all categories
   const categories = await client.fetch(`*[_type == "category"]{
     _id,
@@ -107,7 +119,7 @@ const generateCategorySections = async () => {
     "country": metadata.country,
     "tags": metadata.tags
   }`;
-  
+
   // Only fetch actual coloring pages
   const coloringPages = await client.fetch(coloringPagesQuery);
 
@@ -132,8 +144,11 @@ const generateCategorySections = async () => {
 
       // Get optimized image URLs for category
       const images = getCategoryImages(category.imageUrl);
-      const dimensions = getImageDimensions(category.imageDimensions, IMAGE_SIZES.category_thumbnail);
-      
+      const dimensions = getImageDimensions(
+        category.imageDimensions,
+        IMAGE_SIZES.category_thumbnail
+      );
+
       // Create _index.md for the section (category landing page)
       const categoryFrontmatter = {
         title: category.title,
@@ -147,10 +162,10 @@ const generateCategorySections = async () => {
         weight: category.sortOrder || 50,
         // Add these for homepage detection
         cascade: {
-          type: 'coloring-category'
-        }
+          type: 'coloring-category',
+        },
       };
-      
+
       const categoryMarkdown = generateMarkdown(categoryFrontmatter, category.description || '');
       const indexPath = path.join(sectionDir, '_index.md');
       fs.writeFileSync(indexPath, categoryMarkdown);
@@ -158,7 +173,7 @@ const generateCategorySections = async () => {
       categoriesGenerated++;
 
       // Add coloring pages to this category
-      const categoryPages = coloringPages.filter(page => 
+      const categoryPages = coloringPages.filter(page =>
         page.categories?.some(cat => cat.slug === category.slug)
       );
 
@@ -169,16 +184,19 @@ const generateCategorySections = async () => {
             continue;
           }
 
-          const pageSlug = page.slug || generateSafeFilename(null, page.title, page._id, usedFilenames);
-          
+          const pageSlug =
+            page.slug || generateSafeFilename(null, page.title, page._id, usedFilenames);
+
           // Get optimized image URLs
           const pageImages = getColoringPageImages(page.imageUrl);
           const pageDimensions = getImageDimensions(page.imageDimensions, IMAGE_SIZES.post_image);
-          
+
           const pageFrontmatter = {
             title: page.title,
             description: page.description,
-            date: page.publishedAt ? new Date(page.publishedAt).toISOString() : new Date().toISOString(),
+            date: page.publishedAt
+              ? new Date(page.publishedAt).toISOString()
+              : new Date().toISOString(),
             difficulty: page.difficulty,
             image: pageImages.main,
             thumbnail: pageImages.thumbnail,
@@ -194,17 +212,15 @@ const generateCategorySections = async () => {
             tags: page.tags || [],
             type: 'coloring-page',
           };
-          
+
           const pageMarkdown = generateMarkdown(pageFrontmatter, page.description || '');
           const pagePath = path.join(sectionDir, `${pageSlug}.md`);
           fs.writeFileSync(pagePath, pageMarkdown);
           pagesGenerated++;
-          
         } catch (error) {
           console.error(`❌ Error processing coloring page "${page.title}":`, error.message);
         }
       }
-      
     } catch (error) {
       console.error(`❌ Error processing category "${category.title}":`, error.message);
       skipped++;
@@ -214,7 +230,9 @@ const generateCategorySections = async () => {
   console.log(`\n📊 Section Generation Summary:`);
   console.log(`   ✅ ${categoriesGenerated} category sections created`);
   console.log(`   ✅ ${pagesGenerated} coloring pages added`);
-  if (skipped > 0) console.log(`   ⚠️  ${skipped} items skipped`);
+  if (skipped > 0) {
+    console.log(`   ⚠️  ${skipped} items skipped`);
+  }
 };
 
 // Generate Posts in their category sections
@@ -257,7 +275,9 @@ const generatePostsInSections = async () => {
 
   for (const post of posts) {
     try {
-      if (!post.title) continue;
+      if (!post.title) {
+        continue;
+      }
 
       // Determine output directory based on category
       let outputDir = './content/posts'; // default
@@ -272,13 +292,15 @@ const generatePostsInSections = async () => {
       const safeFilename = generateSafeFilename(post.slug, post.title, post._id, usedFilenames);
       const contentMarkdown = portableTextToMarkdown(post.content);
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
-      
+
       const images = getPostImages(post.heroImageUrl);
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
-      
+
       const frontmatter = {
         title: post.title,
-        date: post.publishedAt ? new Date(post.publishedAt).toISOString() : new Date().toISOString(),
+        date: post.publishedAt
+          ? new Date(post.publishedAt).toISOString()
+          : new Date().toISOString(),
         description: description,
         image: images.hero,
         thumbnail: images.thumbnail,
@@ -295,11 +317,10 @@ const generatePostsInSections = async () => {
         seo_title: post.seoTitle,
         seo_description: post.seoDescription,
       };
-      
+
       const markdown = generateMarkdown(frontmatter, contentMarkdown);
       writeMarkdownFile(outputDir, safeFilename, markdown, post.title);
       generated++;
-      
     } catch (error) {
       console.error(`❌ Error processing post "${post.title}":`, error.message);
     }
@@ -342,12 +363,14 @@ const generatePages = async () => {
 
   for (const page of pages) {
     try {
-      if (!page.title) continue;
+      if (!page.title) {
+        continue;
+      }
 
       const safeFilename = generateSafeFilename(page.slug, page.title, page._id, usedFilenames);
       const contentMarkdown = portableTextToMarkdown(page.content);
       const description = page.excerpt || portableTextToExcerpt(page.content, 30);
-      
+
       const frontmatter = {
         title: page.title,
         type: page.pageType || 'page',
@@ -360,11 +383,10 @@ const generatePages = async () => {
         seo_title: page.seoTitle,
         seo_description: page.seoDescription,
       };
-      
+
       const markdown = generateMarkdown(frontmatter, contentMarkdown);
       writeMarkdownFile(outputDir, safeFilename, markdown, page.title);
       generated++;
-      
     } catch (error) {
       console.error(`❌ Error processing page "${page.title}":`, error.message);
     }
@@ -378,39 +400,38 @@ const generatePages = async () => {
   console.log('🚀 Starting Hugo + Sanity content generation (Section-based)...');
   console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`   Timestamp: ${new Date().toISOString()}\n`);
-  
+
   try {
     // Validate environment and test connection
     validateEnvironment();
     await testConnection(client);
-    
+
     console.log('📝 Generating content with section-based structure...');
     const startTime = Date.now();
-    
+
     // Run content generation
     await Promise.all([
-      generateCategorySections(),  // This handles both categories and coloring pages
-      generatePostsInSections(),   // Posts go into their category sections
-      generatePages()
+      generateCategorySections(), // This handles both categories and coloring pages
+      generatePostsInSections(), // Posts go into their category sections
+      generatePages(),
     ]);
-    
+
     const endTime = Date.now();
     const duration = ((endTime - startTime) / 1000).toFixed(2);
-    
+
     console.log('\n🎉 Content generation completed successfully!');
     console.log(`   Duration: ${duration}s`);
     console.log(`   Generated at: ${new Date().toISOString()}`);
-    
   } catch (error) {
     console.error('\n❌ Content generation failed:', error.message);
-    
+
     if (error.message.includes('fetch')) {
       console.error('💡 This might be a network or permissions issue');
       console.error('   - Check your internet connection');
       console.error('   - Verify SANITY_PROJECT_ID and SANITY_DATASET');
       console.error('   - If dataset is private, set SANITY_TOKEN');
     }
-    
+
     process.exit(1);
   }
 })();

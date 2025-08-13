@@ -1,0 +1,85 @@
+<footer id="site-footer" class="py-10 print:hidden">
+  {{/* Custom 5-column footer grid */}}
+  <div class="footer-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+    {{/* Logo Column */}}
+    {{ partial "footer/logo-column.html" . }}
+    
+    {{/* Useful Links Column */}}
+    {{ partial "footer/useful-links.html" . }}
+    
+    {{/* Popular Categories Column */}}
+    {{ partial "footer/popular-categories.html" . }}
+    
+    {{/* Popular Pages Column */}}
+    {{ partial "footer/popular-pages.html" . }}
+    
+    {{/* Newsletter Column */}}
+    {{ partial "footer/newsletter.html" . }}
+  </div>
+
+  {{/* Bottom section with copyright and theme attribution */}}
+  <div class="flex items-center justify-between pt-8 border-t border-neutral-200 dark:border-neutral-700">
+    {{/* Copyright */}}
+    {{ if .Site.Params.footer.showCopyright | default true }}
+      <p class="text-lg text-center text-neutral-500 dark:text-neutral-400">
+        {{- with replace .Site.Params.copyright "{ year }" now.Year }}
+          {{ . | markdownify }}
+        {{- else }}
+          &copy;
+          {{ now.Format "2006" }}
+          {{ .Site.Params.Author.name | markdownify }}
+        {{- end }}
+      </p>
+    {{ end }}
+
+    {{/* Scroll to top button */}}
+    {{ if .Site.Params.footer.showScrollToTop | default true }}
+      <button
+        id="scroll-to-top"
+        class="fixed bottom-6 right-6 z-50 hidden h-12 w-12 rounded-full bg-primary-600 text-white shadow-lg transition-all duration-300 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+        title="{{ i18n "footer.scroll_to_top" }}"
+        aria-label="{{ i18n "footer.scroll_to_top" }}"
+      >
+        <span class="sr-only">{{ i18n "footer.scroll_to_top" }}</span>
+        <svg class="mx-auto h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    {{ end }}
+
+    {{/* Theme attribution */}}
+    {{ if .Site.Params.footer.showThemeAttribution | default true }}
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+        }}
+        {{ $blowfish := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
+        }}
+        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
+      </p>
+    {{ end }}
+  </div>
+
+  {{/* Keep theme's image zoom and process scripts */}}
+  {{ if not .Site.Params.disableImageZoom | default true }}
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  {{ end }}
+  {{ $jsProcess := resources.Get "js/process.js" }}
+  {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script
+    type="text/javascript"
+    src="{{ $jsProcess.RelPermalink }}"
+    integrity="{{ $jsProcess.Data.Integrity }}"></script>
+
+  {{/* Extend footer - for additional customizations */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+    {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+</footer>

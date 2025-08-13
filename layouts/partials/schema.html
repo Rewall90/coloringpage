@@ -1,0 +1,392 @@
+{{/* JSON-LD Structured Data - Phase 1: Basic Implementation */}}
+
+{{/* Organization Schema - Site-wide identity */}}
+{{ $org := dict 
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "@id" (printf "%s#organization" site.BaseURL)
+  "name" (site.Title | default "ColoringVault")
+  "url" site.BaseURL
+  "logo" (dict
+    "@type" "ImageObject"
+    "url" (printf "%s%s" site.BaseURL "/android-chrome-512x512.png")
+    "width" 512
+    "height" 512
+  )
+  "description" (site.Params.description | default "Free coloring pages for kids and adults")
+}}
+
+{{/* Add optional Organization properties only if they exist */}}
+{{ with site.Params.alternateTitle }}
+  {{ $org = merge $org (dict "alternateName" .) }}
+{{ end }}
+
+{{ with site.Params.foundingDate }}
+  {{ $org = merge $org (dict "foundingDate" .) }}
+{{ end }}
+
+{{/* Add social media if configured */}}
+{{ $socialLinks := slice }}
+{{ with site.Params.pinterest }}{{ $socialLinks = $socialLinks | append (printf "https://pinterest.com/%s" .) }}{{ end }}
+{{ with site.Params.instagram }}{{ $socialLinks = $socialLinks | append (printf "https://instagram.com/%s" .) }}{{ end }}
+{{ with site.Params.facebook }}{{ $socialLinks = $socialLinks | append (printf "https://facebook.com/%s" .) }}{{ end }}
+{{ with site.Params.youtube }}{{ $socialLinks = $socialLinks | append (printf "https://youtube.com/%s" .) }}{{ end }}
+{{ with site.Params.twitter }}{{ $socialLinks = $socialLinks | append (printf "https://twitter.com/%s" .) }}{{ end }}
+{{ if gt (len $socialLinks) 0 }}
+  {{ $org = merge $org (dict "sameAs" $socialLinks) }}
+{{ end }}
+
+{{/* Add contact point if email is configured */}}
+{{ with site.Params.email }}
+  {{ $org = merge $org (dict 
+    "contactPoint" (dict
+      "@type" "ContactPoint"
+      "email" .
+      "contactType" "customer service"
+      "availableLanguage" (site.Language.Lang | default "en")
+    )
+  ) }}
+{{ end }}
+
+{{/* WebSite schema with search */}}
+{{ $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "@id" (printf "%s#website" site.BaseURL)
+  "name" (site.Title | default "ColoringVault")
+  "url" site.BaseURL
+  "description" (site.Params.description | default "Free coloring pages for kids and adults")
+  "inLanguage" (site.Language.Lang | default "en")
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+}}
+
+{{/* Only add SearchAction if search functionality exists */}}
+{{ if site.Params.search.enabled }}
+  {{ $website = merge $website (dict
+    "potentialAction" (dict
+      "@type" "SearchAction"
+      "target" (printf "%s/search?q={search_term_string}" site.BaseURL)
+      "query-input" "required name=search_term_string"
+    )
+  ) }}
+{{ end }}
+
+{{/* Add optional WebSite properties */}}
+{{ with site.Params.alternateTitle }}
+  {{ $website = merge $website (dict "alternateName" .) }}
+{{ end }}
+
+{{/* Author Person schema - only if author data exists */}}
+{{ $author := dict }}
+{{ if site.Params.author }}
+  {{ $author = dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "@id" (printf "%s#author" site.BaseURL)
+    "name" (site.Params.author.name | default "ColoringVault Author")
+    "url" (printf "%s%s" site.BaseURL (site.Params.author.url | default "/about-the-author"))
+    "worksFor" (dict "@id" (printf "%s#organization" site.BaseURL))
+  }}
+
+  {{/* Add optional Person properties only if they exist */}}
+  {{ with site.Params.author.description }}
+    {{ $author = merge $author (dict "description" .) }}
+  {{ end }}
+
+  {{ with site.Params.author.jobTitle }}
+    {{ $author = merge $author (dict "jobTitle" .) }}
+  {{ end }}
+
+  {{ with site.Params.author.image }}
+    {{ $author = merge $author (dict 
+      "image" (dict
+        "@type" "ImageObject"
+        "url" (printf "%s%s" site.BaseURL .)
+        "contentUrl" (printf "%s%s" site.BaseURL .)
+      )
+    ) }}
+  {{ end }}
+
+  {{/* Add social media if configured */}}
+  {{ $authorSocial := slice }}
+  {{ with site.Params.author.pinterest }}{{ $authorSocial = $authorSocial | append (printf "https://pinterest.com/%s" .) }}{{ end }}
+  {{ with site.Params.author.instagram }}{{ $authorSocial = $authorSocial | append (printf "https://instagram.com/%s" .) }}{{ end }}
+  {{ with site.Params.author.facebook }}{{ $authorSocial = $authorSocial | append (printf "https://facebook.com/%s" .) }}{{ end }}
+  {{ with site.Params.author.youtube }}{{ $authorSocial = $authorSocial | append (printf "https://youtube.com/%s" .) }}{{ end }}
+  {{ with site.Params.author.twitter }}{{ $authorSocial = $authorSocial | append (printf "https://twitter.com/%s" .) }}{{ end }}
+  {{ if gt (len $authorSocial) 0 }}
+    {{ $author = merge $author (dict "sameAs" $authorSocial) }}
+  {{ end }}
+
+  {{/* Add expertise areas if available */}}
+  {{ with site.Params.author.expertise }}
+    {{ $author = merge $author (dict "knowsAbout" .) }}
+  {{ end }}
+{{ end }}
+
+{{/* Page-specific schema based on page type */}}
+{{ $pageSchema := dict }}
+
+{{/* Check page type and build appropriate schema */}}
+{{ if .IsHome }}
+  {{/* Homepage gets Organization + WebSite schema only */}}
+  {{ $pageSchema = $org }}
+
+{{ else if eq .Type "pages" }}
+  {{/* Static pages (About, Contact, etc.) */}}
+  {{ $pageSchema = dict
+    "@context" "https://schema.org"
+    "@type" "WebPage"
+    "@id" (printf "%s#page" .Permalink)
+    "name" .Title
+    "description" (or .Description .Summary (printf "%s page" .Title))
+    "url" .Permalink
+    "inLanguage" (site.Language.Lang | default "en")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+    "primaryImageOfPage" (dict "@id" (printf "%s#primaryimage" .Permalink))
+  }}
+  
+  {{/* Special schema for specific pages - check if .File exists first */}}
+  {{ if .File }}
+    {{ if eq .File.BaseFileName "privacy-policy" }}
+      {{ $pageSchema = merge $pageSchema (dict "@type" "PrivacyPolicyPage") }}
+    {{ else if eq .File.BaseFileName "terms-and-conditions" }}
+      {{ $pageSchema = merge $pageSchema (dict "@type" "TermsOfServicePage") }}
+    {{ else if eq .File.BaseFileName "about-us" }}
+      {{ $pageSchema = merge $pageSchema (dict "@type" "AboutPage") }}
+    {{ else if eq .File.BaseFileName "contact" }}
+      {{ $pageSchema = merge $pageSchema (dict "@type" "ContactPage") }}
+    {{ else if eq .File.BaseFileName "about-the-author" }}
+      {{/* Author page gets Person + ProfilePage schema */}}
+      {{ $pageSchema = merge $pageSchema (dict "@type" "ProfilePage" "mainEntity" $author) }}
+    {{ end }}
+  {{ end }}
+
+{{ else if in site.Params.mainSections .Type }}
+  {{/* Coloring pages and content sections - CreativeWork schema */}}
+  {{ $pageSchema = dict
+    "@context" "https://schema.org"
+    "@type" "CreativeWork"
+    "@id" (printf "%s#creativework" .Permalink)
+    "name" .Title
+    "description" (or .Description .Summary .Title)
+    "url" .Permalink
+    "inLanguage" (site.Language.Lang | default "en")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "dateCreated" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "creator" (dict "@id" (printf "%s#author" site.BaseURL))
+    "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+    "genre" "Coloring Page"
+    "audience" (dict 
+      "@type" "Audience" 
+      "audienceType" "Children and Adults"
+      "suggestedMinAge" 3
+      "suggestedMaxAge" 99
+    )
+    "educationalUse" (slice "Art Education" "Recreation" "Fine Motor Skills")
+    "interactivityType" "Active"
+    "learningResourceType" "Activity Sheet"
+    "typicalAgeRange" "3-99"
+    "accessibilityFeature" (slice "printable" "colorable")
+    "accessibilityHazard" "none"
+    "accessMode" "visual"
+    "isAccessibleForFree" true
+  }}
+  
+  {{/* Add category information if available */}}
+  {{ with .Params.categories }}
+    {{ $pageSchema = merge $pageSchema (dict 
+      "about" (index . 0)
+      "genre" (index . 0)
+    ) }}
+  {{ end }}
+  
+  {{/* Add tags as keywords */}}
+  {{ with .Params.tags }}
+    {{ $pageSchema = merge $pageSchema (dict "keywords" (delimit . ", ")) }}
+  {{ end }}
+  
+  {{/* Add difficulty level if available */}}
+  {{ with .Params.difficulty }}
+    {{ $pageSchema = merge $pageSchema (dict "educationalLevel" .) }}
+  {{ end }}
+  
+  {{/* Add license information */}}
+  {{ $pageSchema = merge $pageSchema (dict 
+    "license" (printf "%s/licensing-policy" site.BaseURL)
+    "usageInfo" (printf "%s/licensing-policy" site.BaseURL)
+    "conditionsOfAccess" "Free for personal use"
+  ) }}
+
+  {{/* Add image if available and visible on page */}}
+  {{ with .Params.image }}
+    {{ $pageSchema = merge $pageSchema (dict 
+      "image" (dict
+        "@type" "ImageObject"
+        "@id" (printf "%s#primaryimage" $.Permalink)
+        "url" (printf "%s%s" site.BaseURL .)
+        "contentUrl" (printf "%s%s" site.BaseURL .)
+      )
+    ) }}
+  {{ end }}
+
+  {{/* Add PDF download link if available and visible */}}
+  {{ with .Params.pdfFile }}
+    {{ $pageSchema = merge $pageSchema (dict 
+      "associatedMedia" (dict
+        "@type" "MediaObject"
+        "contentUrl" (printf "%s%s" site.BaseURL .)
+        "encodingFormat" "application/pdf"
+        "description" "Printable PDF coloring page"
+      )
+    ) }}
+  {{ end }}
+
+{{ else }}
+  {{/* Default WebPage schema for other content */}}
+  {{ $pageSchema = dict
+    "@context" "https://schema.org"
+    "@type" "WebPage"
+    "@id" (printf "%s#page" .Permalink)
+    "name" .Title
+    "description" (or .Description .Summary .Title)
+    "url" .Permalink
+    "inLanguage" (site.Language.Lang | default "en")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+  }}
+{{ end }}
+
+{{/* Output JSON-LD scripts - only if they contain required data */}}
+{{/* Organization/WebSite on homepage, page-specific elsewhere */}}
+{{ if .IsHome }}
+  {{/* Organization schema - only if we have minimum required data */}}
+  {{ if and (site.Title) (site.BaseURL) }}
+  <script type="application/ld+json">
+  {{ $org | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+  
+  {{/* WebSite schema - only if we have minimum required data */}}
+  {{ if and (site.Title) (site.BaseURL) }}
+  <script type="application/ld+json">
+  {{ $website | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+{{ else }}
+  {{/* Page schema - only if we have minimum required data */}}
+  {{ if and (.Title) (.Permalink) }}
+  <script type="application/ld+json">
+  {{ $pageSchema | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+  
+  {{/* Additional Person schema for author page - only if author data exists */}}
+  {{ if and .File (eq .File.BaseFileName "about-the-author") (site.Params.author) (site.Params.author.name) }}
+  <script type="application/ld+json">
+  {{ $author | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+  
+  {{/* Breadcrumbs for non-home pages */}}
+  {{ $breadcrumbs := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "@id" (printf "%s#breadcrumbs" .Permalink)
+    "numberOfItems" 0
+    "itemListElement" (slice)
+  }}
+  
+  {{ $position := 1 }}
+  {{ $breadcrumbItems := slice }}
+  
+  {{/* Home breadcrumb */}}
+  {{ $breadcrumbItems = $breadcrumbItems | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" (site.Title | default "Home")
+    "item" (dict
+      "@type" "WebPage"
+      "@id" site.BaseURL
+      "name" (site.Title | default "Home")
+      "url" site.BaseURL
+    )
+  ) }}
+  
+  {{/* Category breadcrumb for content pages */}}
+  {{ if and .Params.categories (gt (len .Params.categories) 0) }}
+    {{ $position = add $position 1 }}
+    {{ $category := index .Params.categories 0 }}
+    {{ $breadcrumbItems = $breadcrumbItems | append (dict
+      "@type" "ListItem"
+      "position" $position
+      "name" $category
+      "item" (dict
+        "@type" "WebPage"
+        "name" $category
+        "url" (printf "%s/%s" site.BaseURL (urlize $category))
+      )
+    ) }}
+  {{ end }}
+  
+  {{/* Current page breadcrumb */}}
+  {{ $position = add $position 1 }}
+  {{ $breadcrumbItems = $breadcrumbItems | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" .Title
+    "item" (dict
+      "@type" "WebPage"
+      "@id" .Permalink
+      "name" .Title
+      "url" .Permalink
+    )
+  ) }}
+  
+  {{ $breadcrumbs = merge $breadcrumbs (dict 
+    "itemListElement" $breadcrumbItems
+    "numberOfItems" (len $breadcrumbItems)
+  ) }}
+  
+  <script type="application/ld+json">
+  {{ $breadcrumbs | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+{{ end }}
+
+{{/* Debug mode - shows JSON-LD visually on page */}}
+{{ if site.Params.debugSchema }}
+<div style="background:#f0f0f0;padding:1rem;margin:1rem 0;border:2px solid #333;">
+  <h3 style="margin-top:0;">🔍 Schema Debug Mode</h3>
+  <p><strong>Page Type:</strong> {{ .Type }}</p>
+  <p><strong>Is in mainSections:</strong> {{ in site.Params.mainSections .Type }}</p>
+  <p><strong>Main Sections:</strong> {{ site.Params.mainSections }}</p>
+  <p><strong>File exists:</strong> {{ if .File }}Yes{{ else }}No{{ end }}</p>
+  <details>
+    <summary>View JSON-LD Output</summary>
+    <pre style="overflow-x:auto;">
+{{ if .IsHome }}
+Organization Schema:
+{{ $org | jsonify (dict "indent" "  ") }}
+
+WebSite Schema:
+{{ $website | jsonify (dict "indent" "  ") }}
+{{ else }}
+Page Schema:
+{{ $pageSchema | jsonify (dict "indent" "  ") }}
+
+{{ if and .File (eq .File.BaseFileName "about-the-author") (ne (len $author) 0) }}
+Author Person Schema:
+{{ $author | jsonify (dict "indent" "  ") }}
+{{ end }}
+{{ end }}
+    </pre>
+  </details>
+</div>
+{{ end }}
