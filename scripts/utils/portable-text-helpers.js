@@ -18,7 +18,7 @@
  * - Block quotes
  * - Custom objects (coloringPage references, images, etc.)
  */
-export const portableTextToMarkdown = (blocks, pdfMappings = null) => {
+export const portableTextToMarkdown = (blocks, pdfMappings = null, pageContext = null) => {
   if (!blocks || !Array.isArray(blocks)) {
     return '';
   }
@@ -120,12 +120,12 @@ export const portableTextToMarkdown = (blocks, pdfMappings = null) => {
         if (coloringGroup.length === 1) {
           // Single coloring page - use individual format
           const coloringPage = coloringGroup[0];
-          results.push(generateColoringPageShortcode(coloringPage, pdfMappings));
+          results.push(generateColoringPageShortcode(coloringPage, pdfMappings, pageContext));
         } else {
           // Multiple coloring pages - wrap in grid
           results.push(`\n<div class="coloring-pages-grid">\n`);
           coloringGroup.forEach(coloringPage => {
-            results.push(generateColoringPageShortcode(coloringPage, pdfMappings));
+            results.push(generateColoringPageShortcode(coloringPage, pdfMappings, pageContext));
           });
           results.push(`</div>\n`);
         }
@@ -146,8 +146,9 @@ export const portableTextToMarkdown = (blocks, pdfMappings = null) => {
  * Generate a coloring page shortcode from a coloringPage block
  * @param {Object} block - The coloring page block
  * @param {Object} pdfMappings - Object to collect PDF mappings
+ * @param {Object} pageContext - Context about the current page (category, slug, etc.)
  */
-const generateColoringPageShortcode = (block, pdfMappings = null) => {
+const generateColoringPageShortcode = (block, pdfMappings = null, pageContext = null) => {
   const title = block.title || 'Coloring Page';
   const description = block.description || '';
 
@@ -170,12 +171,17 @@ const generateColoringPageShortcode = (block, pdfMappings = null) => {
 
     // Collect PDF mapping for Cloudflare Worker
     if (pdfMappings && title) {
-      const slug = title
+      const pdfSlug = title
         .toLowerCase()
         .replace(/[^a-z0-9]/g, '-')
         .replace(/-+/g, '-')
         .replace(/^-|-$/g, '');
-      pdfMappings[slug] = pdfUrl;
+
+      // Create hierarchical mapping only
+      if (pageContext && pageContext.categorySlug && pageContext.pageSlug) {
+        const hierarchicalKey = `${pageContext.categorySlug}/${pageContext.pageSlug}/${pdfSlug}`;
+        pdfMappings[hierarchicalKey] = pdfUrl;
+      }
     }
   }
   markdown += `>}}\n`;

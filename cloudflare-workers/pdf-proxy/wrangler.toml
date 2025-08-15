@@ -7,8 +7,14 @@ compatibility_date = "2025-08-13"
 binding = "PDF_MAPPINGS"
 id = "8122081381114c80872c143ae13272fe" # Will be replaced after creating namespace
 
-# Routes (will be configured in Cloudflare dashboard)
-# route = { pattern = "yourdomain.com/pdf/*", zone_name = "yourdomain.com" }
+# Routes for PDF proxy - hierarchical only
+[[routes]]
+pattern = "coloringvault.com/*"
+zone_name = "coloringvault.com"
+
+[[routes]]
+pattern = "www.coloringvault.com/*"
+zone_name = "coloringvault.com"
 
 [env.production]
 name = "coloring-pages-pdf-proxy-production"

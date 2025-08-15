@@ -184,9 +184,10 @@ const generateCategorySections = async () => {
           const pageSlug =
             page.slug || generateSafeFilename(null, page.title, page._id, usedFilenames);
 
-          // Collect PDF mapping for Cloudflare Worker
+          // Collect PDF mapping for Cloudflare Worker (hierarchical only)
           if (page.pdfUrl) {
-            pdfMappings[pageSlug] = page.pdfUrl;
+            const hierarchicalKey = `${category.slug}/${pageSlug}/${pageSlug}`;
+            pdfMappings[hierarchicalKey] = page.pdfUrl;
           }
 
           // Get optimized image URLs
@@ -292,7 +293,14 @@ const generatePostsInSections = async () => {
       }
 
       const safeFilename = generateSafeFilename(post.slug, post.title, post._id, usedFilenames);
-      const contentMarkdown = portableTextToMarkdown(post.content, pdfMappings);
+
+      // Create page context for hierarchical PDF URLs
+      const pageContext = {
+        categorySlug: post.categorySlug,
+        pageSlug: safeFilename,
+      };
+
+      const contentMarkdown = portableTextToMarkdown(post.content, pdfMappings, pageContext);
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
       const images = getPostImages(post.heroImageUrl);
