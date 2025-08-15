@@ -47,7 +47,7 @@
     "prettier": "^3.2.5"
   },
   "engines": {
-    "node": ">=14.8.0"
+    "node": "18.x"
   },
   "repository": {
     "type": "git",
