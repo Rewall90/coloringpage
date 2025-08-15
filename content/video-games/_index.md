@@ -1,5 +1,6 @@
 ---
 title: Video games
+showBreadcrumbs: true
 featureimage: >-
   https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=75&w=600&h=800&fit=crop
 hero_image: >-
@@ -15,7 +16,6 @@ image_width: 600
 image_height: 600
 image_alt: test
 weight: 50
-cascade:
-  type: coloring-category
+type: coloring-category
 ---
 

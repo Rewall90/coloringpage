@@ -19,12 +19,7 @@ import dotenv from 'dotenv';
 
 // Import utility functions
 import { validateEnvironment, createSanityClient, testConnection } from './utils/sanity-helpers.js';
-import {
-  generateMarkdown,
-  cleanDirectory,
-  generateSafeFilename,
-  writeMarkdownFile,
-} from './utils/file-helpers.js';
+import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
 import {
   getColoringPageImages,
@@ -54,6 +49,9 @@ if (!envLoaded) {
 // Initialize
 const client = createSanityClient();
 const usedFilenames = new Set();
+
+// Global PDF mappings collection
+const pdfMappings = {};
 
 // Clean up old category files
 const cleanupOldCategories = () => {
@@ -152,6 +150,7 @@ const generateCategorySections = async () => {
       // Create _index.md for the section (category landing page)
       const categoryFrontmatter = {
         title: category.title,
+        showBreadcrumbs: true,
         description: category.description,
         featureimage: images.thumbnail,
         hero_image: images.hero,
@@ -160,10 +159,8 @@ const generateCategorySections = async () => {
         image_height: dimensions.height,
         image_alt: category.imageAlt || category.title,
         weight: category.sortOrder || 50,
-        // Add these for homepage detection
-        cascade: {
-          type: 'coloring-category',
-        },
+        // Section type (not cascaded to children)
+        type: 'coloring-category',
       };
 
       const categoryMarkdown = generateMarkdown(categoryFrontmatter, category.description || '');
@@ -187,6 +184,11 @@ const generateCategorySections = async () => {
           const pageSlug =
             page.slug || generateSafeFilename(null, page.title, page._id, usedFilenames);
 
+          // Collect PDF mapping for Cloudflare Worker
+          if (page.pdfUrl) {
+            pdfMappings[pageSlug] = page.pdfUrl;
+          }
+
           // Get optimized image URLs
           const pageImages = getColoringPageImages(page.imageUrl);
           const pageDimensions = getImageDimensions(page.imageDimensions, IMAGE_SIZES.post_image);
@@ -206,7 +208,7 @@ const generateCategorySections = async () => {
             image_width: pageDimensions.width,
             image_height: pageDimensions.height,
             image_alt: page.imageAlt || page.title,
-            pdf_url: page.pdfUrl,
+            pdf_url: page.pdfUrl ? `${page.pdfUrl}?dl=${pageSlug}.pdf` : null,
             continent: page.continent,
             country: page.country,
             tags: page.tags || [],
@@ -290,7 +292,7 @@ const generatePostsInSections = async () => {
       }
 
       const safeFilename = generateSafeFilename(post.slug, post.title, post._id, usedFilenames);
-      const contentMarkdown = portableTextToMarkdown(post.content);
+      const contentMarkdown = portableTextToMarkdown(post.content, pdfMappings);
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
       const images = getPostImages(post.heroImageUrl);
@@ -301,7 +303,6 @@ const generatePostsInSections = async () => {
         date: post.publishedAt
           ? new Date(post.publishedAt).toISOString()
           : new Date().toISOString(),
-        description: description,
         image: images.hero,
         thumbnail: images.thumbnail,
         image_srcset: images.srcset,
@@ -318,7 +319,10 @@ const generatePostsInSections = async () => {
         seo_description: post.seoDescription,
       };
 
-      const markdown = generateMarkdown(frontmatter, contentMarkdown);
+      // Add description as intro paragraph if it exists
+      const introContent = description ? `${description}\n\n` : '';
+      const fullContent = introContent + contentMarkdown;
+      const markdown = generateMarkdown(frontmatter, fullContent);
       writeMarkdownFile(outputDir, safeFilename, markdown, post.title);
       generated++;
     } catch (error) {
@@ -329,70 +333,33 @@ const generatePostsInSections = async () => {
   console.log(`✅ Generated ${generated} posts in their category sections`);
 };
 
-// Generate Pages
-const generatePages = async () => {
-  const outputDir = './content/pages';
-  cleanDirectory(outputDir);
-
-  const pages = await client.fetch(`*[_type == "page"]{
-    _id,
-    title,
-    "slug": slug.current,
-    pageType,
-    excerpt,
-    content[]{
-      ...,
-      _type == "image" => {
-        _type,
-        "asset": {
-          "url": asset->url
-        },
-        alt,
-        caption
-      }
-    },
-    "heroImageUrl": heroImage.asset->url,
-    "heroImageAlt": heroImage.alt,
-    lastUpdated,
-    effectiveDate,
-    seoTitle,
-    seoDescription
-  }`);
-
-  let generated = 0;
-
-  for (const page of pages) {
-    try {
-      if (!page.title) {
-        continue;
-      }
-
-      const safeFilename = generateSafeFilename(page.slug, page.title, page._id, usedFilenames);
-      const contentMarkdown = portableTextToMarkdown(page.content);
-      const description = page.excerpt || portableTextToExcerpt(page.content, 30);
-
-      const frontmatter = {
-        title: page.title,
-        type: page.pageType || 'page',
-        description: description,
-        image: page.heroImageUrl,
-        image_alt: page.heroImageAlt,
-        last_updated: page.lastUpdated ? new Date(page.lastUpdated).toISOString() : undefined,
-        effective_date: page.effectiveDate ? new Date(page.effectiveDate).toISOString() : undefined,
-        layout: 'single',
-        seo_title: page.seoTitle,
-        seo_description: page.seoDescription,
-      };
-
-      const markdown = generateMarkdown(frontmatter, contentMarkdown);
-      writeMarkdownFile(outputDir, safeFilename, markdown, page.title);
-      generated++;
-    } catch (error) {
-      console.error(`❌ Error processing page "${page.title}":`, error.message);
-    }
+// Save PDF mappings for Cloudflare Worker
+const savePdfMappings = () => {
+  if (Object.keys(pdfMappings).length === 0) {
+    console.log('📄 No PDF mappings to save');
+    return;
   }
 
-  console.log(`✅ Generated ${generated} pages`);
+  const mappingsPath = './public/pdf-mappings.json';
+
+  // Ensure public directory exists
+  if (!fs.existsSync('./public')) {
+    fs.mkdirSync('./public', { recursive: true });
+  }
+
+  fs.writeFileSync(mappingsPath, JSON.stringify(pdfMappings, null, 2));
+  console.log(`📄 Saved ${Object.keys(pdfMappings).length} PDF mappings to ${mappingsPath}`);
+
+  // Also log the mappings for easy copying
+  console.log('\n📋 PDF Mappings Preview:');
+  Object.entries(pdfMappings)
+    .slice(0, 3)
+    .forEach(([slug, url]) => {
+      console.log(`   ${slug} → ${url}`);
+    });
+  if (Object.keys(pdfMappings).length > 3) {
+    console.log(`   ... and ${Object.keys(pdfMappings).length - 3} more`);
+  }
 };
 
 // Main execution
@@ -413,8 +380,10 @@ const generatePages = async () => {
     await Promise.all([
       generateCategorySections(), // This handles both categories and coloring pages
       generatePostsInSections(), // Posts go into their category sections
-      generatePages(),
     ]);
+
+    // Save PDF mappings for Cloudflare Worker
+    savePdfMappings();
 
     const endTime = Date.now();
     const duration = ((endTime - startTime) / 1000).toFixed(2);

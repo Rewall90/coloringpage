@@ -1,5 +1,5 @@
 {{/* Inline Search Component */}}
-<div class="inline-search-container mt-6 mb-8">
+<div class="inline-search-container mt-6 mb-8" role="search" aria-label="Search coloring pages">
   <div class="inline-search-wrapper">
     <div class="inline-search-input-group">
       <svg class="inline-search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -7,21 +7,31 @@
       </svg>
       <input 
         type="text" 
-        id="inline-search-input"
+        id="coloring-pages-search-input"
         class="inline-search-input" 
         placeholder="{{ i18n "search.input_placeholder" | default "Search for coloring pages..." }}"
-        aria-label="Search"
+        aria-label="Search for coloring pages"
+        aria-describedby="search-description"
         autocomplete="off"
         data-url="{{ "" | absLangURL }}"
+        role="searchbox"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-owns="coloring-pages-search-list"
       >
     </div>
     
+    {{/* Hidden description for screen readers */}}
+    <div id="search-description" class="sr-only">
+      Type to search through coloring pages. Results will appear below as you type.
+    </div>
+    
     {{/* Results container */}}
-    <div id="inline-search-results" class="inline-search-results hidden">
-      <ul id="inline-search-list" class="inline-search-list">
+    <div id="coloring-pages-search-results" class="inline-search-results hidden" role="region" aria-live="polite" aria-label="Search results">
+      <ul id="coloring-pages-search-list" class="inline-search-list" role="listbox" aria-label="Search suggestions">
         {{/* Results will be populated by JavaScript */}}
       </ul>
-      <div id="inline-search-no-results" class="inline-search-no-results hidden">
+      <div id="coloring-pages-search-no-results" class="inline-search-no-results hidden" role="status">
         <p>No results found</p>
       </div>
     </div>

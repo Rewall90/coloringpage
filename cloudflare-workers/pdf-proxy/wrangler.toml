@@ -1,0 +1,17 @@
+name = "coloring-pages-pdf-proxy"
+main = "src/index.js"
+compatibility_date = "2025-08-13"
+
+# KV Namespace binding for PDF mappings
+[[kv_namespaces]]
+binding = "PDF_MAPPINGS"
+id = "8122081381114c80872c143ae13272fe" # Will be replaced after creating namespace
+
+# Routes (will be configured in Cloudflare dashboard)
+# route = { pattern = "yourdomain.com/pdf/*", zone_name = "yourdomain.com" }
+
+[env.production]
+name = "coloring-pages-pdf-proxy-production"
+
+[env.development]
+name = "coloring-pages-pdf-proxy-dev"

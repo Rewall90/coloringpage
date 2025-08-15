@@ -15,7 +15,7 @@
   {{/* Process the image for optimization */}}
   {{- $processed := $image.Resize "360x360 webp q80" -}}
   
-  <div class="author-image-wrapper author-image-{{ $position }} author-image-{{ $size }}">
+  <figure class="author-image-wrapper author-image-{{ $position }} author-image-{{ $size }}">
     <img 
       src="{{ $processed.RelPermalink }}" 
       alt="{{ $alt }}" 
@@ -24,5 +24,5 @@
       height="{{ $processed.Height }}"
       loading="lazy"
     >
-  </div>
+  </figure>
 {{- end -}}

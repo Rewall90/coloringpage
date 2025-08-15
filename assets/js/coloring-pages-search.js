@@ -134,12 +134,18 @@ class ColoringPagesSearch {
       const response = await fetch(this.baseURL + 'index.json');
       const data = await response.json();
       
-      // Filter to include all coloring pages (excluding the coloring-pages section page itself)
+      // Filter to include all coloring pages
       const coloringPages = data.filter(item => {
-        // Include if it's in any of the category sections or posts
-        // Exclude the section index pages
-        return !item.permalink.endsWith('/coloring-pages/') &&
-               !item.permalink.match(/\/(animals|cartoons|celebrations|flowers|fruit-and-vegetables|months|mythical-creatures|nature|science|superheroes|vechicles|video-games)\/$/);
+        // Include pages that are:
+        // 1. Have type 'coloring-page' (individual pages)
+        // 2. Are in coloring category sections but NOT the index pages
+        // 3. Exclude any index pages (URLs ending with just the section name)
+        const isIndexPage = item.permalink.match(/\/(animals|cartoons|celebrations|flowers|fruit-and-vegetables|months|mythical-creatures|nature|science|superheroes|vechicles|video-games)\/$/);
+        const isInColoringSection = item.permalink.match(/\/(animals|cartoons|celebrations|flowers|fruit-and-vegetables|months|mythical-creatures|nature|science|superheroes|vechicles|video-games)\//);
+        
+        return (item.type === 'coloring-page' || 
+                (isInColoringSection && !isIndexPage && item.type !== 'coloring-category')) &&
+               !item.permalink.endsWith('/coloring-pages/');
       });
       
       // Fuse.js options optimized for content search

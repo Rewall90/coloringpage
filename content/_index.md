@@ -1,6 +1,6 @@
 ---
 title: "Coloring Pages"
-description: "Discover amazing coloring pages for all ages. Browse our collection of nature, superheroes, and many more categories!"
+description: "Download free printable coloring pages. Perfect for fun, relaxation, and learning — from educational activities to mindfulness coloring."
 ---
 
 # Welcome to Our Coloring Page Collection

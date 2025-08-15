@@ -128,6 +128,203 @@ header > div {
   }
 }
 
+/* Unified Content Grid - Reusable grid system for all content lists */
+/* Based on homepage grid structure but capped at 5 columns for article readability */
+.content-grid,
+.content-grid-max-5 {
+  display: grid !important;
+  gap: 1rem !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile: 1 column for articles */
+}
+
+/* Small screens: 2 columns */
+@media (min-width: 640px) {
+  .content-grid,
+  .content-grid-max-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Tablet: 3 columns */
+@media (min-width: 768px) {
+  .content-grid,
+  .content-grid-max-5 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Desktop: 4 columns */
+@media (min-width: 1024px) {
+  .content-grid,
+  .content-grid-max-5 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Large Desktop: 5 columns */
+@media (min-width: 1280px) {
+  .content-grid,
+  .content-grid-max-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Extra Large: 6 columns (only for content-grid, not max-5) */
+@media (min-width: 1536px) {
+  .content-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
+  /* content-grid-max-5 stays at 5 columns */
+}
+
+/* Article Cards Grid - Bigger, More Responsive Layout */
+.article-cards-grid {
+  display: grid !important;
+  gap: 2rem !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile: 1 column */
+}
+
+/* Small screens: 2 columns */
+@media (min-width: 640px) {
+  .article-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* Tablet: 3 columns */
+@media (min-width: 1024px) {
+  .article-cards-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 2rem !important;
+  }
+}
+
+/* Large Desktop: 4 columns max for better readability */
+@media (min-width: 1280px) {
+  .article-cards-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 2rem !important;
+  }
+}
+
+/* Article Card Image - 3:4 Aspect Ratio (matches 750x1000 images) */
+.article-cards-grid .thumbnail_card {
+  width: 100% !important;
+  aspect-ratio: 3/4 !important; /* Perfect match for 750x1000 images */
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+  height: auto !important; /* Let aspect-ratio control height */
+}
+
+/* Ensure cards maintain proper structure */
+.article-cards-grid .group-hover-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  position: relative !important; /* Required for paper stack positioning */
+}
+
+/* Clean Article Card - No borders, shadows, or effects */
+div.group-hover-card {
+  position: relative !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #ffffff !important;
+}
+
+/* Article Card Title Font Size and Center */
+.group-hover-card-title {
+  font-size: 18px !important;
+  text-align: center !important;
+}
+
+/* Coloring Page Embed - White Background */
+.coloring-page-embed {
+  background-color: #ffffff !important;
+}
+
+.dark .coloring-page-embed {
+  background-color: #ffffff !important;
+}
+
+/* Fix Coloring Page Embed Images - Use 3:4 aspect ratio instead of square */
+.coloring-page-embed img {
+  aspect-ratio: 3/4 !important; /* Match the 750x1000 image dimensions */
+  object-fit: cover !important;
+}
+
+/* Make coloring page cards equal height */
+.coloring-pages-grid {
+  display: grid !important;
+  align-items: stretch !important; /* Make all grid items same height */
+}
+
+.coloring-page-embed {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.coloring-page-embed .flex.flex-col.gap-4 {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.coloring-page-embed .flex-1.space-y-3 {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important; /* Take up remaining space */
+  justify-content: space-between !important; /* Distribute content evenly */
+}
+
+/* Coloring Page Download Button - Ensure white text and remove hover effects */
+.coloring-page-embed a {
+  color: #ffffff !important;
+  border-radius: 0.5rem !important; /* Keep rounded corners always */
+}
+
+.coloring-page-embed a:hover {
+  border-radius: 0.5rem !important; /* Prevent hover from changing to rectangle */
+}
+
+/* Disable image zoom/enlarge functionality */
+.coloring-page-embed img {
+  pointer-events: none !important; /* Disable clicking on images */
+  cursor: default !important; /* Remove zoom cursor */
+}
+
+.medium-zoom-image {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+/* Fallback for browsers that don't support aspect-ratio */
+@supports not (aspect-ratio: 3/4) {
+  .article-cards-grid .thumbnail_card {
+    height: 0 !important;
+    padding-bottom: 133.33% !important; /* 4/3 * 100% = 133.33% */
+    position: relative !important;
+  }
+  
+  .article-cards-grid .thumbnail_card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    background-repeat: inherit;
+    border-radius: inherit;
+  }
+}
+
 /* Category Hero Image Effects */
 .category-hero img {
   transition: transform 0.3s ease;
@@ -1307,4 +1504,50 @@ header > div {
 /* Dark Mode Support */
 .dark .author-image {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* =================================
+   CATEGORY BADGE CUSTOMIZATION 
+   ================================= */
+
+/* Remove borders from category badges */
+span.rounded-md.border.border-primary-400 {
+  border: none !important;
+}
+
+/* Dark mode category badges - remove borders */
+.dark span.rounded-md.border.border-primary-600 {
+  border: none !important;
+}
+
+/* =================================
+   HEADER ELEMENT REORDERING
+   ================================= */
+
+/* Make header a flex container for custom ordering */
+#single_header {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Order: Breadcrumbs (1) -> Categories (2) -> H1 (3) */
+
+/* Breadcrumbs: Keep at top (order: 1) */
+#single_header nav {
+  order: 1 !important;
+  margin-bottom: 0.1rem !important; /* Much closer spacing */
+}
+
+/* Categories/Meta: Move to middle (order: 2) */
+#single_header > div:has(.flex.flex-row.flex-wrap) {
+  order: 2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* H1: Move to bottom (order: 3) */
+#single_header h1 {
+  order: 3 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }

@@ -162,6 +162,28 @@
     {{ else if eq .File.BaseFileName "about-the-author" }}
       {{/* Author page gets Person + ProfilePage schema */}}
       {{ $pageSchema = merge $pageSchema (dict "@type" "ProfilePage" "mainEntity" $author) }}
+    {{ else if eq .File.BaseFileName "licensing-policy" }}
+      {{/* Licensing policy page with enhanced properties */}}
+      {{ $pageSchema = merge $pageSchema (dict 
+        "@type" "WebPage"
+        "about" "Content licensing and usage rights for ColoringVault coloring pages"
+        "audience" (dict
+          "@type" "Audience"
+          "audienceType" "Content Users and Educators"
+        )
+        "genre" "Legal Policy"
+      ) }}
+    {{ else if eq .File.BaseFileName "takedown-policy" }}
+      {{/* DMCA takedown policy page with enhanced properties */}}
+      {{ $pageSchema = merge $pageSchema (dict 
+        "@type" "WebPage"
+        "about" "DMCA takedown procedures and copyright infringement reporting"
+        "audience" (dict
+          "@type" "Audience"
+          "audienceType" "Content Creators and Copyright Holders"
+        )
+        "genre" "Legal Policy"
+      ) }}
     {{ end }}
   {{ end }}
 

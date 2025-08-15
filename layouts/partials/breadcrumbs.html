@@ -1,0 +1,41 @@
+<nav aria-label="Breadcrumbs" class="breadcrumb-nav text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  <div class="breadcrumb-container">
+    <!-- Always show Home link first -->
+    <span class="breadcrumb-item">
+      <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ site.Home.RelPermalink }}" itemprop="url">
+        <span>Home</span>
+      </a>
+    </span>
+    {{ if not .IsHome }}
+      <span class="bc-delimiter px-1 text-primary-500">/</span>
+      <!-- For static pages in pages section, skip the Pages hierarchy -->
+      {{ if eq .Section "pages" }}
+        <!-- Static pages: Just show Home / Page Title -->
+        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Title }}</span>
+      {{ else }}
+        <!-- For categories and posts: Show full hierarchy -->
+        {{ template "crumb" (dict "p1" . "p2" .) }}
+        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Title }}</span>
+      {{ end }}
+    {{ end }}
+  </div>
+</nav>
+{{ define "crumb" }}
+  {{ if .p1.Parent }}
+    {{ template "crumb" (dict "p1" .p1.Parent "p2" .p2 ) }}
+  {{ else if not .p1.IsHome }}
+    {{ template "crumb" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
+  {{ end }}
+  {{ if not (or (eq .p1 .p2) (.p1.IsHome)) }}
+    <span class="breadcrumb-item">
+      <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .p1.RelPermalink }}" itemprop="url">
+        <span>{{ if .p1.Title }}
+          {{- .p1.Title -}}
+        {{ else }}
+          {{- .p1.Section | title -}}
+        {{ end }}</span>
+      </a>
+    </span>
+    <span class="bc-delimiter px-1 text-primary-500">/</span>
+  {{ end }}
+{{ end }}

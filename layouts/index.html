@@ -1,13 +1,13 @@
 {{ define "main" }}
-<div class="homepage">
+<main class="homepage">
   
   {{/* Hero Section - 2 Column Layout */}}
-  <section class="hero-section py-16 mb-12">
+  <section class="hero-section py-16 mb-12" role="banner" aria-labelledby="homepage-title">
     <div class="max-w-7xl mx-auto px-6">
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
         {{/* Left Column - Text Content */}}
         <div class="text-center lg:text-left mb-8 lg:mb-0">
-          <h1 class="text-4xl md:text-6xl font-bold text-neutral-900 dark:text-neutral mb-6">
+          <h1 id="homepage-title" class="text-4xl md:text-6xl font-bold text-neutral-900 dark:text-neutral mb-6">
             {{ .Title | emojify }}
           </h1>
           {{ with .Params.description }}
@@ -24,7 +24,7 @@
         {{ with .Site.Params.homepage.homepageImage }}
           <div class="flex justify-center lg:justify-end">
             <img src="{{ . }}" 
-                 alt="Hero Image" 
+                 alt="Colorful illustration showcasing various coloring pages and art supplies" 
                  class="hidden lg:block nozoom w-full max-w-md lg:max-w-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
                  loading="eager">
           </div>
@@ -36,8 +36,9 @@
   {{/* Main Content - Removed */}}
 
   {{/* Categories Section */}}
-  <section class="categories-showcase">
+  <section class="categories-showcase" aria-labelledby="categories-heading">
     <div class="max-w-7xl mx-auto px-6">
+      <h2 id="categories-heading" class="sr-only">Coloring Page Categories</h2>
       
       {{/* Get all category sections - excluding system sections */}}
       {{ $categories := slice }}
@@ -51,7 +52,7 @@
       {{ end }}
       
       {{ if $categories }}
-        <div class="homepage-category-grid">
+        <div class="homepage-category-grid" role="grid" aria-label="Coloring page categories">
           {{ range $categories.ByParam "weight" }}
             {{ partialCached "category-card.html" (dict "category" . "size" "grid") .RelPermalink "grid" }}
           {{ end }}
@@ -68,12 +69,12 @@
   </section>
 
   {{/* Pre-Footer Section - 2 Column Layout */}}
-  <section class="pre-footer-section py-16 mt-12">
+  <section class="pre-footer-section py-16 mt-12" aria-labelledby="about-heading">
     <div class="max-w-7xl mx-auto px-6">
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
         {{/* Left Column - Text Content */}}
         <div class="text-left mb-8 lg:mb-0">
-          <h2 class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-6">
+          <h2 id="about-heading" class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-6">
             Coloring Vault
           </h2>
           <p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-6">
@@ -95,5 +96,5 @@
       </div>
     </div>
   </section>
-</div>
+</main>
 {{ end }}

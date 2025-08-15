@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="coloring-pages-list">
+<main class="coloring-pages-list" role="main">
   
   {{/* Page Header */}}
-  <section class="page-header py-8 mb-8">
+  <header class="page-header py-8 mb-8" role="banner">
     <div class="max-w-7xl mx-auto px-6">
       <h1 class="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral mb-4 text-center">
         {{ .Title }}
@@ -14,14 +14,14 @@
       {{ end }}
       
       {{/* Inline Search for Coloring Pages */}}
-      <div class="mt-8 max-w-2xl mx-auto">
+      <div class="mt-8 max-w-2xl mx-auto" role="search" aria-label="Search coloring pages">
         {{ partial "coloring-pages-search.html" . }}
       </div>
     </div>
-  </section>
+  </header>
 
   {{/* Coloring Pages Grid */}}
-  <section class="coloring-pages-grid-section">
+  <section class="coloring-pages-grid-section" aria-label="Coloring pages collection">
     <div class="max-w-7xl mx-auto px-6">
       {{/* Get all posts from all category sections */}}
       {{ $allPosts := slice }}
@@ -41,7 +41,7 @@
       {{/* Note: We exclude /posts/ section as it's for blog posts, not coloring pages */}}
       
       {{ if $allPosts }}
-        <div class="coloring-pages-list-grid">
+        <div class="coloring-pages-list-grid" role="grid" aria-label="Available coloring pages">
           {{ range $allPosts }}
             {{ partial "coloring-page-card.html" . }}
           {{ end }}
@@ -55,5 +55,5 @@
       {{ end }}
     </div>
   </section>
-</div>
+</main>
 {{ end }}

@@ -35,6 +35,23 @@ export const coloringPage = defineType({
       rows: 2,
     }),
     defineField({
+      name: 'difficulty',
+      title: 'Difficulty Level',
+      type: 'string',
+      group: 'content',
+      options: {
+        list: [
+          {title: 'Toddlers', value: 'toddlers'},
+          {title: 'Kids', value: 'kids'},
+          {title: 'Teens', value: 'teens'},
+          {title: 'Adults', value: 'adults'},
+        ],
+        layout: 'radio',
+      },
+      initialValue: 'kids',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'image',
       title: 'Coloring Image',
       type: 'image',

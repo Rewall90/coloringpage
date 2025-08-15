@@ -1,8 +1,8 @@
 {{/* Category Card Partial - Used on homepage to display category tiles */}}
 {{ $category := .category }}
 
-<div class="group block transition-all duration-300 hover:-translate-y-1">
-  <a href="{{ $category.RelPermalink }}" class="block">
+<article class="group block transition-all duration-300 hover:-translate-y-1" role="gridcell">
+  <a href="{{ $category.RelPermalink }}" class="block" aria-labelledby="category-{{ $category.Title | urlize }}">
     {{/* Category Image Container */}}
     <div class="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
       {{/* Category Image */}}
@@ -29,9 +29,9 @@
     
     {{/* Category Title - Now below the image */}}
     <div class="mt-3">
-      <h3 class="text-neutral-900 dark:text-neutral-100 font-bold text-center group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200" style="font-size: 18px;">
+      <h3 id="category-{{ $category.Title | urlize }}" class="text-neutral-900 dark:text-neutral-100 font-bold text-center group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200" style="font-size: 18px;">
         {{ $category.Title }}
       </h3>
     </div>
   </a>
-</div>
+</article>

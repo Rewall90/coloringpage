@@ -59,6 +59,27 @@ export default [
     },
   },
   {
+    // API templates - React Email JSX files
+    files: ['api/_templates/**/*.js'],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        console: 'readonly',
+        process: 'readonly',
+      },
+    },
+    rules: {
+      // Allow JSX in .js files for React Email templates
+      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    },
+  },
+  {
     // Ignore patterns
     ignores: [
       'node_modules/**',
