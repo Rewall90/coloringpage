@@ -5,15 +5,48 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-{{/* LCP Preload Hints for Homepage Hero Image */}}
+{{/* LCP Preload Hints for Critical Images */}}
 {{/* Note: This partial receives .Site context, so we use site.Params */}}
+
+{{/* Homepage Hero Image */}}
 {{ with .Params.homepage.homepageImage }}
-  {{/* Preload hero image for desktop (LCP optimization) - shown on all pages for simplicity */}}
+  {{/* Preload hero image for desktop (LCP optimization) */}}
   <link rel="preload" 
         as="image" 
         href="{{ . }}" 
         media="(min-width: 1024px)"
         fetchpriority="high">
+{{ end }}
+
+{{/* Category Page - First Category Card Images */}}
+{{/* Get first category for preloading its thumbnail images */}}
+{{ $firstCategory := "" }}
+{{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
+{{ range .Sections }}
+  {{ if not (in $excludeSections .Section) }}
+    {{ if .Params.featureimage }}
+      {{ if not $firstCategory }}
+        {{ $firstCategory = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with $firstCategory }}
+  {{ $responsive := .Params.responsive_images }}
+  {{ if $responsive }}
+    {{/* Preload responsive images for first category card (LCP optimization) */}}
+    <link rel="preload" 
+          as="image" 
+          href="{{ $responsive.thumbnail_768 }}" 
+          media="(min-width: 768px)"
+          fetchpriority="high">
+    <link rel="preload" 
+          as="image" 
+          href="{{ $responsive.thumbnail_300 }}" 
+          media="(max-width: 767px)"
+          fetchpriority="high">
+  {{ end }}
 {{ end }}
 {{/* Include coloring pages search JavaScript */}}
 {{ $coloringSearchJS := resources.Get "js/coloring-pages-search.js" }}
