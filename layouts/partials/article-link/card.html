@@ -14,9 +14,15 @@
   {{ $imageSrcset := .Params.image_srcset }}
   {{ $responsive := .Params.responsive_images }}
   
+  {{/* Determine aspect ratio based on content type */}}
+  {{ $aspectRatio := "aspect-square" }}
+  {{ if or (eq .Type "coloring-page") (in (slice "animals" "mythical-creatures" "nature" "superheroes" "cartoons" "celebrations" "flowers" "fruit-and-vegetables" "months" "science" "vehicles" "video-games") .Section) }}
+    {{ $aspectRatio = "aspect-[3/4]" }}
+  {{ end }}
+  
   {{ if or $featuredImage $responsive }}
     {{/* Category pages and collection posts with hierarchical image URLs */}}
-    <figure class="w-full overflow-hidden aspect-square">
+    <figure class="w-full overflow-hidden {{ $aspectRatio }}">
       {{ if $responsive }}
         <noscript>
           <img decoding="async" 
@@ -53,11 +59,11 @@
         />
       {{ end }}
     </figure>
-  {{ else }}
-    {{/* Fallback for posts without hierarchical URLs */}}
-    {{ $heroImage := .Params.image }}
-    {{ if $heroImage }}
-      <figure class="w-full overflow-hidden aspect-square">
+      {{ else }}
+      {{/* Fallback for posts without hierarchical URLs */}}
+      {{ $heroImage := .Params.image }}
+      {{ if $heroImage }}
+        <figure class="w-full overflow-hidden {{ $aspectRatio }}">
         <img 
           decoding="async"
           loading="lazy"
@@ -80,7 +86,7 @@
       {{ end -}}
       {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
       {{- with $featured -}}
-        <figure class="w-full overflow-hidden aspect-square">
+        <figure class="w-full overflow-hidden {{ $aspectRatio }}">
           {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg") }}
             <img 
               decoding="async"
@@ -103,7 +109,7 @@
         </figure>
       {{- else -}}
         {{/* No image available - show placeholder */}}
-        <div class="w-full aspect-square bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
+        <div class="w-full {{ $aspectRatio }} bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
           <span class="text-white text-lg font-medium">{{ .Title }}</span>
         </div>
       {{- end -}}

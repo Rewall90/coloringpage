@@ -94,7 +94,11 @@
               </h2>
               <section class="w-full content-grid-max-5">
                 {{ range .Pages }}
-                  {{ partial "article-link/card.html" . }}
+                  {{ if eq .Type "coloring-page" }}
+                    {{ partial "coloring-page-card.html" . }}
+                  {{ else }}
+                    {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                  {{ end }}
                 {{ end }}
               </section>
             </div>
@@ -104,7 +108,11 @@
             </h2>
             <section class="w-full content-grid-max-5">
               {{ range .Pages }}
-                {{ partial "article-link/card.html" . }}
+                {{ if eq .Type "coloring-page" }}
+                  {{ partial "coloring-page-card.html" . }}
+                {{ else }}
+                  {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                {{ end }}
               {{ end }}
             </section>
           {{ end }}
@@ -118,12 +126,20 @@
               {{ if not $orderByWeight }}
                 {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
                   {{ range .Pages }}
-                    {{ partial "article-link/card.html" . }}
+                    {{ if eq .Type "coloring-page" }}
+                      {{ partial "coloring-page-card.html" . }}
+                    {{ else }}
+                      {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                    {{ end }}
                   {{ end }}
                 {{ end }}
               {{ else }}
                 {{ range (.Paginate (.Pages.ByWeight)).Pages }}
-                  {{ partial "article-link/card.html" . }}
+                  {{ if eq .Type "coloring-page" }}
+                    {{ partial "coloring-page-card.html" . }}
+                  {{ else }}
+                    {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                  {{ end }}
                 {{ end }}
               {{ end }}
             </section>
@@ -133,12 +149,20 @@
             {{ if not $orderByWeight }}
               {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
                 {{ range .Pages }}
-                  {{ partial "article-link/card.html" . }}
+                  {{ if eq .Type "coloring-page" }}
+                    {{ partial "coloring-page-card.html" . }}
+                  {{ else }}
+                    {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                  {{ end }}
                 {{ end }}
               {{ end }}
             {{ else }}
               {{ range (.Paginate (.Pages.ByWeight)).Pages }}
-                {{ partial "article-link/card.html" . }}
+                {{ if eq .Type "coloring-page" }}
+                  {{ partial "coloring-page-card.html" . }}
+                {{ else }}
+                  {{ partial "category-card.html" (dict "category" . "size" "grid") }}
+                {{ end }}
               {{ end }}
             {{ end }}
           </section>
