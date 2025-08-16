@@ -14,6 +14,11 @@ image_srcset: >-
   1200w,
   https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=85&w=1920
   1920w
+responsive_images:
+  thumbnail_200: /collections/mythical-creatures/robot-coloring-page/thumbnail-200.webp
+  thumbnail_300: /collections/mythical-creatures/robot-coloring-page/thumbnail-300.webp
+  thumbnail_768: /collections/mythical-creatures/robot-coloring-page/thumbnail-768.webp
+  thumbnail_896: /collections/mythical-creatures/robot-coloring-page/thumbnail-896.webp
 image_width: 1280
 image_height: 720
 image_alt: test

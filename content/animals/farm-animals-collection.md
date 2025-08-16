@@ -14,6 +14,11 @@ image_srcset: >-
   1200w,
   https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=85&w=1920
   1920w
+responsive_images:
+  thumbnail_200: /collections/animals/farm-animals-collection/thumbnail-200.webp
+  thumbnail_300: /collections/animals/farm-animals-collection/thumbnail-300.webp
+  thumbnail_768: /collections/animals/farm-animals-collection/thumbnail-768.webp
+  thumbnail_896: /collections/animals/farm-animals-collection/thumbnail-896.webp
 image_width: 750
 image_height: 1000
 image_alt: category-image

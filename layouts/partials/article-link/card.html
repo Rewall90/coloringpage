@@ -12,11 +12,11 @@
   {{ $imageWidth := .Params.image_width | default 600 }}
   {{ $imageHeight := .Params.image_height | default 400 }}
   {{ $imageSrcset := .Params.image_srcset }}
+  {{ $responsive := .Params.responsive_images }}
   
-  {{ if $featuredImage }}
-    {{/* Category pages with hierarchical image URLs */}}
+  {{ if or $featuredImage $responsive }}
+    {{/* Category pages and collection posts with hierarchical image URLs */}}
     <figure class="w-full overflow-hidden aspect-[16/9]">
-      {{ $responsive := .Params.responsive_images }}
       {{ if $responsive }}
         <noscript>
           <img decoding="async" 
@@ -36,7 +36,7 @@
              srcset="{{ $responsive.thumbnail_200 }} 200w, {{ $responsive.thumbnail_300 }} 300w, {{ $responsive.thumbnail_768 }} 768w, {{ $responsive.thumbnail_896 }} 896w"
              sizes="(max-width: 300px) 100vw, 300px"
              loading="lazy">
-      {{ else }}
+      {{ else if $featuredImage }}
         {{/* Fallback to existing image logic */}}
         <img 
           decoding="async"
