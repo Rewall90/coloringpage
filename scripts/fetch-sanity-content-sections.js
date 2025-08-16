@@ -349,6 +349,31 @@ const generatePostsInSections = async () => {
       const images = getPostImages(post.heroImageUrl);
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
 
+      // Generate responsive collection image mappings
+      if (post.heroImageUrl && post.categorySlug) {
+        const responsiveSizes = [
+          { width: 200, height: 250 }, // 200w
+          { width: 300, height: 375 }, // 300w
+          { width: 768, height: 960 }, // 768w
+          { width: 896, height: 1120 }, // 896w
+        ];
+
+        responsiveSizes.forEach(size => {
+          const responsiveKey = `${post.categorySlug}/${safeFilename}/thumbnail-${size.width}`;
+          const responsiveUrl = optimizeImageUrl(post.heroImageUrl, {
+            w: size.width,
+            h: size.height,
+            q: QUALITY_PRESETS.thumbnail,
+            fit: 'crop',
+          });
+          assetMappings[responsiveKey] = responsiveUrl;
+        });
+
+        console.log(
+          `📸 Added responsive collection mappings for ${post.categorySlug}/${safeFilename} (${responsiveSizes.length} sizes)`
+        );
+      }
+
       const frontmatter = {
         title: post.title,
         date: post.publishedAt
@@ -357,6 +382,15 @@ const generatePostsInSections = async () => {
         image: images.hero,
         thumbnail: images.thumbnail,
         image_srcset: images.srcset,
+        // Responsive collection image URLs for srcset (using /collections/ prefix for SEO-optimized routing)
+        responsive_images: post.categorySlug
+          ? {
+              thumbnail_200: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-200.webp`,
+              thumbnail_300: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-300.webp`,
+              thumbnail_768: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-768.webp`,
+              thumbnail_896: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-896.webp`,
+            }
+          : {},
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: post.heroImageAlt,

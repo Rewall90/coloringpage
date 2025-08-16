@@ -1,0 +1,23 @@
+name = "coloring-pages-collection-image-proxy"
+main = "src/index.js"
+compatibility_date = "2025-08-13"
+
+# KV Namespace binding for asset mappings (shared with other proxies)
+[[kv_namespaces]]
+binding = "ASSET_MAPPINGS"
+id = "8122081381114c80872c143ae13272fe" # Same as other proxies for shared mappings
+
+# Routes for collection image proxy - SEO-optimized patterns for collection post images
+[[routes]]
+pattern = "coloringvault.com/collections/*"
+zone_name = "coloringvault.com"
+
+[[routes]]
+pattern = "www.coloringvault.com/collections/*"
+zone_name = "coloringvault.com"
+
+[env.production]
+name = "coloring-pages-collection-image-proxy-production"
+
+[env.development]
+name = "coloring-pages-collection-image-proxy-dev"
