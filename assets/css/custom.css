@@ -335,12 +335,12 @@ div.group-hover-card {
 }
 
 /* Card Hover Effects */
-.category-card, .coloring-page-card {
+.category-card {
   position: relative;
   transition: transform 0.2s ease;
 }
 
-.category-card:hover, .coloring-page-card:hover {
+.category-card:hover {
   transform: translateY(-2px);
 }
 
@@ -462,7 +462,7 @@ div.group-hover-card {
 }
 
 /* Smooth Transitions for specific elements */
-.category-card, .coloring-page-card, .category-card-grid, .teal-gradient {
+.category-card, .category-card-grid, .teal-gradient {
   transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -922,15 +922,7 @@ div.group-hover-card {
   }
 }
 
-/* Coloring Page Card Styles */
-.coloring-page-card {
-  position: relative;
-  transition: transform 0.2s ease;
-}
-
-.coloring-page-card:hover {
-  transform: translateY(-4px);
-}
+/* Coloring Page Card Styles - Now handled by article-link/card.html */
 
 /* Coloring Pages Search Container */
 .coloring-pages-search-container {

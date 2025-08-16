@@ -43,7 +43,7 @@
       {{ if $allPosts }}
         <div class="coloring-pages-list-grid" role="grid" aria-label="Available coloring pages">
           {{ range $allPosts }}
-            {{ partial "coloring-page-card.html" . }}
+            {{ partial "article-link/card.html" . }}
           {{ end }}
         </div>
       {{ else }}
