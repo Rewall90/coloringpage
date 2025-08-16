@@ -7,13 +7,13 @@ compatibility_date = "2025-08-13"
 binding = "ASSET_MAPPINGS"
 id = "8122081381114c80872c143ae13272fe" # Same as PDF proxy for shared mappings
 
-# Routes for image proxy - specific patterns for category images
+# Routes for image proxy - SEO-optimized patterns for main category images
 [[routes]]
-pattern = "coloringvault.com/images/*"
+pattern = "coloringvault.com/main-category/*"
 zone_name = "coloringvault.com"
 
 [[routes]]
-pattern = "www.coloringvault.com/images/*"
+pattern = "www.coloringvault.com/main-category/*"
 zone_name = "coloringvault.com"
 
 [env.production]

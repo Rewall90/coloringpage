@@ -191,12 +191,12 @@ const generateCategorySections = async () => {
         description: category.description,
         featureimage: `/${categorySlug}/category-thumbnail.webp`,
         hero_image: `/${categorySlug}/category-hero.webp`,
-        // Responsive image URLs for srcset (using /images/ prefix for worker routing)
+        // Responsive image URLs for srcset (using /main-category/ prefix for SEO-optimized routing)
         responsive_images: {
-          thumbnail_200: `/images/${categorySlug}/thumbnail-200.webp`,
-          thumbnail_300: `/images/${categorySlug}/thumbnail-300.webp`,
-          thumbnail_768: `/images/${categorySlug}/thumbnail-768.webp`,
-          thumbnail_896: `/images/${categorySlug}/thumbnail-896.webp`,
+          thumbnail_200: `/main-category/${categorySlug}/thumbnail-200.webp`,
+          thumbnail_300: `/main-category/${categorySlug}/thumbnail-300.webp`,
+          thumbnail_768: `/main-category/${categorySlug}/thumbnail-768.webp`,
+          thumbnail_896: `/main-category/${categorySlug}/thumbnail-896.webp`,
         },
         image_width: dimensions.width,
         image_height: dimensions.height,

@@ -20,12 +20,12 @@ export default {
       return fetch(request);
     }
     
-    // Handle hierarchical structure: /images/category/image-name.ext
+    // Handle hierarchical structure: /main-category/category/image-name.ext
     const parts = pathname.split('/').filter(part => part.length > 0);
     
-    // Check if it starts with 'images' and has at least 3 parts: ['images', 'category', 'filename.ext']
-    if (parts.length < 3 || parts[0] !== 'images') {
-      return new Response('Invalid image URL format', { status: 404 });
+    // Check if it starts with 'main-category' and has at least 3 parts: ['main-category', 'category', 'filename.ext']
+    if (parts.length < 3 || parts[0] !== 'main-category') {
+      return new Response('Invalid main-category URL format', { status: 404 });
     }
     
     // Extract filename without extension
@@ -34,7 +34,7 @@ export default {
     const filename = filenameWithExt.substring(0, lastDotIndex);
     const extension = filenameWithExt.substring(lastDotIndex);
     
-    // Create hierarchical slug without the 'images' prefix: category/image-name
+    // Create hierarchical slug without the 'main-category' prefix: category/image-name
     const slug = parts.slice(1, -1).join('/') + '/' + filename;
     const slugLower = slug.toLowerCase();
     
