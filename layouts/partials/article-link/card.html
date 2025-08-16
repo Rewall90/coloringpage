@@ -16,7 +16,7 @@
   
   {{ if or $featuredImage $responsive }}
     {{/* Category pages and collection posts with hierarchical image URLs */}}
-    <figure class="w-full overflow-hidden aspect-[3/4]">
+    <figure class="w-full overflow-hidden aspect-square">
       {{ if $responsive }}
         <noscript>
           <img decoding="async" 
@@ -57,7 +57,7 @@
     {{/* Fallback for posts without hierarchical URLs */}}
     {{ $heroImage := .Params.image }}
     {{ if $heroImage }}
-      <figure class="w-full overflow-hidden aspect-[3/4]">
+      <figure class="w-full overflow-hidden aspect-square">
         <img 
           decoding="async"
           loading="lazy"
@@ -80,7 +80,7 @@
       {{ end -}}
       {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
       {{- with $featured -}}
-        <figure class="w-full overflow-hidden aspect-[3/4]">
+        <figure class="w-full overflow-hidden aspect-square">
           {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg") }}
             <img 
               decoding="async"
@@ -103,7 +103,7 @@
         </figure>
       {{- else -}}
         {{/* No image available - show placeholder */}}
-        <div class="w-full aspect-[3/4] bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
+        <div class="w-full aspect-square bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
           <span class="text-white text-lg font-medium">{{ .Title }}</span>
         </div>
       {{- end -}}
