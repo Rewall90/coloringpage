@@ -1,16 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
 
-  "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "installCommand": "npm install",
-  "devCommand": "npm run dev",
 
   "build": {
     "env": {
       "HUGO_VERSION": "0.143.0",
-      "NODE_VERSION": "18",
+      "NODE_VERSION": "22",
       "HUGO_ENV": "production"
     }
   },
@@ -158,7 +156,7 @@
           "value": "http"
         }
       ],
-      "destination": "https://mysite-pink-six.vercel.app/:path*",
+      "destination": "https://www.coloringvault.com/:path*",
       "statusCode": 301
     },
     {
@@ -166,10 +164,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.mysite-pink-six.vercel.app"
+          "value": "coloringvault.com"
         }
       ],
-      "destination": "https://mysite-pink-six.vercel.app/:path*",
+      "destination": "https://www.coloringvault.com/:path*",
       "statusCode": 301
     }
   ],
