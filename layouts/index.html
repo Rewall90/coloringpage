@@ -53,8 +53,8 @@
       
       {{ if $categories }}
         <div class="homepage-category-grid" role="grid" aria-label="Coloring page categories">
-          {{ range $categories.ByParam "weight" }}
-            {{ partialCached "category-card.html" (dict "category" . "size" "grid") .RelPermalink "grid" }}
+          {{ range $index, $category := $categories.ByParam "weight" }}
+            {{ partialCached "category-card.html" (dict "category" . "size" "grid" "index" $index) .RelPermalink "grid" $index }}
           {{ end }}
         </div>
       {{ else }}
@@ -91,7 +91,8 @@
           <img src="/images/coloringvault-pre-footer-section.webp" 
                alt="Children coloring with crayons" 
                class="nozoom w-full max-w-md lg:max-w-full object-cover rounded-lg opacity-90 hover:opacity-100 transition-opacity duration-300"
-               loading="lazy">
+               loading="eager"
+               fetchpriority="low">
         </div>
       </div>
     </div>

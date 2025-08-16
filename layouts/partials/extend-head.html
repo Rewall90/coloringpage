@@ -49,35 +49,8 @@
   {{ end }}
 {{ end }}
 
-{{/* Collection Post Pages - Hero Image and First Embedded Image */}}
-{{/* Detect single pages with hero images (collection posts) */}}
-{{ $isCollectionPost := and (eq .Kind "page") (not .IsHome) (not .IsSection) }}
-{{ if $isCollectionPost }}
-  {{/* Preload hero image if showHero is enabled */}}
-  {{ if .Params.showHero }}
-    {{ with .Params.image }}
-      {{/* Parse the Sanity URL to create responsive versions for preload */}}
-      {{ $baseUrl := . }}
-      {{ if strings.Contains $baseUrl "cdn.sanity.io" }}
-        {{/* Create responsive hero URLs for different screen sizes */}}
-        {{ $heroMobile := replaceRE "([?&])w=\\d+" "${1}w=800" $baseUrl }}
-        {{ $heroDesktop := replaceRE "([?&])w=\\d+" "${1}w=1200" $baseUrl }}
-        
-        {{/* Preload responsive hero images for collection posts */}}
-        <link rel="preload" 
-              as="image" 
-              href="{{ $heroDesktop }}" 
-              media="(min-width: 768px)"
-              fetchpriority="high">
-        <link rel="preload" 
-              as="image" 
-              href="{{ $heroMobile }}" 
-              media="(max-width: 767px)"
-              fetchpriority="high">
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{/* Collection Post Pages - Hero Image preloading removed due to context limitation */}}
+{{/* This partial is called with site context, so page-specific preloading is handled elsewhere */}}
 {{/* Include coloring pages search JavaScript */}}
 {{ $coloringSearchJS := resources.Get "js/coloring-pages-search.js" }}
 {{ if $coloringSearchJS }}
