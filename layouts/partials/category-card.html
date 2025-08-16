@@ -1,7 +1,5 @@
 {{/* Category Card Partial - SEO-optimized with responsive images */}}
 {{ $category := .category }}
-{{ $index := .index | default 999 }}
-{{ $isAboveFold := lt $index 3 }}
 
 <article class="group block transition-all duration-300 hover:-translate-y-1" role="gridcell">
   <a href="{{ $category.RelPermalink }}" class="block" aria-labelledby="category-{{ $category.Title | urlize }}">
@@ -28,14 +26,14 @@
                data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
                srcset="{{ $responsive.thumbnail_200 }} 200w, {{ $responsive.thumbnail_300 }} 300w, {{ $responsive.thumbnail_768 }} 768w, {{ $responsive.thumbnail_896 }} 896w"
                sizes="(max-width: 300px) 100vw, 300px"
-               {{ if $isAboveFold }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
+               loading="lazy">
         {{ else }}
           {{/* Fallback to single image */}}
           <img decoding="async" 
                src="{{ . }}" 
                alt="{{ $category.Params.image_alt | default $category.Title }}"
                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-               {{ if $isAboveFold }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
+               loading="lazy">
         {{ end }}
       {{ else }}
         {{/* Fallback if no image */}}
