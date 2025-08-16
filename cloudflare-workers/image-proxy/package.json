@@ -1,17 +1,17 @@
 {
-  "name": "pdf-proxy",
+  "name": "image-proxy",
   "version": "1.0.0",
-  "description": "Cloudflare Worker for serving PDFs with SEO-friendly URLs",
+  "description": "Cloudflare Worker for serving images with SEO-friendly hierarchical URLs",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "deploy": "wrangler publish",
+    "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "tail": "wrangler tail",
-    "upload-mappings": "node upload-mappings.js",
+    "upload-mappings": "node ../pdf-proxy/upload-mappings.js",
     "create-namespace": "wrangler kv:namespace create ASSET_MAPPINGS"
   },
-  "keywords": ["cloudflare", "worker", "pdf", "proxy"],
+  "keywords": ["cloudflare", "worker", "image", "proxy", "seo"],
   "author": "",
   "license": "MIT",
   "devDependencies": {

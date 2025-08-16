@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Upload PDF mappings to Cloudflare KV
+ * Upload asset mappings (PDFs and images) to Cloudflare KV
  * Run this after your build process generates the mappings
  */
 
@@ -22,14 +22,14 @@ if (!fs.existsSync(MAPPINGS_FILE)) {
 // Read the mappings
 const mappings = JSON.parse(fs.readFileSync(MAPPINGS_FILE, 'utf-8'));
 
-console.log(`📦 Found ${Object.keys(mappings).length} PDF mappings to upload...`);
+console.log(`📦 Found ${Object.keys(mappings).length} asset mappings to upload...`);
 
 // Upload each mapping to KV
 for (const [slug, url] of Object.entries(mappings)) {
   try {
     console.log(`⬆️  Uploading: ${slug}`);
     execSync(
-      `wrangler kv:key put --binding=PDF_MAPPINGS "${slug}" "${url}"`,
+      `wrangler kv key put "${slug}" "${url}" --binding=ASSET_MAPPINGS --remote`,
       { stdio: 'inherit' }
     );
   } catch (error) {

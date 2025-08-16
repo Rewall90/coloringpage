@@ -27,6 +27,8 @@ import {
   getPostImages,
   getImageDimensions,
   IMAGE_SIZES,
+  optimizeImageUrl,
+  QUALITY_PRESETS,
 } from './utils/image-helpers.js';
 
 // Load environment variables
@@ -50,8 +52,8 @@ if (!envLoaded) {
 const client = createSanityClient();
 const usedFilenames = new Set();
 
-// Global PDF mappings collection
-const pdfMappings = {};
+// Global asset mappings collection (PDFs and images)
+const assetMappings = {};
 
 // Clean up old category files
 const cleanupOldCategories = () => {
@@ -147,14 +149,55 @@ const generateCategorySections = async () => {
         IMAGE_SIZES.category_thumbnail
       );
 
-      // Create _index.md for the section (category landing page)
+      // Generate hierarchical image mappings for this category
+      const categorySlug = category.slug;
+      const heroKey = `${categorySlug}/category-hero`;
+      const thumbnailKey = `${categorySlug}/category-thumbnail`;
+
+      // Store image mappings for Cloudflare Worker
+      if (category.imageUrl) {
+        // Map hierarchical URLs to Sanity CDN URLs
+        assetMappings[heroKey] = images.hero;
+        assetMappings[thumbnailKey] = images.thumbnail;
+
+        // Generate responsive thumbnail mappings (matching competitor sizes)
+        const responsiveSizes = [
+          { width: 200, height: 250 }, // 200w
+          { width: 300, height: 375 }, // 300w
+          { width: 768, height: 960 }, // 768w
+          { width: 896, height: 1120 }, // 896w
+        ];
+
+        responsiveSizes.forEach(size => {
+          const responsiveKey = `${categorySlug}/thumbnail-${size.width}`;
+          const responsiveUrl = optimizeImageUrl(category.imageUrl, {
+            w: size.width,
+            h: size.height,
+            q: QUALITY_PRESETS.thumbnail,
+            fit: 'crop',
+          });
+          assetMappings[responsiveKey] = responsiveUrl;
+        });
+
+        console.log(
+          `📸 Added responsive image mappings for ${categorySlug} (${responsiveSizes.length + 2} sizes)`
+        );
+      }
+
+      // Create _index.md for the section (category landing page) with hierarchical URLs
       const categoryFrontmatter = {
         title: category.title,
         showBreadcrumbs: true,
         description: category.description,
-        featureimage: images.thumbnail,
-        hero_image: images.hero,
-        image_srcset: images.srcset,
+        featureimage: `/${categorySlug}/category-thumbnail.webp`,
+        hero_image: `/${categorySlug}/category-hero.webp`,
+        // Responsive image URLs for srcset
+        responsive_images: {
+          thumbnail_200: `/${categorySlug}/thumbnail-200.webp`,
+          thumbnail_300: `/${categorySlug}/thumbnail-300.webp`,
+          thumbnail_768: `/${categorySlug}/thumbnail-768.webp`,
+          thumbnail_896: `/${categorySlug}/thumbnail-896.webp`,
+        },
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: category.imageAlt || category.title,
@@ -187,7 +230,7 @@ const generateCategorySections = async () => {
           // Collect PDF mapping for Cloudflare Worker (hierarchical only)
           if (page.pdfUrl) {
             const hierarchicalKey = `${category.slug}/${pageSlug}/${pageSlug}`;
-            pdfMappings[hierarchicalKey] = page.pdfUrl;
+            assetMappings[hierarchicalKey] = page.pdfUrl;
           }
 
           // Get optimized image URLs
@@ -300,7 +343,7 @@ const generatePostsInSections = async () => {
         pageSlug: safeFilename,
       };
 
-      const contentMarkdown = portableTextToMarkdown(post.content, pdfMappings, pageContext);
+      const contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
       const images = getPostImages(post.heroImageUrl);
@@ -341,12 +384,24 @@ const generatePostsInSections = async () => {
   console.log(`✅ Generated ${generated} posts in their category sections`);
 };
 
-// Save PDF mappings for Cloudflare Worker
-const savePdfMappings = () => {
-  if (Object.keys(pdfMappings).length === 0) {
-    console.log('📄 No PDF mappings to save');
+// Save asset mappings (PDFs and images) for Cloudflare Workers
+const saveAssetMappings = () => {
+  if (Object.keys(assetMappings).length === 0) {
+    console.log('📄 No asset mappings to save');
     return;
   }
+
+  // Separate PDFs and images for reporting
+  const pdfMappings = {};
+  const imageMappings = {};
+
+  Object.entries(assetMappings).forEach(([key, url]) => {
+    if (url.includes('/files/')) {
+      pdfMappings[key] = url;
+    } else if (url.includes('/images/')) {
+      imageMappings[key] = url;
+    }
+  });
 
   const mappingsPath = './public/pdf-mappings.json';
 
@@ -355,18 +410,21 @@ const savePdfMappings = () => {
     fs.mkdirSync('./public', { recursive: true });
   }
 
-  fs.writeFileSync(mappingsPath, JSON.stringify(pdfMappings, null, 2));
-  console.log(`📄 Saved ${Object.keys(pdfMappings).length} PDF mappings to ${mappingsPath}`);
+  fs.writeFileSync(mappingsPath, JSON.stringify(assetMappings, null, 2));
+  console.log(`📄 Saved ${Object.keys(assetMappings).length} asset mappings to ${mappingsPath}`);
+  console.log(`   - PDFs: ${Object.keys(pdfMappings).length}`);
+  console.log(`   - Images: ${Object.keys(imageMappings).length}`);
 
-  // Also log the mappings for easy copying
-  console.log('\n📋 PDF Mappings Preview:');
-  Object.entries(pdfMappings)
+  // Also log sample mappings for easy copying
+  console.log('\n📋 Asset Mappings Preview:');
+  Object.entries(assetMappings)
     .slice(0, 3)
     .forEach(([slug, url]) => {
-      console.log(`   ${slug} → ${url}`);
+      const type = url.includes('/files/') ? 'PDF' : 'IMG';
+      console.log(`   [${type}] ${slug} → ${url.substring(0, 80)}...`);
     });
-  if (Object.keys(pdfMappings).length > 3) {
-    console.log(`   ... and ${Object.keys(pdfMappings).length - 3} more`);
+  if (Object.keys(assetMappings).length > 3) {
+    console.log(`   ... and ${Object.keys(assetMappings).length - 3} more`);
   }
 };
 
@@ -390,8 +448,8 @@ const savePdfMappings = () => {
       generatePostsInSections(), // Posts go into their category sections
     ]);
 
-    // Save PDF mappings for Cloudflare Worker
-    savePdfMappings();
+    // Save asset mappings for Cloudflare Workers
+    saveAssetMappings();
 
     const endTime = Date.now();
     const duration = ((endTime - startTime) / 1000).toFixed(2);

@@ -6,37 +6,85 @@
     class="absolute inset-0"
     aria-label="{{ $.Title }}"></a>
   
-  {{/* Hero Image Section - Using image from frontmatter */}}
-  {{ $heroImage := .Params.image }}
-  {{ if $heroImage }}
-    <div class="thumbnail_card nozoom w-full" style="background-image:url({{ $heroImage }});"></div>
+  {{/* Hero Image Section - Using proper <img> tags for SEO */}}
+  {{ $featuredImage := .Params.featureimage }}
+  {{ $imageAlt := .Params.image_alt | default .Title }}
+  {{ $imageWidth := .Params.image_width | default 600 }}
+  {{ $imageHeight := .Params.image_height | default 400 }}
+  {{ $imageSrcset := .Params.image_srcset }}
+  
+  {{ if $featuredImage }}
+    {{/* Category pages with hierarchical image URLs */}}
+    <figure class="w-full overflow-hidden aspect-[16/9]">
+      <img 
+        decoding="async"
+        loading="lazy"
+        src="{{ $featuredImage }}"
+        alt="{{ $imageAlt }}"
+        width="{{ $imageWidth }}"
+        height="{{ $imageHeight }}"
+        class="w-full h-full object-cover"
+        {{ if $imageSrcset }}
+        srcset="{{ $imageSrcset }}"
+        sizes="(max-width: 600px) 480px, (max-width: 1024px) 768px, 600px"
+        {{ end }}
+      />
+    </figure>
   {{ else }}
-    {{/* Fallback to original behavior if no hero image */}}
-    {{- $images := $.Resources.ByType "image" -}}
-    {{- $featured := $images.GetMatch "*feature*" -}}
-    {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-    {{ if and .Params.featureimage (not $featured) }}
-      {{- $url:= .Params.featureimage -}}
-      {{ $featured = resources.GetRemote $url }}
-    {{ end }}
-    {{- if not $featured }}
-      {{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}
-    {{ end -}}
-    {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
-    {{- with $featured -}}
-      {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg") }}
-        {{ with . }}
-          <div class="thumbnail_card nozoom w-full aspect-[16/9]" style="background-image:url({{ .RelPermalink }});"></div>
-        {{ end }}
-      {{ else }}
-        {{ with .Resize "600x" }}
-          <div class="thumbnail_card nozoom w-full aspect-[16/9]" style="background-image:url({{ .RelPermalink }});"></div>
-        {{ end }}
+    {{/* Fallback for posts without hierarchical URLs */}}
+    {{ $heroImage := .Params.image }}
+    {{ if $heroImage }}
+      <figure class="w-full overflow-hidden aspect-[16/9]">
+        <img 
+          decoding="async"
+          loading="lazy"
+          src="{{ $heroImage }}"
+          alt="{{ $imageAlt }}"
+          class="w-full h-full object-cover"
+        />
+      </figure>
+    {{ else }}
+      {{/* Hugo resource-based images (posts) */}}
+      {{- $images := $.Resources.ByType "image" -}}
+      {{- $featured := $images.GetMatch "*feature*" -}}
+      {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+      {{ if and .Params.featureimage (not $featured) }}
+        {{- $url:= .Params.featureimage -}}
+        {{ $featured = resources.GetRemote $url }}
       {{ end }}
-    {{- else -}}
-      {{/* No image available - show placeholder */}}
-      <div class="thumbnail_card nozoom w-full aspect-[16/9] bg-gradient-to-br from-primary-400 to-primary-600"></div>
-    {{- end -}}
+      {{- if not $featured }}
+        {{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}
+      {{ end -}}
+      {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
+      {{- with $featured -}}
+        <figure class="w-full overflow-hidden aspect-[16/9]">
+          {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg") }}
+            <img 
+              decoding="async"
+              loading="lazy"
+              src="{{ .RelPermalink }}"
+              alt="{{ $imageAlt }}"
+              class="w-full h-full object-cover"
+            />
+          {{ else }}
+            {{ with .Resize "600x" }}
+              <img 
+                decoding="async"
+                loading="lazy"
+                src="{{ .RelPermalink }}"
+                alt="{{ $imageAlt }}"
+                class="w-full h-full object-cover"
+              />
+            {{ end }}
+          {{ end }}
+        </figure>
+      {{- else -}}
+        {{/* No image available - show placeholder */}}
+        <div class="w-full aspect-[16/9] bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
+          <span class="text-white text-lg font-medium">{{ .Title }}</span>
+        </div>
+      {{- end -}}
+    {{ end }}
   {{ end }}
   
   {{/* Draft Badge */}}

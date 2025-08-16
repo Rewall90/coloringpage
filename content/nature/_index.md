@@ -1,17 +1,13 @@
 ---
 title: Nature
 showBreadcrumbs: true
-featureimage: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=75&w=600&h=800&fit=crop
-hero_image: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=90&w=1920&h=600&fit=crop
-image_srcset: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=85&w=400
-  400w,
-  https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=85&w=800
-  800w,
-  https://cdn.sanity.io/images/zjqmnotc/production/1262358a0c2c9d8d0d7c194fcbfdb2de414d7379-600x600.webp?auto=format&q=85&w=1200
-  1200w
+featureimage: /nature/category-thumbnail.webp
+hero_image: /nature/category-hero.webp
+responsive_images:
+  thumbnail_200: /nature/thumbnail-200.webp
+  thumbnail_300: /nature/thumbnail-300.webp
+  thumbnail_768: /nature/thumbnail-768.webp
+  thumbnail_896: /nature/thumbnail-896.webp
 image_width: 600
 image_height: 600
 image_alt: test

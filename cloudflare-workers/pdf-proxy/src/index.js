@@ -1,43 +1,69 @@
 /**
- * Cloudflare Worker for serving PDFs with proper filenames
- * Opens PDFs in browser (inline) instead of forcing download
+ * Cloudflare Worker for serving assets (PDFs and images) with hierarchical URLs
+ * PDFs: Opens in browser (inline) instead of forcing download
+ * Images: Serves with optimized caching headers
  */
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
-    // Extract the slug from hierarchical PDF paths
+    // Extract the slug from hierarchical asset paths
     // Format: /category/post/filename.pdf -> category/post/filename
+    // Format: /category/image-name.webp -> category/image-name
     const pathname = url.pathname;
     
-    if (!pathname.endsWith('.pdf')) {
-      // Not a PDF request - pass through to origin
+    // Check if this is an asset request (PDF or image)
+    const pdfExtensions = ['.pdf'];
+    const imageExtensions = ['.webp', '.jpg', '.jpeg', '.png'];
+    const allExtensions = [...pdfExtensions, ...imageExtensions];
+    
+    const isAssetRequest = allExtensions.some(ext => pathname.endsWith(ext));
+    const isPdfRequest = pdfExtensions.some(ext => pathname.endsWith(ext));
+    const isImageRequest = imageExtensions.some(ext => pathname.endsWith(ext));
+    
+    if (!isAssetRequest) {
+      // Not an asset request - pass through to origin
       return fetch(request);
     }
     
-    // Handle hierarchical structure: /category/post/filename.pdf
+    // Handle hierarchical structure for both PDFs and images
     const parts = pathname.split('/').filter(part => part.length > 0);
-    if (parts.length < 3 || !parts[parts.length - 1].endsWith('.pdf')) {
-      return new Response('Invalid PDF URL format', { status: 404 });
+    
+    // Different validation for PDFs vs images
+    if (isPdfRequest) {
+      // PDFs: /category/post/filename.pdf (3+ parts)
+      if (parts.length < 3) {
+        return new Response('Invalid PDF URL format', { status: 404 });
+      }
+    } else if (isImageRequest) {
+      // Images: /category/image-name.ext (2+ parts)
+      if (parts.length < 2) {
+        return new Response('Invalid image URL format', { status: 404 });
+      }
     }
     
-    // Extract filename without .pdf extension
-    const filename = parts[parts.length - 1].replace('.pdf', '');
-    // Create hierarchical slug: category/post/filename
+    // Extract filename without extension
+    const filenameWithExt = parts[parts.length - 1];
+    const lastDotIndex = filenameWithExt.lastIndexOf('.');
+    const filename = filenameWithExt.substring(0, lastDotIndex);
+    const extension = filenameWithExt.substring(lastDotIndex);
+    
+    // Create hierarchical slug: category/post/filename OR category/image-name
     const slug = parts.slice(0, -1).join('/') + '/' + filename;
     const slugLower = slug.toLowerCase();
     
     // Log for debugging (can be removed in production)
-    console.log('Requested slug:', slugLower);
+    console.log(`Requested ${isPdfRequest ? 'PDF' : 'image'} slug:`, slugLower);
     
     try {
       // Get the Sanity URL from KV store
-      const sanityUrl = await env.PDF_MAPPINGS.get(slugLower);
+      const sanityUrl = await env.ASSET_MAPPINGS.get(slugLower);
       
       if (!sanityUrl) {
         console.log('Slug not found in KV:', slugLower);
-        return new Response('PDF not found', { 
+        const assetType = isPdfRequest ? 'PDF' : 'image';
+        return new Response(`${assetType} not found`, { 
           status: 404,
           headers: {
             'Content-Type': 'text/plain',
@@ -45,51 +71,64 @@ export default {
         });
       }
       
-      // Fetch the PDF from Sanity CDN
-      const pdfResponse = await fetch(sanityUrl, {
+      // Fetch the asset from Sanity CDN
+      const assetResponse = await fetch(sanityUrl, {
         cf: { 
-          // Cache the PDF at Cloudflare edge for 1 day
-          cacheTtl: 86400,
+          // Cache images longer than PDFs (7 days vs 1 day)
+          cacheTtl: isImageRequest ? 604800 : 86400,
           cacheEverything: true,
-          // Cache key includes the slug for better cache management
-          cacheKey: `pdf-${slugLower}`
+          // Cache key includes the asset type and slug
+          cacheKey: `${isPdfRequest ? 'pdf' : 'img'}-${slugLower}`
         }
       });
       
-      if (!pdfResponse.ok) {
-        console.error('Failed to fetch from Sanity:', pdfResponse.status);
-        return new Response('Failed to fetch PDF', { 
-          status: pdfResponse.status 
+      if (!assetResponse.ok) {
+        console.error('Failed to fetch from Sanity:', assetResponse.status);
+        const assetType = isPdfRequest ? 'PDF' : 'image';
+        return new Response(`Failed to fetch ${assetType}`, { 
+          status: assetResponse.status 
         });
       }
       
-      // Get the PDF content
-      const pdfContent = await pdfResponse.arrayBuffer();
+      // Get the asset content
+      const assetContent = await assetResponse.arrayBuffer();
       
-      // Return the PDF with proper headers
-      return new Response(pdfContent, {
-        status: 200,
-        headers: {
-          // Set content type
-          'Content-Type': 'application/pdf',
-          
-          // IMPORTANT: 'inline' opens in browser, 'attachment' forces download
-          // We use 'inline' for SEO - Google can crawl it
-          'Content-Disposition': `inline; filename="${filename}.pdf"`,
-          
-          // Cache for 1 year in browser
-          'Cache-Control': 'public, max-age=31536000, immutable',
-          
-          // Add CORS headers if needed
-          'Access-Control-Allow-Origin': '*',
-          
-          // SEO-friendly headers
-          'X-Robots-Tag': 'all',
-          
-          // Security headers
-          'X-Content-Type-Options': 'nosniff',
-        }
-      });
+      // Return asset with appropriate headers
+      if (isPdfRequest) {
+        // PDF headers
+        return new Response(assetContent, {
+          status: 200,
+          headers: {
+            'Content-Type': 'application/pdf',
+            'Content-Disposition': `inline; filename="${filename}.pdf"`,
+            'Cache-Control': 'public, max-age=31536000, immutable',
+            'Access-Control-Allow-Origin': '*',
+            'X-Robots-Tag': 'all',
+            'X-Content-Type-Options': 'nosniff',
+          }
+        });
+      } else {
+        // Image headers
+        const contentTypeMap = {
+          '.webp': 'image/webp',
+          '.jpg': 'image/jpeg',
+          '.jpeg': 'image/jpeg',
+          '.png': 'image/png'
+        };
+        const contentType = contentTypeMap[extension.toLowerCase()] || 'image/jpeg';
+        
+        return new Response(assetContent, {
+          status: 200,
+          headers: {
+            'Content-Type': contentType,
+            'Cache-Control': 'public, max-age=31536000, immutable',
+            'Access-Control-Allow-Origin': '*',
+            'X-Robots-Tag': 'all',
+            'X-Content-Type-Options': 'nosniff',
+            'Accept-Ranges': 'bytes',
+          }
+        });
+      }
       
     } catch (error) {
       console.error('Worker error:', error);

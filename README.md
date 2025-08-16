@@ -123,6 +123,80 @@ The site automatically optimizes images from Sanity CDN for different contexts:
 
 The optimization happens during build time in `scripts/fetch-sanity-content.js` using utilities from `scripts/utils/image-helpers.js`.
 
+## PDF Proxy System
+
+### Hierarchical PDF URLs
+
+The site uses a Cloudflare Worker to serve PDFs with SEO-friendly hierarchical URLs instead of Sanity's hash-based URLs.
+
+**Before:** `/pdf/teddy-bear.pdf` or `cdn.sanity.io/files/.../hash.pdf`  
+**After:** `/mythical-creatures/robot-coloring-page/teddy-bear.pdf`
+
+### PDF Workflow (Step-by-Step)
+
+#### 1. Fetch Content & Generate PDF Mappings
+
+```bash
+# This fetches content from Sanity and creates PDF mappings
+npm run fetch-content-sections
+
+# Output: Creates/updates ./public/pdf-mappings.json with hierarchical mappings
+# Example: "mythical-creatures/robot-coloring-page/teddy-bear": "https://cdn.sanity.io/..."
+```
+
+#### 2. Upload PDF Mappings to Cloudflare KV
+
+```bash
+# Navigate to the worker directory
+cd cloudflare-workers/pdf-proxy
+
+# Upload all PDF mappings to Cloudflare KV store
+npm run upload-mappings
+
+# This reads from ../../public/pdf-mappings.json
+# Uploads each mapping to Cloudflare KV for the Worker to access
+```
+
+#### 3. Deploy the Worker (if changed)
+
+```bash
+# Still in cloudflare-workers/pdf-proxy directory
+npx wrangler deploy
+
+# This deploys the Worker code to Cloudflare's edge network
+# Routes are configured to catch all PDF requests
+```
+
+### Complete PDF Update Process
+
+When you add new PDFs or update content:
+
+```bash
+# Step 1: Fetch latest content and generate mappings
+npm run fetch-content-sections
+
+# Step 2: Upload new mappings to Cloudflare
+cd cloudflare-workers/pdf-proxy && npm run upload-mappings
+
+# Step 3: Build and deploy the site
+cd ../.. && npm run build
+```
+
+### How It Works
+
+1. **Content Creation**: PDFs are uploaded to Sanity CMS
+2. **Mapping Generation**: Build script creates hierarchical URL mappings
+3. **KV Storage**: Mappings are stored in Cloudflare's distributed KV store
+4. **Request Handling**: Worker intercepts PDF requests and serves from Sanity CDN
+5. **SEO Benefits**: Clean, hierarchical URLs that describe content structure
+
+### Worker Configuration
+
+- **Project**: `coloring-pages-pdf-proxy`
+- **KV Namespace**: `PDF_MAPPINGS`
+- **Routes**: Catches all `*.pdf` requests on the domain
+- **Caching**: Edge cache for 24 hours, browser cache for 1 year
+
 ## Deployment
 
 ### Vercel Configuration

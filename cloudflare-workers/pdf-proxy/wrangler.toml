@@ -1,13 +1,13 @@
-name = "coloring-pages-pdf-proxy"
+name = "coloring-pages-asset-proxy"
 main = "src/index.js"
 compatibility_date = "2025-08-13"
 
-# KV Namespace binding for PDF mappings
+# KV Namespace binding for asset mappings (shared with image proxy)
 [[kv_namespaces]]
-binding = "PDF_MAPPINGS"
-id = "8122081381114c80872c143ae13272fe" # Will be replaced after creating namespace
+binding = "ASSET_MAPPINGS"
+id = "8122081381114c80872c143ae13272fe" # Shared with image proxy
 
-# Routes for PDF proxy - hierarchical only
+# Routes for asset proxy - handles both PDFs and images
 [[routes]]
 pattern = "coloringvault.com/*"
 zone_name = "coloringvault.com"
@@ -17,7 +17,7 @@ pattern = "www.coloringvault.com/*"
 zone_name = "coloringvault.com"
 
 [env.production]
-name = "coloring-pages-pdf-proxy-production"
+name = "coloring-pages-asset-proxy-production"
 
 [env.development]
-name = "coloring-pages-pdf-proxy-dev"
+name = "coloring-pages-asset-proxy-dev"
