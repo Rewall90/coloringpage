@@ -7,13 +7,13 @@ compatibility_date = "2025-08-13"
 binding = "ASSET_MAPPINGS"
 id = "8122081381114c80872c143ae13272fe" # Same as PDF proxy for shared mappings
 
-# Routes for image proxy - catchall pattern (filtering done in worker)
+# Routes for image proxy - specific patterns for category images
 [[routes]]
-pattern = "coloringvault.com/*"
+pattern = "coloringvault.com/images/*"
 zone_name = "coloringvault.com"
 
 [[routes]]
-pattern = "www.coloringvault.com/*"
+pattern = "www.coloringvault.com/images/*"
 zone_name = "coloringvault.com"
 
 [env.production]
