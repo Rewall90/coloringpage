@@ -162,10 +162,10 @@ const generateCategorySections = async () => {
 
         // Generate responsive thumbnail mappings (matching competitor sizes)
         const responsiveSizes = [
-          { width: 200, height: 250 }, // 200w
-          { width: 300, height: 375 }, // 300w
-          { width: 768, height: 960 }, // 768w
-          { width: 896, height: 1120 }, // 896w
+          { width: 200, height: 113 }, // 200w (16:9 aspect ratio)
+          { width: 300, height: 169 }, // 300w (16:9 aspect ratio)
+          { width: 768, height: 432 }, // 768w (16:9 aspect ratio)
+          { width: 896, height: 504 }, // 896w (16:9 aspect ratio)
         ];
 
         responsiveSizes.forEach(size => {
@@ -352,10 +352,10 @@ const generatePostsInSections = async () => {
       // Generate responsive collection image mappings
       if (post.heroImageUrl && post.categorySlug) {
         const responsiveSizes = [
-          { width: 200, height: 250 }, // 200w
-          { width: 300, height: 375 }, // 300w
-          { width: 768, height: 960 }, // 768w
-          { width: 896, height: 1120 }, // 896w
+          { width: 200, height: 113 }, // 200w (16:9 aspect ratio)
+          { width: 300, height: 169 }, // 300w (16:9 aspect ratio)
+          { width: 768, height: 432 }, // 768w (16:9 aspect ratio)
+          { width: 896, height: 504 }, // 896w (16:9 aspect ratio)
         ];
 
         responsiveSizes.forEach(size => {
