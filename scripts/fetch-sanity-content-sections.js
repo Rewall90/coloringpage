@@ -160,12 +160,12 @@ const generateCategorySections = async () => {
         assetMappings[heroKey] = images.hero;
         assetMappings[thumbnailKey] = images.thumbnail;
 
-        // Generate responsive thumbnail mappings (matching competitor sizes)
+        // Generate responsive thumbnail mappings (3:4 aspect ratio for 750×1000 images)
         const responsiveSizes = [
-          { width: 200, height: 200 }, // 200w (1:1 aspect ratio - square)
-          { width: 300, height: 300 }, // 300w (1:1 aspect ratio - square)
-          { width: 768, height: 768 }, // 768w (1:1 aspect ratio - square)
-          { width: 896, height: 896 }, // 896w (1:1 aspect ratio - square)
+          { width: 200, height: 267 }, // 200w (3:4 aspect ratio)
+          { width: 300, height: 400 }, // 300w (3:4 aspect ratio)
+          { width: 768, height: 1024 }, // 768w (3:4 aspect ratio)
+          { width: 896, height: 1195 }, // 896w (3:4 aspect ratio)
         ];
 
         responsiveSizes.forEach(size => {
@@ -352,10 +352,10 @@ const generatePostsInSections = async () => {
       // Generate responsive collection image mappings
       if (post.heroImageUrl && post.categorySlug) {
         const responsiveSizes = [
-          { width: 200, height: 200 }, // 200w (1:1 aspect ratio - square)
-          { width: 300, height: 300 }, // 300w (1:1 aspect ratio - square)
-          { width: 768, height: 768 }, // 768w (1:1 aspect ratio - square)
-          { width: 896, height: 896 }, // 896w (1:1 aspect ratio - square)
+          { width: 200, height: 267 }, // 200w (3:4 aspect ratio)
+          { width: 300, height: 400 }, // 300w (3:4 aspect ratio)
+          { width: 768, height: 1024 }, // 768w (3:4 aspect ratio)
+          { width: 896, height: 1195 }, // 896w (3:4 aspect ratio)
         ];
 
         responsiveSizes.forEach(size => {
