@@ -4,6 +4,18 @@
 <link rel="preconnect" href="https://cdn.sanity.io">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{/* LCP Preload Hints for Homepage Hero Image */}}
+{{ if .IsHome }}
+  {{ with .Site.Params.homepage.homepageImage }}
+    {{/* Preload hero image for desktop (LCP optimization) */}}
+    <link rel="preload" 
+          as="image" 
+          href="{{ . }}" 
+          media="(min-width: 1024px)"
+          fetchpriority="high">
+  {{ end }}
+{{ end }}
 {{/* Include coloring pages search JavaScript */}}
 {{ $coloringSearchJS := resources.Get "js/coloring-pages-search.js" }}
 {{ if $coloringSearchJS }}
