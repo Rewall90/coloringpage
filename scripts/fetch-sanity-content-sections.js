@@ -25,7 +25,7 @@ import dotenv from 'dotenv';
 import { validateEnvironment, createSanityClient, testConnection } from './utils/sanity-helpers.js';
 import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
-import { getColoringPageImages, getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
+import { getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -197,8 +197,7 @@ const generateCategorySections = async () => {
             assetMappings[hierarchicalKey] = page.pdfUrl;
           }
 
-          // Get optimized image URLs
-          const pageImages = getColoringPageImages(page.imageUrl);
+          // Get image dimensions for real-time transformations
           const pageDimensions = getImageDimensions(page.imageDimensions, IMAGE_SIZES.post_image);
 
           const pageFrontmatter = {
@@ -208,11 +207,7 @@ const generateCategorySections = async () => {
               ? new Date(page.publishedAt).toISOString()
               : new Date().toISOString(),
             difficulty: page.difficulty,
-            image: pageImages.main,
-            thumbnail: pageImages.thumbnail,
-            small_thumbnail: pageImages.small_thumbnail,
-            hero_image: pageImages.hero,
-            image_srcset: pageImages.srcset,
+            // Real-time transformations - only need dimensions
             image_width: pageDimensions.width,
             image_height: pageDimensions.height,
             image_alt: page.imageAlt || page.title,
@@ -227,6 +222,18 @@ const generateCategorySections = async () => {
           const pagePath = path.join(sectionDir, `${pageSlug}.md`);
           fs.writeFileSync(pagePath, pageMarkdown);
           pagesGenerated++;
+
+          // Parse shortcodes in the generated markdown to extract individual image mappings
+          const shortcodeRegex =
+            /{{<\s*coloring-page-embed[\s\S]*?title="([^"]+)"[\s\S]*?image="([^"]+)"[\s\S]*?>}}/g;
+          let shortcodeMatch;
+          while ((shortcodeMatch = shortcodeRegex.exec(pageMarkdown)) !== null) {
+            const shortcodeTitle = shortcodeMatch[1];
+            const shortcodeImageUrl = shortcodeMatch[2];
+            const shortcodeSlug = generateSafeFilename(null, shortcodeTitle, '', new Set());
+            const imageKey = `collections/${category.slug}/${pageSlug}/${shortcodeSlug}`;
+            assetMappings[imageKey.toLowerCase()] = shortcodeImageUrl;
+          }
         } catch (error) {
           console.error(`❌ Error processing coloring page "${page.title}":`, error.message);
         }
@@ -343,6 +350,18 @@ const generatePostsInSections = async () => {
       const markdown = generateMarkdown(frontmatter, fullContent);
       writeMarkdownFile(outputDir, safeFilename, markdown, post.title);
       generated++;
+
+      // Parse shortcodes in the content to extract individual image mappings
+      const shortcodeRegex =
+        /{{<\s*coloring-page-embed[\s\S]*?title="([^"]+)"[\s\S]*?image="([^"]+)"[\s\S]*?>}}/g;
+      let shortcodeMatch;
+      while ((shortcodeMatch = shortcodeRegex.exec(fullContent)) !== null) {
+        const shortcodeTitle = shortcodeMatch[1];
+        const shortcodeImageUrl = shortcodeMatch[2];
+        const shortcodeSlug = generateSafeFilename(null, shortcodeTitle, '', new Set());
+        const imageKey = `collections/${post.categorySlug}/${safeFilename}/${shortcodeSlug}`;
+        assetMappings[imageKey.toLowerCase()] = shortcodeImageUrl;
+      }
     } catch (error) {
       console.error(`❌ Error processing post "${post.title}":`, error.message);
     }

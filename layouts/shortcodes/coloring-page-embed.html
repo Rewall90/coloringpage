@@ -9,14 +9,18 @@
     {{/* Image section */}}
     {{ if $image }}
       <div class="w-full">
-        {{/* Use Sanity CDN with real-time transformation parameters */}}
+        {{/* Use semantic Cloudflare Worker URL for real-time transforms */}}
+        {{ $titleSlug := $title | urlize }}
+        {{ $collectionSlug := path.BaseName $.Page.RelPermalink }}
+        {{ $categorySlug := $.Page.Section }}
+        {{ $semanticUrl := printf "/collections/%s/%s/%s.webp" $categorySlug $collectionSlug $titleSlug }}
         <img 
-          src="{{ $image }}?w=750&h=750&q=85&fit=cover&auto=format" 
+          src="{{ $semanticUrl }}?w=750&h=750&q=85&fit=cover&format=auto" 
           alt="{{ $title }}"
           class="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 aspect-square object-cover"
-          srcset="{{ $image }}?w=375&h=375&q=85&fit=cover&auto=format 375w, 
-                  {{ $image }}?w=750&h=750&q=85&fit=cover&auto=format 750w, 
-                  {{ $image }}?w=1000&h=1000&q=85&fit=cover&auto=format 1000w"
+          srcset="{{ $semanticUrl }}?w=375&h=375&q=85&fit=cover&format=auto 375w, 
+                  {{ $semanticUrl }}?w=750&h=750&q=85&fit=cover&format=auto 750w, 
+                  {{ $semanticUrl }}?w=1000&h=1000&q=85&fit=cover&format=auto 1000w"
           sizes="(max-width: 640px) 375px, (max-width: 1024px) 750px, 1000px"
           loading="lazy"
         >
