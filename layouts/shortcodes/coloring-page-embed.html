@@ -10,7 +10,7 @@
     {{ if $image }}
       <div class="w-full">
         {{/* Use semantic Cloudflare Worker URL for real-time transforms */}}
-        {{ $titleSlug := $title | urlize }}
+        {{ $titleSlug := $title | lower | replaceRE "[^\\w-]" "-" | replaceRE "-+" "-" | replaceRE "^-|-$" "" }}
         {{ $collectionSlug := path.BaseName $.Page.RelPermalink }}
         {{ $categorySlug := $.Page.Section }}
         {{ $semanticUrl := printf "/collections/%s/%s/%s.webp" $categorySlug $collectionSlug $titleSlug }}
