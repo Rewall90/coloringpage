@@ -297,12 +297,6 @@ div.group-hover-card {
   cursor: default !important; /* Remove zoom cursor */
 }
 
-/* Only disable zoom on coloring page embeds, not card images */
-.coloring-page-embed .medium-zoom-image {
-  pointer-events: none !important;
-  cursor: default !important;
-}
-
 /* Remove global medium-zoom-image pointer blocking to allow card interactions */
 
 /* Fallback for browsers that don't support aspect-ratio */

@@ -9,10 +9,15 @@
     {{/* Image section */}}
     {{ if $image }}
       <div class="w-full">
+        {{/* Use Sanity CDN with real-time transformation parameters */}}
         <img 
-          src="{{ $image }}" 
+          src="{{ $image }}?w=750&h=750&q=85&fit=cover&auto=format" 
           alt="{{ $title }}"
           class="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 aspect-square object-cover"
+          srcset="{{ $image }}?w=375&h=375&q=85&fit=cover&auto=format 375w, 
+                  {{ $image }}?w=750&h=750&q=85&fit=cover&auto=format 750w, 
+                  {{ $image }}?w=1000&h=1000&q=85&fit=cover&auto=format 1000w"
+          sizes="(max-width: 640px) 375px, (max-width: 1024px) 750px, 1000px"
           loading="lazy"
         >
       </div>
@@ -46,30 +51,3 @@
   </div>
 </div>
 
-{{/* Print functionality script */}}
-<script>
-function printColoringPage(imageUrl, title) {
-  const printWindow = window.open('', '_blank');
-  printWindow.document.write(`
-    <html>
-      <head>
-        <title>Print: ${title}</title>
-        <style>
-          body { margin: 0; padding: 20px; text-align: center; }
-          img { max-width: 100%; height: auto; }
-          h1 { font-family: Arial, sans-serif; margin-bottom: 20px; }
-          @media print {
-            body { padding: 0; }
-            h1 { page-break-after: avoid; }
-          }
-        </style>
-      </head>
-      <body>
-        <h1>${title}</h1>
-        <img src="${imageUrl}" alt="${title}" onload="window.print(); window.close();">
-      </body>
-    </html>
-  `);
-  printWindow.document.close();
-}
-</script>
