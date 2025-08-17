@@ -25,11 +25,11 @@
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
-             width="{{ $imageWidth }}" 
-             height="{{ $imageHeight }}"
+             width="300" 
+             height="400"
              src="{{ $responsive.thumbnail_300 }}" 
              alt="{{ $imageAlt }}"
-             class="w-full h-full object-cover"
+             class="w-full h-full object-contain"
              data-pin-url="{{ absURL .RelPermalink }}"
              data-pin-title="{{ .Title }} | {{ site.Title }}"
              data-pin-description="{{ .Summary | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
@@ -45,7 +45,7 @@
           alt="{{ $imageAlt }}"
           width="{{ $imageWidth }}"
           height="{{ $imageHeight }}"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-contain"
           {{ if $imageSrcset }}
           srcset="{{ $imageSrcset }}"
           sizes="(max-width: 600px) 480px, (max-width: 1024px) 768px, 600px"
@@ -63,7 +63,7 @@
           loading="lazy"
           src="{{ $heroImage }}"
           alt="{{ $imageAlt }}"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-contain"
         />
       </figure>
     {{ else }}
@@ -87,7 +87,7 @@
               loading="lazy"
               src="{{ .RelPermalink }}"
               alt="{{ $imageAlt }}"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-contain"
             />
           {{ else }}
             {{ with .Resize "600x" }}
@@ -96,7 +96,7 @@
                 loading="lazy"
                 src="{{ .RelPermalink }}"
                 alt="{{ $imageAlt }}"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-contain"
               />
             {{ end }}
           {{ end }}
