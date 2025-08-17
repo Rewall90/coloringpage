@@ -255,4 +255,3 @@ export const getLocalImagePath = imageInfo => {
   const { relativePath } = generateLocalImagePath(imageContext);
   return relativePath;
 };
-

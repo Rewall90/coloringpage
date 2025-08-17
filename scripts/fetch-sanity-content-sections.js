@@ -155,7 +155,6 @@ const generateCategorySections = async () => {
       );
 
       // Image mappings no longer needed - using local images
-      const categorySlug = category.slug;
 
       // Create _index.md for the section (category landing page) with hierarchical URLs
       const categoryFrontmatter = {
@@ -309,7 +308,7 @@ const generatePostsInSections = async () => {
         pageSlug: safeFilename,
       };
 
-      let contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
+      const contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
 
       // Content already uses local images from portable text conversion
 
@@ -370,14 +369,14 @@ const saveAssetMappings = () => {
   }
 
   const mappingsPath = './public/pdf-mappings.json';
-  
+
   // Ensure public directory exists
   if (!fs.existsSync('./public')) {
     fs.mkdirSync('./public', { recursive: true });
   }
 
   fs.writeFileSync(mappingsPath, JSON.stringify(pdfOnlyMappings, null, 2));
-  
+
   const pdfCount = Object.keys(pdfOnlyMappings).length;
   console.log(`📄 Saved ${pdfCount} PDF mappings to ${mappingsPath}`);
 };
