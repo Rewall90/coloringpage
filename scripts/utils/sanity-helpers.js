@@ -6,6 +6,7 @@
  */
 
 import { createClient } from '@sanity/client';
+import logger, { sanityLogger } from './logger.js';
 
 /**
  * Validate required environment variables
@@ -17,7 +18,7 @@ export const validateEnvironment = () => {
     'SANITY_TOKEN', // For private datasets or webhooks
   ];
 
-  console.log('🔍 Validating environment variables...');
+  sanityLogger.info('Validating environment variables...');
 
   const missingVars = [];
   const presentVars = [];
@@ -29,7 +30,7 @@ export const validateEnvironment = () => {
       presentVars.push(varName);
       // Mask sensitive values in logs
       const value = varName.includes('TOKEN') ? '***HIDDEN***' : process.env[varName];
-      console.log(`  ✅ ${varName}: ${value}`);
+      sanityLogger.debug(`${varName}: ${value}`);
     }
   });
 
@@ -37,30 +38,22 @@ export const validateEnvironment = () => {
     if (process.env[varName]) {
       presentVars.push(varName);
       const value = varName.includes('TOKEN') ? '***HIDDEN***' : process.env[varName];
-      console.log(`  ℹ️  ${varName}: ${value} (optional)`);
+      sanityLogger.debug(`${varName}: ${value} (optional)`);
     }
   });
 
   if (missingVars.length > 0) {
-    console.error('\n❌ Missing required environment variables:');
-    missingVars.forEach(varName => {
-      console.error(`   ${varName}`);
-    });
-
-    console.error('\n💡 Setup instructions:');
-    console.error('   Local development: Create .env.local with:');
-    missingVars.forEach(varName => {
-      console.error(`     ${varName}=your_value_here`);
-    });
-
-    console.error('\n   Vercel: Run `vercel env add` or set in dashboard');
-    console.error('   Netlify: Set in Site settings > Environment variables');
-    console.error('   GitHub Actions: Set in repository Secrets');
+    sanityLogger.error('Missing required environment variables:', missingVars);
+    sanityLogger.error('Setup instructions:');
+    sanityLogger.error('Local development: Create .env.local with required variables');
+    sanityLogger.error('Vercel: Run `vercel env add` or set in dashboard');
+    sanityLogger.error('Netlify: Set in Site settings > Environment variables');
+    sanityLogger.error('GitHub Actions: Set in repository Secrets');
 
     process.exit(1);
   }
 
-  console.log(`✅ Environment validation passed (${presentVars.length} variables loaded)\n`);
+  sanityLogger.success(`Environment validation passed (${presentVars.length} variables loaded)`);
 };
 
 /**
@@ -76,10 +69,10 @@ export const createSanityClient = () => {
       token: process.env.SANITY_TOKEN, // Optional, for private datasets
     });
 
-    console.log('🔌 Sanity client initialized successfully');
+    sanityLogger.success('Sanity client initialized successfully');
     return client;
   } catch (error) {
-    console.error('❌ Failed to initialize Sanity client:', error.message);
+    sanityLogger.error('Failed to initialize Sanity client:', error.message);
     process.exit(1);
   }
 };
@@ -89,12 +82,12 @@ export const createSanityClient = () => {
  */
 export const testConnection = async client => {
   try {
-    console.log('🧪 Testing Sanity connection...');
+    sanityLogger.info('Testing Sanity connection...');
     const result = await client.fetch('count(*)');
-    console.log(`✅ Connection successful - ${result} total documents\n`);
+    sanityLogger.success(`Connection successful - ${result} total documents`);
   } catch (error) {
-    console.error('❌ Sanity connection test failed:', error.message);
-    console.error('💡 Check your PROJECT_ID and DATASET values');
+    sanityLogger.error('Sanity connection test failed:', error.message);
+    sanityLogger.error('Check your PROJECT_ID and DATASET values');
     process.exit(1);
   }
 };

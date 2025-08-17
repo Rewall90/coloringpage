@@ -921,16 +921,6 @@ div.group-hover-card {
 
 /* Coloring Page Card Styles - Now handled by article-link/card.html */
 
-/* Coloring Pages Search Container */
-.coloring-pages-search-container {
-  width: 100%;
-  position: relative;
-}
-
-.coloring-pages-search-wrapper {
-  width: 100%;
-}
-
 /* =================================
    MEGA MENU STYLES
    ================================= */

@@ -7,7 +7,7 @@
       </svg>
       <input 
         type="text" 
-        id="coloring-pages-search-input"
+        id="inline-search-input"
         class="inline-search-input" 
         placeholder="{{ i18n "search.input_placeholder" | default "Search for coloring pages..." }}"
         aria-label="Search for coloring pages"
@@ -17,7 +17,7 @@
         role="searchbox"
         aria-expanded="false"
         aria-haspopup="listbox"
-        aria-owns="coloring-pages-search-list"
+        aria-owns="inline-search-list"
       >
     </div>
     
@@ -27,11 +27,11 @@
     </div>
     
     {{/* Results container */}}
-    <div id="coloring-pages-search-results" class="inline-search-results hidden" role="region" aria-live="polite" aria-label="Search results">
-      <ul id="coloring-pages-search-list" class="inline-search-list" role="listbox" aria-label="Search suggestions">
+    <div id="inline-search-results" class="inline-search-results hidden" role="region" aria-live="polite" aria-label="Search results">
+      <ul id="inline-search-list" class="inline-search-list" role="listbox" aria-label="Search suggestions">
         {{/* Results will be populated by JavaScript */}}
       </ul>
-      <div id="coloring-pages-search-no-results" class="inline-search-no-results hidden" role="status">
+      <div id="inline-search-no-results" class="inline-search-no-results hidden" role="status">
         <p>No results found</p>
       </div>
     </div>

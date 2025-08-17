@@ -27,6 +27,7 @@ import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './uti
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
 import { getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
 import { processAllImages } from './utils/image-processor.js';
+import logger, { buildLogger } from './utils/logger.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -35,14 +36,14 @@ let envLoaded = false;
 for (const envFile of envFiles) {
   if (fs.existsSync(envFile)) {
     dotenv.config({ path: envFile });
-    console.log(`📦 Loaded environment from: ${envFile}`);
+    buildLogger.info(`Loaded environment from: ${envFile}`);
     envLoaded = true;
     break;
   }
 }
 
 if (!envLoaded) {
-  console.log('📦 No .env file found, using system environment variables');
+  buildLogger.info('No .env file found, using system environment variables');
 }
 
 // Initialize

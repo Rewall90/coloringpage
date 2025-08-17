@@ -101,7 +101,7 @@ class CookieConsent {
     
     // Update Google Analytics consent
     this.updateGoogleAnalytics(consent);
-    console.log('Accepted all cookies');
+    cookieLogger.info('Accepted all cookies');
   }
 
   customize() {
@@ -127,14 +127,14 @@ class CookieConsent {
     
     // Update Google Analytics consent
     this.updateGoogleAnalytics(consent);
-    console.log('Rejected all cookies');
+    cookieLogger.info('Rejected all cookies');
   }
 
   saveConsent(consent) {
     try {
       localStorage.setItem(this.storageKey, JSON.stringify(consent));
     } catch (error) {
-      console.error('Failed to save cookie consent:', error);
+      cookieLogger.error('Failed to save cookie consent:', error);
     }
   }
 
@@ -143,7 +143,7 @@ class CookieConsent {
       const stored = localStorage.getItem(this.storageKey);
       return stored ? JSON.parse(stored) : null;
     } catch (error) {
-      console.error('Failed to get cookie consent:', error);
+      cookieLogger.error('Failed to get cookie consent:', error);
       return null;
     }
   }
@@ -328,7 +328,7 @@ class CookieConsent {
     
     // Update Google Analytics based on consent
     this.updateGoogleAnalytics(consent);
-    console.log('Saved preferences:', consent);
+    cookieLogger.info('Saved preferences:', consent);
   }
 
   toggleDetails(button) {
@@ -390,7 +390,7 @@ class CookieConsent {
 
   updateGoogleAnalytics(consent) {
     if (typeof gtag !== 'function') {
-      console.warn('Google Analytics (gtag) not found. Consent preferences saved but GA not updated.');
+      cookieLogger.warn('Google Analytics (gtag) not found. Consent preferences saved but GA not updated.');
       return;
     }
 
@@ -412,7 +412,7 @@ class CookieConsent {
       detail: { consent, consentUpdate }
     }));
 
-    console.log('Google Analytics consent updated:', consentUpdate);
+    cookieLogger.debug('Google Analytics consent updated:', consentUpdate);
   }
 }
 
