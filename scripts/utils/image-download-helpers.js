@@ -49,7 +49,7 @@ export const loadManifest = () => {
     return {
       version: '1.0.0',
       lastUpdate: new Date().toISOString(),
-      images: {}
+      images: {},
     };
   }
 
@@ -61,7 +61,7 @@ export const loadManifest = () => {
     return {
       version: '1.0.0',
       lastUpdate: new Date().toISOString(),
-      images: {}
+      images: {},
     };
   }
 };
@@ -69,7 +69,7 @@ export const loadManifest = () => {
 /**
  * Save download manifest
  */
-export const saveManifest = (manifest) => {
+export const saveManifest = manifest => {
   manifest.lastUpdate = new Date().toISOString();
   fs.writeFileSync(MANIFEST_FILE, JSON.stringify(manifest, null, 2));
 };
@@ -77,7 +77,7 @@ export const saveManifest = (manifest) => {
 /**
  * Generate file hash from URL for change detection
  */
-const generateUrlHash = (url) => {
+const generateUrlHash = url => {
   // Simple hash based on URL - in production you might want to use file content hash
   return Buffer.from(url).toString('base64').slice(0, 16);
 };
@@ -93,7 +93,7 @@ const downloadFile = (url, outputPath, maxRetries = 3) => {
       attempts++;
 
       const file = fs.createWriteStream(outputPath);
-      const request = https.get(url, (response) => {
+      const request = https.get(url, response => {
         if (response.statusCode === 200) {
           response.pipe(file);
 
@@ -102,7 +102,7 @@ const downloadFile = (url, outputPath, maxRetries = 3) => {
             resolve(outputPath);
           });
 
-          file.on('error', (err) => {
+          file.on('error', err => {
             fs.unlink(outputPath, () => {}); // Clean up partial file
             if (attempts < maxRetries) {
               console.log(`⚠️  Retry ${attempts}/${maxRetries} for ${path.basename(outputPath)}`);
@@ -118,7 +118,7 @@ const downloadFile = (url, outputPath, maxRetries = 3) => {
         }
       });
 
-      request.on('error', (err) => {
+      request.on('error', err => {
         file.close();
         fs.unlink(outputPath, () => {}); // Clean up partial file
         if (attempts < maxRetries) {
@@ -154,7 +154,7 @@ export const buildSanityImageUrl = (baseUrl, config) => {
     crop: 'center',
     fm: 'webp',
     q: '85',
-    auto: 'format'
+    auto: 'format',
   });
 
   return `${cleanUrl}?${params.toString()}`;
@@ -163,7 +163,7 @@ export const buildSanityImageUrl = (baseUrl, config) => {
 /**
  * Generate local file path for an image
  */
-export const generateLocalImagePath = (imageContext) => {
+export const generateLocalImagePath = imageContext => {
   const { type, categorySlug, pageSlug, imageSlug, config } = imageContext;
 
   if (type === 'homepage_category') {
@@ -171,7 +171,7 @@ export const generateLocalImagePath = (imageContext) => {
     const filename = `${categorySlug}-${config.suffix}.webp`;
     return {
       fullPath: path.join(CATEGORIES_DIR, filename),
-      relativePath: `/images/categories/${filename}`
+      relativePath: `/images/categories/${filename}`,
     };
   } else {
     // Content images: /images/collections/animals/farm-animals/image-750x1000.webp
@@ -186,7 +186,7 @@ export const generateLocalImagePath = (imageContext) => {
 
     return {
       fullPath: path.join(pageDir, filename),
-      relativePath: `/images/collections/${categorySlug}/${pageSlug}/${filename}`
+      relativePath: `/images/collections/${categorySlug}/${pageSlug}/${filename}`,
     };
   }
 };
@@ -247,12 +247,13 @@ export const downloadImage = async (imageContext, sanityUrl, manifest) => {
       urlHash,
       downloadedAt: new Date().toISOString(),
       fileSize: fs.statSync(fullPath).size,
-      dimensions: `${config.width}x${config.height}`
+      dimensions: `${config.width}x${config.height}`,
     };
 
-    console.log(`✅ Downloaded: ${path.basename(fullPath)} (${manifest.images[relativePath].fileSize} bytes)`);
+    console.log(
+      `✅ Downloaded: ${path.basename(fullPath)} (${manifest.images[relativePath].fileSize} bytes)`
+    );
     return { success: true, skipped: false, relativePath };
-
   } catch (error) {
     console.error(`❌ Failed to download ${path.basename(fullPath)}:`, error.message);
     return { success: false, error: error.message, relativePath };
@@ -269,10 +270,12 @@ export const downloadImages = async (imageRequests, maxConcurrency = 3) => {
     downloaded: 0,
     skipped: 0,
     failed: 0,
-    errors: []
+    errors: [],
   };
 
-  console.log(`🚀 Starting download of ${imageRequests.length} images (max ${maxConcurrency} concurrent)...`);
+  console.log(
+    `🚀 Starting download of ${imageRequests.length} images (max ${maxConcurrency} concurrent)...`
+  );
 
   // Process images in batches to control concurrency
   for (let i = 0; i < imageRequests.length; i += maxConcurrency) {
@@ -323,7 +326,7 @@ export const downloadImages = async (imageRequests, maxConcurrency = 3) => {
 /**
  * Clean up orphaned images (files that are no longer referenced)
  */
-export const cleanupOrphanedImages = (currentImagePaths) => {
+export const cleanupOrphanedImages = currentImagePaths => {
   const manifest = loadManifest();
   const manifestPaths = new Set(Object.keys(manifest.images));
   const currentPaths = new Set(currentImagePaths);
@@ -348,7 +351,6 @@ export const cleanupOrphanedImages = (currentImagePaths) => {
 
       // Remove from manifest
       delete manifest.images[relativePath];
-
     } catch (error) {
       console.error(`❌ Failed to remove ${relativePath}:`, error.message);
     }

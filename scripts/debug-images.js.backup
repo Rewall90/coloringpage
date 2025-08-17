@@ -16,7 +16,9 @@ const STATIC_DIR = path.resolve(process.cwd(), 'static');
 const IMAGES_DIR = path.join(STATIC_DIR, 'images');
 
 function formatBytes(bytes) {
-  if (bytes === 0) {return '0 Bytes';}
+  if (bytes === 0) {
+    return '0 Bytes';
+  }
   const k = 1024;
   const sizes = ['Bytes', 'KB', 'MB', 'GB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
@@ -47,7 +49,7 @@ function scanLocalImages() {
         files.push({
           path: relPath,
           size: stats.size,
-          modified: stats.mtime
+          modified: stats.mtime,
         });
         totalSize += stats.size;
       }
@@ -174,7 +176,6 @@ function debugImages() {
     if (inManifestNotLocal.length === 0 && inLocalNotManifest.length === 0) {
       console.log('   ✅ Manifest and local files are in sync');
     }
-
   } catch (error) {
     console.log(`   ❌ Error checking sync: ${error.message}`);
   }

@@ -166,7 +166,7 @@ const generateColoringPageShortcode = (block, pdfMappings = null, pageContext = 
         .replace(/[^a-z0-9]/g, '-')
         .replace(/-+/g, '-')
         .replace(/^-|-$/g, '');
-      
+
       const localImagePath = `/images/collections/${pageContext.categorySlug}/${pageContext.pageSlug}/${imageSlug}-750x1000.webp`;
       markdown += `  image="${localImagePath}"\n`;
     } else {

@@ -7,8 +7,8 @@
  * section-based structure with clean URLs.
  *
  * Features:
- * - Real-time image transformations via Cloudflare Workers
- * - Optimized KV storage with single mappings per collection
+ * - Local image downloading and optimization
+ * - PDF mappings for Cloudflare Workers
  *
  * Usage:
  *   node scripts/fetch-sanity-content-sections.js
@@ -26,7 +26,7 @@ import { validateEnvironment, createSanityClient, testConnection } from './utils
 import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
 import { getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
-import { processAllImages, transformShortcodesToLocal } from './utils/image-processor.js';
+import { processAllImages } from './utils/image-processor.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -53,7 +53,7 @@ const usedFilenames = new Set();
 let allCategories = [];
 let allPosts = [];
 
-// Real-time image transformations (always enabled)
+// Local image system active
 
 // Global asset mappings collection (PDFs and images)
 const assetMappings = {};
@@ -154,22 +154,15 @@ const generateCategorySections = async () => {
         IMAGE_SIZES.category_thumbnail
       );
 
-      // Generate hierarchical image mappings for this category
+      // Image mappings no longer needed - using local images
       const categorySlug = category.slug;
-
-      // Store image mappings for Cloudflare Worker (real-time transforms)
-      if (category.imageUrl) {
-        // Single mapping for real-time transformations
-        const baseSlug = `${categorySlug}/${categorySlug}-category`;
-        assetMappings[baseSlug.toLowerCase()] = category.imageUrl;
-      }
 
       // Create _index.md for the section (category landing page) with hierarchical URLs
       const categoryFrontmatter = {
         title: category.title,
         showBreadcrumbs: true,
         description: category.description,
-        // Real-time transformations - no need for pre-built responsive URLs
+        // Local images - dimensions for proper HTML rendering
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: category.imageAlt || category.title,
@@ -205,7 +198,7 @@ const generateCategorySections = async () => {
             assetMappings[hierarchicalKey] = page.pdfUrl;
           }
 
-          // Get image dimensions for real-time transformations
+          // Get image dimensions for local images
           const pageDimensions = getImageDimensions(page.imageDimensions, IMAGE_SIZES.post_image);
 
           const pageFrontmatter = {
@@ -215,7 +208,7 @@ const generateCategorySections = async () => {
               ? new Date(page.publishedAt).toISOString()
               : new Date().toISOString(),
             difficulty: page.difficulty,
-            // Real-time transformations - only need dimensions
+            // Local images - only need dimensions
             image_width: pageDimensions.width,
             image_height: pageDimensions.height,
             image_alt: page.imageAlt || page.title,
@@ -231,17 +224,7 @@ const generateCategorySections = async () => {
           fs.writeFileSync(pagePath, pageMarkdown);
           pagesGenerated++;
 
-          // Parse shortcodes in the generated markdown to extract individual image mappings
-          const shortcodeRegex =
-            /{{<\s*coloring-page-embed[\s\S]*?title="([^"]+)"[\s\S]*?image="([^"]+)"[\s\S]*?>}}/g;
-          let shortcodeMatch;
-          while ((shortcodeMatch = shortcodeRegex.exec(pageMarkdown)) !== null) {
-            const shortcodeTitle = shortcodeMatch[1];
-            const shortcodeImageUrl = shortcodeMatch[2];
-            const shortcodeSlug = generateSafeFilename(null, shortcodeTitle, '', new Set());
-            const imageKey = `collections/${category.slug}/${pageSlug}/${shortcodeSlug}`;
-            assetMappings[imageKey.toLowerCase()] = shortcodeImageUrl;
-          }
+          // Image mappings no longer needed - using local images
         } catch (error) {
           console.error(`❌ Error processing coloring page "${page.title}":`, error.message);
         }
@@ -328,25 +311,20 @@ const generatePostsInSections = async () => {
 
       let contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
 
-      // Transform shortcodes to use local image paths
-      contentMarkdown = transformShortcodesToLocal(contentMarkdown, post.categorySlug, safeFilename);
+      // Content already uses local images from portable text conversion
 
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
 
-      // Generate collection image mappings (real-time transformations)
-      if (post.heroImageUrl && post.categorySlug) {
-        const baseSlug = `${post.categorySlug}/${safeFilename}`;
-        assetMappings[baseSlug.toLowerCase()] = post.heroImageUrl;
-      }
+      // Image mappings no longer needed - using local images
 
       const frontmatter = {
         title: post.title,
         date: post.publishedAt
           ? new Date(post.publishedAt).toISOString()
           : new Date().toISOString(),
-        // Real-time transformations - no need for pre-built responsive URLs
+        // Local images - dimensions for proper HTML rendering
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: post.heroImageAlt,
@@ -367,17 +345,7 @@ const generatePostsInSections = async () => {
       writeMarkdownFile(outputDir, safeFilename, markdown, post.title);
       generated++;
 
-      // Parse shortcodes in the content to extract individual image mappings
-      const shortcodeRegex =
-        /{{<\s*coloring-page-embed[\s\S]*?title="([^"]+)"[\s\S]*?image="([^"]+)"[\s\S]*?>}}/g;
-      let shortcodeMatch;
-      while ((shortcodeMatch = shortcodeRegex.exec(fullContent)) !== null) {
-        const shortcodeTitle = shortcodeMatch[1];
-        const shortcodeImageUrl = shortcodeMatch[2];
-        const shortcodeSlug = generateSafeFilename(null, shortcodeTitle, '', new Set());
-        const imageKey = `collections/${post.categorySlug}/${safeFilename}/${shortcodeSlug}`;
-        assetMappings[imageKey.toLowerCase()] = shortcodeImageUrl;
-      }
+      // Image mappings no longer needed - using local images
     } catch (error) {
       console.error(`❌ Error processing post "${post.title}":`, error.message);
     }
@@ -386,33 +354,32 @@ const generatePostsInSections = async () => {
   console.log(`✅ Generated ${generated} posts in their category sections`);
 };
 
-// Save asset mappings (PDFs and images) for Cloudflare Workers
+// Save asset mappings (PDFs only) for Cloudflare Workers
 const saveAssetMappings = () => {
-  if (Object.keys(assetMappings).length === 0) {
-    console.log('📄 No asset mappings to save');
-    return;
-  }
-
-  // Separate PDFs and images for reporting
-  const pdfMappings = {};
-  const imageMappings = {};
-
+  // Filter to only include PDF mappings (URLs containing '/files/')
+  const pdfOnlyMappings = {};
   Object.entries(assetMappings).forEach(([key, url]) => {
     if (url.includes('/files/')) {
-      pdfMappings[key] = url;
-    } else if (url.includes('/images/')) {
-      imageMappings[key] = url;
+      pdfOnlyMappings[key] = url;
     }
   });
 
-  const mappingsPath = './public/pdf-mappings.json';
+  if (Object.keys(pdfOnlyMappings).length === 0) {
+    console.log('📄 No PDF mappings to save');
+    return;
+  }
 
+  const mappingsPath = './public/pdf-mappings.json';
+  
   // Ensure public directory exists
   if (!fs.existsSync('./public')) {
     fs.mkdirSync('./public', { recursive: true });
   }
 
-  fs.writeFileSync(mappingsPath, JSON.stringify(assetMappings, null, 2));
+  fs.writeFileSync(mappingsPath, JSON.stringify(pdfOnlyMappings, null, 2));
+  
+  const pdfCount = Object.keys(pdfOnlyMappings).length;
+  console.log(`📄 Saved ${pdfCount} PDF mappings to ${mappingsPath}`);
 };
 
 // Main execution
@@ -437,7 +404,9 @@ const saveAssetMappings = () => {
       console.error('❌ Image processing failed');
 
       if (imageResult.summary.criticalFailures > 0) {
-        console.error(`💥 ${imageResult.summary.criticalFailures} critical images failed to download`);
+        console.error(
+          `💥 ${imageResult.summary.criticalFailures} critical images failed to download`
+        );
         console.error('   Homepage category images are required for the site to function properly');
         process.exit(1);
       } else if (imageResult.summary.failed > 0) {
@@ -447,7 +416,9 @@ const saveAssetMappings = () => {
     } else {
       console.log(`✅ Image processing completed successfully!`);
       if (imageResult.summary.total > 0) {
-        console.log(`   Downloaded: ${imageResult.summary.downloaded}, Skipped: ${imageResult.summary.skipped}`);
+        console.log(
+          `   Downloaded: ${imageResult.summary.downloaded}, Skipped: ${imageResult.summary.skipped}`
+        );
       }
     }
 

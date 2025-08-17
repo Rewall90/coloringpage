@@ -10,7 +10,7 @@ import {
   initializeDirectories,
   downloadImages,
   cleanupOrphanedImages,
-  generateLocalImagePath
+  generateLocalImagePath,
 } from './image-download-helpers.js';
 import { generateSafeFilename } from './file-helpers.js';
 
@@ -38,7 +38,7 @@ const extractContentImages = (content, categorySlug, pageSlug) => {
         imageSlug,
         categorySlug,
         pageSlug,
-        type: 'content_image'
+        type: 'content_image',
       });
     }
   });
@@ -49,7 +49,7 @@ const extractContentImages = (content, categorySlug, pageSlug) => {
 /**
  * Create image context for download processing
  */
-const createImageContext = (imageInfo) => {
+const createImageContext = imageInfo => {
   const { type, categorySlug, pageSlug, imageSlug } = imageInfo;
 
   // Determine config based on image type
@@ -65,20 +65,22 @@ const createImageContext = (imageInfo) => {
     categorySlug,
     pageSlug,
     imageSlug,
-    config
+    config,
   };
 };
 
 /**
  * Process category images (both homepage and content)
  */
-export const processCategoryImages = async (categories) => {
+export const processCategoryImages = async categories => {
   const imageRequests = [];
 
   for (const category of categories) {
     // Use the correct field name from the query
     const imageUrl = category.categoryImageUrl;
-    if (!imageUrl) {continue;}
+    if (!imageUrl) {
+      continue;
+    }
 
     const categorySlug = category.slug;
 
@@ -87,13 +89,13 @@ export const processCategoryImages = async (categories) => {
       type: 'homepage_category',
       categorySlug,
       pageSlug: null,
-      imageSlug: categorySlug
+      imageSlug: categorySlug,
     });
 
     imageRequests.push({
       imageContext: homepageContext,
       sanityUrl: imageUrl,
-      source: `category:${category.title} (homepage)`
+      source: `category:${category.title} (homepage)`,
     });
 
     // Category page image (750x1000) - if different from homepage
@@ -101,13 +103,13 @@ export const processCategoryImages = async (categories) => {
       type: 'content_image',
       categorySlug,
       pageSlug: 'category-header',
-      imageSlug: categorySlug
+      imageSlug: categorySlug,
     });
 
     imageRequests.push({
       imageContext: contentContext,
       sanityUrl: imageUrl,
-      source: `category:${category.title} (content)`
+      source: `category:${category.title} (content)`,
     });
   }
 
@@ -118,11 +120,13 @@ export const processCategoryImages = async (categories) => {
 /**
  * Process post/collection images from content
  */
-export const processContentImages = async (posts) => {
+export const processContentImages = async posts => {
   const imageRequests = [];
 
   for (const post of posts) {
-    if (!post.content) {continue;}
+    if (!post.content) {
+      continue;
+    }
 
     const categorySlug = post.categorySlug;
     const pageSlug = generateSafeFilename(post.slug, post.title, post._id, new Set());
@@ -136,7 +140,7 @@ export const processContentImages = async (posts) => {
       imageRequests.push({
         imageContext,
         sanityUrl: imageInfo.imageUrl,
-        source: `post:${post.title} -> ${imageInfo.title}`
+        source: `post:${post.title} -> ${imageInfo.title}`,
       });
     }
 
@@ -146,13 +150,13 @@ export const processContentImages = async (posts) => {
         type: 'content_image',
         categorySlug,
         pageSlug,
-        imageSlug: 'hero'
+        imageSlug: 'hero',
       });
 
       imageRequests.push({
         imageContext: heroContext,
         sanityUrl: post.heroImageUrl,
-        source: `post:${post.title} (hero image)`
+        source: `post:${post.title} (hero image)`,
       });
     }
   }
@@ -217,15 +221,15 @@ export const processAllImages = async (categories, posts) => {
         success: false,
         summary: {
           ...downloadResults,
-          criticalFailures: retryResults.failed
-        }
+          criticalFailures: retryResults.failed,
+        },
       };
     }
   }
 
   // Clean up orphaned images
-  const currentImagePaths = allImageRequests.map(req =>
-    generateLocalImagePath(req.imageContext).relativePath
+  const currentImagePaths = allImageRequests.map(
+    req => generateLocalImagePath(req.imageContext).relativePath
   );
   cleanupOrphanedImages(currentImagePaths);
 
@@ -238,27 +242,17 @@ export const processAllImages = async (categories, posts) => {
     success,
     summary: {
       ...downloadResults,
-      criticalFailures: criticalFailures.length
-    }
+      criticalFailures: criticalFailures.length,
+    },
   };
 };
 
 /**
  * Get local image path for use in templates
  */
-export const getLocalImagePath = (imageInfo) => {
+export const getLocalImagePath = imageInfo => {
   const imageContext = createImageContext(imageInfo);
   const { relativePath } = generateLocalImagePath(imageContext);
   return relativePath;
 };
 
-/**
- * Transform shortcode content to use local image paths
- */
-export const transformShortcodesToLocal = (content, categorySlug, pageSlug) => {
-  // This function now works with already-generated markdown content
-  // The transformation happens during the portable text conversion
-  // So we just return the content as-is since the transformation
-  // happens at the Sanity content block level
-  return content;
-};

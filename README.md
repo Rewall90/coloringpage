@@ -16,8 +16,8 @@ The project uses an automated content pipeline:
 
 1. **Content Management** - Editors create content in Sanity Studio
 2. **Content Fetching** - Build process fetches from Sanity API
-3. **Content Generation** - Converts to Hugo-compatible markdown files
-4. **Image Optimization** - Applies CDN parameters for performance
+3. **Image Downloading** - Downloads and optimizes images locally
+4. **Content Generation** - Converts to Hugo-compatible markdown files
 5. **Static Generation** - Hugo builds the final HTML
 6. **Deployment** - Vercel serves the site globally
 
@@ -25,7 +25,7 @@ This automation ensures:
 
 - Fresh content on every build
 - No manual content synchronization
-- Optimized images without manual processing
+- Local image optimization and caching
 - Single command deployment (`npm run build`)
 
 ## Structure
