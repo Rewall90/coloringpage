@@ -45,7 +45,7 @@
       {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
       {{ range site.Sections }}
         {{ if not (in $excludeSections .Section) }}
-          {{ if .Params.featureimage }}
+          {{ if .Params.image_width }}
             {{ $categories = $categories | append . }}
           {{ end }}
         {{ end }}
