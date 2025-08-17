@@ -291,16 +291,19 @@ div.group-hover-card {
   border-radius: 0.5rem !important; /* Prevent hover from changing to rectangle */
 }
 
-/* Disable image zoom/enlarge functionality */
+/* Disable image zoom/enlarge functionality - Only for coloring page embeds */
 .coloring-page-embed img {
   pointer-events: none !important; /* Disable clicking on images */
   cursor: default !important; /* Remove zoom cursor */
 }
 
-.medium-zoom-image {
+/* Only disable zoom on coloring page embeds, not card images */
+.coloring-page-embed .medium-zoom-image {
   pointer-events: none !important;
   cursor: default !important;
 }
+
+/* Remove global medium-zoom-image pointer blocking to allow card interactions */
 
 /* Fallback for browsers that don't support aspect-ratio */
 @supports not (aspect-ratio: 3/4) {

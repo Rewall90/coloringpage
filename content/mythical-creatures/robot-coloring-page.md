@@ -1,19 +1,6 @@
 ---
 title: Robot Coloring Page
 date: "2025-08-07T09:43:07.174Z"
-image: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=90&w=1920&h=600
-thumbnail: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=75&w=800&h=800&fit=crop
-image_srcset: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=85&w=400
-  400w,
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=85&w=800
-  800w,
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=85&w=1200
-  1200w,
-  https://cdn.sanity.io/images/zjqmnotc/production/144b2bb9ee606801ac9bb0ed58e76fa31796c6f2-1280x720.webp?auto=format&q=85&w=1920
-  1920w
 responsive_images:
   thumbnail_200: /collections/mythical-creatures/robot-coloring-page/thumbnail-200.webp
   thumbnail_300: /collections/mythical-creatures/robot-coloring-page/thumbnail-300.webp

@@ -18,22 +18,27 @@
     {{/* Category pages and collection posts with hierarchical image URLs */}}
     <figure class="w-full overflow-hidden aspect-[3/4]">
       {{ if $responsive }}
+        {{/* Real-time transformation URLs */}}
+        {{ $baseUrl := printf "/collections/%s/%s.webp" .Section (path.BaseName .RelPermalink) }}
         <noscript>
           <img decoding="async" 
-               src="{{ $responsive.thumbnail_300 }}" 
+               src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
                alt="{{ $imageAlt }}"
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
              width="300" 
              height="400"
-             src="{{ $responsive.thumbnail_300 }}" 
+             src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
              alt="{{ $imageAlt }}"
-             class="w-full h-full object-contain"
+             class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
              data-pin-url="{{ absURL .RelPermalink }}"
              data-pin-title="{{ .Title }} | {{ site.Title }}"
              data-pin-description="{{ .Summary | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
-             srcset="{{ $responsive.thumbnail_200 }} 200w, {{ $responsive.thumbnail_300 }} 300w, {{ $responsive.thumbnail_768 }} 768w, {{ $responsive.thumbnail_896 }} 896w"
+             srcset="{{ $baseUrl }}?w=200&h=267&q=75&fit=cover&format=auto 200w, 
+                     {{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto 300w, 
+                     {{ $baseUrl }}?w=768&h=1024&q=75&fit=cover&format=auto 768w, 
+                     {{ $baseUrl }}?w=896&h=1195&q=75&fit=cover&format=auto 896w"
              sizes="(max-width: 300px) 100vw, 300px"
              loading="lazy">
       {{ else if $featuredImage }}

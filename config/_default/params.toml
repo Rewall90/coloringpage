@@ -18,6 +18,7 @@ enableCodeCopy = false
 
 replyByEmail = false
 
+
 mainSections = ["posts", "mythical-creatures", "animals", "nature", "superheroes", "cartoons", "celebrations", "flowers", "fruit-and-vegetables", "months", "science", "vehicles", "video-games"]
 # robots = ""
 

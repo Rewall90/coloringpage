@@ -168,40 +168,6 @@ export const getCategoryImages = imageUrl => {
 };
 
 /**
- * Get optimized URLs for a blog post
- *
- * @param {string} imageUrl - The base Sanity image URL
- * @returns {Object} Object with optimized URLs for different uses
- */
-export const getPostImages = imageUrl => {
-  if (!imageUrl) {
-    return {
-      hero: '',
-      thumbnail: '',
-      srcset: '',
-    };
-  }
-
-  return {
-    // Hero image for post header
-    hero: optimizeImageUrl(imageUrl, {
-      ...IMAGE_SIZES.hero,
-      q: QUALITY_PRESETS.hero,
-    }),
-
-    // Thumbnail for post listings
-    thumbnail: optimizeImageUrl(imageUrl, {
-      ...IMAGE_SIZES.post_thumbnail,
-      q: QUALITY_PRESETS.thumbnail,
-      fit: 'crop',
-    }),
-
-    // Responsive srcset
-    srcset: generateSrcset(imageUrl, [400, 800, 1200, 1920]),
-  };
-};
-
-/**
  * Extract dimensions from Sanity image metadata
  *
  * @param {Object} dimensions - Dimensions object from Sanity

@@ -1,19 +1,6 @@
 ---
 title: Farm Animals Collection
 date: "2025-08-13T05:33:14.267Z"
-image: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=90&w=1920&h=600
-thumbnail: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=75&w=800&h=800&fit=crop
-image_srcset: >-
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=85&w=400
-  400w,
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=85&w=800
-  800w,
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=85&w=1200
-  1200w,
-  https://cdn.sanity.io/images/zjqmnotc/production/68ef104ea5ae151d38363b92a6938a2f698f6f7f-750x1000.webp?auto=format&q=85&w=1920
-  1920w
 responsive_images:
   thumbnail_200: /collections/animals/farm-animals-collection/thumbnail-200.webp
   thumbnail_300: /collections/animals/farm-animals-collection/thumbnail-300.webp

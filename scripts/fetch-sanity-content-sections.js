@@ -6,6 +6,10 @@
  * This script fetches content from Sanity CMS and generates Hugo-compatible
  * section-based structure with clean URLs.
  *
+ * Features:
+ * - Real-time image transformations via Cloudflare Workers
+ * - Optimized KV storage with single mappings per collection
+ *
  * Usage:
  *   node scripts/fetch-sanity-content-sections.js
  *   npm run fetch-content-sections
@@ -24,7 +28,6 @@ import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-
 import {
   getColoringPageImages,
   getCategoryImages,
-  getPostImages,
   getImageDimensions,
   IMAGE_SIZES,
   optimizeImageUrl,
@@ -51,6 +54,8 @@ if (!envLoaded) {
 // Initialize
 const client = createSanityClient();
 const usedFilenames = new Set();
+
+// Real-time image transformations (always enabled)
 
 // Global asset mappings collection (PDFs and images)
 const assetMappings = {};
@@ -178,10 +183,6 @@ const generateCategorySections = async () => {
           });
           assetMappings[responsiveKey] = responsiveUrl;
         });
-
-        console.log(
-          `📸 Added responsive image mappings for ${categorySlug} (${responsiveSizes.length + 2} sizes)`
-        );
       }
 
       // Create _index.md for the section (category landing page) with hierarchical URLs
@@ -346,32 +347,12 @@ const generatePostsInSections = async () => {
       const contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
-      const images = getPostImages(post.heroImageUrl);
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
 
-      // Generate responsive collection image mappings
+      // Generate collection image mappings (real-time transformations)
       if (post.heroImageUrl && post.categorySlug) {
-        const responsiveSizes = [
-          { width: 200, height: 267 }, // 200w (3:4 aspect ratio)
-          { width: 300, height: 400 }, // 300w (3:4 aspect ratio)
-          { width: 768, height: 1024 }, // 768w (3:4 aspect ratio)
-          { width: 896, height: 1195 }, // 896w (3:4 aspect ratio)
-        ];
-
-        responsiveSizes.forEach(size => {
-          const responsiveKey = `${post.categorySlug}/${safeFilename}/thumbnail-${size.width}`;
-          const responsiveUrl = optimizeImageUrl(post.heroImageUrl, {
-            w: size.width,
-            h: size.height,
-            q: QUALITY_PRESETS.thumbnail,
-            fit: 'crop',
-          });
-          assetMappings[responsiveKey] = responsiveUrl;
-        });
-
-        console.log(
-          `📸 Added responsive collection mappings for ${post.categorySlug}/${safeFilename} (${responsiveSizes.length} sizes)`
-        );
+        const baseSlug = `${post.categorySlug}/${safeFilename}`;
+        assetMappings[baseSlug.toLowerCase()] = post.heroImageUrl;
       }
 
       const frontmatter = {
@@ -379,9 +360,6 @@ const generatePostsInSections = async () => {
         date: post.publishedAt
           ? new Date(post.publishedAt).toISOString()
           : new Date().toISOString(),
-        image: images.hero,
-        thumbnail: images.thumbnail,
-        image_srcset: images.srcset,
         // Responsive collection image URLs for srcset (using /collections/ prefix for SEO-optimized routing)
         responsive_images: post.categorySlug
           ? {
