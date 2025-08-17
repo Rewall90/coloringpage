@@ -1,11 +1,6 @@
 ---
 title: Farm Animals Collection
 date: "2025-08-13T05:33:14.267Z"
-responsive_images:
-  thumbnail_200: /collections/animals/farm-animals-collection/thumbnail-200.webp
-  thumbnail_300: /collections/animals/farm-animals-collection/thumbnail-300.webp
-  thumbnail_768: /collections/animals/farm-animals-collection/thumbnail-768.webp
-  thumbnail_896: /collections/animals/farm-animals-collection/thumbnail-896.webp
 image_width: 750
 image_height: 1000
 image_alt: category-image

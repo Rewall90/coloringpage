@@ -1,11 +1,6 @@
 ---
 title: Robot Coloring Page
 date: "2025-08-07T09:43:07.174Z"
-responsive_images:
-  thumbnail_200: /collections/mythical-creatures/robot-coloring-page/thumbnail-200.webp
-  thumbnail_300: /collections/mythical-creatures/robot-coloring-page/thumbnail-300.webp
-  thumbnail_768: /collections/mythical-creatures/robot-coloring-page/thumbnail-768.webp
-  thumbnail_896: /collections/mythical-creatures/robot-coloring-page/thumbnail-896.webp
 image_width: 1280
 image_height: 720
 image_alt: test

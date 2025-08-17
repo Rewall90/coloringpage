@@ -360,15 +360,7 @@ const generatePostsInSections = async () => {
         date: post.publishedAt
           ? new Date(post.publishedAt).toISOString()
           : new Date().toISOString(),
-        // Responsive collection image URLs for srcset (using /collections/ prefix for SEO-optimized routing)
-        responsive_images: post.categorySlug
-          ? {
-              thumbnail_200: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-200.webp`,
-              thumbnail_300: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-300.webp`,
-              thumbnail_768: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-768.webp`,
-              thumbnail_896: `/collections/${post.categorySlug}/${safeFilename}/thumbnail-896.webp`,
-            }
-          : {},
+        // Real-time transformations - no need for pre-built responsive URLs
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: post.heroImageAlt,
