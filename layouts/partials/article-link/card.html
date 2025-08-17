@@ -12,34 +12,18 @@
   {{ $imageWidth := .Params.image_width | default 750 }}
   {{ $imageHeight := .Params.image_height | default 1000 }}
   {{ $imageSrcset := .Params.image_srcset }}
-  {{ $responsive := .Params.responsive_images }}
   
-  {{ if or $featuredImage $responsive .Params.image_width }}
+  {{ if or $featuredImage .Params.image_width }}
     {{/* Category pages and collection posts with hierarchical image URLs */}}
     <figure class="w-full overflow-hidden aspect-[3/4]">
-      {{ if $responsive }}
-        {{/* Legacy responsive images (categories) */}}
-        <noscript>
-          <img decoding="async" 
-               src="{{ $responsive.thumbnail_300 }}" 
-               alt="{{ $imageAlt }}"
-               sizes="(max-width: 300px) 100vw, 300px">
-        </noscript>
-        <img decoding="async" 
-             width="300" 
-             height="400"
-             src="{{ $responsive.thumbnail_300 }}" 
-             alt="{{ $imageAlt }}"
-             class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-             data-pin-url="{{ absURL .RelPermalink }}"
-             data-pin-title="{{ .Title }} | {{ site.Title }}"
-             data-pin-description="{{ .Summary | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
-             srcset="{{ $responsive.thumbnail_200 }} 200w, {{ $responsive.thumbnail_300 }} 300w, {{ $responsive.thumbnail_768 }} 768w, {{ $responsive.thumbnail_896 }} 896w"
-             sizes="(max-width: 300px) 100vw, 300px"
-             loading="lazy">
-      {{ else if .Params.image_width }}
-        {{/* Real-time transformation URLs for collections */}}
-        {{ $baseUrl := printf "/collections/%s/%s.webp" .Section (path.BaseName .RelPermalink) }}
+      {{ if .Params.image_width }}
+        {{/* Real-time transformation URLs for collections and categories */}}
+        {{ $baseUrl := "" }}
+        {{ if eq .Type "coloring-category" }}
+          {{ $baseUrl = printf "/main-category/%s/%s-category.webp" .Section .Section }}
+        {{ else }}
+          {{ $baseUrl = printf "/collections/%s/%s.webp" .Section (path.BaseName .RelPermalink) }}
+        {{ end }}
         <noscript>
           <img decoding="async" 
                src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 

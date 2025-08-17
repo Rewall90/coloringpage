@@ -1,4 +1,4 @@
-{{/* Custom head extensions - Debug version */}}
+{{/* Custom head extensions */}}
 
 {{/* Preconnect to improve performance */}}
 <link rel="preconnect" href="https://cdn.sanity.io">
@@ -24,7 +24,7 @@
 {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
 {{ range .Sections }}
   {{ if not (in $excludeSections .Section) }}
-    {{ if .Params.featureimage }}
+    {{ if .Params.image_width }}
       {{ if not $firstCategory }}
         {{ $firstCategory = . }}
       {{ end }}
@@ -33,17 +33,17 @@
 {{ end }}
 
 {{ with $firstCategory }}
-  {{ $responsive := .Params.responsive_images }}
-  {{ if $responsive }}
-    {{/* Preload responsive images for first category card (LCP optimization) */}}
+  {{ if .Params.image_width }}
+    {{/* Preload real-time transform images for first category card (LCP optimization) */}}
+    {{ $baseUrl := printf "/main-category/%s/%s-category.webp" .Section .Section }}
     <link rel="preload" 
           as="image" 
-          href="{{ $responsive.thumbnail_768 }}" 
+          href="{{ $baseUrl }}?w=768&h=1024&q=75&fit=cover&format=auto" 
           media="(min-width: 768px)"
           fetchpriority="high">
     <link rel="preload" 
           as="image" 
-          href="{{ $responsive.thumbnail_300 }}" 
+          href="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
           media="(max-width: 767px)"
           fetchpriority="high">
   {{ end }}

@@ -25,14 +25,7 @@ import dotenv from 'dotenv';
 import { validateEnvironment, createSanityClient, testConnection } from './utils/sanity-helpers.js';
 import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
-import {
-  getColoringPageImages,
-  getCategoryImages,
-  getImageDimensions,
-  IMAGE_SIZES,
-  optimizeImageUrl,
-  QUALITY_PRESETS,
-} from './utils/image-helpers.js';
+import { getColoringPageImages, getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -148,7 +141,6 @@ const generateCategorySections = async () => {
       }
 
       // Get optimized image URLs for category
-      const images = getCategoryImages(category.imageUrl);
       const dimensions = getImageDimensions(
         category.imageDimensions,
         IMAGE_SIZES.category_thumbnail
@@ -156,33 +148,12 @@ const generateCategorySections = async () => {
 
       // Generate hierarchical image mappings for this category
       const categorySlug = category.slug;
-      const heroKey = `${categorySlug}/category-hero`;
-      const thumbnailKey = `${categorySlug}/category-thumbnail`;
 
-      // Store image mappings for Cloudflare Worker
+      // Store image mappings for Cloudflare Worker (real-time transforms)
       if (category.imageUrl) {
-        // Map hierarchical URLs to Sanity CDN URLs
-        assetMappings[heroKey] = images.hero;
-        assetMappings[thumbnailKey] = images.thumbnail;
-
-        // Generate responsive thumbnail mappings (3:4 aspect ratio for 750×1000 images)
-        const responsiveSizes = [
-          { width: 200, height: 267 }, // 200w (3:4 aspect ratio)
-          { width: 300, height: 400 }, // 300w (3:4 aspect ratio)
-          { width: 768, height: 1024 }, // 768w (3:4 aspect ratio)
-          { width: 896, height: 1195 }, // 896w (3:4 aspect ratio)
-        ];
-
-        responsiveSizes.forEach(size => {
-          const responsiveKey = `${categorySlug}/thumbnail-${size.width}`;
-          const responsiveUrl = optimizeImageUrl(category.imageUrl, {
-            w: size.width,
-            h: size.height,
-            q: QUALITY_PRESETS.thumbnail,
-            fit: 'crop',
-          });
-          assetMappings[responsiveKey] = responsiveUrl;
-        });
+        // Single mapping for real-time transformations
+        const baseSlug = `${categorySlug}/${categorySlug}-category`;
+        assetMappings[baseSlug.toLowerCase()] = category.imageUrl;
       }
 
       // Create _index.md for the section (category landing page) with hierarchical URLs
@@ -190,15 +161,7 @@ const generateCategorySections = async () => {
         title: category.title,
         showBreadcrumbs: true,
         description: category.description,
-        featureimage: `/${categorySlug}/category-thumbnail.webp`,
-        hero_image: `/${categorySlug}/category-hero.webp`,
-        // Responsive image URLs for srcset (using /main-category/ prefix for SEO-optimized routing)
-        responsive_images: {
-          thumbnail_200: `/main-category/${categorySlug}/thumbnail-200.webp`,
-          thumbnail_300: `/main-category/${categorySlug}/thumbnail-300.webp`,
-          thumbnail_768: `/main-category/${categorySlug}/thumbnail-768.webp`,
-          thumbnail_896: `/main-category/${categorySlug}/thumbnail-896.webp`,
-        },
+        // Real-time transformations - no need for pre-built responsive URLs
         image_width: dimensions.width,
         image_height: dimensions.height,
         image_alt: category.imageAlt || category.title,
@@ -415,36 +378,14 @@ const saveAssetMappings = () => {
   }
 
   fs.writeFileSync(mappingsPath, JSON.stringify(assetMappings, null, 2));
-  console.log(`📄 Saved ${Object.keys(assetMappings).length} asset mappings to ${mappingsPath}`);
-  console.log(`   - PDFs: ${Object.keys(pdfMappings).length}`);
-  console.log(`   - Images: ${Object.keys(imageMappings).length}`);
-
-  // Also log sample mappings for easy copying
-  console.log('\n📋 Asset Mappings Preview:');
-  Object.entries(assetMappings)
-    .slice(0, 3)
-    .forEach(([slug, url]) => {
-      const type = url.includes('/files/') ? 'PDF' : 'IMG';
-      console.log(`   [${type}] ${slug} → ${url.substring(0, 80)}...`);
-    });
-  if (Object.keys(assetMappings).length > 3) {
-    console.log(`   ... and ${Object.keys(assetMappings).length - 3} more`);
-  }
 };
 
 // Main execution
 (async () => {
-  console.log('🚀 Starting Hugo + Sanity content generation (Section-based)...');
-  console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`   Timestamp: ${new Date().toISOString()}\n`);
-
   try {
     // Validate environment and test connection
     validateEnvironment();
     await testConnection(client);
-
-    console.log('📝 Generating content with section-based structure...');
-    const startTime = Date.now();
 
     // Run content generation
     await Promise.all([
@@ -454,13 +395,6 @@ const saveAssetMappings = () => {
 
     // Save asset mappings for Cloudflare Workers
     saveAssetMappings();
-
-    const endTime = Date.now();
-    const duration = ((endTime - startTime) / 1000).toFixed(2);
-
-    console.log('\n🎉 Content generation completed successfully!');
-    console.log(`   Duration: ${duration}s`);
-    console.log(`   Generated at: ${new Date().toISOString()}`);
   } catch (error) {
     console.error('\n❌ Content generation failed:', error.message);
 
