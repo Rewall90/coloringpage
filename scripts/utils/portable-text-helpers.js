@@ -159,9 +159,21 @@ const generateColoringPageShortcode = (block, pdfMappings = null, pageContext = 
     markdown += `  description="${description}"\n`;
   }
   if (block.image?.asset?._ref) {
-    // Extract image ID from reference
-    const imageId = block.image.asset._ref.replace('image-', '').replace(/-([a-z]+)$/, '.$1');
-    markdown += `  image="https://cdn.sanity.io/images/zjqmnotc/production/${imageId}"\n`;
+    // Generate local image path instead of Sanity CDN URL
+    if (pageContext && pageContext.categorySlug && pageContext.pageSlug) {
+      const imageSlug = title
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+      
+      const localImagePath = `/images/collections/${pageContext.categorySlug}/${pageContext.pageSlug}/${imageSlug}-750x1000.webp`;
+      markdown += `  image="${localImagePath}"\n`;
+    } else {
+      // Fallback to Sanity CDN URL if no page context
+      const imageId = block.image.asset._ref.replace('image-', '').replace(/-([a-z]+)$/, '.$1');
+      markdown += `  image="https://cdn.sanity.io/images/zjqmnotc/production/${imageId}"\n`;
+    }
   }
   if (block.pdfFile?.asset?._ref) {
     // Extract file ID from reference

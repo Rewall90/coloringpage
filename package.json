@@ -17,7 +17,9 @@
     "code-quality": "npm run lint && npm run format:check",
     "code-quality:fix": "npm run lint:fix && npm run format",
     "prepare": "husky install",
-    "test": "echo 'No tests configured yet'"
+    "test": "echo 'No tests configured yet'",
+    "test:images": "node scripts/test-image-download.js",
+    "debug:images": "node scripts/debug-images.js"
   },
   "keywords": [
     "hugo",

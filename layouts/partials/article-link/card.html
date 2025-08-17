@@ -17,33 +17,30 @@
     {{/* Category pages and collection posts with hierarchical image URLs */}}
     <figure class="w-full overflow-hidden aspect-[3/4]">
       {{ if .Params.image_width }}
-        {{/* Real-time transformation URLs for collections and categories */}}
-        {{ $baseUrl := "" }}
+        {{/* Use local images - no more Cloudflare Workers! */}}
+        {{ $localImageUrl := "" }}
         {{ if eq .Type "coloring-category" }}
-          {{ $baseUrl = printf "/main-category/%s/%s-category.webp" .Section .Section }}
+          {{ $localImageUrl = printf "/images/categories/%s-600x600.webp" .Section }}
         {{ else }}
-          {{ $baseUrl = printf "/collections/%s/%s.webp" .Section (path.BaseName .RelPermalink) }}
+          {{ $localImageUrl = printf "/images/collections/%s/%s/hero-750x1000.webp" .Section (path.BaseName .RelPermalink) }}
         {{ end }}
         <noscript>
           <img decoding="async" 
-               src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
+               src="{{ $localImageUrl }}" 
                alt="{{ $imageAlt }}"
+               width="300"
+               height="400"
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
              width="300" 
              height="400"
-             src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
+             src="{{ $localImageUrl }}" 
              alt="{{ $imageAlt }}"
              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
              data-pin-url="{{ absURL .RelPermalink }}"
              data-pin-title="{{ .Title }} | {{ site.Title }}"
              data-pin-description="{{ .Summary | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
-             srcset="{{ $baseUrl }}?w=200&h=267&q=75&fit=cover&format=auto 200w, 
-                     {{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto 300w, 
-                     {{ $baseUrl }}?w=768&h=1024&q=75&fit=cover&format=auto 768w, 
-                     {{ $baseUrl }}?w=896&h=1195&q=75&fit=cover&format=auto 896w"
-             sizes="(max-width: 300px) 100vw, 300px"
              loading="lazy">
       {{ else if $featuredImage }}
         {{/* Fallback to existing image logic */}}

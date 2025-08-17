@@ -26,6 +26,7 @@ import { validateEnvironment, createSanityClient, testConnection } from './utils
 import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './utils/file-helpers.js';
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
 import { getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
+import { processAllImages, transformShortcodesToLocal } from './utils/image-processor.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -47,6 +48,10 @@ if (!envLoaded) {
 // Initialize
 const client = createSanityClient();
 const usedFilenames = new Set();
+
+// Global storage for image processing
+let allCategories = [];
+let allPosts = [];
 
 // Real-time image transformations (always enabled)
 
@@ -91,11 +96,14 @@ const generateCategorySections = async () => {
     title,
     "slug": slug.current,
     description,
-    "imageUrl": categoryImage.asset->url,
+    "categoryImageUrl": categoryImage.asset->url,
     "imageDimensions": categoryImage.asset->metadata.dimensions,
     "imageAlt": categoryImage.alt,
     sortOrder
   }`);
+
+  // Store categories for image processing
+  allCategories = categories;
 
   // Fetch all coloring pages AND posts with categories (treating them as coloring pages)
   const coloringPagesQuery = `*[_type == "coloringPage"]{
@@ -267,6 +275,7 @@ const generatePostsInSections = async () => {
       _type == "coloringPage" => {
         _type,
         title,
+        description,
         "slug": slug.current,
         "imageUrl": image.asset->url
       },
@@ -287,6 +296,9 @@ const generatePostsInSections = async () => {
     seoTitle,
     seoDescription
   }`);
+
+  // Store posts for image processing
+  allPosts = posts;
 
   let generated = 0;
 
@@ -314,7 +326,11 @@ const generatePostsInSections = async () => {
         pageSlug: safeFilename,
       };
 
-      const contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
+      let contentMarkdown = portableTextToMarkdown(post.content, assetMappings, pageContext);
+
+      // Transform shortcodes to use local image paths
+      contentMarkdown = transformShortcodesToLocal(contentMarkdown, post.categorySlug, safeFilename);
+
       const description = post.excerpt || portableTextToExcerpt(post.content, 25);
 
       const dimensions = getImageDimensions(post.heroImageDimensions, IMAGE_SIZES.hero);
@@ -406,13 +422,36 @@ const saveAssetMappings = () => {
     validateEnvironment();
     await testConnection(client);
 
-    // Run content generation
+    // First, fetch all data without generating content
+    console.log('📡 Fetching content from Sanity...');
     await Promise.all([
       generateCategorySections(), // This handles both categories and coloring pages
       generatePostsInSections(), // Posts go into their category sections
     ]);
 
-    // Save asset mappings for Cloudflare Workers
+    // Process images before content generation
+    console.log('\n🎨 Processing images...');
+    const imageResult = await processAllImages(allCategories, allPosts);
+
+    if (!imageResult.success) {
+      console.error('❌ Image processing failed');
+
+      if (imageResult.summary.criticalFailures > 0) {
+        console.error(`💥 ${imageResult.summary.criticalFailures} critical images failed to download`);
+        console.error('   Homepage category images are required for the site to function properly');
+        process.exit(1);
+      } else if (imageResult.summary.failed > 0) {
+        console.warn(`⚠️  ${imageResult.summary.failed} content images failed to download`);
+        console.warn('   Site will continue building, but some images may be missing');
+      }
+    } else {
+      console.log(`✅ Image processing completed successfully!`);
+      if (imageResult.summary.total > 0) {
+        console.log(`   Downloaded: ${imageResult.summary.downloaded}, Skipped: ${imageResult.summary.skipped}`);
+      }
+    }
+
+    // Save asset mappings for Cloudflare Workers (for PDFs only now)
     saveAssetMappings();
   } catch (error) {
     console.error('\n❌ Content generation failed:', error.message);

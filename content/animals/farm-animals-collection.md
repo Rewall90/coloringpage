@@ -29,7 +29,7 @@ FREE PRINTABLE FARM ANIMALS COLLECTION COLORING PAGES: Delight your young ones w
 {{< coloring-page-embed
   title="Carpenter Workshop Coloring Page"
   description="A cheerful carpenter working in a workshop with tools and a tractor, great for imaginative coloring."
-  image="https://cdn.sanity.io/images/zjqmnotc/production/91757f1a7e7af3c1d816decd9f099cdec9d8eabc-750x1000.webp"
+  image="/images/collections/animals/farm-animals-collection/carpenter-workshop-coloring-page-750x1000.webp"
   pdf="https://cdn.sanity.io/files/zjqmnotc/production/4b225f724bbcec311db007dd3de8a218d76289ef.pdf"
 >}}
 
@@ -37,7 +37,7 @@ FREE PRINTABLE FARM ANIMALS COLLECTION COLORING PAGES: Delight your young ones w
 {{< coloring-page-embed
   title="Cute Cat Scooter Coloring Page"
   description="Adorable cat riding a scooter, great for fun and imaginative coloring."
-  image="https://cdn.sanity.io/images/zjqmnotc/production/f886fb54d9877d73a54e8b41a61b0133aeb54730-750x1000.webp"
+  image="/images/collections/animals/farm-animals-collection/cute-cat-scooter-coloring-page-750x1000.webp"
   pdf="https://cdn.sanity.io/files/zjqmnotc/production/8f7756d085f8b2fab5be23547424a6142d04e3c8.pdf"
 >}}
 

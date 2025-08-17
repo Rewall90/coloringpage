@@ -6,28 +6,25 @@
     {{/* Category Image Container */}}
     <figure class="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
       {{ if $category.Params.image_width }}
-        {{/* Real-time transformation URLs for categories */}}
-        {{ $baseUrl := printf "/main-category/%s/%s-category.webp" $category.Section $category.Section }}
+        {{/* Use local category images - no more Cloudflare Workers! */}}
+        {{ $localImageUrl := printf "/images/categories/%s-600x600.webp" $category.Section }}
         <noscript>
           <img decoding="async" 
-               src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
+               src="{{ $localImageUrl }}" 
                alt="{{ $category.Params.image_alt | default $category.Title }}"
+               width="300"
+               height="400"
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
              width="300" 
              height="400"
-             src="{{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto" 
+             src="{{ $localImageUrl }}" 
              alt="{{ $category.Params.image_alt | default $category.Title }}"
              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
              data-pin-url="{{ absURL "/" }}"
              data-pin-title="Free Coloring Pages | {{ site.Title }}"
              data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
-             srcset="{{ $baseUrl }}?w=200&h=267&q=75&fit=cover&format=auto 200w, 
-                     {{ $baseUrl }}?w=300&h=400&q=75&fit=cover&format=auto 300w, 
-                     {{ $baseUrl }}?w=768&h=1024&q=75&fit=cover&format=auto 768w, 
-                     {{ $baseUrl }}?w=896&h=1195&q=75&fit=cover&format=auto 896w"
-             sizes="(max-width: 300px) 100vw, 300px"
              loading="lazy">
       {{ else }}
         {{/* Fallback if no image */}}

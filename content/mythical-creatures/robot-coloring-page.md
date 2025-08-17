@@ -33,7 +33,7 @@ From exciting action scenes to simple, friendly designs perfect for younger chil
 {{< coloring-page-embed
   title="Teddy Bear At The Beach"
   description="This is a test"
-  image="https://cdn.sanity.io/images/zjqmnotc/production/b29b05833d6f6ff045f310fcdccc5f0db7e36771-2048x2048.png"
+  image="/images/collections/mythical-creatures/robot-coloring-page/teddy-bear-at-the-beach-750x1000.webp"
   pdf="https://cdn.sanity.io/files/zjqmnotc/production/e015aec60afc0ba948ae9c3855ef6af7fbb2ee79.pdf"
 >}}
 
@@ -41,7 +41,7 @@ From exciting action scenes to simple, friendly designs perfect for younger chil
 {{< coloring-page-embed
   title="Teddy bear sleeps"
   description="TEst"
-  image="https://cdn.sanity.io/images/zjqmnotc/production/92f666ac815cc2ffdb241c5ae245692a5911933b-2048x2048.png"
+  image="/images/collections/mythical-creatures/robot-coloring-page/teddy-bear-sleeps-750x1000.webp"
   pdf="https://cdn.sanity.io/files/zjqmnotc/production/5734c39c3a3d39849cc19534260024e1a9282591.pdf"
 >}}
 
@@ -49,7 +49,7 @@ From exciting action scenes to simple, friendly designs perfect for younger chil
 {{< coloring-page-embed
   title="Teddy Bear Singing"
   description="Teddy bear singing"
-  image="https://cdn.sanity.io/images/zjqmnotc/production/aa92e74528bb67863bf3e247fb67bfb74b93eb9b-2048x2048.png"
+  image="/images/collections/mythical-creatures/robot-coloring-page/teddy-bear-singing-750x1000.webp"
   pdf="https://cdn.sanity.io/files/zjqmnotc/production/61a407c3b2962494e800c495f442a743b4bb2e1f.pdf"
 >}}
 
