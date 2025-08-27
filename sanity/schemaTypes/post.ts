@@ -46,6 +46,16 @@ export const post = defineType({
           type: 'string',
           validation: (rule) => rule.required(),
         },
+        {
+          name: 'filename',
+          title: 'Filename',
+          type: 'slug',
+          description: 'Custom filename for the hero image (without extension)',
+          options: {
+            source: (doc, options) => options.parent?.alt || 'hero',
+            maxLength: 96,
+          },
+        },
       ],
     }),
     defineField({
@@ -155,6 +165,35 @@ export const post = defineType({
       group: 'settings',
       description: 'Feature this post on the homepage',
       initialValue: false,
+    }),
+    defineField({
+      name: 'cardImage',
+      title: 'Card Preview Image',
+      type: 'image',
+      group: 'settings',
+      description: 'Custom image to display on cards. Leave empty to use hero image.',
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          name: 'alt',
+          title: 'Alt Text',
+          type: 'string',
+          description: 'Alt text for the card image',
+          validation: (rule) => rule.required(),
+        },
+        {
+          name: 'filename',
+          title: 'Filename',
+          type: 'slug',
+          description: 'Custom filename for the card image (without extension)',
+          options: {
+            source: (doc, options) => options.parent?.alt || 'card',
+            maxLength: 96,
+          },
+        },
+      ],
     }),
 
     // Social Media Fields

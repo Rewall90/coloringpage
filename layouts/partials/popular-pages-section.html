@@ -1,0 +1,50 @@
+{{/* Popular Pages Section - Reusable partial for displaying popular coloring pages */}}
+{{ $enabled := .Site.Params.homepage.popularPages.enabled | default false }}
+{{ if $enabled }}
+  {{ $title := .Site.Params.homepage.popularPages.title | default "Popular Coloring Pages" }}
+  {{ $limit := .Site.Params.homepage.popularPages.limit | default 8 }}
+  {{ $fallbackToRecent := .Site.Params.homepage.popularPages.fallbackToRecent | default true }}
+  
+  {{/* Get all pages from coloring page sections (excluding system sections) */}}
+  {{ $coloringPages := slice }}
+  {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
+  {{ range .Site.RegularPages }}
+    {{ if and (strings.HasSuffix .Section "-coloring-pages") (not (in $excludeSections .Section)) }}
+      {{ $coloringPages = $coloringPages | append . }}
+    {{ end }}
+  {{ end }}
+  
+  {{/* Filter for popular pages first */}}
+  {{ $popularPages := slice }}
+  {{ range $coloringPages }}
+    {{ if .Params.popular }}
+      {{ $popularPages = $popularPages | append . }}
+    {{ end }}
+  {{ end }}
+  
+  {{/* Fallback to recent pages if no popular pages found and fallback is enabled */}}
+  {{ $finalPages := $popularPages }}
+  {{ if and (eq (len $popularPages) 0) $fallbackToRecent }}
+    {{ $finalPages = ($coloringPages | first $limit) }}
+  {{ else }}
+    {{ $finalPages = ($popularPages | first $limit) }}
+  {{ end }}
+  
+  {{ if $finalPages }}
+    <section class="popular-pages-section py-16" aria-labelledby="popular-pages-heading">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 id="popular-pages-heading" class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-8 text-left">
+          {{ $title }}
+        </h2>
+        
+        <div class="popular-pages-grid" role="grid" aria-label="{{ $title }}">
+          {{ range $finalPages }}
+            <div role="gridcell">
+              {{ partialCached "popular-page-card.html" . .RelPermalink }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

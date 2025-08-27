@@ -1,0 +1,207 @@
+{{/* Mobile Menu with Collapsible Sections */}}
+<div class="-my-2 md:hidden">
+  <div id="menu-button" class="block">
+    {{ if .Site.Menus.main }}
+      <div id="menu-icon" class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+        {{ partial "icon.html" "bars" }}
+      </div>
+      
+      {{/* Backdrop - separate element */}}
+      <div
+        id="menu-backdrop"
+        class="fixed inset-0 z-30 w-screen h-screen m-0 transition-opacity duration-300 opacity-0 bg-neutral-900/75 pointer-events-none">
+      </div>
+      
+      {{/* Menu Panel - separate element that slides in */}}
+      <div
+        id="menu-panel"
+        class="fixed top-0 left-0 z-40 w-[320px] h-full bg-[#FEFAF6] shadow-xl transform -translate-x-full transition-transform duration-300 ease-in-out overflow-y-auto">
+        
+        <div class="flex flex-col space-y-2 px-6 py-6">
+          
+          {{/* Close button */}}
+          <div id="menu-close-button" class="mb-4">
+            <span
+              class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+              {{ partial "icon.html" "xmark" }}
+            </span>
+          </div>
+
+          {{/* Coloring Pages - Direct Link */}}
+          <div class="w-full mb-2">
+            <a href="{{ "/coloring-pages/" | relLangURL }}" class="flex items-center justify-between p-2 mobile-menu-hover rounded-md transition-colors">
+              <span class="text-lg font-medium">Coloring Pages</span>
+            </a>
+          </div>
+
+          {{/* Categories - Collapsible */}}
+          <div class="w-full mb-2">
+            <button 
+              id="categories-toggle"
+              class="flex items-center justify-between w-full p-2 mobile-menu-hover rounded-md transition-colors"
+              aria-expanded="false">
+              <span class="text-lg font-medium">Categories</span>
+              <svg class="w-5 h-5 transition-transform duration-200 categories-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="categories-content" class="hidden mt-2 pl-4 bg-[#FEFAF6]">
+              {{/* Include the mega menu content here */}}
+              {{ range .Site.Menus.main }}
+                {{ if eq .Name "Coloring Pages" }}
+                  {{ partial "header/mega-menu-mobile.html" . }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+
+          {{/* About - Collapsible */}}
+          <div class="w-full mb-2">
+            <button 
+              id="about-toggle"
+              class="flex items-center justify-between w-full p-2 mobile-menu-hover rounded-md transition-colors"
+              aria-expanded="false">
+              <span class="text-lg font-medium">About</span>
+              <svg class="w-5 h-5 transition-transform duration-200 about-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="about-content" class="hidden mt-2 pl-4">
+              <a href="{{ "/about/" | relLangURL }}" class="block p-2 mobile-menu-hover rounded-md transition-colors">
+                About Us
+              </a>
+              <a href="{{ "/contact/" | relLangURL }}" class="block p-2 mobile-menu-hover rounded-md transition-colors">
+                Contact
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .categories-chevron.rotate,
+  .about-chevron.rotate {
+    transform: rotate(180deg);
+  }
+  
+  #menu-panel.menu-open {
+    transform: translateX(0) !important;
+  }
+  
+  #menu-backdrop.backdrop-visible {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Categories toggle
+  const categoriesToggle = document.getElementById('categories-toggle');
+  const categoriesContent = document.getElementById('categories-content');
+  const categoriesChevron = document.querySelector('.categories-chevron');
+
+  if (categoriesToggle) {
+    categoriesToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      categoriesContent.classList.toggle('hidden');
+      categoriesChevron.classList.toggle('rotate');
+    });
+  }
+
+  // About toggle
+  const aboutToggle = document.getElementById('about-toggle');
+  const aboutContent = document.getElementById('about-content');
+  const aboutChevron = document.querySelector('.about-chevron');
+
+  if (aboutToggle) {
+    aboutToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      aboutContent.classList.toggle('hidden');
+      aboutChevron.classList.toggle('rotate');
+    });
+  }
+
+  // Menu open/close functionality
+  const menuButton = document.querySelector('#menu-button');
+  const menuIcon = document.querySelector('#menu-icon');
+  const menuBackdrop = document.querySelector('#menu-backdrop');
+  const menuPanel = document.querySelector('#menu-panel');
+  const menuCloseButton = document.querySelector('#menu-close-button');
+
+  console.log('Menu elements found:', {
+    menuButton: !!menuButton,
+    menuIcon: !!menuIcon,
+    menuBackdrop: !!menuBackdrop,
+    menuPanel: !!menuPanel
+  });
+
+  function openMenu() {
+    console.log('Opening menu...');
+    if (menuBackdrop) {
+      // Force inline styles to override everything
+      menuBackdrop.style.opacity = '1';
+      menuBackdrop.style.pointerEvents = 'auto';
+      menuBackdrop.style.visibility = 'visible';
+      console.log('Backdrop forced visible');
+      console.log('Backdrop computed opacity:', window.getComputedStyle(menuBackdrop).opacity);
+    }
+    if (menuPanel) {
+      // Force inline styles to override everything
+      menuPanel.style.transform = 'translateX(0px)';
+      menuPanel.style.visibility = 'visible';
+      console.log('Menu panel forced visible');
+      console.log('Panel computed transform:', window.getComputedStyle(menuPanel).transform);
+    }
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    console.log('Closing menu...');
+    if (menuBackdrop) {
+      menuBackdrop.style.opacity = '0';
+      menuBackdrop.style.pointerEvents = 'none';
+      menuBackdrop.style.visibility = 'hidden';
+    }
+    if (menuPanel) {
+      menuPanel.style.transform = 'translateX(-320px)';
+      menuPanel.style.visibility = 'hidden';
+    }
+    document.body.style.overflow = '';
+  }
+
+  // Try both selectors
+  if (menuButton) {
+    menuButton.addEventListener('click', function(e) {
+      console.log('Menu button clicked');
+      e.preventDefault();
+      e.stopPropagation();
+      openMenu();
+    });
+  }
+
+  if (menuIcon) {
+    menuIcon.addEventListener('click', function(e) {
+      console.log('Menu icon clicked');
+      e.preventDefault();
+      e.stopPropagation();
+      openMenu();
+    });
+  }
+
+  if (menuCloseButton) {
+    menuCloseButton.addEventListener('click', closeMenu);
+  }
+
+  // Close on backdrop click
+  if (menuBackdrop) {
+    menuBackdrop.addEventListener('click', closeMenu);
+  }
+});
+</script>

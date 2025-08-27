@@ -1,50 +1,42 @@
 {{/* Category Card Partial - SEO-optimized with responsive images */}}
 {{ $category := .category }}
 
-<article class="group block transition-all duration-300 hover:-translate-y-1" role="gridcell">
-  <a href="{{ $category.RelPermalink }}" class="block" aria-labelledby="category-{{ $category.Title | urlize }}">
+<article class="block" role="gridcell">
+  <a href="{{ $category.RelPermalink }}" class="block rounded-lg overflow-hidden" style="background-color: #2DC4B6;" aria-labelledby="category-{{ $category.Title | urlize }}">
     {{/* Category Image Container */}}
-    <figure class="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+    <figure class="aspect-square overflow-hidden mb-3">
       {{ if $category.Params.image_width }}
-        {{/* Use local category images - no more Cloudflare Workers! */}}
+        {{/* Use local category images */}}
         {{ $localImageUrl := printf "/images/categories/%s-600x600.webp" $category.Section }}
         <noscript>
           <img decoding="async" 
                src="{{ $localImageUrl }}" 
                alt="{{ $category.Params.image_alt | default $category.Title }}"
                width="300"
-               height="400"
+               height="300"
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
              width="300" 
-             height="400"
+             height="300"
              src="{{ $localImageUrl }}" 
              alt="{{ $category.Params.image_alt | default $category.Title }}"
-             class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+             class="w-full h-full object-cover"
              data-pin-url="{{ absURL "/" }}"
              data-pin-title="Free Coloring Pages | {{ site.Title }}"
              data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
              loading="lazy">
       {{ else }}
         {{/* Fallback if no image */}}
-        <div class="w-full h-full bg-gradient-to-br from-primary-400 to-primary-600"></div>
+        <div class="w-full h-full bg-neutral-200 dark:bg-neutral-700"></div>
       {{ end }}
-      
-      {{/* Item count badge (optional) */}}
-      {{ $count := len (where $category.Pages "Type" "coloring-page") }}
-      {{ if gt $count 0 }}
-        <div class="absolute top-2 right-2 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1">
-          <span class="text-xs font-semibold text-neutral-700">{{ $count }}</span>
-        </div>
-      {{ end }}
-      
-      {{/* Category Title as Figcaption for Semantic HTML */}}
-      <figcaption class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-        <h3 id="category-{{ $category.Title | urlize }}" class="text-white font-bold text-center group-hover:text-primary-200 transition-colors duration-200" style="font-size: 18px;">
-          {{ $category.Title }}
-        </h3>
-      </figcaption>
     </figure>
+    
+    {{/* Category Title as Figcaption - Below the image */}}
+    <figcaption id="category-{{ $category.Title | urlize }}" class="text-center pb-3 px-2">
+      <span class="text-white font-medium text-base">
+        {{ $category.Title }}
+      </span>
+    </figcaption>
   </a>
 </article>

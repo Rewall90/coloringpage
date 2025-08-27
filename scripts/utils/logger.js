@@ -1,6 +1,6 @@
 /**
  * Logging Utility
- * 
+ *
  * Environment-aware logging system that:
  * - Uses different log levels based on NODE_ENV
  * - Adds timestamps and context
@@ -13,17 +13,17 @@ const LOG_LEVELS = {
   ERROR: 0,
   WARN: 1,
   INFO: 2,
-  DEBUG: 3
+  DEBUG: 3,
 };
 
 // Colors for console output (only in development)
 const COLORS = {
-  ERROR: '\x1b[31m',   // Red
-  WARN: '\x1b[33m',    // Yellow
-  INFO: '\x1b[36m',    // Cyan
-  DEBUG: '\x1b[90m',   // Gray
+  ERROR: '\x1b[31m', // Red
+  WARN: '\x1b[33m', // Yellow
+  INFO: '\x1b[36m', // Cyan
+  DEBUG: '\x1b[90m', // Gray
   SUCCESS: '\x1b[32m', // Green
-  RESET: '\x1b[0m'     // Reset
+  RESET: '\x1b[0m', // Reset
 };
 
 // Icons for different log types
@@ -32,7 +32,7 @@ const ICONS = {
   WARN: '⚠️ ',
   INFO: 'ℹ️ ',
   DEBUG: '🔍',
-  SUCCESS: '✅'
+  SUCCESS: '✅',
 };
 
 class Logger {
@@ -47,7 +47,7 @@ class Logger {
   getLogLevel() {
     const env = process.env.NODE_ENV || 'development';
     const debugMode = process.env.DEBUG === 'true';
-    
+
     if (env === 'production') {
       return debugMode ? LOG_LEVELS.INFO : LOG_LEVELS.WARN;
     } else if (env === 'test') {
@@ -62,13 +62,13 @@ class Logger {
     const icon = ICONS[level] || '';
     const color = this.useColors ? COLORS[level] : '';
     const reset = this.useColors ? COLORS.RESET : '';
-    
+
     let formatted = `${color}${icon} [${timestamp}] ${level}: ${message}${reset}`;
-    
+
     if (context) {
       formatted += `\n${color}   Context: ${JSON.stringify(context, null, 2)}${reset}`;
     }
-    
+
     return formatted;
   }
 
@@ -105,13 +105,13 @@ class Logger {
       const color = this.useColors ? COLORS.SUCCESS : '';
       const reset = this.useColors ? COLORS.RESET : '';
       const timestamp = new Date().toISOString();
-      
+
       let formatted = `${color}${ICONS.SUCCESS} [${timestamp}] SUCCESS: ${message}${reset}`;
-      
+
       if (context) {
         formatted += `\n${color}   Context: ${JSON.stringify(context, null, 2)}${reset}`;
       }
-      
+
       console.log(formatted);
     }
   }
@@ -141,8 +141,8 @@ class Logger {
       info: (message, context) => this.info(`[${scopeName}] ${message}`, context),
       debug: (message, context) => this.debug(`[${scopeName}] ${message}`, context),
       success: (message, context) => this.success(`[${scopeName}] ${message}`, context),
-      build: (message) => this.build(`[${scopeName}] ${message}`),
-      progress: (message) => this.progress(`[${scopeName}] ${message}`)
+      build: message => this.build(`[${scopeName}] ${message}`),
+      progress: message => this.progress(`[${scopeName}] ${message}`),
     };
   }
 }

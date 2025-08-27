@@ -72,6 +72,17 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
 
+[homepage.popularPages]
+  enabled = true
+  title = "Popular Coloring Pages"
+  limit = 8
+  fallbackToRecent = true # show recent pages if no popular pages found
+
+[homepage.latestPages]
+  enabled = true
+  title = "Latest Added Coloring Pages"
+  limit = 8
+
 [article]
   showDate = false
   showViews = false
@@ -101,7 +112,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showCategoryOnly = true # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
   showWordCount = false
-  # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
+  sharingLinks = [ "twitter", "facebook", "pinterest", "email", "whatsapp" ]
   showZenMode = false
 
 [list]

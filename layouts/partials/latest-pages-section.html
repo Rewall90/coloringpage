@@ -1,0 +1,36 @@
+{{/* Latest Pages Section - Reusable partial for displaying latest coloring pages */}}
+{{ $enabled := .Site.Params.homepage.latestPages.enabled | default false }}
+{{ if $enabled }}
+  {{ $title := .Site.Params.homepage.latestPages.title | default "Latest Added Coloring Pages" }}
+  {{ $limit := .Site.Params.homepage.latestPages.limit | default 8 }}
+  
+  {{/* Get all pages from coloring page sections (excluding system sections) */}}
+  {{ $coloringPages := slice }}
+  {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
+  {{ range .Site.RegularPages }}
+    {{ if and (strings.HasSuffix .Section "-coloring-pages") (not (in $excludeSections .Section)) }}
+      {{ $coloringPages = $coloringPages | append . }}
+    {{ end }}
+  {{ end }}
+  
+  {{/* Sort by date descending and take the most recent pages */}}
+  {{ $finalPages := ($coloringPages.ByDate.Reverse | first $limit) }}
+  
+  {{ if $finalPages }}
+    <section class="latest-pages-section py-16" aria-labelledby="latest-pages-heading">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 id="latest-pages-heading" class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-8 text-left">
+          {{ $title }}
+        </h2>
+        
+        <div class="popular-pages-grid" role="grid" aria-label="{{ $title }}">
+          {{ range $finalPages }}
+            <div role="gridcell">
+              {{ partialCached "popular-page-card.html" . .RelPermalink }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

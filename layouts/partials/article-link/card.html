@@ -20,21 +20,29 @@
         {{/* Use local images - no more Cloudflare Workers! */}}
         {{ $localImageUrl := "" }}
         {{ if eq .Type "coloring-category" }}
-          {{ $localImageUrl = printf "/images/categories/%s-600x600.webp" .Section }}
+          {{ $localImageUrl = printf "/images/categories/%s.webp" .Section }}
         {{ else }}
-          {{ $localImageUrl = printf "/images/collections/%s/%s/hero-750x1000.webp" .Section (path.BaseName .RelPermalink) }}
+          {{/* Use cardImage if available, otherwise fall back to hero image */}}
+          {{ if .Params.card_image }}
+            {{ $localImageUrl = .Params.card_image }}
+            {{ if .Params.card_image_alt }}
+              {{ $imageAlt = .Params.card_image_alt }}
+            {{ end }}
+          {{ else }}
+            {{ $localImageUrl = printf "/images/collections/%s/%s/hero.webp" .Section (path.BaseName .RelPermalink) }}
+          {{ end }}
         {{ end }}
         <noscript>
           <img decoding="async" 
                src="{{ $localImageUrl }}" 
                alt="{{ $imageAlt }}"
-               width="300"
-               height="400"
+               {{ with .Params.image_width }}width="{{ . }}"{{ end }}
+               {{ with .Params.image_height }}height="{{ . }}"{{ end }}
                sizes="(max-width: 300px) 100vw, 300px">
         </noscript>
         <img decoding="async" 
-             width="300" 
-             height="400"
+             {{ with .Params.image_width }}width="{{ . }}"{{ end }}
+             {{ with .Params.image_height }}height="{{ . }}"{{ end }}
              src="{{ $localImageUrl }}" 
              alt="{{ $imageAlt }}"
              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"

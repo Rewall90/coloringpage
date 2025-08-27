@@ -6,7 +6,8 @@
  */
 
 import { createClient } from '@sanity/client';
-import logger, { sanityLogger } from './logger.js';
+
+import { sanityLogger } from './logger.js';
 
 /**
  * Validate required environment variables

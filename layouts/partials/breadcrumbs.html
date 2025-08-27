@@ -11,11 +11,11 @@
       <!-- For static pages in pages section, skip the Pages hierarchy -->
       {{ if eq .Section "pages" }}
         <!-- Static pages: Just show Home / Page Title -->
-        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Title }}</span>
+        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Params.h1 | default .Title }}</span>
       {{ else }}
         <!-- For categories and posts: Show full hierarchy -->
         {{ template "crumb" (dict "p1" . "p2" .) }}
-        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Title }}</span>
+        <span class="breadcrumb-current text-neutral-700 dark:text-neutral-300">{{ .Params.h1 | default .Title }}</span>
       {{ end }}
     {{ end }}
   </div>

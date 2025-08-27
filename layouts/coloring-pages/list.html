@@ -1,59 +1,107 @@
 {{ define "main" }}
-<main class="coloring-pages-list" role="main">
-  
-  {{/* Page Header */}}
-  <header class="page-header py-8 mb-8" role="banner">
-    <div class="max-w-7xl mx-auto px-6">
-      <h1 class="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral mb-4 text-center">
-        {{ .Title }}
-      </h1>
-      {{ with .Params.description }}
-        <p class="text-xl text-neutral-600 dark:text-neutral-400 text-center max-w-3xl mx-auto">
-          {{ . }}
-        </p>
+  {{ .Scratch.Set "scope" "list" }}
+  {{ $enableToc := .Params.showTableOfContents | default (site.Params.list.showTableOfContents | default false) }}
+  {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
+
+  {{/* Hero */}}
+  {{ if site.Params.list.showHero | default false }}
+    {{ $heroStyle := print "hero/" site.Params.list.heroStyle ".html" }}
+    {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+      {{ partial $heroStyle . }}
+    {{ else }}
+      {{ partial "hero/basic.html" . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Header */}}
+  <header role="banner">
+    {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Params.h1 | default .Title }}</h1>
+    {{ $translations := .AllTranslations }}
+    {{ with .File }}
+      {{ $path := .Path }}
+      {{ range $translations }}
+        {{ $lang := print "."  .Lang  ".md" }}
+        {{ $path = replace $path $lang ".md" }}
       {{ end }}
-      
-      {{/* Inline Search for Coloring Pages */}}
-      <div class="mt-8 max-w-2xl mx-auto" role="search" aria-label="Search coloring pages">
-        {{ partial "inline-search.html" . }}
-      </div>
-    </div>
+      {{ $jsPage := resources.Get "js/page.js" }}
+      {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+      <script
+        type="text/javascript"
+        src="{{ $jsPage.RelPermalink }}"
+        integrity="{{ $jsPage.Data.Integrity }}"
+        data-oid="views_{{ $path }}"
+        data-oid-likes="likes_{{ $path }}"></script>
+    {{ end }}
   </header>
 
-  {{/* Coloring Pages Grid */}}
-  <section class="coloring-pages-grid-section" aria-label="Coloring pages collection">
-    <div class="max-w-7xl mx-auto px-6">
-      {{/* Get all posts from all category sections */}}
-      {{ $allPosts := slice }}
-      
-      {{/* Collect posts from each category section */}}
-      {{ $categories := slice "animals" "cartoons" "celebrations" "flowers" "fruit-and-vegetables" "months" "mythical-creatures" "nature" "science" "superheroes" "vechicles" "video-games" }}
-      
-      {{ range $categories }}
-        {{ $section := site.GetPage (printf "/%s" .) }}
-        {{ if $section }}
-          {{ range $section.Pages }}
-            {{ $allPosts = $allPosts | append . }}
-          {{ end }}
-        {{ end }}
+  {{/* Description (markdown content) */}}
+  {{ $tocMargin := cond $showToc "mt-12" "mt-0" }}
+  {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
+  <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row" aria-label="Page content">
+    {{ if $showToc }}
+      <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+        <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky {{ $topClass }}">
+          {{ partial "toc.html" . }}
+        </div>
+      </div>
+    {{ end }}
+    <div class="min-w-0 min-h-0 max-w-prose">
+      {{ .Content }}
+    </div>
+  </section>
+
+  {{/* Article Grid - Custom logic for aggregating all coloring pages */}}
+  {{ $allPosts := slice }}
+  {{ $categories := slice "animals-coloring-pages" "cartoons-coloring-pages" "education-coloring-pages" "fantasy-coloring-pages" "flowers-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "monthly-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" }}
+  
+  {{ range $categories }}
+    {{ $section := site.GetPage (printf "/%s" .) }}
+    {{ if $section }}
+      {{ range $section.Pages }}
+        {{ $allPosts = $allPosts | append . }}
       {{ end }}
-      
-      {{/* Note: We exclude /posts/ section as it's for blog posts, not coloring pages */}}
-      
-      {{ if $allPosts }}
-        <div class="coloring-pages-list-grid" role="grid" aria-label="Available coloring pages">
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $allPosts) 0 }}
+    {{ $cardView := .Params.cardView | default (site.Params.list.cardView | default false) }}
+    {{ $cardViewScreenWidth := .Params.cardViewScreenWidth | default (site.Params.list.cardViewScreenWidth | default false) }}
+    {{ $groupByYear := .Params.groupByYear | default (site.Params.list.groupByYear | default false) }}
+    {{ $orderByWeight := .Params.orderByWeight | default (site.Params.list.orderByWeight | default false) }}
+    {{ $groupByYear := and (not $orderByWeight) $groupByYear }}
+
+    {{ if not $cardView }}
+      <section class="space-y-10 w-full" aria-label="Articles list">
+        {{ range $allPosts }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      </section>
+    {{ else }}
+      {{ if $cardViewScreenWidth }}
+        <div class="relative w-screen max-w-[1600px] px-[30px] left-[calc(max(-50vw,-800px)+50%)]">
+          <section class="w-full content-grid-max-5">
+            {{ range $allPosts }}
+              {{ partial "article-link/card.html" . }}
+            {{ end }}
+          </section>
+        </div>
+      {{ else }}
+        <section class="w-full article-cards-grid">
           {{ range $allPosts }}
             {{ partial "article-link/card.html" . }}
           {{ end }}
-        </div>
-      {{ else }}
-        <div class="text-center py-16">
-          <p class="text-neutral-600 dark:text-neutral-400 text-lg">
-            No coloring pages available yet.
-          </p>
-        </div>
+        </section>
       {{ end }}
-    </div>
-  </section>
-</main>
+    {{ end }}
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p class="py-8 border-t">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+  {{ partial "pagination.html" . }}
 {{ end }}

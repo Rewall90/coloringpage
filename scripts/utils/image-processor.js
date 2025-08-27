@@ -30,7 +30,7 @@ const extractContentImages = (content, categorySlug, pageSlug) => {
   coloringPageBlocks.forEach(block => {
     if (block.title && block.imageUrl) {
       // Generate safe filename for the image
-      const imageSlug = generateSafeFilename(null, block.title, '', new Set());
+      const imageSlug = generateSafeFilename(block.slug || block.title, block.title, '', new Set());
 
       images.push({
         title: block.title,
@@ -56,6 +56,10 @@ const createImageContext = imageInfo => {
   let config;
   if (type === 'homepage_category') {
     config = IMAGE_CONFIGS.HOMEPAGE_CATEGORY;
+  } else if (type === 'hero_image') {
+    config = IMAGE_CONFIGS.HERO_IMAGE;
+  } else if (type === 'card_image') {
+    config = IMAGE_CONFIGS.CARD_IMAGE;
   } else {
     config = IMAGE_CONFIGS.CONTENT_IMAGE;
   }
@@ -146,17 +150,35 @@ export const processContentImages = async posts => {
 
     // Process hero image if exists
     if (post.heroImageUrl) {
+      const heroImageSlug = post.heroImageFilename || 'hero';
       const heroContext = createImageContext({
-        type: 'content_image',
+        type: 'hero_image',
         categorySlug,
         pageSlug,
-        imageSlug: 'hero',
+        imageSlug: heroImageSlug,
       });
 
       imageRequests.push({
         imageContext: heroContext,
         sanityUrl: post.heroImageUrl,
         source: `post:${post.title} (hero image)`,
+      });
+    }
+
+    // Process card image if exists
+    if (post.cardImageUrl) {
+      const cardImageSlug = post.cardImageFilename || 'card';
+      const cardContext = createImageContext({
+        type: 'card_image',
+        categorySlug,
+        pageSlug,
+        imageSlug: cardImageSlug,
+      });
+
+      imageRequests.push({
+        imageContext: cardContext,
+        sanityUrl: post.cardImageUrl,
+        source: `post:${post.title} (card image)`,
       });
     }
   }

@@ -27,7 +27,7 @@ import { generateMarkdown, generateSafeFilename, writeMarkdownFile } from './uti
 import { portableTextToMarkdown, portableTextToExcerpt } from './utils/portable-text-helpers.js';
 import { getImageDimensions, IMAGE_SIZES } from './utils/image-helpers.js';
 import { processAllImages } from './utils/image-processor.js';
-import logger, { buildLogger } from './utils/logger.js';
+import { buildLogger } from './utils/logger.js';
 
 // Load environment variables
 const envFiles = ['.env.local', '.env.production', '.env'];
@@ -95,6 +95,7 @@ const generateCategorySections = async () => {
   const categories = await client.fetch(`*[_type == "category"]{
     _id,
     title,
+    h1,
     "slug": slug.current,
     description,
     "categoryImageUrl": categoryImage.asset->url,
@@ -160,6 +161,7 @@ const generateCategorySections = async () => {
       // Create _index.md for the section (category landing page) with hierarchical URLs
       const categoryFrontmatter = {
         title: category.title,
+        h1: category.h1 || category.title,
         showBreadcrumbs: true,
         description: category.description,
         // Local images - dimensions for proper HTML rendering
@@ -253,6 +255,11 @@ const generatePostsInSections = async () => {
     "heroImageUrl": heroImage.asset->url,
     "heroImageDimensions": heroImage.asset->metadata.dimensions,
     "heroImageAlt": heroImage.alt,
+    "heroImageFilename": heroImage.filename.current,
+    "cardImageUrl": cardImage.asset->url,
+    "cardImageDimensions": cardImage.asset->metadata.dimensions,
+    "cardImageAlt": cardImage.alt,
+    "cardImageFilename": cardImage.filename.current,
     content[]{
       ...,
       _type == "coloringPage" => {
@@ -337,6 +344,21 @@ const generatePostsInSections = async () => {
         seo_title: post.seoTitle,
         seo_description: post.seoDescription,
       };
+
+      // Add heroImage local path if available
+      if (post.heroImageUrl) {
+        const heroImageSlug = post.heroImageFilename || 'hero';
+        const heroImagePath = `/images/collections/${post.categorySlug}/${safeFilename}/${heroImageSlug}-1312x656.webp`;
+        frontmatter.hero_image = heroImagePath;
+      }
+
+      // Add cardImage if available
+      if (post.cardImageUrl) {
+        const cardImageSlug = post.cardImageFilename || 'card';
+        const cardImagePath = `/images/collections/${post.categorySlug}/${safeFilename}/${cardImageSlug}-300x400.webp`;
+        frontmatter.card_image = cardImagePath;
+        frontmatter.card_image_alt = post.cardImageAlt;
+      }
 
       // Add description as intro paragraph if it exists
       const introContent = description ? `${description}\n\n` : '';

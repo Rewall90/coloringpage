@@ -89,7 +89,7 @@ header > div {
 /* Homepage Category Grid - 6 Column Responsive Layout */
 .homepage-category-grid {
   display: grid !important;
-  gap: 1rem !important;
+  gap: 0.75rem !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)); /* Mobile: 2 columns */
 }
 
@@ -121,10 +121,11 @@ header > div {
   }
 }
 
-/* Extra Large: 6 columns */
-@media (min-width: 1536px) {
+/* Extra Large: 6 columns - Adjusted breakpoint for larger images */
+@media (min-width: 1400px) {
   .homepage-category-grid {
     grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
   }
 }
 
@@ -919,7 +920,131 @@ div.group-hover-card {
   }
 }
 
+/* Popular Pages Grid - Landscape cards with max 4 columns */
+.popular-pages-grid {
+  display: grid !important;
+  gap: 1.5rem !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile: 1 column */
+}
+
+/* Small screens: 1 column (landscape cards need more space) */
+@media (min-width: 640px) {
+  .popular-pages-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* Tablet: 2 columns (landscape cards are wider) */
+@media (min-width: 768px) {
+  .popular-pages-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+  .popular-pages-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* Large desktop: 4 columns max */
+@media (min-width: 1280px) {
+  .popular-pages-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* Popular page cards - ensure proper aspect ratio and sizing */
+.popular-pages-grid .group-hover-card {
+  min-height: auto !important; /* Let aspect-ratio control height */
+}
+
+.popular-pages-grid .aspect-\[2\/1\] {
+  aspect-ratio: 2/1 !important; /* Ensure 2:1 landscape ratio */
+}
+
 /* Coloring Page Card Styles - Now handled by article-link/card.html */
+
+/* =================================
+   MOBILE MENU SOLID BACKGROUND SYSTEM
+   ================================= */
+/* Mobile Menu Background Variables */
+:root {
+  --mobile-menu-bg: #FEFAF6;
+  --mobile-menu-hover: #F5F1EA; /* 5% darker for hover states */
+}
+
+/* Force solid background on mobile menu sidebar */
+#menu-panel,
+#menu-sidebar {
+  background-color: var(--mobile-menu-bg) !important;
+}
+
+/* Backdrop styling for 25% sidebar menu */
+#menu-wrapper {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Override any nested background inheritance */
+#menu-panel *,
+#menu-panel div,
+#menu-sidebar *,
+#menu-sidebar div,
+#menu-sidebar ul,
+#menu-sidebar li,
+#menu-panel .mega-menu-mobile-container,
+#menu-panel .mega-menu-mobile-content,
+#menu-panel .mega-menu-mobile-category,
+#menu-panel .mega-menu-mobile-header {
+  background-color: var(--mobile-menu-bg) !important;
+}
+
+/* Custom hover states for mobile menu */
+#menu-panel .mobile-menu-hover:hover,
+#menu-panel .hover\:bg-gray-100:hover,
+#menu-panel [class*="hover:bg"]:hover {
+  background-color: var(--mobile-menu-hover) !important;
+}
+
+/* Dark mode override - keep same light background for sidebar, backdrop stays dark */
+.dark #menu-panel,
+.dark #menu-panel *,
+.dark #menu-panel div,
+.dark #menu-sidebar,
+.dark #menu-sidebar *,
+.dark #menu-sidebar div,
+.dark #menu-sidebar ul,
+.dark #menu-sidebar li {
+  background-color: var(--mobile-menu-bg) !important;
+}
+
+/* Dark mode backdrop - keep dark overlay */
+.dark #menu-wrapper {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark #menu-panel .mobile-menu-hover:hover,
+.dark #menu-sidebar .mobile-menu-hover:hover {
+  background-color: var(--mobile-menu-hover) !important;
+}
+
+/* Collapsible Menu Chevron Animations */
+.categories-chevron,
+.about-chevron {
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Smooth transitions for collapsible content */
+#categories-content,
+#about-content {
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
 
 /* =================================
    MEGA MENU STYLES
@@ -1093,7 +1218,7 @@ div.group-hover-card {
 
 .mega-menu-mobile-category-title {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 700; /* Bold text for main categories */
   color: #3b82f6; /* blue-500 */
   margin-bottom: 0.75rem;
 }
@@ -1114,19 +1239,19 @@ div.group-hover-card {
 }
 
 .mega-menu-mobile-post-link {
-  color: #6b7280; /* gray-500 */
+  color: #111827; /* gray-900 */
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 1rem; /* 16px for collection pages */
   transition: color 0.2s ease;
 }
 
 .mega-menu-mobile-post-link:hover {
-  color: #374151; /* gray-700 */
+  color: #000000; /* black */
 }
 
 .mega-menu-mobile-all-link {
   color: #3b82f6; /* blue-500 */
-  font-size: 0.875rem;
+  font-size: 1rem; /* 16px for All Pages links */
   text-decoration: none;
   font-weight: 500;
   margin-left: 1rem;
@@ -1514,14 +1639,14 @@ span.rounded-md.border.border-primary-400 {
 /* Breadcrumbs: Keep at top (order: 1) */
 #single_header nav {
   order: 1 !important;
-  margin-bottom: 0.1rem !important; /* Much closer spacing */
+  margin-bottom: 0.05rem !important; /* Reduced from 0.1rem to 0.05rem */
 }
 
 /* Categories/Meta: Move to middle (order: 2) */
 #single_header > div:has(.flex.flex-row.flex-wrap) {
   order: 2 !important;
   margin-top: 0 !important;
-  margin-bottom: 0.75rem !important;
+  margin-bottom: 0.5rem !important; /* Reduced from 0.75rem to 0.5rem */
 }
 
 /* H1: Move to bottom (order: 3) */
@@ -1529,4 +1654,33 @@ span.rounded-md.border.border-primary-400 {
   order: 3 !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+/* Sharing buttons: Position after H1 (order: 4) */
+#single_header section.flex.flex-row.flex-wrap.justify-center {
+  order: 4 !important;
+  margin-top: 1rem !important;
+  justify-content: flex-start !important; /* Left-align instead of center */
+  padding-left: 0 !important; /* Remove any left padding */
+  margin-left: 0 !important; /* Remove any left margin */
+}
+
+/* Article metadata: Left-align category badges and meta info */
+#single_header > div:has(.flex.flex-row.flex-wrap.items-center) .flex.flex-row.flex-wrap.items-center {
+  justify-content: flex-start !important;
+}
+
+/* Fix category badge alignment - compensate for px-1 padding */
+#single_header .flex.flex-row.flex-wrap.items-center a.relative.mt-\[0\.5rem\].mr-2 {
+  margin-left: -0.25rem !important; /* Negative margin to offset px-1 left padding (4px) */
+}
+
+/* Reduce font size for badges and breadcrumbs to 16px */
+#single_header .flex.flex-row.flex-wrap.items-center a.relative span span {
+  font-size: 16px !important; /* Category badges */
+}
+
+#single_header nav.breadcrumb-nav,
+#single_header nav.breadcrumb-nav * {
+  font-size: 16px !important; /* Breadcrumbs */
 }

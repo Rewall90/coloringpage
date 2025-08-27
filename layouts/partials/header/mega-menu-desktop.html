@@ -28,7 +28,7 @@
       <div class="mega-menu-grid">
         
         {{/* HIGHLIGHT: Main 5 categories - Easy to change later */}}
-        {{ $mainCategories := slice "animals" "mythical-creatures" "superheroes" "cartoons" "celebrations" }}
+        {{ $mainCategories := slice "animals-coloring-pages" "fantasy-coloring-pages" "superheroes-coloring-pages" "cartoons-coloring-pages" "holidays-coloring-pages" }}
         
         {{ range $mainCategories }}
           {{ $section := site.GetPage (printf "/%s" .) }}
@@ -58,7 +58,7 @@
           <h3 class="mega-menu-category-title">Other Categories</h3>
           <ul class="mega-menu-posts">
             {{/* HIGHLIGHT: Remaining categories - Easy to change later */}}
-            {{ $otherCategories := slice "months" "video-games" "science" "fruit-and-vegetables" "vechicles" "flowers" "nature" }}
+            {{ $otherCategories := slice "monthly-coloring-pages" "video-games-coloring-pages" "education-coloring-pages" "food-coloring-pages" "vehicles-coloring-pages" "flowers-coloring-pages" "nature-coloring-pages" }}
             {{ range $otherCategories }}
               {{ $section := site.GetPage (printf "/%s" .) }}
               {{ if $section }}

@@ -1,6 +1,6 @@
 {{/* Mobile Mega Menu - Single Column Sidebar Layout */}}
-<li class="mega-menu-mobile-container">
-  <div class="mega-menu-mobile-header">
+<li class="mega-menu-mobile-container bg-[#FEFAF6]">
+  <div class="mega-menu-mobile-header bg-[#FEFAF6]">
     <a
       {{ if .URL }}
         href="{{ .URL }}"
@@ -8,7 +8,7 @@
           target="_blank"
         {{ end }}
       {{ end }}
-      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      class="flex items-center text-gray-900 hover:text-primary-600 dark:hover:text-primary-400">
       {{ if .Pre }}
         <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
           {{ partial "icon.html" .Pre }}
@@ -21,15 +21,15 @@
   </div>
   
   {{/* Mobile Categories List */}}
-  <div class="mega-menu-mobile-content">
+  <div class="mega-menu-mobile-content bg-[#FEFAF6]">
     
     {{/* HIGHLIGHT: Main 5 categories - Same as desktop, easy to change */}}
-    {{ $mainCategories := slice "animals" "mythical-creatures" "superheroes" "cartoons" "celebrations" }}
+    {{ $mainCategories := slice "animals-coloring-pages" "fantasy-coloring-pages" "superheroes-coloring-pages" "cartoons-coloring-pages" "holidays-coloring-pages" }}
     
     {{ range $mainCategories }}
       {{ $section := site.GetPage (printf "/%s" .) }}
       {{ if $section }}
-        <div class="mega-menu-mobile-category">
+        <div class="mega-menu-mobile-category bg-[#FEFAF6]">
           <h4 class="mega-menu-mobile-category-title">
             <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
           </h4>
@@ -50,11 +50,11 @@
     {{ end }}
     
     {{/* Other Categories Section */}}
-    <div class="mega-menu-mobile-category mega-menu-mobile-other">
+    <div class="mega-menu-mobile-category mega-menu-mobile-other bg-[#FEFAF6]">
       <h4 class="mega-menu-mobile-category-title">Other Categories</h4>
       <ul class="mega-menu-mobile-posts">
         {{/* HIGHLIGHT: Remaining categories - Same as desktop, easy to change */}}
-        {{ $otherCategories := slice "months" "video-games" "science" "fruit-and-vegetables" "vechicles" "flowers" "nature" }}
+        {{ $otherCategories := slice "monthly-coloring-pages" "video-games-coloring-pages" "education-coloring-pages" "food-coloring-pages" "vehicles-coloring-pages" "flowers-coloring-pages" "nature-coloring-pages" }}
         {{ range $otherCategories }}
           {{ $section := site.GetPage (printf "/%s" .) }}
           {{ if $section }}

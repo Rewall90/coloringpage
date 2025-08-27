@@ -19,6 +19,13 @@ export const category = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'h1',
+      title: 'H1 Page Title',
+      type: 'string',
+      group: 'content',
+      description: 'Optional H1 heading for the category page (if different from title)',
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',

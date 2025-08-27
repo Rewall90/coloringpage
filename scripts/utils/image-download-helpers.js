@@ -18,6 +18,8 @@ const __dirname = path.dirname(__filename);
 export const IMAGE_CONFIGS = {
   HOMEPAGE_CATEGORY: { width: 600, height: 600, suffix: '600x600' },
   CONTENT_IMAGE: { width: 750, height: 1000, suffix: '750x1000' },
+  HERO_IMAGE: { width: 1312, height: 656, suffix: '1312x656' },
+  CARD_IMAGE: { width: 300, height: 400, suffix: '300x400' },
 };
 
 // Base paths
