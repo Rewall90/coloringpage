@@ -45,7 +45,7 @@
              {{ with .Params.image_height }}height="{{ . }}"{{ end }}
              src="{{ $localImageUrl }}" 
              alt="{{ $imageAlt }}"
-             class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+             class="w-full h-full object-cover"
              data-pin-url="{{ absURL .RelPermalink }}"
              data-pin-title="{{ .Title }} | {{ site.Title }}"
              data-pin-description="{{ .Summary | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"

@@ -8,22 +8,30 @@
       {{ $showRelated := site.Params.article.showRelatedPosts | default false }}
       {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-0" }}
       
-      {{/* Sidebar - Now starts at top level */}}
-      {{ if or $showToc $showRelated }}
-        <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-          <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ $topClass }}">
-            {{ if $showToc }}
-              {{ partial "toc.html" . }}
-            {{ end }}
-            {{ if $showRelated }}
-              sd
-            {{ end }}
+      {{/* Custom Sidebar Logic */}}
+      {{ $isColoringPage := and (ne .Type "section") (in (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") .Section) }}
+      
+      {{ if $isColoringPage }}
+        {{/* Use Custom Coloring Pages Sidebar */}}
+        {{ partial "sidebar/coloring-pages-sidebar.html" . }}
+      {{ else }}
+        {{/* Use Original ToC/Related Posts Logic */}}
+        {{ if or $showToc $showRelated }}
+          <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+            <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ $topClass }}">
+              {{ if $showToc }}
+                {{ partial "toc.html" . }}
+              {{ end }}
+              {{ if $showRelated }}
+                sd
+              {{ end }}
+            </div>
           </div>
-        </div>
+        {{ end }}
       {{ end }}
 
       {{/* Main Content Column */}}
-      <div class="min-w-0 min-h-0 max-w-fit flex flex-col">
+      <div class="min-w-0 min-h-0 flex-1 flex flex-col lg:max-w-none">
         {{/* Hero Section - Now content width */}}
         {{ if .Params.showHero | default (site.Params.article.showHero | default false) }}
           <div class="mb-5 max-w-prose">

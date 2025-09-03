@@ -1,442 +1,629 @@
 ---
 title: Sonic Coloring Page
-date: "2025-08-21T12:37:35.131Z"
+date: "2025-08-28T06:57:05.399Z"
 image_width: 1312
 image_height: 656
-image_alt: Test
+image_alt: >-
+  Sonic the Hedgehog coloring page showing the character holding a Chaos
+  Emerald, displayed in both   black-and-white and colored versions.
 categories:
   - Cartoons
 featured: false
-popular: true
 draft: false
 showHero: true
 showTableOfContents: true
-seo_title: Sonic Coloring Page - (51+ Free Printable PDF)
+seo_title: Sonic Coloring Page - (74+ Free Printable PDF)
 seo_description: >-
-  Robotic warriors, confident poses, and dynamic duos come together in these 51
-  Sonic Coloring Page coloring pages, free to download and print!
+  Robotic challenges, dynamic poses, and playful Chao come together in these 74
+  Sonic Coloring Page, free to download and print!
 hero_image: >-
   /images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-gem-hero-image-1312x656.webp
 card_image: >-
   /images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-gem-card-300x400.webp
-card_image_alt: test
+card_image_alt: >-
+  Sonic the Hedgehog coloring page showing the character in his classic pose
+  holding up a Chaos Emerald gem
 ---
 
-Sonic Coloring Page coloring pages contain 51 high-quality vector-based PDFs featuring iconic characters. The collection includes E-123 Omega, Amy, and Mighty Ray, along with additional character designs. Designed for kids and children, pages deliver sharp printing on any paper size through scalable vector graphics.
+Sonic Coloring Page contain 74 high-quality vector-based PDFs featuring Sonic characters. The collection includes Sonic Holding Chaos Emerald, Blaze Dynamic Jumping Pose, and Chao Floating Playfully, and additional character designs. Designed for kids and children, pages deliver sharp printing on any paper size through scalable vector graphics.
 
 ## FREE PRINTABLE SONIC COLORING PAGES
 
-Sonic Coloring Page coloring pages provide individual file links for easy access. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format.
+Sonic Coloring Page provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format.
 
 
 <div class="coloring-pages-grid">
 
 
 {{< coloring-page-embed
-  title="E-123 Omega Robotic Warrior Coloring Page"
-  description="E-123 Omega in a powerful stance, ready for battle, great for tech-inspired coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/e-123-omega-robotic-warrior-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c79443c5234de76c8c0d3d185ff74c0998a2c62d.pdf"
+  title="Badnick Robotic Crocodile Coloring Page"
+  description="Badnick robotic crocodile in a dynamic pose with mechanical chains, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/badnick-robotic-crocodile-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/dd0b6f7002a02358d2eea657aa8d2947e7cab70e.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Amy Confident Pose Coloring Page"
-  description="Amy Rose in confident stance with fists raised, perfect for dynamic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/amy-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/066aff67b415e48488ccc020fbbe3c1ab3a0aaf9.pdf"
+  title="Blaze Dynamic Jumping Pose Coloring Page"
+  description="Blaze the Cat in dynamic jumping pose with arm raised, perfect for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/blaze-dynamic-jumping-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/3b19803c1f5ceb857b67af9c2946126ba2d5bdef.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Mighty Ray Dynamic Duo Coloring Page"
-  description="Mighty the Armadillo and Ray the Flying Squirrel posing together, great for dynamic duo coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/mighty-ray-dynamic-duo-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/3acb2fbcf91612d338014ede84ff92e1d462e307.pdf"
+  title="Chao Floating Playfully Coloring Page"
+  description="Chao floating playfully with a cheerful expression and simple background, great for fun coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/chao-floating-playfully-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/43b56661eb35c50c438c0e4e7de35d2e9c6895b5.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Babylon Rogues Group Pose Coloring Page"
-  description="Babylon Rogues in cool stance with goggles and attitude, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/babylon-rogues-group-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/58894330cd45a29433d0b5fe5a2c8e585c14d50e.pdf"
+  title="Chaotix Dynamic Pose Coloring Page"
+  description="Team Chaotix striking a dynamic pose with thumbs-up and confident vibes, perfect for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/chaotix-dynamic-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f844f913bd929279cd572d2dff8b5df95b62a1f3.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Charmy Thumbs-up Pose Coloring Page"
-  description="Charmy Bee giving a thumbs-up in a cheerful pose, great for fun and lively coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/charmy-thumbs-up-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/833c9b3608df10321eb94d86cc64843f887bed55.pdf"
+  title="Chao Fierce Battle Pose Coloring Page"
+  description="Dark Chao in a fierce battle stance with fists raised, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/chao-fierce-battle-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/37ee06ee078ee530d169666143692421bc901cc3.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Blaze Confident Pose Coloring Page"
-  description="Blaze the Cat in a confident pose with hand gesture, great for expressive coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/blaze-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/95fe1f17eed431f94b1038c1f1338900603f6a81.pdf"
+  title="Sonic Holding Chaos Emerald Coloring Page"
+  description="Sonic the Hedgehog confidently holding a Chaos Emerald, perfect for creative coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-chaos-emerald-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/81cccd4929347522f9df0eb1aba853f202d1ca41.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Big Ready Pose Coloring Page"
-  description="Big the Cat standing confidently with raised fist, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/big-ready-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/50af21d309252f21960ecdc3dbcd8d611df1f935.pdf"
+  title="Team Deadly Monster Lineup Coloring Page"
+  description="Team Deadly lineup features various monsters in a dynamic pose, great for fierce coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/team-deadly-monster-lineup-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/fb5193c9a06a2e2bf85d0cfc7b0427c7d8ab5267.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Chaos Attack Pose Coloring Page"
-  description="Chaos in striking attack pose with sharp claws and fierce expression, ideal for detailed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/chaos-attack-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/0ff8bab0c9b14f94109b600082a4b14eeafb422f.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Dark Chao Determined Stance Coloring Page"
-  description="Dark Chao in a determined stance with fists up, perfect for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/dark-chao-determined-stance-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/58dc6344757bad1b6c70ebf67b34b95bdd49c7ee.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Holding Gem Coloring Page"
-  description="Sonic the Hedgehog holding a large gem with determined expression, perfect for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-gem-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f26f82be9d15b73f0617bbe61980b2c5b6c1dfc3.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Action Pose Coloring Page"
-  description="Sonic the Hedgehog in dynamic running pose with speed lines, perfect for action-packed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-action-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/0f777fda02a7efbb74a3fd9506980651982e6f0b.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Loop And Stars Coloring Page"
-  description="Sonic the Hedgehog surfing on a loop-de-loop track with stars, great for energetic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-loop-and-stars-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/77c9a6a009e311675944c9dd7055ad095858e8c9.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Cheese Waving With Bowtie Coloring Page"
-  description="Cheese the Chao waving with a cute bowtie, perfect for charming coloring sessions."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/cheese-waving-with-bowtie-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/002701e6edf44fecd92e412ed643c553400d977a.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Cream Cute Pose Coloring Page"
-  description="Cream the Rabbit in a charming standing pose with an endearing expression, perfect for delightful coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/cream-cute-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/09786b37bfb702af828a3c1dedad465237638385.pdf"
+  title="E-123 Omega Dynamic Pose Coloring Page"
+  description="E-123 Omega in a dynamic stance with open claw and bulky form, perfect for robotic-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/e-123-omega-dynamic-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f8cb331406f775c379cb24b49483a0c427f2b9c2.pdf"
 >}}
 
 
 {{< coloring-page-embed
   title="Eggman Confident Pose Coloring Page"
-  description="Doctor Eggman in a confident pose with clenched fists, great for villainous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/eggman-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/00a7d019083fb8bf45e51304dd30c95c01a384c4.pdf"
+  description="Doctor Eggman showcasing classic confident stance, ideal for bold coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/eggman-confident-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f6f5adffcc142b089578f413059a5525e682e7cb.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Espio Action Pose Coloring Page"
-  description="Espio the Chameleon in an action-ready pose with clenched fist, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/espio-action-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c146456fdb010aca2c60b74803739328bacc0cc5.pdf"
+  title="Emerl Robotic Crouching Pose Coloring Page"
+  description="Emerl in a dynamic crouching pose with detailed robotics, perfect for tech-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/emerl-robotic-crouching-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/5dd56a0335a8069bfd52f5d5f4720b1dae70abfe.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Fang Sniper Hat Gun Pose Coloring Page"
-  description="Fang the Sniper with a gun and hat, striking a confident pose, great for unique character coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/fang-sniper-hat-gun-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/389b311eda6fad209ef209d10dc072129c35d1e4.pdf"
+  title="Fang Smirking With Gun Coloring Page"
+  description="Fang the Sniper holding a gun with a confident smirk, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/fang-smirking-with-gun-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/39ea0246502b6abe3b4e88e754b668515092acda.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Halloween Jump Scare Coloring Page"
-  description="Sonic the Hedgehog leaping over pumpkins and ghosts, great for spooky Halloween coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-jump-scare-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/2f67b71e63e486caeaa03e849de2c6130816a37e.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Punching Tv Coloring Page"
-  description="Sonic the Hedgehog shattering a TV screen with powerful punch, great for dynamic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-punching-tv-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a5ac3c4312808f2566450d2fd1f5befbc2aed46f.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Jumping On Spring Platform Coloring Page"
-  description="Sonic the Hedgehog leaps from a spring platform surrounded by rings, great for energetic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-jumping-on-spring-platform-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f782ca5a7d490df160f24cafb639c09af588e798.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Halloween Pumpkin Jump Coloring Page"
-  description="Sonic the Hedgehog jumping among carved pumpkins in a Halloween scene, great for spooky coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-pumpkin-jump-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/46944c2f634d41a3d7dc066d5e8d37f05857096a.pdf"
->}}
-
-
-{{< coloring-page-embed
-  title="Sonic Decorating Christmas Tree Coloring Page"
-  description="Sonic the Hedgehog decorating a Christmas tree with ornaments, great for festive holiday coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-decorating-christmas-tree-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/ade79f2cb8ddac939b37ac8e42dbe5eb854c333c.pdf"
+  title="Sonic Jumping Spring Platform Coloring Page"
+  description="Sonic the Hedgehog jumping on a spring platform with rings around, great for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-jumping-spring-platform-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/6cc2ebce4b8d5b1ecec48d40272cbf16adcc55e1.pdf"
 >}}
 
 
 {{< coloring-page-embed
   title="Sonic Ice Skating Rings Coloring Page"
-  description="Sonic the Hedgehog ice skating with rings and snowflakes, perfect for winter-themed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-ice-skating-rings-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c1c37782b3507afbdd13e3e7e18b4e1bb038a7a9.pdf"
+  description="Sonic the Hedgehog ice skating with winter snowflakes and rings, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-ice-skating-rings-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/27a5c2b28ca03cafea13745142cf85beca0a1745.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Halloween Mummy Wrap Coloring Page"
-  description="Sonic wrapped as a mummy surrounded by spooky ghosts, ideal for Halloween-themed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-mummy-wrap-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a6b176c77657e24e317d6e0d8ac1fa6ca4979d4f.pdf"
+  title="Sonic Platform Star Effect Coloring Page"
+  description="Sonic the Hedgehog standing confidently on a platform with a starburst effect, great for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-platform-star-effect-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f2cb9a35203aa15a3f02036b48c8790649b377a9.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Holiday Gifts Coloring Page"
-  description="Sonic the Hedgehog carrying a large bag of gifts, perfect for festive holiday coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holiday-gifts-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/52ea254975270443a1ed56b317e71c9df346313b.pdf"
+  title="Sonic Running Fast Action Coloring Page"
+  description="Sonic the Hedgehog in dynamic running pose with speed lines, perfect for action-packed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-running-fast-action-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/cdb59b8ddac8327b142852dfa9e8a5d2a330b01f.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Halloween Haunted House Coloring Page"
-  description="Sonic the Hedgehog holding a pumpkin bucket in front of a haunted house, perfect for spooky coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-haunted-house-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/20ab69bec479aa00096516971e2dd17c5f71ca04.pdf"
+  title="Sonic Santa Hat Gift Coloring Page"
+  description="Sonic the Hedgehog wearing a Santa hat holds a wrapped gift, great for festive holiday coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-santa-hat-gift-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/2f88de38082990e193df4948ea6dbcb3e0895b07.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Smashing Star Platform Coloring Page"
-  description="Sonic the Hedgehog smashing star platform, dynamic pose on iconic stage, great for action-packed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-smashing-star-platform-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/2270bfb01da7e327abeab3e421c9fc256b685f93.pdf"
+  title="Sonic Ice Skating Festive Scene Coloring Page"
+  description="Sonic the Hedgehog joyfully ice skating with snowflakes around, perfect for winter-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-ice-skating-festive-scene-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d1e84018218669948ed7166bf5bd99599d2808a8.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Skateboarding Grind Rail Coloring Page"
-  description="Sonic the Hedgehog performing a skateboard grind on a rail, vibrant rings background, great for dynamic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-skateboarding-grind-rail-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/b5822c1f4c79758dd11a3862805adb6490c51eb0.pdf"
+  title="Sonic Decorating Christmas Tree Coloring Page"
+  description="Sonic the Hedgehog decorating a Christmas tree with ornaments, perfect for festive holiday coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-decorating-christmas-tree-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a2b1f56d500ab7ab1e55b27ce5598b40767ad5e1.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Dynamic Running Coloring Page"
-  description="Sonic the Hedgehog in dynamic running pose with speed effects, great for action-filled coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-dynamic-running-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a81d83c2cd59caa3f3610901b9f1fa7979eb6d24.pdf"
+  title="Sonic Christmas Fireplace Coloring Page"
+  description="Sonic the Hedgehog in Santa hat relaxing by a fireplace with stockings, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-christmas-fireplace-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/75df9daa7d253d8db3fde9854fe4633e41fa1b24.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Holding Rings Coloring Page"
-  description="Sonic the Hedgehog holding rings with a confident smile, surrounded by floating rings, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-rings-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/870896d1a4e4345b2c6db24b9f9c4f9ff3ee5587.pdf"
+  title="Sonic Christmas Candy Cane Coloring Page"
+  description="Sonic the Hedgehog with Santa hat holding a candy cane and stocking, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-christmas-candy-cane-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c435da9b24b82d0b1d59cdc0a2bf9d2863bdcfd2.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Moonlit Pumpkin Scene Coloring Page"
-  description="Sonic the Hedgehog triumphantly stands on a giant pumpkin with a moonlit night sky, perfect for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-moonlit-pumpkin-scene-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/1b1275a435f545fb2f3c6464274de352877b1925.pdf"
+  title="Sonic Holiday Sleigh Run Coloring Page"
+  description="Sonic the Hedgehog in Santa hat pulling a sleigh full of gifts, great for festive holiday coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holiday-sleigh-run-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c35fae3e2f14b1973efdda477d01b94ae87cfba0.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Holiday Sprint Bells Coloring Page"
-  description="Sonic the Hedgehog in a festive sprint with jingle bells and candy canes, great for holiday coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holiday-sprint-bells-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/abfa97836079a34cb424d996bfcf714f9b34e729.pdf"
+  title="Sonic Reindeer Antlers Gift Coloring Page"
+  description="Sonic the Hedgehog with reindeer antlers amidst a pile of gifts, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-reindeer-antlers-gift-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d4268b866965d932c188870567c482877b4d75b4.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Holiday Present Coloring Page"
-  description="Sonic the Hedgehog in Santa hat holding a wrapped gift, perfect for festive holiday coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holiday-present-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/6fe3bf2bdb51606f8b9d44bb1937099c323d0acc.pdf"
+  title="Metal Sonic Crouching Pose Coloring Page"
+  description="Metal Sonic crouching with a ready stance, perfect for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/metal-sonic-crouching-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/b2aa57cc521f81f812953741ed0fcc3173d33e9d.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Jet Ready To Race Coloring Page"
-  description="Jet the Hawk in a dynamic pose with goggles, perfect for energetic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/jet-ready-to-race-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/95afc0d04f634c03e9cbaa23469e5a1578951afc.pdf"
+  title="Sonic Easter Basket Coloring Page"
+  description="Sonic the Hedgehog holding a flower-filled Easter basket in a sunny garden, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-easter-basket-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/9311b925907eaa9c4b0d84f57edf0a1f3f117506.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Hero Chao Cute Winged Character Coloring Page"
-  description="Hero Chao with tiny wings and adorable smile, perfect for charming and cute coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/hero-chao-cute-winged-character-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/1ce7ef71c6abc01f5c9c055532805a24b2348f2a.pdf"
+  title="Sonic Easter Egg Celebration Coloring Page"
+  description="Sonic the Hedgehog with bunny ears holding a detailed Easter egg, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-easter-egg-celebration-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/6da5bb8006cbf4587ff89719634cc045006d3f63.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Knuckles Flexing Fist Coloring Page"
-  description="Knuckles the Echidna flexing his fist in a strong pose, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/knuckles-flexing-fist-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/de402b9678e506613781b3b1d36020f67678c8dd.pdf"
+  title="Sonic Jumping Easter Egg Field Coloring Page"
+  description="Sonic the Hedgehog joyfully jumps through an Easter egg-filled meadow under a sunny sky, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-jumping-easter-egg-field-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/fe445afe83da04f9957bf93b8a9e8acee0a8fea3.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Maria Standing Proudly Coloring Page"
-  description="Maria Robotnik standing proudly with a subtle smile, great for character-focused coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/maria-standing-proudly-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/dc6f72dc47a782c1d4f9463fb909e6066af08db1.pdf"
+  title="Sonic Painting Easter Eggs Coloring Page"
+  description="Sonic the Hedgehog painting Easter eggs in a cozy room, great for creative holiday coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-painting-easter-eggs-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/db57559eeb5874e9f28cfbbe20faad71022570a0.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Marine Happy Gesture Coloring Page"
-  description="Marine the Raccoon in a cheerful pose with open arms, great for joyful coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/marine-happy-gesture-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/77021cc5d8e13765bca38e441b423f24abb9d0cc.pdf"
+  title="Sonic Easter Basket Bunny Ears Coloring Page"
+  description="Sonic with bunny ears holding an Easter basket full of decorated eggs, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-easter-basket-bunny-ears-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/79417fb432f335bfd542c4b083b0f4880825e22b.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Metal Sonic Strong Stance Coloring Page"
-  description="Metal Sonic in a powerful stance with sharp features, perfect for robotic-themed coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/metal-sonic-strong-stance-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/46e88debf4703c25a14a7688fee7ee2537bbf894.pdf"
+  title="Sonic Easter Eggs Chicks Coloring Page"
+  description="Sonic the Hedgehog sits among Easter eggs and chicks, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-easter-eggs-chicks-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/f0f2497b1ac2d80409e9738ce26803d704920204.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Omochao Giving Thumbs Up Coloring Page"
-  description="Omochao giving a thumbs up with propeller on head, great for cheerful coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/omochao-giving-thumbs-up-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/7a00ed3d8ba840fb0786d7f400a1ac6c495d079a.pdf"
+  title="Sonic Easter Egg Hunting Coloring Page"
+  description="Sonic the Hedgehog searching for Easter eggs in a floral meadow, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-easter-egg-hunting-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/bf5f2f9523f0108564b0387240558f111994b0ec.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Orbot And Cubot Playful Pose Coloring Page"
-  description="Orbot and Cubot in playful poses pointing and smiling, great for engaging and fun coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/orbot-and-cubot-playful-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/83256bb7a8e5dbdab168f98c5126fc877186da7c.pdf"
+  title="Sonic Halloween Mummy Costume Coloring Page"
+  description="Sonic the Hedgehog dressed as a mummy holding pumpkin candy under a full moon, great for Halloween coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-mummy-costume-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/0afd5384032aeaa21060b4788aa8105cbe62497f.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Rouge Confident Pose Coloring Page"
-  description="Rouge the Bat in a confident stance with arms open, great for expressive coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/rouge-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/ccd7f223e5e38acd24933e98bebe509174d77da8.pdf"
+  title="Sonic Carving Pumpkin Halloween Coloring Page"
+  description="Sonic the Hedgehog carving a pumpkin with a spooky background, great for Halloween coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-carving-pumpkin-halloween-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/1fde3062d5c712355893b162ce1c26b719074037.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Shade Heroic Pose Coloring Page"
-  description="Shade the Echidna in a heroic pose with finger pointing forward, ideal for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/shade-heroic-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/523e2fa38a1f710d8d30c582e7f87e4383d096e6.pdf"
+  title="Sonic Halloween Candy Harvest Coloring Page"
+  description="Sonic the Hedgehog in a wizard hat, holding candy and a pumpkin bucket, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-candy-harvest-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/4c22098d39301cf632507f136281bd562c4a6a4d.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Shadow Fist Clenched Pose Coloring Page"
-  description="Shadow the Hedgehog stands with a clenched fist and determined look, great for intense coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/shadow-fist-clenched-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/8cca04a7f20cce4420e3dfd6aacaaceaa050d44c.pdf"
+  title="Sonic Halloween Lantern Cape Coloring Page"
+  description="Sonic the Hedgehog in vampire cape holding a jack-o'-lantern, great for Halloween-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-lantern-cape-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/b91e828539e751afaeda8079d7f4917691b11e0b.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Silver Confident Pose Coloring Page"
-  description="Silver the Hedgehog in a confident pose with clenched fist, great for energetic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/silver-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/b7771f63b8ec7fe43ad1f6952bf426d5ad002838.pdf"
+  title="Sonic Haunted House Run Coloring Page"
+  description="Sonic the Hedgehog runs past a spooky haunted house with moonlit ghost, great for Halloween-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-haunted-house-run-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/7952fb8fda665baee0aa132722a35025142035a6.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sonic Pointing Confident Pose Coloring Page"
-  description="Sonic the Hedgehog in a confident pose, pointing forward, perfect for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-pointing-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/cc535b83021e71983657a88545fc092c8af9d8da.pdf"
+  title="Sonic Halloween Pumpkin Scene Coloring Page"
+  description="Sonic the Hedgehog surrounded by jack-o'-lanterns and spiders under a crescent moon, great for spooky coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-halloween-pumpkin-scene-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/929f445405f3de06e29b8a1ef15652a80fb523d5.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Sticks With Boomerang Ready Coloring Page"
-  description="Sticks holding a boomerang ready for action, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sticks-with-boomerang-ready-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d3cd7b0bd0f2c67a75da763bf77180bcf8cc3756.pdf"
+  title="Sonic Celebration Balloons Gifts Coloring Page"
+  description="Sonic the Hedgehog waving surrounded by balloons and gifts, perfect for festive coloring fun."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-celebration-balloons-gifts-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/15c09fb718a34fd3f77db348e2870b08baafaaf6.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Tails Friendly Standing Pose Coloring Page"
-  description="Miles 'Tails' Prower standing with a friendly expression, great for character-focused coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/tails-friendly-standing-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/6f6d5649eb284ad071f44d98902a3efb80055f06.pdf"
+  title="Sonic Party Horn Celebration Coloring Page"
+  description="Sonic the Hedgehog with party hat and horn amidst stars and confetti, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-party-horn-celebration-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/947cdc495581a9f495412e1d18d1ed401b4cd192.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Tikal Dynamic Running Pose Coloring Page"
-  description="Tikal in a dynamic running pose with determined expression, perfect for energetic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/tikal-dynamic-running-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/fa100af196c7dbbb400b9db02e7261987e4ad838.pdf"
+  title="Sonic Birthday Cake Celebration Coloring Page"
+  description="Sonic the Hedgehog happily holding a birthday cake with candles, surrounded by stars and balloons, great for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-birthday-cake-celebration-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d660659e8641a813b129d0b59919b975b9fe92bc.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Vector Cool Chain Coloring Page"
-  description="Vector the Crocodile with a confident pose and chain necklace, great for dynamic coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/vector-cool-chain-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/eb5f409f199e75fd992df78796a86bb0c10d798f.pdf"
+  title="Sonic Jumping Out Present Coloring Page"
+  description="Sonic the Hedgehog joyfully leaps from a star-decorated gift box, perfect for festive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-jumping-out-present-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/3cfb4ba98ac2964d5881334603c502c0ad50fbb7.pdf"
 >}}
 
 
 {{< coloring-page-embed
-  title="Wave And Storm Confident Pose Coloring Page"
-  description="Wave and Storm stand confidently with unique poses, great for adventurous coloring."
-  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/wave-and-storm-confident-pose-coloring-page-750x1000.webp"
-  pdf="https://cdn.sanity.io/files/zjqmnotc/production/18fb4e44c2e9b9f42db8eae81c5e3e0a19c94180.pdf"
+  title="Sonic Congratulation Sign Coloring Page"
+  description="Sonic the Hedgehog holding a congratulation sign with a mischievous grin, great for celebratory coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-congratulation-sign-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/ae719cb130f8dbe48a533c832231572a9d9c4600.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Happy Birthday Sign Coloring Page"
+  description="Sonic the Hedgehog holding a 'Happy Birthday' sign with stars and confetti, great for celebratory coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-happy-birthday-sign-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/faf077ccd2186bb667b834676c058023c4e34c54.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Hopping Over Numbers Coloring Page"
+  description="Sonic the Hedgehog jumping over numbers with musical notes and stars, great for creative coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-hopping-over-numbers-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d7ca98c4653354d7604b91bbebd4632cd76b8836.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Teaching Shapes Coloring Page"
+  description="Sonic the Hedgehog teaching shapes at a blackboard with music notes, great for educational coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-teaching-shapes-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/340420c34484e69f7411e068dee98d22de09b8e4.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Teaching Math Coloring Page"
+  description="Sonic the Hedgehog teaching math with a blackboard and pointer, perfect for educational coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-teaching-math-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d04071f0fb7646a2f15902c45c54e0e1cb9d94aa.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Abc Letters Coloring Page"
+  description="Sonic the Hedgehog holding large ABC letters with musical notes, perfect for educational coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-abc-letters-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/634f92098fcaa6b8ced20a5ff47d81f0712e1586.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Studying Desk Scene Coloring Page"
+  description="Sonic the Hedgehog studying at a desk with musical notes around, great for educational coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-studying-desk-scene-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/ca5937da02d50386e62c9b810486b19790757658.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Reading Star Book Coloring Page"
+  description="Sonic the Hedgehog reading a star-themed book with pencils and stars around, great for creative coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-reading-star-book-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d24a912d8c44bd68e7533cde7f1a10ff28d8cfa5.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Eating Huge Pizza Coloring Page"
+  description="Sonic the Hedgehog joyfully devouring a giant slice of pizza with hearts, great for fun coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-eating-huge-pizza-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/429c8597db1e2464553c79cbcf8266c9bb5f33bd.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Skateboard Stunts Coloring Page"
+  description="Sonic the Hedgehog doing skateboard stunts surrounded by stars, great for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-skateboard-stunts-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d9967c89a8db3ae43e0ba40a521fb343d679d564.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Holding Ice Cream Cone Coloring Page"
+  description="Sonic the Hedgehog excitedly holding a large ice cream cone, featuring a cherry on top, great for fun coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-holding-ice-cream-cone-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/06f182522720952b0c63cea05b6c373a08e2296c.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Biking With Balloons Coloring Page"
+  description="Sonic the Hedgehog riding a bicycle with balloons, creating a whimsical and fun scene perfect for playful coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-biking-with-balloons-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/1128e0df6b058050af8a8af6357470db5993c064.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Kicking Soccer Ball Coloring Page"
+  description="Sonic the Hedgehog kicking a soccer ball with a goal net in the background, great for sports-themed coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-kicking-soccer-ball-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/eebb8afca22f3d68159e8974815203cd818b508a.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Jet Relaxing Beach Lounge Coloring Page"
+  description="Jet the Hawk lounging on a beach chair with a tropical drink, great for relaxing coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/jet-relaxing-beach-lounge-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/5ba9fdd885bffdf84e322204ce9ebd7e9dcdcd64.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Knuckles Determined Pose Coloring Page"
+  description="Knuckles the Echidna in a determined pose with fists forward, great for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/knuckles-determined-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c4300c2fffe55ada584cd28c3b17b1842e82da97.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Light Chao Happy Stand Coloring Page"
+  description="Light Chao with orb atop head stands happily, great for whimsical coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/light-chao-happy-stand-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/3c9852a77fb52cb765788da88b1661713b1ee660.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Marine Happy Pose Coloring Page"
+  description="Marine the Raccoon striking a cheerful pose with her hand outstretched, great for lively coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/marine-happy-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/9a646d98d9f5bc19066b5af100c055358ee8d881.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Metal Sonic Action Pose Coloring Page"
+  description="Metal Sonic in a dynamic action pose with outstretched claws, perfect for futuristic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/metal-sonic-action-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/5a445df1ea425348c5173dbdf0524d4f5d2b334a.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Neo Metal Sonic Striking Pose Coloring Page"
+  description="Neo Metal Sonic in a striking pose with detailed circuitry, perfect for futuristic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/neo-metal-sonic-striking-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/77a35c066355faf06c00a8c9cc4579bd2d55a4d2.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Omochao Thumbs Up Coloring Page"
+  description="Omochao giving a thumbs-up with a propeller hat, great for cheerful coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/omochao-thumbs-up-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/6196c52cb4539446e849cbf0fa9941bd67b27c30.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Orbot Cubot Fun Pose Coloring Page"
+  description="Orbot and Cubot in a playful pose with playful expressions, great for creative coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/orbot-cubot-fun-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/1d6b4795fe64c3bf0b43c36730cbc0ba204fcc4a.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Amy Smiling With Piko Hammer Coloring Page"
+  description="Amy Rose smiling with her Piko Hammer ready, great for joyful coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/amy-smiling-with-piko-hammer-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/616776d61886c42d5af172ae845d4e9eee9275da.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Rouge Stylish Pose Coloring Page"
+  description="Rouge the Bat in stylish pose with an outstretched hand, great for fashionable coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/rouge-stylish-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c6555baee0d7912c3b3e0c0c9931c2a45aabc8fc.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Shade Confident Pointing Coloring Page"
+  description="Shade the Echidna in a confident pointing pose, great for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/shade-confident-pointing-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a7d501f7f292aa2e4dfdac5e5e48e955758ac95d.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Shadow Determined Pose Coloring Page"
+  description="Shadow the Hedgehog in a determined standing pose, great for dramatic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/shadow-determined-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/11f75d3ce731182c81131fd4addb02b7a69ed5b8.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Silver Dynamic Heroic Pose Coloring Page"
+  description="Silver the Hedgehog in a dynamic, heroic pose with outstretched hand, great for imaginative coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/silver-dynamic-heroic-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/3eb9b097f1ca3237c1e47d5417fabc189dca7e70.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Sonic Confident Pose Gesture Coloring Page"
+  description="Sonic the Hedgehog poses confidently with a two-finger gesture and a smile, perfect for expressive coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/sonic-confident-pose-gesture-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/50c09582cfb3025b61e9d78c6c0250406c372df7.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Storm Dynamic Action Pose Coloring Page"
+  description="Storm the Albatross in a dynamic action pose with goggles, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/storm-dynamic-action-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/d2184ba159cefc55547941e4c4386bc86a67c710.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Super Neo Dramatic Pose Coloring Page"
+  description="Super Neo with dramatic spiked armor and flowing cape, perfect for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/super-neo-dramatic-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/c1d21b83ff14523a0988b4873cf4cc937c4f48e5.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Tails Playful Pointing Pose Coloring Page"
+  description="Miles 'Tails' Prower in a playful pointing pose, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/tails-playful-pointing-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/a8d47dffe2e3dcf538c74e429c956a1b653d81d5.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Babylon Rogues Dynamic Pose Coloring Page"
+  description="Babylon Rogues in a dynamic action pose with boards, great for thrilling coloring activities."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/babylon-rogues-dynamic-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/abaa2ddf9fb2f4d89f7c1774b84114b70a8e1d64.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Team Dark Group Pose Coloring Page"
+  description="Team Dark group pose featuring Shadow, Rouge, and Omega, great for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/team-dark-group-pose-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/69fc3ac42702001bda5db580d89f88ef5fc578a0.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Team Sonic Heroic Stance Coloring Page"
+  description="Sonic, Knuckles, and Tails in a heroic stance under 'Team Sonic' text, perfect for adventurous coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/team-sonic-heroic-stance-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/523ae2f691ba4e2b281acb2a0585ab9e48c155f5.pdf"
+>}}
+
+
+{{< coloring-page-embed
+  title="Zazz Ready To Attack Coloring Page"
+  description="Zazz with spikes and menacing pose, ready to attack, perfect for dynamic coloring."
+  image="/images/collections/cartoons-coloring-pages/sonic-coloring-page/zazz-ready-to-attack-750x1000.webp"
+  pdf="https://cdn.sanity.io/files/zjqmnotc/production/af833dfb938b2428af12263933fb9a91d6153d09.pdf"
 >}}
 
 </div>

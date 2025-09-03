@@ -36,13 +36,29 @@
       {{/* Download and Print buttons */}}
       <div class="flex flex-col gap-2">
         {{ if $pdf }}
-          <a 
-            href="{{ $.Page.RelPermalink }}{{ $title | urlize }}.pdf" 
-            target="_blank"
-            class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-300 text-base text-center"
-          >
-            Download Coloring Page
-          </a>
+          {{/* Use different URLs based on environment */}}
+          {{ if eq hugo.Environment "development" }}
+            {{/* Development: Use direct Sanity CDN URLs */}}
+            <a 
+              href="{{ $pdf }}" 
+              target="_blank"
+              class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-300 text-base text-center"
+            >
+              Download Coloring Page
+            </a>
+          {{ else }}
+            {{/* Production: Use Cloudflare Worker URLs */}}
+            {{ $pdfSlug := $title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-|-$" "" }}
+            {{ $categorySlug := .Page.Section }}
+            {{ $pageSlug := .Page.File.BaseFileName }}
+            <a 
+              href="/pdf/{{ $categorySlug }}/{{ $pageSlug }}/{{ $pdfSlug }}" 
+              target="_blank"
+              class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-300 text-base text-center"
+            >
+              Download Coloring Page
+            </a>
+          {{ end }}
         {{ end }}
       </div>
     </div>

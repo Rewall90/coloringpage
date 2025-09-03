@@ -1,0 +1,53 @@
+{{/* Compact Trending Coloring Pages - Reference Design */}}
+{{ $coloringPages := where site.RegularPages "Section" "in" (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") }}
+{{ $trendingPages := $coloringPages | shuffle | first 5 }}
+
+{{ if $trendingPages }}
+<div class="sidebar-section mb-4">
+  <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-3 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+    🔥 Trending Coloring Pages
+  </h3>
+  
+  <div class="space-y-4">
+    {{ range $trendingPages }}
+      <div class="group rounded-lg p-3 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors duration-200">
+        {{/* Full Width Hero Image - Clickable to Page */}}
+        {{ $imageUrl := "" }}
+        {{ if .Params.hero_image }}
+          {{ $imageUrl = .Params.hero_image }}
+        {{ else if .Params.card_image }}
+          {{ $imageUrl = .Params.card_image }}
+        {{ else }}
+          {{ $imageUrl = printf "/images/collections/%s/%s/hero.webp" .Section (path.BaseName .RelPermalink) }}
+        {{ end }}
+        
+        <a href="{{ .RelPermalink }}" class="block mb-3">
+          <div class="w-full aspect-[2/1] overflow-hidden rounded-lg">
+            <img 
+              src="{{ $imageUrl }}" 
+              alt="{{ .Title }}"
+              class="w-full h-full object-contain bg-neutral-100 dark:bg-neutral-800 nozoom transition-transform duration-200 hover:scale-[1.02]"
+              loading="lazy"
+            />
+          </div>
+        </a>
+        
+        {{/* Content Below Image */}}
+        <div class="text-center">
+          {{/* Clickable Category Link */}}
+          <a href="/{{ .Section }}/" class="inline-block text-xs text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-wide mb-2 transition-colors duration-200">
+            {{ .Section | humanize }}
+          </a>
+          
+          {{/* Clickable Page Title */}}
+          <a href="{{ .RelPermalink }}" class="block">
+            <h4 class="text-base font-medium text-neutral-800 dark:text-neutral-100 line-clamp-2 hover:text-primary-600 dark:hover:text-primary-400 transition-colors leading-tight">
+              {{ .Title }}
+            </h4>
+          </a>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

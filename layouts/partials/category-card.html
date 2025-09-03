@@ -21,7 +21,7 @@
              height="300"
              src="{{ $localImageUrl }}" 
              alt="{{ $category.Params.image_alt | default $category.Title }}"
-             class="w-full h-full object-cover"
+             class="w-full h-full object-cover nozoom"
              data-pin-url="{{ absURL "/" }}"
              data-pin-title="Free Coloring Pages | {{ site.Title }}"
              data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
