@@ -10,6 +10,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 summaryLength = 0
+# Force rebuild for layout sync
 
 buildDrafts = false
 buildFuture = false
