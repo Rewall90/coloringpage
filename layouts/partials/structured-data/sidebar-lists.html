@@ -1,0 +1,161 @@
+{{/* Sidebar Lists Structured Data - ItemList schemas for sidebar content */}}
+{{/* Returns JSON-LD structured data for sidebar navigation lists */}}
+{{/* Usage: {{ partial "structured-data/sidebar-lists.html" . }} */}}
+
+{{ $coloringPages := where site.RegularPages "Section" "in" (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") }}
+
+{{/* Filter out current page from sidebar */}}
+{{ $filteredPages := where $coloringPages ".RelPermalink" "ne" .RelPermalink }}
+
+{{/* Create different lists */}}
+{{ $trendingPages := $filteredPages | shuffle | first 5 }}
+{{ $popularPages := $filteredPages.ByDate.Reverse | first 6 }}
+{{ $latestPages := $filteredPages.ByDate.Reverse | first 5 }}
+
+{{/* Generate SiteNavigationElement for sidebar */}}
+{{ $sidebarNav := dict
+  "@context" "https://schema.org"
+  "@type" "SiteNavigationElement"
+  "@id" (printf "%s#sidebar-navigation" .Permalink)
+  "name" "Related Coloring Pages Navigation"
+  "description" "Sidebar navigation for discovering related coloring pages"
+  "url" (printf "%s#sidebar" .Permalink)
+  "isPartOf" (dict "@id" (printf "%s#webpage" .Permalink))
+}}
+
+{{/* Generate ItemList for Trending Pages */}}
+{{ if $trendingPages }}
+  {{ $trendingItems := slice }}
+  {{ range $index, $page := $trendingPages }}
+    {{ $item := dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $page.Title
+      "description" (or $page.Description $page.Summary $page.Title)
+      "url" $page.Permalink
+      "item" (dict
+        "@type" "CreativeWork"
+        "@id" (printf "%s#creativework" $page.Permalink)
+        "name" $page.Title
+        "url" $page.Permalink
+        "genre" "Coloring Page"
+        "audience" (dict
+          "@type" "Audience"
+          "audienceType" "Children and Adults"
+        )
+        "isAccessibleForFree" true
+      )
+    }}
+    {{ $trendingItems = $trendingItems | append $item }}
+  {{ end }}
+
+  {{ $trendingList := dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "@id" (printf "%s#trending-sidebar-list" .Permalink)
+    "name" "Trending Coloring Pages"
+    "description" "Popular and trending coloring pages recommended for users"
+    "numberOfItems" (len $trendingPages)
+    "itemListOrder" "http://schema.org/ItemListOrderAscending"
+    "itemListElement" $trendingItems
+    "isPartOf" (dict "@id" (printf "%s#sidebar-navigation" .Permalink))
+  }}
+
+  <script type="application/ld+json">
+  {{ $trendingList | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+{{ end }}
+
+{{/* Generate ItemList for Popular Pages */}}
+{{ if $popularPages }}
+  {{ $popularItems := slice }}
+  {{ range $index, $page := $popularPages }}
+    {{ $item := dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $page.Title
+      "description" (or $page.Description $page.Summary $page.Title)
+      "url" $page.Permalink
+      "item" (dict
+        "@type" "CreativeWork"
+        "@id" (printf "%s#creativework" $page.Permalink)
+        "name" $page.Title
+        "url" $page.Permalink
+        "datePublished" ($page.Date.Format "2006-01-02T15:04:05-07:00")
+        "genre" "Coloring Page"
+        "audience" (dict
+          "@type" "Audience"
+          "audienceType" "Children and Adults"
+        )
+        "isAccessibleForFree" true
+      )
+    }}
+    {{ $popularItems = $popularItems | append $item }}
+  {{ end }}
+
+  {{ $popularList := dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "@id" (printf "%s#popular-sidebar-list" .Permalink)
+    "name" "Popular Coloring Pages"
+    "description" "Most popular coloring pages based on recent activity"
+    "numberOfItems" (len $popularPages)
+    "itemListOrder" "http://schema.org/ItemListOrderDescending"
+    "itemListElement" $popularItems
+    "isPartOf" (dict "@id" (printf "%s#sidebar-navigation" .Permalink))
+  }}
+
+  <script type="application/ld+json">
+  {{ $popularList | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+{{ end }}
+
+{{/* Generate ItemList for Latest Pages */}}
+{{ if $latestPages }}
+  {{ $latestItems := slice }}
+  {{ range $index, $page := $latestPages }}
+    {{ $item := dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $page.Title
+      "description" (or $page.Description $page.Summary $page.Title)
+      "url" $page.Permalink
+      "item" (dict
+        "@type" "CreativeWork"
+        "@id" (printf "%s#creativework" $page.Permalink)
+        "name" $page.Title
+        "url" $page.Permalink
+        "datePublished" ($page.Date.Format "2006-01-02T15:04:05-07:00")
+        "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05-07:00")
+        "genre" "Coloring Page"
+        "audience" (dict
+          "@type" "Audience"
+          "audienceType" "Children and Adults"
+        )
+        "isAccessibleForFree" true
+      )
+    }}
+    {{ $latestItems = $latestItems | append $item }}
+  {{ end }}
+
+  {{ $latestList := dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "@id" (printf "%s#latest-sidebar-list" .Permalink)
+    "name" "Latest Coloring Pages"
+    "description" "Most recently published coloring pages"
+    "numberOfItems" (len $latestPages)
+    "itemListOrder" "http://schema.org/ItemListOrderDescending"
+    "itemListElement" $latestItems
+    "isPartOf" (dict "@id" (printf "%s#sidebar-navigation" .Permalink))
+  }}
+
+  <script type="application/ld+json">
+  {{ $latestList | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+{{ end }}
+
+{{/* Generate main SiteNavigationElement schema */}}
+<script type="application/ld+json">
+{{ $sidebarNav | jsonify (dict "indent" "  ") | safeJS }}
+</script>

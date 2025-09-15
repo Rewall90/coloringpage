@@ -3,24 +3,29 @@
 {{ $isColoringPage := and (ne .Type "section") (in (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") .Section) }}
 
 {{ if $isColoringPage }}
-  <div class="order-first lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+  <div class="lg:ml-auto px-0 lg:order-last lg:max-w-sm ltr:lg:pl-8 rtl:lg:pr-8">
     <div class="coloring-pages-sidebar ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-4">
-      
+
       {{/* Sidebar Components */}}
       <div class="sidebar-content space-y-3">
-        
+
         {{/* Trending Coloring Pages */}}
         {{ if not (.Param "hideTrendingPages") }}
           {{ partial "sidebar/trending-compact.html" . }}
         {{ end }}
-        
+
         {{/* Popular Coloring Pages */}}
         {{ if not (.Param "hidePopularPages") }}
           {{ partial "sidebar/popular-compact.html" . }}
         {{ end }}
-        
+
+        {{/* Latest Coloring Pages */}}
+        {{ if not (.Param "hideLatestPages") }}
+          {{ partial "sidebar/latest-compact.html" . }}
+        {{ end }}
+
       </div>
-      
+
     </div>
   </div>
 {{ end }}

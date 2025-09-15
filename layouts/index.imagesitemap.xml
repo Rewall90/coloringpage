@@ -1,0 +1,36 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{{- range .Site.RegularPages -}}
+{{- $heroImage := .Params.hero_image | strings.TrimSpace -}}
+{{- $cardImage := .Params.card_image | strings.TrimSpace -}}
+{{- if or $heroImage $cardImage -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>{{- end }}
+{{- if $heroImage }}
+    <image:image>
+      <image:loc>{{ $heroImage | absURL }}</image:loc>
+    </image:image>{{- end }}
+{{- if and $cardImage (ne $cardImage $heroImage) }}
+    <image:image>
+      <image:loc>{{ $cardImage | absURL }}</image:loc>
+    </image:image>{{- end }}
+{{- $content := .RawContent -}}
+{{- $imageMatches := findRE `image="([^"]*\.webp)"` $content -}}
+{{- $count := 0 -}}
+{{- range $imageMatches }}
+{{- if lt $count 5 -}}
+{{- $imagePath := . | replaceRE `image="([^"]*)"` "$1" }}
+{{- if and (ne $imagePath $heroImage) (ne $imagePath $cardImage) }}
+    <image:image>
+      <image:loc>{{ $imagePath | absURL }}</image:loc>
+    </image:image>
+{{- $count = add $count 1 -}}
+{{- end }}
+{{- end }}
+{{- end }}
+  </url>
+{{- end }}
+{{- end }}
+</urlset>

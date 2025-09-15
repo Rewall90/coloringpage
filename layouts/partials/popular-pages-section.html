@@ -14,21 +14,8 @@
     {{ end }}
   {{ end }}
   
-  {{/* Filter for popular pages first */}}
-  {{ $popularPages := slice }}
-  {{ range $coloringPages }}
-    {{ if .Params.popular }}
-      {{ $popularPages = $popularPages | append . }}
-    {{ end }}
-  {{ end }}
-  
-  {{/* Fallback to recent pages if no popular pages found and fallback is enabled */}}
-  {{ $finalPages := $popularPages }}
-  {{ if and (eq (len $popularPages) 0) $fallbackToRecent }}
-    {{ $finalPages = ($coloringPages | first $limit) }}
-  {{ else }}
-    {{ $finalPages = ($popularPages | first $limit) }}
-  {{ end }}
+  {{/* Sort by date descending and take the most recent pages - same as latest section */}}
+  {{ $finalPages := ($coloringPages.ByDate.Reverse | first $limit) }}
   
   {{ if $finalPages }}
     <section class="popular-pages-section py-16" aria-labelledby="popular-pages-heading">

@@ -11,30 +11,11 @@
       {{/* Custom Sidebar Logic */}}
       {{ $isColoringPage := and (ne .Type "section") (in (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") .Section) }}
       
-      {{ if $isColoringPage }}
-        {{/* Use Custom Coloring Pages Sidebar */}}
-        {{ partial "sidebar/coloring-pages-sidebar.html" . }}
-      {{ else }}
-        {{/* Use Original ToC/Related Posts Logic */}}
-        {{ if or $showToc $showRelated }}
-          <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-            <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ $topClass }}">
-              {{ if $showToc }}
-                {{ partial "toc.html" . }}
-              {{ end }}
-              {{ if $showRelated }}
-                sd
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
-      {{ end }}
-
       {{/* Main Content Column */}}
       <div class="min-w-0 min-h-0 flex-1 flex flex-col lg:max-w-none">
         {{/* Hero Section - Now content width */}}
         {{ if .Params.showHero | default (site.Params.article.showHero | default false) }}
-          <div class="mb-5 max-w-prose">
+          <div class="mb-5 max-w-7xl">
             {{ $heroStyle := .Params.heroStyle }}
             {{ if not $heroStyle }}{{ $heroStyle = site.Params.article.heroStyle }}{{ end }}
             {{ $heroStyle := print "hero/" $heroStyle ".html" }}
@@ -46,8 +27,18 @@
           </div>
         {{ end }}
 
+        {{/* Skip Navigation for Sidebar */}}
+        {{ if $isColoringPage }}
+          <div class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50">
+            <a href="#sidebar-navigation"
+               class="px-4 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2">
+              Skip to related pages
+            </a>
+          </div>
+        {{ end }}
+
         {{/* Header - Below Hero in main column */}}
-        <header id="single_header" class="mt-5 max-w-prose">
+        <header id="single_header" class="mt-5 max-w-7xl">
           {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
             {{ partial "breadcrumbs.html" . }}
           {{ end }}
@@ -65,8 +56,40 @@
 
         {{/* Article Content */}}
         {{ partial "series/series.html" . }}
-        <div class="article-content max-w-prose mb-20">
-          {{ .Content }}
+        <div class="article-content max-w-7xl mb-20">
+          {{ if $isColoringPage }}
+            {{/* Process content to inject related coloring pages component after specific paragraph */}}
+            {{ $content := .Content }}
+
+            {{/* Get all coloring pages except current page */}}
+            {{ $coloringPages := where site.RegularPages "Section" "in" (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") }}
+            {{ $filteredPages := where $coloringPages ".RelPermalink" "ne" .RelPermalink }}
+            {{ $randomPages := $filteredPages | shuffle | first 4 }}
+
+            {{/* Create the component HTML with dynamic pages */}}
+            {{ $componentHTML := `<div class="related-coloring-pages my-8 mx-auto max-w-4xl p-6 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border-2 border-blue-400 dark:border-blue-500 shadow-sm">
+              <h3 class="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-4 text-center">
+                You might also like these related coloring pages!
+              </h3>
+              <div class="flex flex-wrap gap-4 justify-center items-center">` }}
+
+            {{/* Add random pages as buttons */}}
+            {{ range $randomPages }}
+              {{ $pageTitle := .Title | replaceRE " Coloring Page$" "" | replaceRE " Coloring Pages$" "" }}
+              {{ $componentHTML = printf `%s<a href="%s" class="inline-block px-6 py-3 text-white font-medium text-sm cursor-pointer no-underline" style="background-color: #3b82f6 !important; color: white !important; border-radius: 9999px !important; transform: none !important; transition: none !important;">%s</a>` $componentHTML .RelPermalink $pageTitle }}
+            {{ end }}
+
+            {{ $componentHTML = printf `%s</div></div>` $componentHTML }}
+
+            {{/* Pattern to match: paragraph containing specific text about providing files/retrieval and complexity levels */}}
+            {{ $pattern := `(<p>.*?provide (?:individual file links|bundle retrieval|easy bundle retrieval).*?complexity levels.*?vector-based PDF format.*?</p>)` }}
+            {{ $replacement := printf "%s%s" "$1" $componentHTML }}
+            {{ $processedContent := $content | replaceRE $pattern $replacement }}
+
+            {{ $processedContent | safeHTML }}
+          {{ else }}
+            {{ .Content }}
+          {{ end }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
           {{ if $replyByEmail }}
@@ -86,6 +109,25 @@
         {{ partial "series/series-closed.html" . }}
         {{ partial "related.html" . }}
       </div>
+
+      {{ if $isColoringPage }}
+        {{/* Use Custom Coloring Pages Sidebar */}}
+        {{ partial "sidebar/coloring-pages-sidebar.html" . }}
+      {{ else }}
+        {{/* Use Original ToC/Related Posts Logic */}}
+        {{ if or $showToc $showRelated }}
+          <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+            <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ $topClass }}">
+              {{ if $showToc }}
+                {{ partial "toc.html" . }}
+              {{ end }}
+              {{ if $showRelated }}
+                sd
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
     </section>
 
     {{ $translations := .AllTranslations }}
@@ -106,7 +148,7 @@
     {{ end }}
 
     {{/* Footer */}}
-    <footer class="pt-8 max-w-prose print:hidden">
+    <footer class="pt-8 max-w-7xl print:hidden">
       {{ partial "article-pagination.html" . }}
       {{ if .Params.showComments | default (site.Params.article.showComments | default false) }}
         {{ if templates.Exists "partials/comments.html" }}

@@ -11,6 +11,7 @@ aliases:
 seo_title: "Terms & Conditions - ColoringVault"
 seo_description: "Read ColoringVault's terms and conditions for using our free coloring pages and website services"
 showAuthor: false
+sharingLinks: false
 ---
 
 Last updated: August 13, 2025

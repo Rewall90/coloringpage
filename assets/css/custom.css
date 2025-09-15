@@ -86,46 +86,248 @@ header > div {
 
 /* Custom Styles for Category Pages */
 
-/* Homepage Category Grid - 6 Column Responsive Layout */
+/* ===================================
+   REFACTORED HOMEPAGE CATEGORY GRID
+   =================================== */
+
+/* Enhanced CSS Custom Properties */
+:root {
+  /* Grid System */
+  --category-gap: clamp(0.75rem, 2vw, 1.5rem);
+  --category-columns-mobile: 1;
+  --category-columns-tablet: 3;
+  --category-columns-desktop: 6;
+
+  /* Card Dimensions */
+  --category-min-width: 200px;
+  --category-padding: clamp(1.25rem, 3vw, 2rem);
+  --category-border-radius: 0.75rem;
+
+  /* Image Sizing */
+  --category-image-size: clamp(100px, 20vw, 140px);
+  --category-image-border-radius: 0.375rem;
+
+  /* Typography */
+  --category-font-size: clamp(16px, 3vw, 18px);
+  --category-line-height: 1.3;
+}
+
+/* Main Grid Container */
 .homepage-category-grid {
-  display: grid !important;
-  gap: 0.75rem !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Mobile: 2 columns */
+  display: grid;
+  gap: var(--category-gap);
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: stretch;
+
+  /* Mobile First - Single Column */
+  grid-template-columns: repeat(var(--category-columns-mobile), 1fr);
 }
 
-/* Mobile: 2 columns */
-@media (min-width: 640px) {
+/* Tablet Breakpoint */
+@media (min-width: 769px) {
   .homepage-category-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(var(--category-columns-tablet), minmax(var(--category-min-width), 1fr));
+    gap: 1.25rem;
   }
 }
 
-/* Tablet: 3 columns */
-@media (min-width: 768px) {
+/* Desktop Breakpoint */
+@media (min-width: 1200px) {
   .homepage-category-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(var(--category-columns-desktop), minmax(var(--category-min-width), 1fr));
+    gap: 1.5rem;
   }
 }
 
-/* Desktop: 4 columns */
-@media (min-width: 1024px) {
-  .homepage-category-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+/* Card Container */
+.homepage-category-grid article.block {
+  height: 100%;
+  border-radius: var(--category-border-radius);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Card Link */
+.homepage-category-grid article.block > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: var(--category-padding);
+  text-decoration: none;
+  gap: calc(var(--category-padding) * 0.4);
+  min-height: 44px;
+  min-width: 44px;
+  border-radius: var(--category-border-radius);
+}
+
+/* Image Container */
+.homepage-category-grid .aspect-square {
+  width: var(--category-image-size);
+  height: var(--category-image-size);
+  border-radius: var(--category-image-border-radius);
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.homepage-category-grid .aspect-square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Text Container */
+.homepage-category-grid figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-category-grid figcaption span {
+  font-size: var(--category-font-size);
+  font-weight: 600;
+  line-height: var(--category-line-height);
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* ===================================
+   MOBILE RESPONSIVE LAYOUT
+   =================================== */
+
+/* Mobile Layout - Horizontal Cards */
+@media (max-width: 768px) {
+  :root {
+    --category-padding: 1rem;
+  }
+
+  .homepage-category-grid article.block > a {
+    flex-direction: row;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .homepage-category-grid .aspect-square {
+    width: 80px;
+    height: 80px;
+  }
+
+  .homepage-category-grid figcaption {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .homepage-category-grid figcaption span {
+    text-align: left;
   }
 }
 
-/* Large Desktop: 5 columns */
-@media (min-width: 1280px) {
-  .homepage-category-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+/* Tablet Optimization */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .homepage-category-grid .aspect-square {
+    width: 110px;
+    height: 110px;
   }
 }
 
-/* Extra Large: 6 columns - Adjusted breakpoint for larger images */
-@media (min-width: 1400px) {
-  .homepage-category-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
-    gap: 1rem !important;
+/* ===================================
+   DESKTOP ENHANCEMENTS
+   =================================== */
+
+@media (min-width: 1200px) {
+  .homepage-category-grid article.block:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .homepage-category-grid article.block:hover img {
+    transform: scale(1.05);
+  }
+}
+
+/* ===================================
+   ACCESSIBILITY & FOCUS STATES
+   =================================== */
+
+.homepage-category-grid article.block > a:focus {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.2);
+}
+
+.homepage-category-grid article.block > a:focus-visible {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.2);
+}
+
+/* Ensure proper focus indication for keyboard users */
+@media (prefers-reduced-motion: no-preference) {
+  .homepage-category-grid article.block > a:focus {
+    transition: box-shadow 0.2s ease;
+  }
+}
+
+/* Fallback for missing images */
+.homepage-category-grid .fallback-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark .homepage-category-grid .fallback-bg {
+  background: linear-gradient(135deg, #374151, #4b5563);
+}
+
+/* ===================================
+   CRITICAL OVERRIDES - DEFEAT CONFLICTING CSS
+   =================================== */
+
+/* Override the problematic !important rules with higher specificity */
+.homepage-category-grid article.block > a[style*="background-color"] {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: var(--category-padding) !important;
+  border-radius: var(--category-border-radius) !important;
+}
+
+.homepage-category-grid article.block .aspect-square {
+  width: var(--category-image-size) !important;
+  height: var(--category-image-size) !important;
+  margin-bottom: 0 !important;
+}
+
+/* Mobile override with higher specificity */
+@media (max-width: 768px) {
+  .homepage-category-grid article.block > a[style*="background-color"] {
+    flex-direction: row !important;
+    padding: 1rem !important;
+  }
+
+  .homepage-category-grid article.block .aspect-square {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+/* Tablet override */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .homepage-category-grid article.block .aspect-square {
+    width: 110px !important;
+    height: 110px !important;
   }
 }
 
@@ -523,14 +725,15 @@ div.group-hover-card {
 .coloring-pages-grid {
   display: grid;
   grid-template-columns: 1fr; /* Mobile: 1 column */
-  gap: 1.5rem;
+  gap: 1rem;
   margin: 2rem 0;
 }
 
-/* Tablet and up: 2 columns max */
+/* Tablet and up: 2 columns max with reduced gap for wider cards */
 @media (min-width: 768px) {
   .coloring-pages-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; /* Reduced gap to make cards wider */
   }
 }
 
@@ -539,13 +742,101 @@ div.group-hover-card {
   margin: 0; /* Remove default margins when in grid */
 }
 
-/* Increase Post Width from 65ch to 75ch */
+/* Balanced content width with comfortable padding */
 .prose {
-  max-width: 140ch !important;
+  max-width: min(92vw, 1500px) !important;
 }
 
 .max-w-prose {
-  max-width: 140ch !important;
+  max-width: min(92vw, 1500px) !important;
+}
+
+/* Override theme's 1024px container limit with comfortable margins */
+.container,
+main,
+article,
+.max-w-7xl,
+.mx-auto {
+  max-width: min(92vw, 1500px) !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* Mobile: Full width content */
+@media (max-width: 479px) {
+  .container,
+  main,
+  article,
+  .max-w-7xl,
+  .mx-auto {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    width: 100% !important;
+  }
+
+  /* Ensure sections use full width on mobile */
+  section.hero-section > div.max-w-7xl,
+  section.categories-showcase > div.max-w-7xl,
+  section.pre-footer-section > div.max-w-7xl {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    width: 100% !important;
+  }
+}
+
+/* Specific override for larger screens */
+@media (min-width: 1024px) {
+  .container,
+  main,
+  article,
+  .max-w-7xl,
+  .mx-auto {
+    max-width: min(92vw, 1500px) !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+/* Ensure body doesn't add extra padding */
+body,
+html {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Add breathing room around main content areas */
+main {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Sidebar styling - black text for better readability */
+.sidebar-section h3,
+.sidebar-section h2,
+.sidebar-section h4 {
+  color: #000000 !important;
+}
+
+.sidebar-section a,
+.sidebar-section p,
+.sidebar-section span,
+.sidebar-section .text-sm,
+.sidebar-section .text-xs {
+  color: #000000 !important;
+}
+
+/* Dark mode exception - keep text readable */
+.dark .sidebar-section h3,
+.dark .sidebar-section h2,
+.dark .sidebar-section h4,
+.dark .sidebar-section a,
+.dark .sidebar-section p,
+.dark .sidebar-section span,
+.dark .sidebar-section .text-sm,
+.dark .sidebar-section .text-xs {
+  color: #ffffff !important;
 }
 
 /* Hero Search Box Styles */
@@ -1140,7 +1431,7 @@ div.group-hover-card {
 }
 
 .mega-menu-post-link {
-  color: #6b7280; /* gray-500 */
+  color: #000000; /* black */
   text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1148,7 +1439,7 @@ div.group-hover-card {
 }
 
 .mega-menu-post-link:hover {
-  color: #374151; /* gray-700 */
+  color: #000000; /* black */
 }
 
 .mega-menu-all-link {
@@ -1164,6 +1455,15 @@ div.group-hover-card {
 
 .mega-menu-other-categories .mega-menu-posts li {
   margin-bottom: 0.75rem;
+}
+
+.mega-menu-other-categories .mega-menu-post-link {
+  color: #3b82f6 !important; /* blue-500 */
+  font-weight: 600 !important; /* bold */
+}
+
+.mega-menu-other-categories .mega-menu-post-link:hover {
+  color: #1d4ed8 !important; /* blue-700 */
 }
 
 /* Dark Mode Support */
@@ -1195,6 +1495,15 @@ div.group-hover-card {
 
 .dark .mega-menu-all-link:hover {
   color: #93c5fd; /* blue-300 */
+}
+
+.dark .mega-menu-other-categories .mega-menu-post-link {
+  color: #60a5fa !important; /* blue-400 */
+  font-weight: 600 !important; /* bold */
+}
+
+.dark .mega-menu-other-categories .mega-menu-post-link:hover {
+  color: #93c5fd !important; /* blue-300 */
 }
 
 /* Mobile Mega Menu */
@@ -1239,7 +1548,7 @@ div.group-hover-card {
 }
 
 .mega-menu-mobile-post-link {
-  color: #111827; /* gray-900 */
+  color: #000000; /* black */
   text-decoration: none;
   font-size: 1rem; /* 16px for collection pages */
   transition: color 0.2s ease;

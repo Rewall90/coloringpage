@@ -9,6 +9,7 @@ url: "/takedown-policy/"
 seo_title: "Takedown Policy - ColoringVault"
 seo_description: "ColoringVault's DMCA takedown policy and procedures for reporting copyright infringement"
 showAuthor: false
+sharingLinks: false
 ---
 
 Last updated: August 13, 2025

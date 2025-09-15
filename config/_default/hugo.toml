@@ -22,7 +22,7 @@ enableEmoji = true
   pagerSize = 100
 
 [permalinks]
-  pages = "/:filename/"
+  pages = "/:contentbasename/"
 
 [imaging]
   anchor = 'Center'
@@ -34,12 +34,26 @@ enableEmoji = true
   series = "series"
 
 [sitemap]
-  changefreq = 'daily'
   filename = 'sitemap.xml'
-  priority = 0.5
+
+[mediaTypes]
+  [mediaTypes."application/xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.ImageSitemap]
+    mediaType = "application/xml"
+    baseName = "image-sitemap"
+    isPlainText = false
+    notAlternative = true
+  [outputFormats.SitemapIndex]
+    mediaType = "application/xml"
+    baseName = "sitemapindex"
+    isPlainText = false
+    notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "ImageSitemap", "SitemapIndex"]
 
 [related]
   threshold = 0

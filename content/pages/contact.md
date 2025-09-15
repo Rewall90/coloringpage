@@ -10,6 +10,7 @@ aliases:
 seo_title: "Contact Us - ColoringVault"
 seo_description: "Contact ColoringVault for questions about coloring pages, content suggestions, or technical support. We'd love to hear from you!"
 showAuthor: false
+sharingLinks: false
 ---
 
 We'd love to hear from you! Whether you have questions about our coloring pages, suggestions for new content, or just want to say hello, don't hesitate to reach out.
@@ -47,4 +48,4 @@ Follow us on social media for the latest updates and new coloring page releases:
 
 - Facebook: @ColoringVault
 - Instagram: @coloringvault_official
-- Pinterest: @ColoringVault
+- Pinterest: [@ColoringVault](https://www.pinterest.com/ColoringVault/)

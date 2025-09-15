@@ -1,0 +1,17 @@
+{{/* Compact Latest Coloring Pages - Most Recently Published */}}
+{{ $coloringPages := where site.RegularPages "Section" "in" (slice "animals-coloring-pages" "cartoons-coloring-pages" "fantasy-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" "flowers-coloring-pages" "monthly-coloring-pages" "education-coloring-pages") }}
+{{ $latestPages := $coloringPages.ByDate.Reverse | first 5 }}
+
+{{ if $latestPages }}
+<div class="sidebar-section mb-4">
+  <h3 id="latest-heading" class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-3 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+    Latest Coloring Pages
+  </h3>
+
+  <div class="space-y-4" role="list" aria-label="Latest coloring pages list">
+    {{ range $latestPages }}
+      {{ partial "coloring-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

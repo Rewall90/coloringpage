@@ -1,0 +1,208 @@
+{{/* DigitalDocument Schema - Enhanced PDF Downloads with Cloudflare Worker Integration */}}
+{{/* Returns digital document schema dict for PDF coloring pages */}}
+{{/* Usage: {{ partial "structured-data/pdf-document.html" (dict "context" . "pdfUrl" $pdfUrl "title" $title "description" $description) }} */}}
+
+{{ $context := .context }}
+{{ $pdfUrl := .pdfUrl }}
+{{ $title := .title }}
+{{ $description := .description }}
+
+{{/* Generate hierarchical PDF URL for production via Cloudflare Workers */}}
+{{ $hierarchicalPdfUrl := $pdfUrl }}
+{{ if eq hugo.Environment "production" }}
+  {{ $pdfSlug := $title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-|-$" "" }}
+  {{ $categorySlug := $context.Section }}
+  {{ $pageSlug := $context.File.BaseFileName }}
+  {{ $hierarchicalPdfUrl = printf "/pdf/%s/%s/%s" $categorySlug $pageSlug $pdfSlug }}
+{{ end }}
+
+{{ $digitalDocument := dict
+  "@context" "https://schema.org"
+  "@type" (slice "DigitalDocument" "CreativeWork")
+  "@id" (printf "%s#pdf-%s" $context.Permalink (urlize $title))
+  "name" (printf "%s - PDF Download" $title)
+  "description" (printf "Printable PDF version of %s" $description)
+  "url" $hierarchicalPdfUrl
+  "contentUrl" $hierarchicalPdfUrl
+  "mainContentOfPage" $pdfUrl
+  "encodingFormat" "application/pdf"
+  "fileFormat" "PDF"
+  "inLanguage" (site.Language.Lang | default "en")
+  "datePublished" ($context.Date.Format "2006-01-02T15:04:05-07:00")
+  "dateModified" ($context.Lastmod.Format "2006-01-02T15:04:05-07:00")
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "creator" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "author" (dict "@id" (printf "%s#author" site.BaseURL))
+  "isPartOf" (dict "@id" (printf "%s#creativework" $context.Permalink))
+  "genre" "Printable Coloring Page"
+  "learningResourceType" "Activity Sheet"
+  "audience" (dict
+    "@type" "EducationalAudience"
+    "audienceType" "Children and Adults"
+    "suggestedMinAge" 3
+    "suggestedMaxAge" 99
+  )
+  "isAccessibleForFree" true
+}}
+
+{{/* Add download action */}}
+{{ $downloadAction := dict
+  "@type" "DownloadAction"
+  "target" (dict
+    "@type" "EntryPoint"
+    "urlTemplate" $hierarchicalPdfUrl
+    "actionPlatform" (slice
+      "http://schema.org/DesktopWebPlatform"
+      "http://schema.org/MobileWebPlatform"
+      "http://schema.org/IOSPlatform"
+      "http://schema.org/AndroidPlatform"
+    )
+    "expectsAcceptanceOf" (dict
+      "@type" "Offer"
+      "name" "Personal Use License"
+      "description" "Free for personal and educational use"
+      "price" "0"
+      "priceCurrency" "USD"
+      "category" "Free Download"
+    )
+  )
+  "object" (dict "@id" (printf "%s#pdf-%s" $context.Permalink (urlize $title)))
+  "agent" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "instrument" (slice "Web Browser" "PDF Reader")
+  "result" (dict
+    "@type" "CreativeWork"
+    "name" "Downloaded PDF Coloring Page"
+    "description" "Printable coloring page ready for use"
+  )
+}}
+
+{{ $digitalDocument = merge $digitalDocument (dict "potentialAction" $downloadAction) }}
+
+{{/* Add print action */}}
+{{ $printAction := dict
+  "@type" "PrintAction"
+  "target" (dict
+    "@type" "EntryPoint"
+    "urlTemplate" $hierarchicalPdfUrl
+  )
+  "instrument" (slice "Home Printer" "Office Printer")
+  "result" (dict
+    "@type" "CreativeWork"
+    "name" "Printed Coloring Page"
+    "description" "Physical coloring page ready for coloring activities"
+    "materialExtent" "1 sheet of paper"
+  )
+}}
+
+{{/* Add both actions as potential actions array */}}
+{{ $digitalDocument = merge $digitalDocument (dict "potentialAction" (slice $downloadAction $printAction)) }}
+
+{{/* Add technical specifications */}}
+{{ $digitalDocument = merge $digitalDocument (dict
+  "fileSize" "Varies (typically 100-500KB)"
+  "requirements" (slice "PDF Reader" "Printer" "Paper (A4 or US Letter)")
+  "applicationCategory" "Education"
+  "operatingSystem" "Cross-platform"
+  "memoryRequirements" "Minimal"
+  "storageRequirements" "< 1MB"
+) }}
+
+{{/* Add quality and resolution information */}}
+{{ $digitalDocument = merge $digitalDocument (dict
+  "contentSize" "Vector-based for optimal print quality"
+  "width" "8.5 inches (US Letter) or 210mm (A4)"
+  "height" "11 inches (US Letter) or 297mm (A4)"
+  "resolution" "Vector graphics (scalable)"
+) }}
+
+{{/* Add usage and licensing */}}
+{{ $digitalDocument = merge $digitalDocument (dict
+  "license" (printf "%s/licensing-policy" site.BaseURL)
+  "usageInfo" (printf "%s/licensing-policy" site.BaseURL)
+  "conditionsOfAccess" "Free download for personal and educational use"
+  "copyrightHolder" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "copyrightYear" ($context.Date.Year)
+) }}
+
+{{/* Add accessibility features */}}
+{{ $digitalDocument = merge $digitalDocument (dict
+  "accessibilityFeature" (slice
+    "printable"
+    "scalable"
+    "highContrast"
+    "structuralNavigation"
+    "readingOrder"
+  )
+  "accessibilityHazard" "none"
+  "accessMode" "visual"
+  "accessModeSufficient" "visual"
+  "accessibilityAPI" "PDF"
+  "accessibilityControl" (slice "fullMouseControl" "fullTouchControl")
+) }}
+
+{{/* Add educational metadata if from educational category */}}
+{{ if $context.Params.categories }}
+  {{ $category := index $context.Params.categories 0 }}
+  {{ $digitalDocument = merge $digitalDocument (dict
+    "about" $category
+    "subject" $category
+    "educationalUse" (slice "Art Education" "Recreation" "Fine Motor Skills")
+    "educationalLevel" "All Ages"
+  ) }}
+
+  {{ if or (in $category "education") (in $category "learning") }}
+    {{ $digitalDocument = merge $digitalDocument (dict
+      "educationalAlignment" (dict
+        "@type" "AlignmentObject"
+        "alignmentType" "educates"
+        "educationalFramework" "Creative Arts Education"
+        "targetDescription" "Printable educational activity for creative learning"
+      )
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{/* Add offer information */}}
+{{ $offer := dict
+  "@type" "Offer"
+  "@id" (printf "%s#offer-%s" $context.Permalink (urlize $title))
+  "name" "Free PDF Download"
+  "description" "Free download of printable coloring page in PDF format"
+  "price" "0"
+  "priceCurrency" "USD"
+  "availability" "http://schema.org/InStock"
+  "itemCondition" "http://schema.org/NewCondition"
+  "category" "Digital Download"
+  "seller" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "itemOffered" (dict "@id" (printf "%s#pdf-%s" $context.Permalink (urlize $title)))
+  "eligibleRegion" "Worldwide"
+  "deliveryMethod" "http://schema.org/DownloadDeliveryMethod"
+  "hasMerchantReturnPolicy" (dict
+    "@type" "MerchantReturnPolicy"
+    "returnPolicyCategory" "No returns on digital downloads"
+    "merchantReturnDays" 0
+  )
+}}
+
+{{ $digitalDocument = merge $digitalDocument (dict "offers" $offer) }}
+
+{{/* Add interaction statistics placeholders */}}
+{{ $digitalDocument = merge $digitalDocument (dict
+  "interactionStatistic" (slice
+    (dict
+      "@type" "InteractionCounter"
+      "interactionType" "http://schema.org/DownloadAction"
+      "name" "Downloads"
+      "description" "Number of times this PDF has been downloaded"
+    )
+    (dict
+      "@type" "InteractionCounter"
+      "interactionType" "http://schema.org/PrintAction"
+      "name" "Prints"
+      "description" "Estimated number of times this PDF has been printed"
+    )
+  )
+) }}
+
+{{/* Return the digital document schema */}}
+{{ return $digitalDocument }}

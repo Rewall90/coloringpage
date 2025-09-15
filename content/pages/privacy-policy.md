@@ -11,6 +11,7 @@ aliases:
 seo_title: "Privacy Policy"
 seo_description: "ColoringVault privacy policy - how we collect, use and protect your information"
 showAuthor: false
+sharingLinks: false
 ---
 
 Last updated: August 13, 2025

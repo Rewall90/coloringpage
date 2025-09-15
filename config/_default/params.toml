@@ -19,7 +19,7 @@ enableCodeCopy = false
 replyByEmail = false
 
 
-mainSections = ["posts", "mythical-creatures", "animals", "nature", "superheroes", "cartoons", "celebrations", "flowers", "fruit-and-vegetables", "months", "science", "vehicles", "video-games"]
+mainSections = ["animals-coloring-pages", "cartoons-coloring-pages", "education-coloring-pages", "fantasy-coloring-pages", "flowers-coloring-pages", "food-coloring-pages", "holidays-coloring-pages", "monthly-coloring-pages", "nature-coloring-pages", "superheroes-coloring-pages", "vehicles-coloring-pages", "video-games-coloring-pages"]
 # robots = ""
 
 # Schema.org JSON-LD Debug Mode (set to true to see schema output on pages)
@@ -27,13 +27,13 @@ debugSchema = false
 
 # Author Information for Schema.org
 [author]
-  name = "ColoringVault Author"
+  name = "Ida Lund"
   description = "Professional illustrator and coloring book artist creating beautiful, educational coloring pages for children and adults."
   image = "/images/author.webp"
   url = "/about-the-author"
   jobTitle = "Illustrator & Artist"
   # Social profiles (optional)
-  # pinterest = "coloringvault"
+  pinterest = "ColoringVault"
   # instagram = "coloringvault" 
   # facebook = "coloringvault"
 
@@ -190,7 +190,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [verification]
   # google = ""
   # bing = ""
-  # pinterest = ""
+  pinterest = "ColoringVault"
   # yandex = ""
   # fediverse = ""
 

@@ -9,7 +9,6 @@ image_width: 600
 image_height: 600
 image_alt: Collection of free printable coloring pages for all ages
 weight: 10
-type: coloring-category
 ---
 
 Relax, Create, and Explore with Coloring Pages

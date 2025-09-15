@@ -1,0 +1,120 @@
+{{/* Person Schema - Enhanced Author Information */}}
+{{/* Returns person schema dict for author/creator */}}
+
+{{ $person := dict }}
+
+{{/* Only create person schema if author data exists */}}
+{{ if site.Params.author }}
+  {{ $person = dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "@id" (printf "%s#author" site.BaseURL)
+    "name" (site.Params.author.name | default "ColoringVault Author")
+    "url" (printf "%s%s" site.BaseURL (site.Params.author.url | default "/about-the-author"))
+    "mainEntityOfPage" (printf "%s%s" site.BaseURL (site.Params.author.url | default "/about-the-author"))
+    "worksFor" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "memberOf" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "affiliation" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "knowsAbout" (slice
+      "Educational Content Creation"
+      "Children's Activities"
+      "Art Education"
+      "Creative Resources"
+      "Printable Activities"
+    )
+    "hasOccupation" (dict
+      "@type" "Occupation"
+      "name" "Educational Content Creator"
+      "occupationLocation" (dict
+        "@type" "Place"
+        "name" "Online"
+      )
+      "description" "Creates educational coloring pages and creative activities for children and adults"
+    )
+  }}
+
+  {{/* Add optional Person properties only if they exist */}}
+  {{ with site.Params.author.description }}
+    {{ $person = merge $person (dict "description" .) }}
+  {{ end }}
+
+  {{ with site.Params.author.jobTitle }}
+    {{ $person = merge $person (dict "jobTitle" .) }}
+  {{ end }}
+
+  {{ with site.Params.author.email }}
+    {{ $person = merge $person (dict "email" .) }}
+  {{ end }}
+
+  {{/* Add profile image with enhanced metadata */}}
+  {{ with site.Params.author.image }}
+    {{ $person = merge $person (dict
+      "image" (dict
+        "@type" "ImageObject"
+        "@id" (printf "%s#authorimage" site.BaseURL)
+        "url" (printf "%s%s" site.BaseURL .)
+        "contentUrl" (printf "%s%s" site.BaseURL .)
+        "caption" (printf "Profile photo of %s" (site.Params.author.name | default "ColoringVault Author"))
+        "description" "Professional headshot of the content creator"
+        "representativeOfPage" false
+      )
+    ) }}
+  {{ end }}
+
+  {{/* Add social media profiles */}}
+  {{ $authorSocial := slice }}
+  {{ with site.Params.author.pinterest }}
+    {{ $authorSocial = $authorSocial | append (printf "https://pinterest.com/%s" .) }}
+  {{ end }}
+  {{ with site.Params.author.instagram }}
+    {{ $authorSocial = $authorSocial | append (printf "https://instagram.com/%s" .) }}
+  {{ end }}
+  {{ with site.Params.author.facebook }}
+    {{ $authorSocial = $authorSocial | append (printf "https://facebook.com/%s" .) }}
+  {{ end }}
+  {{ with site.Params.author.youtube }}
+    {{ $authorSocial = $authorSocial | append (printf "https://youtube.com/%s" .) }}
+  {{ end }}
+  {{ with site.Params.author.twitter }}
+    {{ $authorSocial = $authorSocial | append (printf "https://twitter.com/%s" .) }}
+  {{ end }}
+  {{ with site.Params.author.linkedin }}
+    {{ $authorSocial = $authorSocial | append (printf "https://linkedin.com/in/%s" .) }}
+  {{ end }}
+
+  {{ if gt (len $authorSocial) 0 }}
+    {{ $person = merge $person (dict "sameAs" $authorSocial) }}
+  {{ end }}
+
+  {{/* Add expertise and skills */}}
+  {{ with site.Params.author.expertise }}
+    {{ $person = merge $person (dict "knowsAbout" .) }}
+  {{ end }}
+
+  {{/* Add content creation statistics */}}
+  {{ $totalContent := 0 }}
+  {{ $categories := site.Params.mainSections }}
+  {{ range $categories }}
+    {{ $section := site.GetPage (printf "/%s" .) }}
+    {{ if $section }}
+      {{ $totalContent = add $totalContent (len $section.Pages) }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt $totalContent 0 }}
+    {{ $person = merge $person (dict
+      "numberOfPublications" $totalContent
+      "creativeWorkStatus" "Active Content Creator"
+    ) }}
+  {{ end }}
+
+  {{/* Add content licensing approach */}}
+  {{ $person = merge $person (dict
+    "publishingPrinciples" (printf "%s/licensing-policy" site.BaseURL)
+    "ethicsPolicy" (printf "%s/about-the-author" site.BaseURL)
+  ) }}
+
+{{ end }}
+
+{{/* Return the person schema (empty dict if no author data) */}}
+{{ return $person }}

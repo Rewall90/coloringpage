@@ -10,6 +10,7 @@ aliases:
 seo_title: "About Us - ColoringVault"
 seo_description: "Learn about ColoringVault's mission to provide free, high-quality coloring pages for creativity and learning"
 showAuthor: false
+sharingLinks: false
 ---
 
 ColoringVault is your premier destination for high-quality, free printable coloring pages. We believe in the power of creativity and the joy of coloring for people of all ages.

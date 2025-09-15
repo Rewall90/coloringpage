@@ -8,6 +8,7 @@ url: "/about-the-author/"
 seo_title: "About the Author - ColoringVault"
 seo_description: "Learn about the professional illustrator and artist behind ColoringVault's high-quality coloring pages"
 showAuthor: false
+sharingLinks: false
 ---
 
 Welcome! I'm the creative force behind ColoringVault, where imagination meets artistry in every coloring page.

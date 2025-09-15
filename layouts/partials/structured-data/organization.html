@@ -1,0 +1,108 @@
+{{/* Organization Schema - Enhanced Site Identity */}}
+{{/* Returns organization schema dict for ColoringVault */}}
+
+{{ $org := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "@id" (printf "%s#organization" site.BaseURL)
+  "name" (site.Title | default "ColoringVault")
+  "url" site.BaseURL
+  "description" (site.Params.description | default "Free printable coloring pages for kids and adults - educational, creative, and fun activities")
+  "slogan" "Creative fun for all ages"
+  "knowsAbout" (slice "Coloring Pages" "Educational Activities" "Children's Art" "Adult Coloring" "Printable Activities")
+  "serviceType" (slice "Educational Resources" "Creative Activities" "Digital Downloads")
+  "areaServed" "Worldwide"
+}}
+
+{{/* Enhanced logo with proper dimensions */}}
+{{ $logoUrl := "" }}
+{{ if site.Params.logo }}
+  {{ $logoUrl = printf "%s%s" site.BaseURL site.Params.logo }}
+{{ else }}
+  {{ $logoUrl = printf "%s%s" site.BaseURL "/android-chrome-512x512.png" }}
+{{ end }}
+
+{{ $org = merge $org (dict
+  "logo" (dict
+    "@type" "ImageObject"
+    "url" $logoUrl
+    "contentUrl" $logoUrl
+    "width" 512
+    "height" 512
+    "caption" (printf "%s logo" (site.Title | default "ColoringVault"))
+  )
+) }}
+
+{{/* Add optional Organization properties only if they exist */}}
+{{ with site.Params.alternateTitle }}
+  {{ $org = merge $org (dict "alternateName" .) }}
+{{ end }}
+
+{{ with site.Params.foundingDate }}
+  {{ $org = merge $org (dict "foundingDate" .) }}
+{{ end }}
+
+{{ with site.Params.organizationType }}
+  {{ $org = merge $org (dict "additionalType" .) }}
+{{ end }}
+
+{{/* Enhanced social media presence */}}
+{{ $socialLinks := slice }}
+{{ with site.Params.pinterest }}{{ $socialLinks = $socialLinks | append (printf "https://pinterest.com/%s" .) }}{{ end }}
+{{ with site.Params.instagram }}{{ $socialLinks = $socialLinks | append (printf "https://instagram.com/%s" .) }}{{ end }}
+{{ with site.Params.facebook }}{{ $socialLinks = $socialLinks | append (printf "https://facebook.com/%s" .) }}{{ end }}
+{{ with site.Params.youtube }}{{ $socialLinks = $socialLinks | append (printf "https://youtube.com/%s" .) }}{{ end }}
+{{ with site.Params.twitter }}{{ $socialLinks = $socialLinks | append (printf "https://twitter.com/%s" .) }}{{ end }}
+{{ if gt (len $socialLinks) 0 }}
+  {{ $org = merge $org (dict "sameAs" $socialLinks) }}
+{{ end }}
+
+{{/* Enhanced contact point */}}
+{{ with site.Params.email }}
+  {{ $org = merge $org (dict
+    "contactPoint" (dict
+      "@type" "ContactPoint"
+      "email" .
+      "contactType" "customer service"
+      "availableLanguage" (site.Language.Lang | default "en")
+      "areaServed" "Worldwide"
+      "serviceType" "Educational Support"
+    )
+  ) }}
+{{ end }}
+
+{{/* Add publishing principles and editorial policies */}}
+{{ $org = merge $org (dict
+  "publishingPrinciples" (printf "%s/licensing-policy" site.BaseURL)
+  "diversityPolicy" (printf "%s/about-us" site.BaseURL)
+  "ethicsPolicy" (printf "%s/about-us" site.BaseURL)
+) }}
+
+{{/* Add main categories as offerings */}}
+{{ $categories := slice "animals-coloring-pages" "cartoons-coloring-pages" "education-coloring-pages" "fantasy-coloring-pages" "flowers-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "monthly-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" }}
+{{ $offerings := slice }}
+{{ range $categories }}
+  {{ $categoryTitle := . | replaceRE "-coloring-pages$" "" | replaceRE "-" " " | title }}
+  {{ $offerings = $offerings | append (dict
+    "@type" "Service"
+    "name" (printf "%s Coloring Pages" $categoryTitle)
+    "description" (printf "Free printable %s coloring pages for kids and adults" (lower $categoryTitle))
+    "url" (printf "%s/%s" site.BaseURL .)
+    "category" "Educational Resource"
+    "audience" (dict
+      "@type" "Audience"
+      "audienceType" "Children and Adults"
+    )
+  ) }}
+{{ end }}
+
+{{ if gt (len $offerings) 0 }}
+  {{ $org = merge $org (dict "hasOfferCatalog" (dict
+    "@type" "OfferCatalog"
+    "name" "Coloring Pages Collection"
+    "itemListElement" $offerings
+  )) }}
+{{ end }}
+
+{{/* Return the organization schema */}}
+{{ return $org }}

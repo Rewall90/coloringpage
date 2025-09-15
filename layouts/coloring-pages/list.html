@@ -48,10 +48,13 @@
         </div>
       </div>
     {{ end }}
-    <div class="min-w-0 min-h-0 max-w-prose">
+    <div class="min-w-0 min-h-0 max-w-7xl">
       {{ .Content }}
     </div>
   </section>
+
+  {{/* Inline Search Component */}}
+  {{ partial "inline-search.html" . }}
 
   {{/* Article Grid - Custom logic for aggregating all coloring pages */}}
   {{ $allPosts := slice }}

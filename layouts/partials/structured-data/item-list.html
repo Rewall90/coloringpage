@@ -1,0 +1,207 @@
+{{/* ItemList Schema - Enhanced Collection Listings */}}
+{{/* Returns item list schema dict for collections of pages */}}
+{{/* Usage: {{ partial "schema/item-list.html" (dict "context" . "pages" .Pages "listType" "category") }} */}}
+
+{{ $context := .context }}
+{{ $pages := .pages }}
+{{ $listType := .listType | default "generic" }}
+{{ $maxItems := .maxItems | default 0 }}
+
+{{/* Filter out drafts and limit items if specified */}}
+{{ $publishedPages := slice }}
+{{ range $pages }}
+  {{ if not .Draft }}
+    {{ $publishedPages = $publishedPages | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if and (gt $maxItems 0) (gt (len $publishedPages) $maxItems) }}
+  {{ $publishedPages = first $maxItems $publishedPages }}
+{{ end }}
+
+{{/* Create base ItemList */}}
+{{ $itemList := dict
+  "@context" "https://schema.org"
+  "@type" "ItemList"
+  "@id" (printf "%s#itemlist" $context.Permalink)
+  "numberOfItems" (len $publishedPages)
+  "itemListOrder" "http://schema.org/ItemListOrderDescending"
+  "itemListElement" (slice)
+}}
+
+{{/* Set list name and description based on type */}}
+{{ if eq $listType "category" }}
+  {{ $itemList = merge $itemList (dict
+    "name" (printf "%s Collection" $context.Title)
+    "description" (printf "Complete list of %s coloring pages available for free download" (lower $context.Title))
+    "about" $context.Title
+    "genre" (printf "%s Educational Resources" $context.Title)
+  ) }}
+{{ else if eq $listType "featured" }}
+  {{ $itemList = merge $itemList (dict
+    "name" "Featured Coloring Pages"
+    "description" "Curated selection of popular and recommended coloring pages"
+    "about" "Featured Content"
+    "genre" "Featured Educational Resources"
+  ) }}
+{{ else if eq $listType "recent" }}
+  {{ $itemList = merge $itemList (dict
+    "name" "Recent Coloring Pages"
+    "description" "Latest coloring pages added to our collection"
+    "about" "New Content"
+    "genre" "Recent Educational Resources"
+  ) }}
+{{ else }}
+  {{ $itemList = merge $itemList (dict
+    "name" (printf "%s List" $context.Title)
+    "description" (printf "List of items from %s" $context.Title)
+  ) }}
+{{ end }}
+
+{{/* Build item list elements */}}
+{{ $itemListElements := slice }}
+{{ $position := 1 }}
+
+{{ range $publishedPages }}
+  {{ $listItem := dict
+    "@type" "ListItem"
+    "position" $position
+    "name" .Title
+    "description" (or .Description .Summary .Title)
+    "url" .Permalink
+  }}
+
+  {{/* Create detailed item based on content type */}}
+  {{ $itemDetails := dict
+    "@type" "CreativeWork"
+    "@id" (printf "%s#creativework" .Permalink)
+    "name" .Title
+    "headline" .Title
+    "description" (or .Description .Summary .Title)
+    "url" .Permalink
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "author" (dict "@id" (printf "%s#author" site.BaseURL))
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "genre" "Coloring Page"
+    "audience" (dict
+      "@type" "EducationalAudience"
+      "audienceType" "Children and Adults"
+      "suggestedMinAge" 3
+      "suggestedMaxAge" 99
+    )
+    "educationalUse" (slice "Art Education" "Recreation" "Fine Motor Skills")
+    "learningResourceType" "Activity Sheet"
+    "isAccessibleForFree" true
+  }}
+
+  {{/* Add category information */}}
+  {{ with .Params.categories }}
+    {{ $category := index . 0 }}
+    {{ $itemDetails = merge $itemDetails (dict
+      "about" $category
+      "subject" $category
+    ) }}
+  {{ end }}
+
+  {{/* Add tags as keywords */}}
+  {{ with .Params.tags }}
+    {{ $itemDetails = merge $itemDetails (dict "keywords" (delimit . ", ")) }}
+  {{ end }}
+
+  {{/* Add card image if available */}}
+  {{ with .Params.card_image }}
+    {{ $imageDetails := dict
+      "@type" "ImageObject"
+      "url" (printf "%s%s" site.BaseURL .)
+      "contentUrl" (printf "%s%s" site.BaseURL .)
+      "caption" (or $.Params.card_image_alt $.Title)
+      "width" 300
+      "height" 400
+      "encodingFormat" "image/webp"
+    }}
+
+    {{ $itemDetails = merge $itemDetails (dict "image" $imageDetails) }}
+    {{ $listItem = merge $listItem (dict "image" $imageDetails) }}
+  {{ end }}
+
+  {{/* Add hero image if available and no card image */}}
+  {{ if and .Params.hero_image (not .Params.card_image) }}
+    {{ $imageDetails := dict
+      "@type" "ImageObject"
+      "url" (printf "%s%s" site.BaseURL .Params.hero_image)
+      "contentUrl" (printf "%s%s" site.BaseURL .Params.hero_image)
+      "caption" (or .Params.image_alt .Title)
+      "width" (.Params.image_width | default 1200)
+      "height" (.Params.image_height | default 800)
+      "encodingFormat" "image/webp"
+    }}
+
+    {{ $itemDetails = merge $itemDetails (dict "image" $imageDetails) }}
+    {{ $listItem = merge $listItem (dict "image" $imageDetails) }}
+  {{ end }}
+
+  {{/* Add educational level if available */}}
+  {{ with .Params.difficulty }}
+    {{ $itemDetails = merge $itemDetails (dict "educationalLevel" .) }}
+  {{ end }}
+
+  {{/* Add licensing information */}}
+  {{ $itemDetails = merge $itemDetails (dict
+    "license" (printf "%s/licensing-policy" site.BaseURL)
+    "conditionsOfAccess" "Free for personal and educational use"
+    "copyrightHolder" (dict "@id" (printf "%s#organization" site.BaseURL))
+  ) }}
+
+  {{/* Add accessibility features */}}
+  {{ $itemDetails = merge $itemDetails (dict
+    "accessibilityFeature" (slice "printable" "colorable" "highContrast")
+    "accessibilityHazard" "none"
+    "accessMode" "visual"
+  ) }}
+
+  {{/* Attach detailed item to list item */}}
+  {{ $listItem = merge $listItem (dict "item" $itemDetails) }}
+
+  {{/* Add to collection */}}
+  {{ $itemListElements = $itemListElements | append $listItem }}
+  {{ $position = add $position 1 }}
+{{ end }}
+
+{{/* Update item list with elements */}}
+{{ $itemList = merge $itemList (dict "itemListElement" $itemListElements) }}
+
+{{/* Add additional metadata for category lists */}}
+{{ if eq $listType "category" }}
+  {{ with $context.Params.categories }}
+    {{ $category := index . 0 }}
+    {{ $itemList = merge $itemList (dict
+      "audience" (dict
+        "@type" "EducationalAudience"
+        "audienceType" "Children and Adults"
+        "educationalRole" (slice "student" "parent" "teacher")
+      )
+      "educationalUse" (slice "Art Education" "Recreation" "Skill Development")
+      "learningResourceType" "Activity Collection"
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{/* Add temporal information */}}
+{{ if gt (len $publishedPages) 0 }}
+  {{ $firstPage := index $publishedPages 0 }}
+  {{ $lastPage := index $publishedPages (sub (len $publishedPages) 1) }}
+
+  {{ $itemList = merge $itemList (dict
+    "dateCreated" ($lastPage.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" ($firstPage.Date.Format "2006-01-02T15:04:05-07:00")
+  ) }}
+{{ end }}
+
+{{/* Add parent context */}}
+{{ $itemList = merge $itemList (dict
+  "isPartOf" (dict "@id" (printf "%s#page" $context.Permalink))
+) }}
+
+{{/* Return the item list schema */}}
+{{ return $itemList }}

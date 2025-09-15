@@ -1,0 +1,168 @@
+{{/* CollectionPage Schema - Enhanced Category Pages */}}
+{{/* Returns collection page schema dict for category listings */}}
+
+{{ $collectionPage := dict
+  "@context" "https://schema.org"
+  "@type" (slice "CollectionPage" "WebPage")
+  "@id" (printf "%s#collectionpage" .Permalink)
+  "name" .Title
+  "description" (or .Description .Summary (printf "%s coloring pages collection" .Title))
+  "url" .Permalink
+  "inLanguage" (site.Language.Lang | default "en")
+  "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+  "genre" "Educational Resource Collection"
+  "audience" (dict
+    "@type" "Audience"
+    "audienceType" "Children and Adults"
+    "suggestedMinAge" 3
+    "suggestedMaxAge" 99
+  )
+  "educationalUse" (slice "Art Education" "Recreation" "Fine Motor Skills Development")
+  "learningResourceType" "Activity Collection"
+  "isAccessibleForFree" true
+}}
+
+{{/* Add category-specific information */}}
+{{ with .Params.categories }}
+  {{ $category := index . 0 }}
+  {{ $collectionPage = merge $collectionPage (dict
+    "about" $category
+    "genre" (printf "%s Educational Resources" $category)
+    "keywords" (printf "%s, coloring pages, printable, kids activities, educational" (lower $category))
+  ) }}
+{{ end }}
+
+{{/* Add hero image if available */}}
+{{ with .Params.hero_image }}
+  {{ $collectionPage = merge $collectionPage (dict
+    "primaryImageOfPage" (dict
+      "@type" "ImageObject"
+      "@id" (printf "%s#heroimage" $.Permalink)
+      "url" (printf "%s%s" site.BaseURL .)
+      "contentUrl" (printf "%s%s" site.BaseURL .)
+      "caption" (printf "%s category header image" $.Title)
+      "representativeOfPage" true
+    )
+  ) }}
+{{ end }}
+
+{{/* Calculate collection statistics */}}
+{{ $totalItems := len .Pages }}
+{{ $publishedItems := 0 }}
+{{ $draftItems := 0 }}
+{{ range .Pages }}
+  {{ if .Draft }}
+    {{ $draftItems = add $draftItems 1 }}
+  {{ else }}
+    {{ $publishedItems = add $publishedItems 1 }}
+  {{ end }}
+{{ end }}
+
+{{/* Create ItemList for the collection */}}
+{{ if gt $totalItems 0 }}
+  {{ $itemList := slice }}
+  {{ $position := 1 }}
+
+  {{ range .Pages }}
+    {{ if not .Draft }}
+      {{ $item := dict
+        "@type" "ListItem"
+        "position" $position
+        "name" .Title
+        "description" (or .Description .Summary .Title)
+        "url" .Permalink
+        "item" (dict
+          "@type" "CreativeWork"
+          "@id" (printf "%s#creativework" .Permalink)
+          "name" .Title
+          "description" (or .Description .Summary .Title)
+          "url" .Permalink
+          "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+          "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+          "author" (dict "@id" (printf "%s#author" site.BaseURL))
+          "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+          "genre" "Coloring Page"
+          "audience" (dict
+            "@type" "Audience"
+            "audienceType" "Children and Adults"
+          )
+          "educationalUse" (slice "Art Education" "Recreation")
+          "isAccessibleForFree" true
+        )
+      }}
+
+      {{/* Add card image if available */}}
+      {{ with .Params.card_image }}
+        {{ $item = merge $item (dict "image" (dict
+          "@type" "ImageObject"
+          "url" (printf "%s%s" site.BaseURL .)
+          "contentUrl" (printf "%s%s" site.BaseURL .)
+          "caption" (or $.Params.card_image_alt $.Title)
+        )) }}
+
+        {{ $itemCreativeWork := index $item "item" }}
+        {{ $itemCreativeWork = merge $itemCreativeWork (dict "image" (dict
+          "@type" "ImageObject"
+          "url" (printf "%s%s" site.BaseURL .)
+          "contentUrl" (printf "%s%s" site.BaseURL .)
+          "caption" (or $.Params.card_image_alt $.Title)
+        )) }}
+        {{ $item = merge $item (dict "item" $itemCreativeWork) }}
+      {{ end }}
+
+      {{ $itemList = $itemList | append $item }}
+      {{ $position = add $position 1 }}
+    {{ end }}
+  {{ end }}
+
+  {{ $mainEntity := dict
+    "@type" "ItemList"
+    "@id" (printf "%s#itemlist" .Permalink)
+    "name" (printf "%s Collection" .Title)
+    "description" (printf "Complete list of %s coloring pages" (lower .Title))
+    "numberOfItems" $publishedItems
+    "itemListOrder" "http://schema.org/ItemListOrderDescending"
+    "itemListElement" $itemList
+  }}
+
+  {{ $collectionPage = merge $collectionPage (dict "mainEntity" $mainEntity) }}
+{{ end }}
+
+{{/* Add collection size and statistics */}}
+{{ $collectionPage = merge $collectionPage (dict
+  "size" $totalItems
+  "collectionSize" $publishedItems
+) }}
+
+{{/* Add breadcrumb context */}}
+{{ $collectionPage = merge $collectionPage (dict
+  "breadcrumb" (dict "@id" (printf "%s#breadcrumbs" .Permalink))
+) }}
+
+{{/* Add educational alignment if this is an educational category */}}
+{{ if or (in .Title "education") (in .Title "learning") }}
+  {{ $collectionPage = merge $collectionPage (dict
+    "educationalAlignment" (dict
+      "@type" "AlignmentObject"
+      "alignmentType" "educates"
+      "educationalFramework" "Creative Arts Education"
+      "targetDescription" "Develop fine motor skills and creative expression through coloring activities"
+    )
+  ) }}
+{{ end }}
+
+{{/* Add license and usage information */}}
+{{ $collectionPage = merge $collectionPage (dict
+  "license" (printf "%s/licensing-policy" site.BaseURL)
+  "usageInfo" (printf "%s/licensing-policy" site.BaseURL)
+  "conditionsOfAccess" "Free for personal and educational use"
+  "accessibilityFeature" (slice "printable" "colorable" "highContrast")
+  "accessibilityHazard" "none"
+  "accessMode" "visual"
+) }}
+
+{{/* Return the collection page schema */}}
+{{ return $collectionPage }}

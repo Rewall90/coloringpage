@@ -1,42 +1,40 @@
-{{/* Category Card Partial - SEO-optimized with responsive images */}}
+{{/* Refactored Category Card - Optimized with clean HTML and proper sizing */}}
 {{ $category := .category }}
 
 <article class="block" role="gridcell">
-  <a href="{{ $category.RelPermalink }}" class="block rounded-lg overflow-hidden" style="background-color: #2DC4B6;" aria-labelledby="category-{{ $category.Title | urlize }}">
+  <a href="{{ $category.RelPermalink }}" style="background-color: #2DC4B6;" aria-labelledby="category-{{ $category.Title | urlize }}">
     {{/* Category Image Container */}}
-    <figure class="aspect-square overflow-hidden mb-3">
+    <figure class="aspect-square">
       {{ if $category.Params.image_width }}
-        {{/* Use local category images */}}
+        {{/* Use local category images with optimized sizing */}}
         {{ $localImageUrl := printf "/images/categories/%s-600x600.webp" $category.Section }}
         <noscript>
-          <img decoding="async" 
-               src="{{ $localImageUrl }}" 
+          <img decoding="async"
+               src="{{ $localImageUrl }}"
                alt="{{ $category.Params.image_alt | default $category.Title }}"
-               width="300"
-               height="300"
-               sizes="(max-width: 300px) 100vw, 300px">
+               width="600"
+               height="600"
+               sizes="(max-width: 768px) 80px, (max-width: 1200px) 110px, 140px">
         </noscript>
-        <img decoding="async" 
-             width="300" 
-             height="300"
-             src="{{ $localImageUrl }}" 
+        <img decoding="async"
+             width="600"
+             height="600"
+             src="{{ $localImageUrl }}"
              alt="{{ $category.Params.image_alt | default $category.Title }}"
-             class="w-full h-full object-cover nozoom"
+             sizes="(max-width: 768px) 80px, (max-width: 1200px) 110px, 140px"
              data-pin-url="{{ absURL "/" }}"
              data-pin-title="Free Coloring Pages | {{ site.Title }}"
              data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
              loading="lazy">
       {{ else }}
         {{/* Fallback if no image */}}
-        <div class="w-full h-full bg-neutral-200 dark:bg-neutral-700"></div>
+        <div class="fallback-bg"></div>
       {{ end }}
     </figure>
-    
-    {{/* Category Title as Figcaption - Below the image */}}
-    <figcaption id="category-{{ $category.Title | urlize }}" class="text-center pb-3 px-2">
-      <span class="text-white font-medium text-base">
-        {{ $category.Title }}
-      </span>
+
+    {{/* Category Title as Figcaption */}}
+    <figcaption id="category-{{ $category.Title | urlize }}">
+      <span>{{ $category.Title }}</span>
     </figcaption>
   </a>
 </article>

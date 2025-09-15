@@ -9,6 +9,7 @@ url: "/licensing-policy/"
 seo_title: "Licensing Policy - ColoringVault"
 seo_description: "Understand the licensing terms for ColoringVault's free coloring pages - personal, educational, and commercial use guidelines"
 showAuthor: false
+sharingLinks: false
 ---
 
 Last updated: August 13, 2025

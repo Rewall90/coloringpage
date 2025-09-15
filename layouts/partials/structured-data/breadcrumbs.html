@@ -1,0 +1,185 @@
+{{/* BreadcrumbList Schema - Enhanced Navigation Context */}}
+{{/* Returns breadcrumb list schema dict for navigation */}}
+
+{{ $breadcrumbs := dict
+  "@context" "https://schema.org"
+  "@type" "BreadcrumbList"
+  "@id" (printf "%s#breadcrumbs" .Permalink)
+  "numberOfItems" 0
+  "itemListElement" (slice)
+}}
+
+{{ $position := 1 }}
+{{ $breadcrumbItems := slice }}
+
+{{/* Always start with Home breadcrumb */}}
+{{ $breadcrumbItems = $breadcrumbItems | append (dict
+  "@type" "ListItem"
+  "position" $position
+  "name" (site.Title | default "Home")
+  "item" (dict
+    "@type" "WebPage"
+    "@id" (printf "%s#homepage" site.BaseURL)
+    "name" (site.Title | default "Home")
+    "url" site.BaseURL
+    "description" "ColoringVault homepage - Free printable coloring pages"
+  )
+) }}
+
+{{/* Add "All Coloring Pages" breadcrumb for content pages */}}
+{{ if and (not .IsHome) (in site.Params.mainSections .Type) }}
+  {{ $position = add $position 1 }}
+  {{ $breadcrumbItems = $breadcrumbItems | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" "All Coloring Pages"
+    "item" (dict
+      "@type" "CollectionPage"
+      "@id" (printf "%s/coloring-pages#collectionpage" site.BaseURL)
+      "name" "All Coloring Pages"
+      "url" (printf "%s/coloring-pages" site.BaseURL)
+      "description" "Complete collection of free printable coloring pages"
+    )
+  ) }}
+{{ end }}
+
+{{/* Add category breadcrumb for content pages */}}
+{{ if and .Params.categories (gt (len .Params.categories) 0) }}
+  {{ $position = add $position 1 }}
+  {{ $category := index .Params.categories 0 }}
+  {{ $categorySlug := $category | urlize }}
+
+  {{/* Try to get the actual category section */}}
+  {{ $categorySection := "" }}
+  {{ range site.Sections }}
+    {{ if eq .Type $categorySlug }}
+      {{ $categorySection = . }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+
+  {{/* If we found a matching section, use its data */}}
+  {{ if $categorySection }}
+    {{ $breadcrumbItems = $breadcrumbItems | append (dict
+      "@type" "ListItem"
+      "position" $position
+      "name" $categorySection.Title
+      "item" (dict
+        "@type" "CollectionPage"
+        "@id" (printf "%s#collectionpage" $categorySection.Permalink)
+        "name" $categorySection.Title
+        "url" $categorySection.Permalink
+        "description" (or $categorySection.Description (printf "%s coloring pages collection" $categorySection.Title))
+      )
+    ) }}
+  {{ else }}
+    {{/* Fallback if section not found */}}
+    {{ $breadcrumbItems = $breadcrumbItems | append (dict
+      "@type" "ListItem"
+      "position" $position
+      "name" $category
+      "item" (dict
+        "@type" "CollectionPage"
+        "name" $category
+        "url" (printf "%s/%s" site.BaseURL $categorySlug)
+        "description" (printf "%s coloring pages category" $category)
+      )
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{/* Add section breadcrumb for non-home, non-content pages */}}
+{{ if and (not .IsHome) (not (in site.Params.mainSections .Type)) (.Parent) (ne .Parent.Kind "home") }}
+  {{ $position = add $position 1 }}
+  {{ $breadcrumbItems = $breadcrumbItems | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" .Parent.Title
+    "item" (dict
+      "@type" "WebPage"
+      "@id" (printf "%s#section" .Parent.Permalink)
+      "name" .Parent.Title
+      "url" .Parent.Permalink
+      "description" (or .Parent.Description (printf "%s section" .Parent.Title))
+    )
+  ) }}
+{{ end }}
+
+{{/* Add current page breadcrumb (only if not home) */}}
+{{ if not .IsHome }}
+  {{ $position = add $position 1 }}
+
+  {{/* Determine page type for schema */}}
+  {{ $pageType := "WebPage" }}
+  {{ if in site.Params.mainSections .Type }}
+    {{ $pageType = "CreativeWork" }}
+  {{ else if eq .Type "pages" }}
+    {{ $pageType = "WebPage" }}
+    {{/* Special page types */}}
+    {{ if .File }}
+      {{ if eq .File.BaseFileName "privacy-policy" }}
+        {{ $pageType = "PrivacyPolicyPage" }}
+      {{ else if eq .File.BaseFileName "terms-and-conditions" }}
+        {{ $pageType = "TermsOfServicePage" }}
+      {{ else if eq .File.BaseFileName "about-us" }}
+        {{ $pageType = "AboutPage" }}
+      {{ else if eq .File.BaseFileName "contact" }}
+        {{ $pageType = "ContactPage" }}
+      {{ else if eq .File.BaseFileName "about-the-author" }}
+        {{ $pageType = "ProfilePage" }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $currentPageItem := dict
+    "@type" "ListItem"
+    "position" $position
+    "name" .Title
+    "item" (dict
+      "@type" $pageType
+      "@id" (printf "%s#page" .Permalink)
+      "name" .Title
+      "url" .Permalink
+      "description" (or .Description .Summary .Title)
+    )
+  }}
+
+  {{/* Add additional metadata for creative works */}}
+  {{ if eq $pageType "CreativeWork" }}
+    {{ $item := index $currentPageItem "item" }}
+    {{ $item = merge $item (dict
+      "genre" "Coloring Page"
+      "audience" (dict
+        "@type" "Audience"
+        "audienceType" "Children and Adults"
+      )
+      "educationalUse" (slice "Art Education" "Recreation")
+      "isAccessibleForFree" true
+    ) }}
+    {{ $currentPageItem = merge $currentPageItem (dict "item" $item) }}
+  {{ end }}
+
+  {{ $breadcrumbItems = $breadcrumbItems | append $currentPageItem }}
+{{ end }}
+
+{{/* Update breadcrumbs with final item list */}}
+{{ $breadcrumbs = merge $breadcrumbs (dict
+  "itemListElement" $breadcrumbItems
+  "numberOfItems" (len $breadcrumbItems)
+) }}
+
+{{/* Add description based on breadcrumb path */}}
+{{ $pathDescription := "Navigation path: " }}
+{{ $pathNames := slice }}
+{{ range $breadcrumbItems }}
+  {{ $pathNames = $pathNames | append .name }}
+{{ end }}
+{{ $pathDescription = printf "%s%s" $pathDescription (delimit $pathNames " > ") }}
+
+{{ $breadcrumbs = merge $breadcrumbs (dict
+  "description" $pathDescription
+  "name" "Page Navigation"
+) }}
+
+{{/* Return the breadcrumbs schema */}}
+{{ return $breadcrumbs }}

@@ -1,0 +1,104 @@
+{{/* WebSite Schema - Enhanced Search Functionality */}}
+{{/* Returns website schema dict with search capabilities */}}
+
+{{ $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "@id" (printf "%s#website" site.BaseURL)
+  "name" (site.Title | default "ColoringVault")
+  "url" site.BaseURL
+  "description" (site.Params.description | default "Free printable coloring pages for kids and adults - educational, creative, and fun activities")
+  "inLanguage" (site.Language.Lang | default "en")
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "copyrightYear" (now.Year)
+  "genre" (slice "Educational Resources" "Creative Activities" "Children's Content")
+  "audience" (dict
+    "@type" "Audience"
+    "audienceType" "General Public"
+    "geographicArea" "Worldwide"
+  )
+}}
+
+{{/* Add search functionality if enabled */}}
+{{ if site.Params.enableSearch }}
+  {{ $website = merge $website (dict
+    "potentialAction" (dict
+      "@type" "SearchAction"
+      "target" (dict
+        "@type" "EntryPoint"
+        "urlTemplate" (printf "%s/search?q={search_term_string}" site.BaseURL)
+        "actionPlatform" (slice
+          "http://schema.org/DesktopWebPlatform"
+          "http://schema.org/MobileWebPlatform"
+          "http://schema.org/IOSPlatform"
+          "http://schema.org/AndroidPlatform"
+        )
+      )
+      "query-input" (dict
+        "@type" "PropertyValueSpecification"
+        "valueRequired" true
+        "valueName" "search_term_string"
+        "description" "Search for coloring pages by theme, category, or keyword"
+      )
+    )
+  ) }}
+{{ end }}
+
+{{/* Add optional WebSite properties */}}
+{{ with site.Params.alternateTitle }}
+  {{ $website = merge $website (dict "alternateName" .) }}
+{{ end }}
+
+{{ with site.Params.keywords }}
+  {{ $website = merge $website (dict "keywords" .) }}
+{{ end }}
+
+{{/* Add content license */}}
+{{ $website = merge $website (dict
+  "license" (printf "%s/licensing-policy" site.BaseURL)
+  "usageInfo" (printf "%s/licensing-policy" site.BaseURL)
+  "accessibilityAPI" "ARIA"
+  "accessibilityControl" (slice "fullKeyboardControl" "fullMouseControl" "fullTouchControl")
+  "accessibilityFeature" (slice "readingOrder" "structuralNavigation" "printable")
+  "accessibilityHazard" "none"
+  "accessMode" (slice "textual" "visual")
+) }}
+
+{{/* Add main navigation structure */}}
+{{ if site.Menus.main }}
+  {{ $mainNavigation := slice }}
+  {{ range site.Menus.main }}
+    {{ $mainNavigation = $mainNavigation | append (dict
+      "@type" "WebPage"
+      "name" .Name
+      "url" (printf "%s%s" site.BaseURL .URL)
+      "description" (printf "%s section of ColoringVault" .Name)
+    ) }}
+  {{ end }}
+  {{ $website = merge $website (dict "mainContentOfPage" $mainNavigation) }}
+{{ end }}
+
+{{/* Add site statistics if available */}}
+{{ $totalPages := 0 }}
+{{ $categories := slice "animals-coloring-pages" "cartoons-coloring-pages" "education-coloring-pages" "fantasy-coloring-pages" "flowers-coloring-pages" "food-coloring-pages" "holidays-coloring-pages" "monthly-coloring-pages" "nature-coloring-pages" "superheroes-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" }}
+{{ range $categories }}
+  {{ $section := site.GetPage (printf "/%s" .) }}
+  {{ if $section }}
+    {{ $totalPages = add $totalPages (len $section.Pages) }}
+  {{ end }}
+{{ end }}
+
+{{ if gt $totalPages 0 }}
+  {{ $website = merge $website (dict
+    "mainEntity" (dict
+      "@type" "Collection"
+      "name" "Coloring Pages Collection"
+      "description" "Complete collection of free printable coloring pages"
+      "size" $totalPages
+      "collectionSize" $totalPages
+    )
+  ) }}
+{{ end }}
+
+{{/* Return the website schema */}}
+{{ return $website }}

@@ -1,0 +1,62 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{{- range .Site.RegularPages -}}
+  {{- if and (in .Type "animals-coloring-pages" "cartoons-coloring-pages" "superheroes-coloring-pages" "holidays-coloring-pages") (not .Draft) -}}
+    {{- $heroImage := .Params.hero_image -}}
+    {{- $cardImage := .Params.card_image -}}
+
+    {{- if or $heroImage $cardImage -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
+    {{- end }}
+
+    {{- /* Hero Image */ -}}
+    {{- if $heroImage }}
+    <image:image>
+      <image:loc>{{ $heroImage | absURL }}</image:loc>
+    </image:image>
+    {{- end }}
+
+    {{- /* Card Image */ -}}
+    {{- if and $cardImage (ne $cardImage $heroImage) }}
+    <image:image>
+      <image:loc>{{ $cardImage | absURL }}</image:loc>
+    </image:image>
+    {{- end }}
+
+    {{- /* Extract preview images from coloring-page-embed shortcodes */ -}}
+    {{- $content := .RawContent -}}
+    {{- $images := findRE `image="([^"]+)"` $content -}}
+    {{- $count := 0 -}}
+    {{- range $images -}}
+      {{- if lt $count 5 -}}
+        {{- $imagePath := . | replaceRE `image="([^"]+)"` "$1" -}}
+        {{- if and (ne $imagePath $heroImage) (ne $imagePath $cardImage) -}}
+    <image:image>
+      <image:loc>{{ $imagePath | absURL }}</image:loc>
+    </image:image>
+        {{- $count = add $count 1 -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end }}
+  </url>
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+
+{{- /* Category Header Images */ -}}
+{{- $categories := slice "animals-coloring-pages" "cartoons-coloring-pages" "superheroes-coloring-pages" "holidays-coloring-pages" "education-coloring-pages" "fantasy-coloring-pages" "flowers-coloring-pages" "food-coloring-pages" "monthly-coloring-pages" "nature-coloring-pages" "vehicles-coloring-pages" "video-games-coloring-pages" -}}
+{{- range $categories }}
+  {{- $categoryPath := printf "/%s/" . -}}
+  {{- $headerImage := printf "/images/collections/%s/category-header/%s-750x1000.webp" . . -}}
+  <url>
+    <loc>{{ $categoryPath | absURL }}</loc>
+    <image:image>
+      <image:loc>{{ $headerImage | absURL }}</image:loc>
+    </image:image>
+  </url>
+{{- end }}
+</urlset>

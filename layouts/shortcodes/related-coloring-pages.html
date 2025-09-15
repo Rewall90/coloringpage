@@ -1,0 +1,66 @@
+{{/* Related Coloring Pages Shortcode */}}
+{{ $title := .Get "title" | default "You might also like these related coloring pages!" }}
+{{ $categories := .Get "categories" | default "Winter,Rainbow,Halloween,Thanksgiving" }}
+
+{{/* Parse categories from comma-separated string */}}
+{{ $categoryList := split $categories "," }}
+
+<div class="related-coloring-pages my-8 p-6 bg-white dark:bg-neutral-800 rounded-lg border-2 border-blue-300 dark:border-blue-600 shadow-sm">
+  {{/* Title */}}
+  <h3 class="text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 text-center">
+    {{ $title }}
+  </h3>
+
+  {{/* Category Buttons */}}
+  <div class="flex flex-wrap gap-3 justify-center">
+    {{ range $categoryList }}
+      {{ $category := . | strings.TrimSpace }}
+      {{ $categorySlug := $category | lower | replaceRE "[^a-z0-9]+" "-" }}
+
+      {{/* Try to find matching section */}}
+      {{ $sectionPath := "" }}
+      {{ range site.Sections }}
+        {{ $sectionName := .Section | strings.Title | replaceRE "-Coloring-Pages" "" | replaceRE "-" " " }}
+        {{ if or (eq $sectionName $category) (eq (.Section | strings.Title) (printf "%s Coloring Pages" $category)) }}
+          {{ $sectionPath = .RelPermalink }}
+        {{ end }}
+      {{ end }}
+
+      {{/* If no exact match found, try common patterns */}}
+      {{ if not $sectionPath }}
+        {{ $commonMappings := dict
+          "Winter" "/monthly-coloring-pages/"
+          "Halloween" "/holidays-coloring-pages/"
+          "Thanksgiving" "/holidays-coloring-pages/"
+          "Rainbow" "/nature-coloring-pages/"
+          "Christmas" "/holidays-coloring-pages/"
+          "Birthday" "/holidays-coloring-pages/"
+          "Animals" "/animals-coloring-pages/"
+          "Cartoons" "/cartoons-coloring-pages/"
+          "Superheroes" "/superheroes-coloring-pages/"
+          "Vehicles" "/vehicles-coloring-pages/"
+          "Fantasy" "/fantasy-coloring-pages/"
+          "Food" "/food-coloring-pages/"
+          "Flowers" "/flowers-coloring-pages/"
+          "Nature" "/nature-coloring-pages/"
+          "Education" "/education-coloring-pages/"
+        }}
+        {{ $sectionPath = index $commonMappings $category }}
+      {{ end }}
+
+      {{/* Default fallback */}}
+      {{ if not $sectionPath }}
+        {{ $sectionPath = printf "/%s-coloring-pages/" $categorySlug }}
+      {{ end }}
+
+      <a
+        href="{{ $sectionPath }}"
+        class="inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition-colors duration-300 text-base shadow-sm hover:shadow-md transform hover:scale-105 transition-transform"
+        role="button"
+        aria-label="Browse {{ $category }} coloring pages"
+      >
+        {{ $category }}
+      </a>
+    {{ end }}
+  </div>
+</div>

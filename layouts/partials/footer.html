@@ -18,16 +18,16 @@
   </div>
 
   {{/* Bottom section with copyright and theme attribution */}}
-  <div class="flex items-center justify-between pt-8 border-t border-neutral-200 dark:border-neutral-700">
-    {{/* Copyright */}}
+  <div class="flex flex-col items-center justify-center pt-8 border-t border-neutral-200 dark:border-neutral-700 space-y-4">
+    {{/* Copyright - Centered */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
-      <p class="text-lg text-center text-neutral-500 dark:text-neutral-400">
+      <p class="text-lg text-center text-black dark:text-white">
         {{- with replace .Site.Params.copyright "{ year }" now.Year }}
           {{ . | markdownify }}
         {{- else }}
           &copy;
           {{ now.Format "2006" }}
-          {{ .Site.Params.Author.name | markdownify }}
+          ColoringVault.com
         {{- end }}
       </p>
     {{ end }}
@@ -47,9 +47,9 @@
       </button>
     {{ end }}
 
-    {{/* Theme attribution */}}
+    {{/* Theme attribution - Centered */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      <p class="text-xs text-center text-neutral-500 dark:text-neutral-400">
         {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
           href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
         }}

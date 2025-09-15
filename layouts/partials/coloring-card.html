@@ -1,0 +1,38 @@
+{{/* Reusable Coloring Page Card Component */}}
+<div class="group rounded-lg p-2 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors duration-200 flex items-center space-x-2">
+  {{/* Fixed Width Image - Clickable to Page */}}
+  {{ $imageUrl := "" }}
+  {{ if .Params.hero_image }}
+    {{ $imageUrl = .Params.hero_image }}
+  {{ else if .Params.card_image }}
+    {{ $imageUrl = .Params.card_image }}
+  {{ else }}
+    {{ $imageUrl = printf "/images/collections/%s/%s/hero.webp" .Section (path.BaseName .RelPermalink) }}
+  {{ end }}
+
+  <a href="{{ .RelPermalink }}" class="flex-shrink-0">
+    <div class="w-36 h-36 overflow-hidden rounded-lg">
+      <img
+        src="{{ $imageUrl }}"
+        alt="{{ .Title }}"
+        class="w-full h-full object-cover bg-neutral-100 dark:bg-neutral-800 nozoom transition-transform duration-200 hover:scale-[1.02]"
+        loading="lazy"
+      />
+    </div>
+  </a>
+
+  {{/* Content Right of Image */}}
+  <div class="w-36 min-w-0 text-left">
+    {{/* Clickable Category Link */}}
+    <a href="/{{ .Section }}/" class="inline-block text-xs text-neutral-500 dark:text-neutral-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-wide mb-1 transition-colors duration-200">
+      {{ index (split (.Section | humanize) " ") 0 }}
+    </a>
+
+    {{/* Clickable Page Title */}}
+    <a href="{{ .RelPermalink }}" class="block">
+      <h4 class="text-sm font-medium text-neutral-800 dark:text-neutral-100 line-clamp-2 hover:text-primary-600 dark:hover:text-primary-400 transition-colors leading-tight">
+        {{ index (split .Title " ") 0 }}
+      </h4>
+    </a>
+  </div>
+</div>

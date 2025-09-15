@@ -1,6 +1,6 @@
 ---
-title: "Coloring Pages"
-description: "Download free printable coloring pages. Perfect for fun, relaxation, and learning — from educational activities to mindfulness coloring."
+title: "Free Printable Coloring Pages for All Ages"
+description: "Free printable coloring pages for everyone! Creative fun for kids, stress relief for adults, and family bonding time. Download instantly and print on any paper size."
 ---
 
 # Welcome to Our Coloring Page Collection

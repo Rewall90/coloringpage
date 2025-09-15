@@ -1,0 +1,291 @@
+{{/* Enhanced JSON-LD Structured Data - Modular Implementation */}}
+{{/* This is the main schema orchestrator that uses modular partials */}}
+
+{{/* Load modular structured data partials */}}
+{{ $organization := partial "structured-data/organization.html" . }}
+{{ $website := partial "structured-data/website.html" . }}
+{{ $person := dict }}
+{{ if templates.Exists "partials/structured-data/person.html" }}
+  {{ $person = partial "structured-data/person.html" . }}
+{{ end }}
+
+{{/* Page-specific schema based on page type */}}
+{{ $pageSchema := dict }}
+{{ $additionalSchemas := slice }}
+
+{{/* Determine page type and build appropriate schema */}}
+{{ if .IsHome }}
+  {{/* Homepage: Organization + WebSite + Featured Collection */}}
+  {{ $pageSchema = $organization }}
+
+  {{/* Add featured coloring pages collection for homepage */}}
+  {{ $featuredPages := slice }}
+  {{ $categories := slice "animals-coloring-pages" "cartoons-coloring-pages" "superheroes-coloring-pages" "fantasy-coloring-pages" }}
+  {{ range $categories }}
+    {{ $section := site.GetPage (printf "/%s" .) }}
+    {{ if $section }}
+      {{ range first 3 $section.Pages }}
+        {{ if not .Draft }}
+          {{ $featuredPages = $featuredPages | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $featuredPages) 0 }}
+    {{ $featuredCollection := partial "structured-data/item-list.html" (dict
+      "context" .
+      "pages" $featuredPages
+      "listType" "featured"
+      "maxItems" 12
+    ) }}
+
+    {{/* Create homepage as CollectionPage showcasing featured content */}}
+    {{ $homepageCollection := dict
+      "@context" "https://schema.org"
+      "@type" (slice "CollectionPage" "WebPage")
+      "@id" (printf "%s#homepage" .Permalink)
+      "name" (printf "%s - Free Printable Coloring Pages" (site.Title | default "ColoringVault"))
+      "description" (site.Params.description | default "Free printable coloring pages for kids and adults")
+      "url" .Permalink
+      "mainEntity" $featuredCollection
+      "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+      "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+      "audience" (dict
+        "@type" "Audience"
+        "audienceType" "General Public"
+        "suggestedMinAge" 3
+        "suggestedMaxAge" 99
+      )
+      "genre" "Educational Resources Collection"
+      "educationalUse" (slice "Art Education" "Recreation" "Family Activities")
+      "isAccessibleForFree" true
+    }}
+
+    {{ $additionalSchemas = $additionalSchemas | append $homepageCollection }}
+  {{ end }}
+
+{{ else if and (eq .Kind "section") (in site.Params.mainSections .Type) }}
+  {{/* Category pages: CollectionPage + ItemList */}}
+  {{ $pageSchema = partial "structured-data/collection-page.html" . }}
+
+{{ else if and (eq .Kind "page") (in site.Params.mainSections .Type) }}
+  {{/* Individual coloring pages: Enhanced CreativeWork */}}
+  {{ $pageSchema = partial "structured-data/coloring-page.html" . }}
+
+  {{/* Add DigitalDocument schemas for each PDF in the content */}}
+  {{ $pdfSchemas := slice }}
+  {{ $content := .Content | plainify }}
+
+  {{/* Extract PDF URLs from coloring-page-embed shortcodes */}}
+  {{ range findRE `pdf="([^"]+)"` .RawContent }}
+    {{ $pdfUrl := . | replaceRE `pdf="([^"]+)"` "$1" }}
+    {{ if $pdfUrl }}
+      {{/* Extract title from the same shortcode block */}}
+      {{ $titleMatch := findRE (printf `title="([^"]+)"[^>]*%s` (querify "q" $pdfUrl)) $.RawContent 1 }}
+      {{ $title := "Coloring Page" }}
+      {{ $description := "Printable coloring page" }}
+
+      {{ if $titleMatch }}
+        {{ $title = index $titleMatch 0 | replaceRE `title="([^"]+)".*` "$1" }}
+        {{ $description = printf "Printable PDF version of %s" $title }}
+      {{ end }}
+
+      {{ $pdfSchema := partial "structured-data/pdf-document.html" (dict
+        "context" $
+        "pdfUrl" $pdfUrl
+        "title" $title
+        "description" $description
+      ) }}
+
+      {{ $pdfSchemas = $pdfSchemas | append $pdfSchema }}
+    {{ end }}
+  {{ end }}
+
+  {{ $additionalSchemas = $additionalSchemas | append $pdfSchemas }}
+
+{{ else if eq .Kind "section" }}
+  {{/* Other section pages: CollectionPage */}}
+  {{ $pageSchema = dict
+    "@context" "https://schema.org"
+    "@type" (slice "CollectionPage" "WebPage")
+    "@id" (printf "%s#collectionpage" .Permalink)
+    "name" .Title
+    "description" (or .Description .Summary (printf "%s section" .Title))
+    "url" .Permalink
+    "inLanguage" (site.Language.Lang | default "en")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+  }}
+
+  {{ if gt (len .Pages) 0 }}
+    {{ $sectionItemList := partial "structured-data/item-list.html" (dict "context" . "pages" .Pages "listType" "generic") }}
+    {{ $pageSchema = merge $pageSchema (dict "mainEntity" $sectionItemList) }}
+  {{ end }}
+
+{{ else }}
+  {{/* Default WebPage schema for other content */}}
+  {{ $pageType := "WebPage" }}
+
+  {{/* Determine specific page types */}}
+  {{ if .File }}
+    {{ if eq .File.BaseFileName "privacy-policy" }}
+      {{ $pageType = "PrivacyPolicyPage" }}
+    {{ else if eq .File.BaseFileName "terms-and-conditions" }}
+      {{ $pageType = "TermsOfServicePage" }}
+    {{ else if eq .File.BaseFileName "about-us" }}
+      {{ $pageType = "AboutPage" }}
+    {{ else if eq .File.BaseFileName "contact" }}
+      {{ $pageType = "ContactPage" }}
+    {{ else if eq .File.BaseFileName "about-the-author" }}
+      {{ $pageType = "ProfilePage" }}
+    {{ end }}
+  {{ end }}
+
+  {{ $pageSchema = dict
+    "@context" "https://schema.org"
+    "@type" $pageType
+    "@id" (printf "%s#page" .Permalink)
+    "name" .Title
+    "description" (or .Description .Summary .Title)
+    "url" .Permalink
+    "inLanguage" (site.Language.Lang | default "en")
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+    "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+  }}
+
+  {{/* Special handling for author page */}}
+  {{ if and .File (eq .File.BaseFileName "about-the-author") (ne (len $person) 0) }}
+    {{ $pageSchema = merge $pageSchema (dict "mainEntity" $person) }}
+    {{ $additionalSchemas = $additionalSchemas | append $person }}
+  {{ end }}
+{{ end }}
+
+{{/* Generate breadcrumbs for all non-home pages */}}
+{{ if not .IsHome }}
+  {{ $breadcrumbs := partial "structured-data/breadcrumbs.html" . }}
+  {{ $additionalSchemas = $additionalSchemas | append $breadcrumbs }}
+{{ end }}
+
+{{/* Output JSON-LD scripts */}}
+{{ if .IsHome }}
+  {{/* Homepage: Organization, WebSite, and Homepage Collection */}}
+  {{ if and (site.Title) (site.BaseURL) }}
+  <script type="application/ld+json">
+  {{ $organization | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+
+  <script type="application/ld+json">
+  {{ $website | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+
+  {{/* Additional homepage schemas */}}
+  {{ range $additionalSchemas }}
+    {{ if . }}
+    <script type="application/ld+json">
+    {{ . | jsonify (dict "indent" "  ") | safeJS }}
+    </script>
+    {{ end }}
+  {{ end }}
+
+{{ else }}
+  {{/* Non-homepage: Page schema + additional schemas */}}
+  {{ if and (.Title) (.Permalink) }}
+  <script type="application/ld+json">
+  {{ $pageSchema | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+  {{ end }}
+
+  {{/* Additional schemas (breadcrumbs, PDFs, etc.) */}}
+  {{ range $additionalSchemas }}
+    {{ if . }}
+      {{ if reflect.IsSlice . }}
+        {{/* Handle arrays of schemas */}}
+        {{ range . }}
+        <script type="application/ld+json">
+        {{ . | jsonify (dict "indent" "  ") | safeJS }}
+        </script>
+        {{ end }}
+      {{ else }}
+        {{/* Handle single schemas */}}
+        <script type="application/ld+json">
+        {{ . | jsonify (dict "indent" "  ") | safeJS }}
+        </script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}
+
+{{/* Debug mode - shows JSON-LD visually on page */}}
+{{ if site.Params.debugSchema }}
+<div style="background:#f0f0f0;padding:1rem;margin:1rem 0;border:2px solid #333;border-radius:8px;">
+  <h3 style="margin-top:0;">🔍 Enhanced Schema Debug Mode</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;">
+    <div>
+      <p><strong>Page Type:</strong> {{ .Type }}</p>
+      <p><strong>Kind:</strong> {{ .Kind }}</p>
+      <p><strong>Is Home:</strong> {{ .IsHome }}</p>
+      <p><strong>In mainSections:</strong> {{ in site.Params.mainSections .Type }}</p>
+    </div>
+    <div>
+      <p><strong>Main Sections:</strong> {{ site.Params.mainSections }}</p>
+      <p><strong>File exists:</strong> {{ if .File }}Yes ({{ .File.BaseFileName }}){{ else }}No{{ end }}</p>
+      <p><strong>Additional Schemas:</strong> {{ len $additionalSchemas }}</p>
+    </div>
+  </div>
+
+  <details style="margin-bottom:1rem;">
+    <summary style="cursor:pointer;font-weight:bold;">📄 Primary Schema</summary>
+    <pre style="overflow-x:auto;background:#fff;padding:1rem;border-radius:4px;margin-top:0.5rem;font-size:0.85em;">
+{{ if .IsHome }}
+Organization Schema:
+{{ $organization | jsonify (dict "indent" "  ") }}
+
+WebSite Schema:
+{{ $website | jsonify (dict "indent" "  ") }}
+{{ else }}
+{{ $pageSchema | jsonify (dict "indent" "  ") }}
+{{ end }}
+    </pre>
+  </details>
+
+  {{ if gt (len $additionalSchemas) 0 }}
+  <details>
+    <summary style="cursor:pointer;font-weight:bold;">🔗 Additional Schemas ({{ len $additionalSchemas }})</summary>
+    <div style="max-height:400px;overflow-y:auto;">
+      {{ range $index, $schema := $additionalSchemas }}
+        {{ if $schema }}
+          <details style="margin:0.5rem 0;">
+            <summary style="cursor:pointer;">Schema {{ add $index 1 }}{{ if reflect.IsSlice $schema }} (Array of {{ len $schema }}){{ end }}</summary>
+            <pre style="overflow-x:auto;background:#fff;padding:0.5rem;border-radius:4px;margin-top:0.5rem;font-size:0.8em;">
+{{ if reflect.IsSlice $schema }}
+{{ range $schema }}{{ . | jsonify (dict "indent" "  ") }}
+
+{{ end }}
+{{ else }}
+{{ $schema | jsonify (dict "indent" "  ") }}
+{{ end }}
+            </pre>
+          </details>
+        {{ end }}
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+
+  <div style="background:#e6f3ff;padding:0.75rem;border-radius:4px;margin-top:1rem;font-size:0.9em;">
+    <strong>💡 Debug Tips:</strong>
+    <ul style="margin:0.5rem 0 0 1.5rem;padding:0;">
+      <li>Test schemas at <a href="https://search.google.com/test/rich-results" target="_blank">Rich Results Test</a></li>
+      <li>Validate at <a href="https://validator.schema.org/" target="_blank">Schema.org Validator</a></li>
+      <li>Set <code>debugSchema = false</code> in config to disable this debug panel</li>
+    </ul>
+  </div>
+</div>
+{{ end }}

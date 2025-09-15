@@ -1,0 +1,217 @@
+{{/* CreativeWork Schema - Enhanced Individual Coloring Pages */}}
+{{/* Returns creative work schema dict for individual coloring pages */}}
+
+{{ $creativeWork := dict
+  "@context" "https://schema.org"
+  "@type" (slice "CreativeWork" "EducationalResource")
+  "@id" (printf "%s#creativework" .Permalink)
+  "name" .Title
+  "headline" .Title
+  "description" (or .Description .Summary .Title)
+  "url" .Permalink
+  "inLanguage" (site.Language.Lang | default "en")
+  "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+  "dateCreated" (.Date.Format "2006-01-02T15:04:05-07:00")
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "creator" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "author" (dict "@id" (printf "%s#author" site.BaseURL))
+  "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+  "genre" "Coloring Page"
+  "creativeWorkStatus" "Published"
+  "learningResourceType" (slice "Activity Sheet" "Worksheet" "Art Activity")
+  "educationalUse" (slice "Art Education" "Recreation" "Fine Motor Skills Development" "Creativity Enhancement")
+  "interactivityType" "active"
+  "typicalAgeRange" "3-99"
+  "audience" (dict
+    "@type" "EducationalAudience"
+    "audienceType" "Children and Adults"
+    "suggestedMinAge" 3
+    "suggestedMaxAge" 99
+    "educationalRole" (slice "student" "parent" "teacher")
+  )
+  "isAccessibleForFree" true
+  "accessibilityFeature" (slice "printable" "colorable" "largeText" "highContrast")
+  "accessibilityHazard" "none"
+  "accessMode" "visual"
+  "accessModeSufficient" "visual"
+}}
+
+{{/* Add category and subject information */}}
+{{ with .Params.categories }}
+  {{ $category := index . 0 }}
+  {{ $creativeWork = merge $creativeWork (dict
+    "about" $category
+    "genre" (printf "%s Coloring Page" $category)
+    "subject" $category
+    "educationalLevel" "All Ages"
+  ) }}
+{{ end }}
+
+{{/* Add keywords from tags */}}
+{{ with .Params.tags }}
+  {{ $creativeWork = merge $creativeWork (dict "keywords" (delimit . ", ")) }}
+{{ end }}
+
+{{/* Add difficulty level if available */}}
+{{ with .Params.difficulty }}
+  {{ $creativeWork = merge $creativeWork (dict
+    "educationalLevel" .
+    "typicalLearningTime" (cond (eq . "Beginner") "PT15M" (cond (eq . "Intermediate") "PT30M" "PT45M"))
+  ) }}
+{{ end }}
+
+{{/* Add hero image with enhanced optimization metadata */}}
+{{ with .Params.hero_image }}
+  {{ $imageSchema := dict
+    "@type" "ImageObject"
+    "@id" (printf "%s#heroimage" $.Permalink)
+    "url" (printf "%s%s" site.BaseURL .)
+    "contentUrl" (printf "%s%s" site.BaseURL .)
+    "caption" (or $.Params.image_alt $.Title)
+    "width" ($.Params.image_width | default 1200)
+    "height" ($.Params.image_height | default 800)
+    "encodingFormat" "image/webp"
+    "representativeOfPage" true
+    "description" (printf "Hero image for %s coloring page" $.Title)
+    "keywords" (printf "%s, coloring page, printable, kids activity" (cond ($.Params.categories) (index $.Params.categories 0) "activity"))
+  }}
+
+  {{/* Add image optimization details from Sanity CDN */}}
+  {{ $imageSchema = merge $imageSchema (dict
+    "isBasedOn" (dict
+      "@type" "ImageObject"
+      "description" "Original high-resolution vector image from Sanity CDN"
+      "encodingFormat" "image/svg+xml"
+      "contentSize" "Vector graphics for optimal print quality"
+    )
+    "thumbnailUrl" (printf "%s%s" site.BaseURL ($.Params.card_image | default .))
+    "contentSize" (printf "~%dKB optimized WebP" (div (mul ($.Params.image_width | default 1200) ($.Params.image_height | default 800)) 5000))
+  ) }}
+
+  {{ $creativeWork = merge $creativeWork (dict
+    "image" $imageSchema
+    "primaryImageOfPage" (dict "@id" (printf "%s#heroimage" $.Permalink))
+  ) }}
+{{ end }}
+
+{{/* Add card image for listings */}}
+{{ with .Params.card_image }}
+  {{ $creativeWork = merge $creativeWork (dict
+    "thumbnail" (dict
+      "@type" "ImageObject"
+      "url" (printf "%s%s" site.BaseURL .)
+      "contentUrl" (printf "%s%s" site.BaseURL .)
+      "caption" (or $.Params.card_image_alt $.Title)
+      "width" 300
+      "height" 400
+      "encodingFormat" "image/webp"
+    )
+  ) }}
+{{ end }}
+
+{{/* Enhanced license and usage information */}}
+{{ $creativeWork = merge $creativeWork (dict
+  "license" (printf "%s/licensing-policy" site.BaseURL)
+  "usageInfo" (printf "%s/licensing-policy" site.BaseURL)
+  "acquireLicensePage" (printf "%s/licensing-policy" site.BaseURL)
+  "conditionsOfAccess" "Free for personal and educational use"
+  "copyrightHolder" (dict "@id" (printf "%s#organization" site.BaseURL))
+  "copyrightYear" (.Date.Year)
+  "copyrightNotice" (printf "© %d %s. Licensed for personal and educational use." (.Date.Year) (site.Title | default "ColoringVault"))
+) }}
+
+{{/* Add educational alignment */}}
+{{ $educationalAlignment := slice }}
+
+{{/* Art education alignment */}}
+{{ $educationalAlignment = $educationalAlignment | append (dict
+  "@type" "AlignmentObject"
+  "alignmentType" "educates"
+  "educationalFramework" "Creative Arts Standards"
+  "targetDescription" "Develop artistic expression and creativity through coloring activities"
+  "targetName" "Visual Arts Creation"
+) }}
+
+{{/* Fine motor skills alignment */}}
+{{ $educationalAlignment = $educationalAlignment | append (dict
+  "@type" "AlignmentObject"
+  "alignmentType" "educates"
+  "educationalFramework" "Early Childhood Development"
+  "targetDescription" "Improve fine motor control and hand-eye coordination"
+  "targetName" "Fine Motor Skills Development"
+) }}
+
+{{ $creativeWork = merge $creativeWork (dict "educationalAlignment" $educationalAlignment) }}
+
+{{/* Add learning outcomes */}}
+{{ $learningOutcomes := slice "Enhanced creativity and artistic expression" "Improved fine motor control" "Color recognition and coordination" "Focus and concentration skills" "Stress relief and relaxation" }}
+{{ $creativeWork = merge $creativeWork (dict
+  "teaches" "Creative expression through coloring"
+  "educationalCredentialAwarded" "Completed Art Activity"
+  "competencyRequired" "Basic motor skills"
+) }}
+
+{{/* Add content warnings/safety information */}}
+{{ $creativeWork = merge $creativeWork (dict
+  "contentRating" (dict
+    "@type" "Rating"
+    "ratingValue" "G"
+    "bestRating" "G"
+    "ratingSystem" "Content suitable for all ages"
+  )
+) }}
+
+{{/* Add time-related metadata */}}
+{{ $creativeWork = merge $creativeWork (dict
+  "timeRequired" "PT15M"
+  "typicalAgeRange" "3-99"
+) }}
+
+{{/* Add material requirements */}}
+{{ $materialRequirements := slice "Paper (A4 or US Letter)" "Crayons, colored pencils, or markers" "Printer (for PDF download)" }}
+{{ $creativeWork = merge $creativeWork (dict
+  "materialExtent" "1 page"
+  "requirements" (delimit $materialRequirements "; ")
+) }}
+
+{{/* Add associated media (PDFs) from coloring-page-embed shortcodes */}}
+{{ $associatedMedia := slice }}
+{{ $shortcodes := findRE `\{\{<\s*coloring-page-embed[^>]*>\}\}` .RawContent }}
+{{ range $shortcodes }}
+  {{ $pdfMatch := findRE `pdf="([^"]+)"` . }}
+  {{ $titleMatch := findRE `title="([^"]+)"` . }}
+
+  {{ if and $pdfMatch $titleMatch }}
+    {{ $pdfUrl := index $pdfMatch 0 | replaceRE `pdf="([^"]+)"` "$1" }}
+    {{ $title := index $titleMatch 0 | replaceRE `title="([^"]+)"` "$1" }}
+
+    {{ $associatedMedia = $associatedMedia | append (dict
+      "@id" (printf "%s#pdf-%s" $.Permalink (urlize $title))
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $associatedMedia) 0 }}
+  {{ $creativeWork = merge $creativeWork (dict "associatedMedia" $associatedMedia) }}
+{{ end }}
+
+{{/* Add breadcrumb context */}}
+{{ $creativeWork = merge $creativeWork (dict
+  "breadcrumb" (dict "@id" (printf "%s#breadcrumbs" .Permalink))
+) }}
+
+{{/* Add word count and reading time if content exists */}}
+{{ if .Content }}
+  {{ $wordCount := .WordCount }}
+  {{ $readingTime := .ReadingTime }}
+  {{ if gt $wordCount 0 }}
+    {{ $creativeWork = merge $creativeWork (dict
+      "wordCount" $wordCount
+      "timeRequired" (printf "PT%dM" $readingTime)
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{/* Return the creative work schema */}}
+{{ return $creativeWork }}
