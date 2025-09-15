@@ -24,17 +24,35 @@ const mappings = JSON.parse(fs.readFileSync(MAPPINGS_FILE, 'utf-8'));
 
 console.log(`📦 Found ${Object.keys(mappings).length} asset mappings to upload...`);
 
-// Upload each mapping to KV
-for (const [slug, url] of Object.entries(mappings)) {
+// Convert to bulk upload format
+const bulkMappings = Object.entries(mappings).map(([key, value]) => ({ key, value }));
+const bulkFile = 'bulk-mappings.json';
+
+// Write bulk mappings file
+fs.writeFileSync(bulkFile, JSON.stringify(bulkMappings, null, 2));
+
+console.log(`💾 Created bulk upload file: ${bulkFile}`);
+
+// Upload all mappings to both namespaces
+const namespaces = [
+  { id: '8122081381114c80872c143ae13272fe', name: 'new worker namespace' },
+  { id: '0bfbc7de488a4fcfa3457efbcfd130e1', name: 'old worker namespace' }
+];
+
+for (const namespace of namespaces) {
   try {
-    console.log(`⬆️  Uploading: ${slug}`);
+    console.log(`⬆️  Uploading ${bulkMappings.length} mappings to ${namespace.name}...`);
     execSync(
-      `wrangler kv key put "${slug}" "${url}" --binding=ASSET_MAPPINGS --remote`,
+      `wrangler kv bulk put ${bulkFile} --namespace-id=${namespace.id}`,
       { stdio: 'inherit' }
     );
+    console.log(`✅ Successfully uploaded to ${namespace.name}`);
   } catch (error) {
-    console.error(`❌ Failed to upload ${slug}:`, error.message);
+    console.error(`❌ Failed to upload to ${namespace.name}:`, error.message);
   }
 }
+
+// Clean up bulk file
+fs.unlinkSync(bulkFile);
 
 console.log('✅ All mappings uploaded successfully!');
