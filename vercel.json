@@ -155,7 +155,20 @@
     }
   ],
 
-  "rewrites": [],
+  "rewrites": [
+    {
+      "source": "/feed.xml",
+      "destination": "/index.xml"
+    },
+    {
+      "source": "/rss.xml",
+      "destination": "/index.xml"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ],
 
   "trailingSlash": false,
 
