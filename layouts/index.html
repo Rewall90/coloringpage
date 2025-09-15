@@ -19,12 +19,12 @@
           {{/* Inline Search Box */}}
           {{ partial "inline-search.html" . }}
         </div>
-        
+
         {{/* Right Column - Hero Image */}}
         {{ with .Site.Params.homepage.homepageImage }}
           <div class="flex justify-center lg:justify-end">
-            <img src="{{ . }}" 
-                 alt="Colorful illustration showcasing various coloring pages and art supplies" 
+            <img src="{{ . }}"
+                 alt="Colorful illustration showcasing various coloring pages and art supplies"
                  class="hidden lg:block nozoom w-full max-w-md lg:max-w-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
                  loading="eager">
           </div>
@@ -33,40 +33,11 @@
     </div>
   </section>
 
+  {{/* Category Grid Section */}}
+  {{ partial "category-grid.html" . }}
+
   {{/* Main Content - Removed */}}
 
-  {{/* Categories Section */}}
-  <section class="categories-showcase" aria-labelledby="categories-heading">
-    <div class="max-w-7xl mx-auto px-6">
-      <h2 id="categories-heading" class="sr-only">Coloring Page Categories</h2>
-      
-      {{/* Get all category sections - excluding system sections */}}
-      {{ $categories := slice }}
-      {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
-      {{ range site.Sections }}
-        {{ if not (in $excludeSections .Section) }}
-          {{ if .Params.image_width }}
-            {{ $categories = $categories | append . }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      
-      {{ if $categories }}
-        <div class="homepage-category-grid" role="grid" aria-label="Coloring page categories">
-          {{ range $categories.ByParam "weight" }}
-            {{ partialCached "category-card.html" (dict "category" . "size" "grid") .RelPermalink "grid" }}
-          {{ end }}
-        </div>
-      {{ else }}
-        {{/* No categories found */}}
-        <div class="text-center py-16">
-          <p class="text-neutral-600 dark:text-neutral-400 text-lg">
-            No categories available yet.
-          </p>
-        </div>
-      {{ end }}
-    </div>
-  </section>
 
   {{/* Popular Pages Section */}}
   {{ partial "popular-pages-section.html" . }}

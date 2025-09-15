@@ -1,40 +1,23 @@
-{{/* Refactored Category Card - Optimized with clean HTML and proper sizing */}}
-{{ $category := .category }}
+{{/* Category Card Component - Individual category card for grid */}}
+<a href="{{ .RelPermalink }}" class="category-card group block">
+  <div class="rounded-lg shadow-sm overflow-hidden" style="background-color: #2EC4B6;">
 
-<article class="block" role="gridcell">
-  <a href="{{ $category.RelPermalink }}" style="background-color: #2DC4B6;" aria-labelledby="category-{{ $category.Title | urlize }}">
-    {{/* Category Image Container */}}
-    <figure class="aspect-square">
-      {{ if $category.Params.image_width }}
-        {{/* Use local category images with optimized sizing */}}
-        {{ $localImageUrl := printf "/images/categories/%s-600x600.webp" $category.Section }}
-        <noscript>
-          <img decoding="async"
-               src="{{ $localImageUrl }}"
-               alt="{{ $category.Params.image_alt | default $category.Title }}"
-               width="600"
-               height="600"
-               sizes="(max-width: 768px) 80px, (max-width: 1200px) 110px, 140px">
-        </noscript>
-        <img decoding="async"
-             width="600"
-             height="600"
-             src="{{ $localImageUrl }}"
-             alt="{{ $category.Params.image_alt | default $category.Title }}"
-             sizes="(max-width: 768px) 80px, (max-width: 1200px) 110px, 140px"
-             data-pin-url="{{ absURL "/" }}"
-             data-pin-title="Free Coloring Pages | {{ site.Title }}"
-             data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
-             loading="lazy">
-      {{ else }}
-        {{/* Fallback if no image */}}
-        <div class="fallback-bg"></div>
-      {{ end }}
-    </figure>
+    {{/* Category Image */}}
+    {{ $imageUrl := printf "/images/categories/%s-600x600.webp" .Section }}
+    <div class="aspect-square overflow-hidden">
+      <img
+        src="{{ $imageUrl }}"
+        alt="{{ .Params.image_alt | default .Title }}"
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+    </div>
 
-    {{/* Category Title as Figcaption */}}
-    <figcaption id="category-{{ $category.Title | urlize }}">
-      <span>{{ $category.Title }}</span>
-    </figcaption>
-  </a>
-</article>
+    {{/* Category Title */}}
+    <div class="p-4">
+      <h3 class="text-center font-semibold text-neutral-900 dark:text-neutral-100">
+        {{ .Title }}
+      </h3>
+    </div>
+  </div>
+</a>

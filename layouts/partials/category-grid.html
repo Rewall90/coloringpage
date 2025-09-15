@@ -1,0 +1,29 @@
+{{/* Category Grid Section - Displays all coloring page categories */}}
+<section class="category-grid-section py-16" aria-labelledby="category-grid-heading">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 id="category-grid-heading" class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-8 text-left">
+      Browse Categories
+    </h2>
+
+    {{/* Get all category sections */}}
+    {{ $categories := slice }}
+    {{ range .Site.Sections }}
+      {{ if eq .Type "coloring-category" }}
+        {{ $categories = $categories | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Sort by weight parameter */}}
+    {{ $sortedCategories := $categories.ByWeight }}
+
+    {{ if $sortedCategories }}
+      <div class="category-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-4 md:gap-6" role="grid" aria-label="Browse Categories">
+        {{ range $sortedCategories }}
+          <div role="gridcell">
+            {{ partial "category-card.html" . }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
