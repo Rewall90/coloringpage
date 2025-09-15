@@ -7,7 +7,7 @@
 
   "build": {
     "env": {
-      "HUGO_VERSION": "0.143.0",
+      "HUGO_VERSION": "0.144.0",
       "NODE_VERSION": "22",
       "HUGO_ENV": "production"
     }
@@ -139,7 +139,7 @@
           "value": "http"
         }
       ],
-      "destination": "https://www.coloringvault.com/:path*",
+      "destination": "https://coloringvault.com/:path*",
       "statusCode": 301
     },
     {
@@ -147,10 +147,10 @@
       "has": [
         {
           "type": "host",
-          "value": "coloringvault.com"
+          "value": "www.coloringvault.com"
         }
       ],
-      "destination": "https://www.coloringvault.com/:path*",
+      "destination": "https://coloringvault.com/:path*",
       "statusCode": 301
     }
   ],
