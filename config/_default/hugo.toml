@@ -53,7 +53,9 @@ enableEmoji = true
     notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "ImageSitemap", "SitemapIndex"]
+  home = ["HTML", "RSS", "ImageSitemap", "SitemapIndex"]
+  page = ["HTML"]
+  section = ["HTML"]
 
 [related]
   threshold = 0
