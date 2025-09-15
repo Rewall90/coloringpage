@@ -1,0 +1,36 @@
+{{/* Homepage Categories Section - 12 categories in responsive grid */}}
+{{ $enabled := .Site.Params.homepage.categories.enabled | default true }}
+{{ if $enabled }}
+  {{ $title := .Site.Params.homepage.categories.title | default "Coloring Page Categories" }}
+  {{ $limit := .Site.Params.homepage.categories.limit | default 12 }}
+
+  {{/* Get all category sections (ending with -coloring-pages) */}}
+  {{ $categories := slice }}
+  {{ $excludeSections := slice "posts" "pages" "coloring-pages" }}
+  {{ range .Site.Sections }}
+    {{ if and (strings.HasSuffix .Section "-coloring-pages") (not (in $excludeSections .Section)) }}
+      {{ $categories = $categories | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Sort categories alphabetically and take the first $limit */}}
+  {{ $finalCategories := ($categories.ByTitle | first $limit) }}
+
+  {{ if $finalCategories }}
+    <section class="homepage-categories-section py-16" aria-labelledby="homepage-categories-heading">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 id="homepage-categories-heading" class="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral mb-8 text-center">
+          {{ $title }}
+        </h2>
+
+        <div class="homepage-category-grid" role="grid" aria-label="{{ $title }}">
+          {{ range $finalCategories }}
+            <div role="gridcell">
+              {{ partialCached "homepage-category-card.html" . .RelPermalink }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

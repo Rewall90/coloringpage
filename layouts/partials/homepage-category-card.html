@@ -1,0 +1,45 @@
+{{/* Homepage Category Card - Square format for category display */}}
+{{ $category := . }}
+
+<article class="block" role="gridcell">
+  <a href="{{ $category.RelPermalink }}" class="block rounded-lg overflow-hidden" aria-labelledby="category-{{ $category.Title | urlize }}">
+
+    {{/* Category Image Container - Square aspect ratio */}}
+    <figure class="aspect-square overflow-hidden mb-3">
+      {{ if $category.Params.image_width }}
+        {{/* Use local category images */}}
+        {{ $localImageUrl := printf "/images/categories/%s-600x600.webp" $category.Section }}
+        <noscript>
+          <img decoding="async"
+               src="{{ $localImageUrl }}"
+               alt="{{ $category.Params.image_alt | default $category.Title }}"
+               width="300"
+               height="300"
+               sizes="(max-width: 300px) 100vw, 300px">
+        </noscript>
+        <img decoding="async"
+             width="300"
+             height="300"
+             src="{{ $localImageUrl }}"
+             alt="{{ $category.Params.image_alt | default $category.Title }}"
+             class="w-full h-full object-cover"
+             data-pin-url="{{ absURL "/" }}"
+             data-pin-title="Free Coloring Pages | {{ site.Title }}"
+             data-pin-description="{{ site.Params.description | default "Free, premium printable coloring pages for kids. Easy access and zero cost for endless fun and creativity!" }}"
+             loading="lazy">
+      {{ else }}
+        {{/* Fallback if no image */}}
+        <div class="w-full h-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
+          <span class="text-white text-lg font-medium text-center px-2">{{ $category.Title }}</span>
+        </div>
+      {{ end }}
+    </figure>
+
+    {{/* Category Title - Below the image */}}
+    <figcaption id="category-{{ $category.Title | urlize }}" class="text-center pb-2 px-2">
+      <span class="text-neutral-800 dark:text-neutral-200 font-semibold text-base leading-tight">
+        {{ $category.Title }}
+      </span>
+    </figcaption>
+  </a>
+</article>
