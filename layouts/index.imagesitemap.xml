@@ -20,7 +20,7 @@
 {{- $imageMatches := findRE `image="([^"]*\.webp)"` $content -}}
 {{- $count := 0 -}}
 {{- range $imageMatches }}
-{{- if lt $count 5 -}}
+{{- if lt $count 100 -}}
 {{- $imagePath := . | replaceRE `image="([^"]*)"` "$1" }}
 {{- if and (ne $imagePath $heroImage) (ne $imagePath $cardImage) }}
     <image:image>
