@@ -17,6 +17,7 @@
 
 [[main]]
   name = "Categories"
+  pageRef = "coloring-pages"
   weight = 20
 
 # Dummy child to trigger nested template (this creates .HasChildren = true)
