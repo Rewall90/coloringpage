@@ -23,9 +23,9 @@
           {{ $title }}
         </h2>
 
-        <div class="homepage-category-grid" role="grid" aria-label="{{ $title }}">
+        <div class="homepage-category-grid" aria-label="{{ $title }}">
           {{ range $finalCategories }}
-            <div role="gridcell">
+            <div>
               {{ partialCached "homepage-category-card.html" . .RelPermalink }}
             </div>
           {{ end }}

@@ -24,9 +24,9 @@
           {{ $title }}
         </h2>
         
-        <div class="popular-pages-grid" role="grid" aria-label="{{ $title }}">
+        <div class="popular-pages-grid" aria-label="{{ $title }}">
           {{ range $finalPages }}
-            <div role="gridcell">
+            <div>
               {{ partialCached "popular-page-card.html" . .RelPermalink }}
             </div>
           {{ end }}
