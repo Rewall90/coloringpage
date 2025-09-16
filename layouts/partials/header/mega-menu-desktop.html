@@ -34,9 +34,9 @@
           {{ $section := site.GetPage (printf "/%s" .) }}
           {{ if $section }}
             <div class="mega-menu-column">
-              <h3 class="mega-menu-category-title">
+              <div class="mega-menu-category-title">
                 <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
-              </h3>
+              </div>
               <ul class="mega-menu-posts">
                 {{ range first 4 $section.Pages }}
                   <li>
@@ -55,7 +55,7 @@
         
         {{/* 6th Column: Other Categories */}}
         <div class="mega-menu-column mega-menu-other-categories">
-          <h3 class="mega-menu-category-title">Other Categories</h3>
+          <div class="mega-menu-category-title">Other Categories</div>
           <ul class="mega-menu-posts">
             {{/* HIGHLIGHT: Remaining categories - Easy to change later */}}
             {{ $otherCategories := slice "monthly-coloring-pages" "video-games-coloring-pages" "education-coloring-pages" "food-coloring-pages" "vehicles-coloring-pages" "flowers-coloring-pages" "nature-coloring-pages" }}

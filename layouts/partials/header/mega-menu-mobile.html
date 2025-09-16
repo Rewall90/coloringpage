@@ -30,9 +30,9 @@
       {{ $section := site.GetPage (printf "/%s" .) }}
       {{ if $section }}
         <div class="mega-menu-mobile-category bg-[#FEFAF6]">
-          <h4 class="mega-menu-mobile-category-title">
+          <div class="mega-menu-mobile-category-title">
             <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
-          </h4>
+          </div>
           <ul class="mega-menu-mobile-posts">
             {{ range first 4 $section.Pages }}
               <li>
@@ -51,7 +51,7 @@
     
     {{/* Other Categories Section */}}
     <div class="mega-menu-mobile-category mega-menu-mobile-other bg-[#FEFAF6]">
-      <h4 class="mega-menu-mobile-category-title">Other Categories</h4>
+      <div class="mega-menu-mobile-category-title">Other Categories</div>
       <ul class="mega-menu-mobile-posts">
         {{/* HIGHLIGHT: Remaining categories - Same as desktop, easy to change */}}
         {{ $otherCategories := slice "monthly-coloring-pages" "video-games-coloring-pages" "education-coloring-pages" "food-coloring-pages" "vehicles-coloring-pages" "flowers-coloring-pages" "nature-coloring-pages" }}
