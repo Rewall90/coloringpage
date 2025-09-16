@@ -9,11 +9,11 @@ id = "8122081381114c80872c143ae13272fe" # Shared with image proxy
 
 # Routes for asset proxy - handles both PDFs and images
 [[routes]]
-pattern = "coloringvault.com/*"
+pattern = "coloringvault.com/pdf/*"
 zone_name = "coloringvault.com"
 
 [[routes]]
-pattern = "www.coloringvault.com/*"
+pattern = "www.coloringvault.com/pdf/*"
 zone_name = "coloringvault.com"
 
 [env.production]

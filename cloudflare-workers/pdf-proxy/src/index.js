@@ -7,7 +7,10 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    
+
+    // DEBUG: Log all incoming requests
+    console.log('🔥 INCOMING REQUEST:', url.pathname);
+
     // Extract the slug from hierarchical asset paths
     // Format: /category/post/filename.pdf -> category/post/filename
     // Format: /category/image-name.webp -> category/image-name
@@ -28,7 +31,15 @@ export default {
     }
     
     // Handle hierarchical structure for both PDFs and images
-    const parts = pathname.split('/').filter(part => part.length > 0);
+    let workingPathname = pathname;
+
+    // Strip /pdf/ prefix if present (for PDF requests routed via /pdf/*)
+    if (workingPathname.startsWith('/pdf/')) {
+      workingPathname = workingPathname.substring(4); // Remove '/pdf'
+      console.log('🔧 Stripped /pdf/ prefix, new path:', workingPathname);
+    }
+
+    const parts = workingPathname.split('/').filter(part => part.length > 0);
     
     // Different validation for PDFs vs images
     if (isPdfRequest) {
@@ -57,13 +68,19 @@ export default {
     console.log(`Requested ${isPdfRequest ? 'PDF' : 'image'} slug:`, slugLower);
     
     try {
+      // DEBUG: Log KV lookup attempt
+      console.log('🔍 KV LOOKUP for slug:', slugLower);
+
       // Get the Sanity URL from KV store
       const sanityUrl = await env.ASSET_MAPPINGS.get(slugLower);
-      
+
+      // DEBUG: Log KV result
+      console.log('📦 KV RESULT:', sanityUrl ? 'FOUND' : 'NOT FOUND');
+
       if (!sanityUrl) {
-        console.log('Slug not found in KV:', slugLower);
+        console.log('❌ Slug not found in KV:', slugLower);
         const assetType = isPdfRequest ? 'PDF' : 'image';
-        return new Response(`${assetType} not found`, { 
+        return new Response(`${assetType} not found`, {
           status: 404,
           headers: {
             'Content-Type': 'text/plain',
