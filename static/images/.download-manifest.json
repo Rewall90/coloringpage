@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-17T14:56:15.709Z",
+  "lastUpdate": "2025-09-17T15:04:59.132Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -7281,6 +7281,13 @@
       "downloadedAt": "2025-09-17T14:56:15.544Z",
       "fileSize": 188298,
       "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/coloring-page-showing-a-pony-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c491a9490a09028ee62912f72fb53db74a1f59c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T15:04:59.080Z",
+      "fileSize": 12984,
+      "dimensions": "300x400"
     }
   }
 }

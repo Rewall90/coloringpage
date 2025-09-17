@@ -16,6 +16,9 @@ seo_description: >-
   Horse coloring pages, free to download and print!
 hero_image: >-
   /images/collections/animals-coloring-pages/horse-coloring-page/horse-coloring-page-1312x656.webp
+card_image: >-
+  /images/collections/animals-coloring-pages/horse-coloring-page/coloring-page-showing-a-pony-300x400.webp
+card_image_alt: Coloring page showing a pony pulling a cart with three happy children inside
 ---
 
 Horse coloring pages contain 59 high-quality vector-based PDFs featuring cozy horse scenes. The collection includes Horse Winter Sweater Scene, Horse Cozy By Fireplace, and Horse And Foal Under Stars, plus additional character designs. Designed for kids and children, pages deliver sharp printing on any paper size through scalable vector graphics.
