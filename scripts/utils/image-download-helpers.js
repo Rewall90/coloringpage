@@ -58,7 +58,7 @@ export const loadManifest = () => {
   try {
     const manifestData = fs.readFileSync(MANIFEST_FILE, "utf-8");
     return JSON.parse(manifestData);
-  } catch (error) {
+  } catch {
     console.warn("⚠️  Invalid manifest file, creating new one");
     return {
       version: "1.0.0",

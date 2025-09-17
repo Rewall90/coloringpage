@@ -1,0 +1,16 @@
+*[_type == "sanity.imageAsset" && (
+  originalFilename match "*bluey*" ||
+  originalFilename match "*stitch*" ||
+  originalFilename match "*spider-man*" ||
+  originalFilename match "*sonic*" ||
+  originalFilename match "*hello-kitty*" ||
+  originalFilename match "*paw-patrol*" ||
+  originalFilename match "*winnie*" ||
+  originalFilename match "*pooh*" ||
+  originalFilename match "*captain-america*" ||
+  originalFilename match "*deadpool*"
+)] {
+  _id,
+  originalFilename,
+  url
+}

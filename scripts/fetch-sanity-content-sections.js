@@ -92,7 +92,7 @@ const cleanupOldCategories = () => {
         fs.unlinkSync(filePath);
         console.log(`🗑️  Removed old category file: ${file}`);
       }
-    } catch (error) {
+    } catch {
       // Ignore errors
     }
   }

@@ -78,7 +78,7 @@ export const generateMarkdown = (frontmatter, content = "") => {
   // Filter out undefined/null/empty values
   const cleanFrontmatter = Object.fromEntries(
     Object.entries(frontmatter).filter(
-      ([_, value]) => value !== undefined && value !== null && value !== "",
+      ([, value]) => value !== undefined && value !== null && value !== "",
     ),
   );
 

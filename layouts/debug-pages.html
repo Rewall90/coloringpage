@@ -1,0 +1,9 @@
+{{ range .Site.RegularPages }}
+{{ $heroImage := .Params.hero_image | strings.TrimSpace }}
+{{ $cardImage := .Params.card_image | strings.TrimSpace }}
+{{ if or $heroImage $cardImage }}
+DEBUG: {{ .Title }} - {{ .Section }} - HERO: {{ $heroImage }} - CARD: {{ $cardImage }}
+{{ else }}
+DEBUG: {{ .Title }} - {{ .Section }} - NO IMAGES
+{{ end }}
+{{ end }}
