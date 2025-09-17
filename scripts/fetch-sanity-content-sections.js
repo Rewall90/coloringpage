@@ -160,7 +160,15 @@ const generateCategorySections = async () => {
         continue;
       }
 
-      // Create section directory
+      // Create section directory with null check
+      if (!category.slug || typeof category.slug !== "string") {
+        console.error(
+          `❌ Invalid category slug for "${category.title}" (ID: ${category._id}): ${category.slug}`,
+        );
+        skipped++;
+        continue;
+      }
+
       const sectionDir = path.join("./content", category.slug);
       if (!fs.existsSync(sectionDir)) {
         fs.mkdirSync(sectionDir, { recursive: true });
@@ -222,7 +230,7 @@ const generateCategorySections = async () => {
           }
 
           // Collect PDF mapping for Cloudflare Worker (hierarchical only)
-          if (page.pdfUrl) {
+          if (page.pdfUrl && category.slug && pageSlug) {
             const hierarchicalKey = `${category.slug}/${pageSlug}/${pageSlug}`;
             assetMappings[hierarchicalKey] = page.pdfUrl;
           }
@@ -348,7 +356,11 @@ const generatePostsInSections = async () => {
 
       // Determine output directory based on category
       let outputDir = "./content/posts"; // default
-      if (finalCategorySlug && finalCategorySlug !== "posts") {
+      if (
+        finalCategorySlug &&
+        typeof finalCategorySlug === "string" &&
+        finalCategorySlug !== "posts"
+      ) {
         outputDir = `./content/${finalCategorySlug}`;
         // Ensure the directory exists
         if (!fs.existsSync(outputDir)) {
@@ -415,16 +427,24 @@ const generatePostsInSections = async () => {
       };
 
       // Add heroImage local path if available
-      if (post.heroImageUrl) {
+      if (
+        post.heroImageUrl &&
+        finalCategorySlug &&
+        typeof finalCategorySlug === "string"
+      ) {
         const heroImageSlug = post.heroImageFilename || "hero";
-        const heroImagePath = `/images/collections/${post.categorySlug}/${safeFilename}/${heroImageSlug}-1312x656.webp`;
+        const heroImagePath = `/images/collections/${finalCategorySlug}/${safeFilename}/${heroImageSlug}-1312x656.webp`;
         frontmatter.hero_image = heroImagePath;
       }
 
       // Add cardImage if available
-      if (post.cardImageUrl) {
+      if (
+        post.cardImageUrl &&
+        finalCategorySlug &&
+        typeof finalCategorySlug === "string"
+      ) {
         const cardImageSlug = post.cardImageFilename || "card";
-        const cardImagePath = `/images/collections/${post.categorySlug}/${safeFilename}/${cardImageSlug}-300x400.webp`;
+        const cardImagePath = `/images/collections/${finalCategorySlug}/${safeFilename}/${cardImageSlug}-300x400.webp`;
         frontmatter.card_image = cardImagePath;
         frontmatter.card_image_alt = post.cardImageAlt;
       }
