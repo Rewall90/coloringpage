@@ -15,4 +15,3 @@ weight: 50
 type: coloring-category
 ---
 
-Explore a world of creatures with our free animal coloring pages, featuring pets like cats and dogs, as well as wild animals like lions, elephants, and giraffes. Perfect for kids, classrooms, or themed parties, each design is a high-quality, vector-based PDF for sharp, scalable printing on any paper size. Start browsing below to find and color your favorite animals today.

@@ -1,0 +1,1519 @@
+{
+  "timestamp": "2025-09-17T10:30:47.030Z",
+  "totalFiles": 28,
+  "riskBreakdown": {
+    "high": 4,
+    "medium": 2,
+    "low": 22
+  },
+  "violations": [
+    {
+      "file": "content\\animals-coloring-pages\\bunny-coloring-page.md",
+      "url": "content/animals-coloring-pages/bunny-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Bunny coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1304
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\butterfly-coloring-page.md",
+      "url": "content/animals-coloring-pages/butterfly-coloring-page/",
+      "violations": [
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 78,
+              "text": "description=\"Butterfly resting on lily pad in serene pond with cattails and dragonflies, great for tranquil coloring.\""
+            }
+          ],
+          "locations": [
+            3989
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 30,
+              "text": "Butterfly coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from basic to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1319
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\cat-coloring-page.md",
+      "url": "content/animals-coloring-pages/cat-coloring-page/",
+      "violations": [
+        {
+          "keyword": "tangled",
+          "context": [
+            {
+              "line": 221,
+              "text": "title=\"Cat In Tangled Yarn Coloring Page\""
+            },
+            {
+              "line": 223,
+              "text": "image=\"/images/collections/animals-coloring-pages/cat-coloring-page/cat-in-tangled-yarn-coloring-page-750x1000.webp\""
+            },
+            {
+              "line": 270,
+              "text": "description=\"Cat tangled in Christmas lights with tree and fireplace, perfect for festive coloring.\""
+            }
+          ],
+          "locations": [
+            11239,
+            11441,
+            13774
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 30,
+              "text": "Cat coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1260
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\dog-coloring-page.md",
+      "url": "content/animals-coloring-pages/dog-coloring-page/",
+      "violations": [
+        {
+          "keyword": "tangled",
+          "context": [
+            {
+              "line": 333,
+              "text": "title=\"Dog Tangled Christmas Lights Coloring Page\""
+            },
+            {
+              "line": 334,
+              "text": "description=\"Dog tangled in Christmas lights with a festive tree, great for holiday-themed coloring.\""
+            },
+            {
+              "line": 335,
+              "text": "image=\"/images/collections/animals-coloring-pages/dog-coloring-page/dog-tangled-christmas-lights-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            16953,
+            17012,
+            17171
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\fish-coloring-page.md",
+      "url": "content/animals-coloring-pages/fish-coloring-page/",
+      "violations": [
+        {
+          "keyword": "angel",
+          "context": [
+            {
+              "line": 375,
+              "text": "title=\"Angelfish Bubbles Underwater Scene Coloring Page\""
+            },
+            {
+              "line": 376,
+              "text": "description=\"An angelfish swims gracefully with bubbles in an underwater scene, perfect for aquatic coloring.\""
+            },
+            {
+              "line": 377,
+              "text": "image=\"/images/collections/animals-coloring-pages/fish-coloring-page/angelfish-bubbles-underwater-scene-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            19208,
+            19276,
+            19442
+          ]
+        },
+        {
+          "keyword": "frozen",
+          "context": [
+            {
+              "line": 232,
+              "text": "description=\"Person ice fishing on a frozen lake with snowy landscape, perfect for winter-themed coloring.\""
+            }
+          ],
+          "locations": [
+            11755
+          ]
+        },
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 384,
+              "text": "description=\"Graceful Koi Fish with intricate scale details swimming in a serene pond, great for aquatic coloring.\""
+            }
+          ],
+          "locations": [
+            19741
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Fish coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1300
+          ]
+        }
+      ],
+      "riskLevel": "MEDIUM"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\fox-coloring-page.md",
+      "url": "content/animals-coloring-pages/fox-coloring-page/",
+      "violations": [
+        {
+          "keyword": "anna",
+          "context": [
+            {
+              "line": 28,
+              "text": "Fox coloring pages contain 32 high-quality vector-based PDFs featuring fox-themed characters. The collection includes Fox Savanna Scene, Fox Wizard Magical Forest, and Fox Unique Tail Trio, along with additional character designs. Designed for kids and children, pages deliver sharp printing on any paper size through scalable vector graphics."
+            },
+            {
+              "line": 39,
+              "text": "title=\"Fox Savanna Scene Coloring Page\""
+            },
+            {
+              "line": 40,
+              "text": "description=\"Bat-eared Fox sitting in the savanna with large ears, perfect for wildlife coloring.\""
+            },
+            {
+              "line": 41,
+              "text": "image=\"/images/collections/animals-coloring-pages/fox-coloring-page/fox-savanna-scene-coloring-page-750x1000.webp\""
+            },
+            {
+              "line": 215,
+              "text": "title=\"Bengal Fox Savannah Scene Coloring Page\""
+            },
+            {
+              "line": 216,
+              "text": "description=\"Bengal Fox strolling through a savannah landscape with mountains, great for wildlife coloring.\""
+            },
+            {
+              "line": 217,
+              "text": "image=\"/images/collections/animals-coloring-pages/fox-coloring-page/bengal-fox-savannah-scene-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            1006,
+            1682,
+            1755,
+            1886,
+            10840,
+            10916,
+            11062
+          ]
+        },
+        {
+          "keyword": "hedgehog",
+          "context": [
+            {
+              "line": 72,
+              "text": "description=\"A happy fox with forest friends including a hedgehog and squirrels, under a smiling sun, perfect for nature-themed coloring.\""
+            }
+          ],
+          "locations": [
+            3428
+          ]
+        },
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 56,
+              "text": "description=\"Illustration of three distinct fox tails in different shapes, great for creative coloring.\""
+            },
+            {
+              "line": 200,
+              "text": "description=\"A sleeping fox curled up in a cozy pose with intricate fur details, perfect for relaxing coloring.\""
+            }
+          ],
+          "locations": [
+            2590,
+            10115
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Fox coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1307
+          ]
+        },
+        {
+          "keyword": "chase",
+          "context": [
+            {
+              "line": 88,
+              "text": "description=\"A fox playfully chases two rabbits across a sunny field, perfect for adventurous coloring.\""
+            }
+          ],
+          "locations": [
+            4260
+          ]
+        }
+      ],
+      "riskLevel": "MEDIUM"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\kitten-coloring-page.md",
+      "url": "content/animals-coloring-pages/kitten-coloring-page/",
+      "violations": [
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 190,
+              "text": "description=\"A kitten peeks through tall grass by a pond, surrounded by cattails, perfect for nature-themed coloring.\""
+            }
+          ],
+          "locations": [
+            9969
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 30,
+              "text": "Kitten Coloring Page provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to intermediate. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1345
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\monkey-coloring-page.md",
+      "url": "content/animals-coloring-pages/monkey-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 30,
+              "text": "Monkey coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1269
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\penguin-coloring-page.md",
+      "url": "content/animals-coloring-pages/penguin-coloring-page/",
+      "violations": [
+        {
+          "keyword": "experiment",
+          "context": [
+            {
+              "line": 421,
+              "text": "title=\"Bunny Scientist Lab Experiment Coloring Page\""
+            },
+            {
+              "line": 422,
+              "text": "description=\"Bunny wearing lab coat and goggles conducting experiment in a science lab, great for educational coloring.\""
+            },
+            {
+              "line": 423,
+              "text": "image=\"/images/collections/animals-coloring-pages/penguin-coloring-page/bunny-scientist-lab-experiment-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            22442,
+            22529,
+            22685
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 30,
+              "text": "Penguin coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1317
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\puppy-coloring-page.md",
+      "url": "content/animals-coloring-pages/puppy-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Puppy coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1474
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\tiger-coloring-page.md",
+      "url": "content/animals-coloring-pages/tiger-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Tiger coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1345
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\animals-coloring-pages\\turtle-coloring-page.md",
+      "url": "content/animals-coloring-pages/turtle-coloring-page/",
+      "violations": [
+        {
+          "keyword": "hedgehog",
+          "context": [
+            {
+              "line": 253,
+              "text": "title=\"Hedgehog Haircut Salon Scene Coloring Page\""
+            },
+            {
+              "line": 254,
+              "text": "description=\"A smiling hedgehog getting a haircut from a turtle in a salon, great for creative coloring.\""
+            },
+            {
+              "line": 255,
+              "text": "image=\"/images/collections/animals-coloring-pages/turtle-coloring-page/hedgehog-haircut-salon-scene-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            13308,
+            13377,
+            13533
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\cartoons-coloring-pages\\labubu-coloring-page.md",
+      "url": "content/cartoons-coloring-pages/labubu-coloring-page/",
+      "violations": [
+        {
+          "keyword": "superman",
+          "context": [
+            {
+              "line": 112,
+              "text": "description=\"Labubu as superman waving, perfect for creative coloring fun.\""
+            },
+            {
+              "line": 119,
+              "text": "title=\"Labubu Superman Costume Wave Coloring Page\""
+            },
+            {
+              "line": 120,
+              "text": "description=\"Labubu in a superman costume, waving in a park setting, great for creative coloring.\""
+            },
+            {
+              "line": 121,
+              "text": "image=\"/images/collections/cartoons-coloring-pages/labubu-coloring-page/labubu-superman-costume-wave-coloring-page-750x1000.webp\""
+            },
+            {
+              "line": 127,
+              "text": "title=\"Labubu Superman Flying Night Coloring Page\""
+            },
+            {
+              "line": 128,
+              "text": "description=\"Labubu superman flying over cityscape under stars and moon, great for imaginative coloring.\""
+            },
+            {
+              "line": 129,
+              "text": "image=\"/images/collections/cartoons-coloring-pages/labubu-coloring-page/labubu-superman-flying-night-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            5621,
+            5946,
+            6010,
+            6165,
+            6363,
+            6422,
+            6589
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Labubu Coloring Page  provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1327
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\cartoons-coloring-pages\\unicorn-coloring-page.md",
+      "url": "content/cartoons-coloring-pages/unicorn-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 33,
+              "text": "Unicorn Coloring Page provide individual file links for easy access. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1475
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\cartoons-coloring-pages\\_index.md",
+      "url": "content/cartoons-coloring-pages/_index/",
+      "violations": [
+        {
+          "keyword": "paw patrol",
+          "context": [
+            {
+              "line": 19,
+              "text": "Explore free cartoon coloring pages featuring classic and modern animated favorites like SpongeBob, Looney Tunes, Tom and Jerry, Adventure Time, and Paw Patrol. Perfect for kids and fans of all ages, these vector-based PDFs are easy to download and print at any size. Great for home fun, classroom use, or party activities, each page invites you to bring beloved cartoon characters to life with color."
+            }
+          ],
+          "locations": [
+            780
+          ]
+        }
+      ],
+      "riskLevel": "HIGH"
+    },
+    {
+      "file": "content\\holidays-coloring-pages\\christmas-coloring-page.md",
+      "url": "content/holidays-coloring-pages/christmas-coloring-page/",
+      "violations": [
+        {
+          "keyword": "angel",
+          "context": [
+            {
+              "line": 137,
+              "text": "description=\"Nativity scene with angels and star, featuring 'Silent Night' text, great for peaceful holiday coloring.\""
+            },
+            {
+              "line": 688,
+              "text": "title=\"Angels Musical Scene Coloring Page\""
+            },
+            {
+              "line": 689,
+              "text": "description=\"Five angels playing instruments amid swirling clouds and stars, perfect for festive coloring.\""
+            },
+            {
+              "line": 690,
+              "text": "image=\"/images/collections/holidays-coloring-pages/christmas-coloring-page/angels-musical-scene-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            7118,
+            37369,
+            37425,
+            37592
+          ]
+        },
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 489,
+              "text": "description=\"Charming gingerbread house with candy canes and frosting details, great for festive holiday coloring.\""
+            },
+            {
+              "line": 593,
+              "text": "description=\"Festive gingerbread house with candy details and swirling path, great for sweet holiday coloring.\""
+            },
+            {
+              "line": 617,
+              "text": "description=\"Christmas gingerbread house with candy details and stars, great for festive coloring.\""
+            }
+          ],
+          "locations": [
+            26478,
+            32213,
+            33526
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 33,
+              "text": "Christmas coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1345
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\holidays-coloring-pages\\happy-birthday-coloring-page.md",
+      "url": "content/holidays-coloring-pages/happy-birthday-coloring-page/",
+      "violations": [
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 32,
+              "text": "Happy Birthday Coloring Page provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1445
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\holidays-coloring-pages\\thanksgiving-coloring-page.md",
+      "url": "content/holidays-coloring-pages/thanksgiving-coloring-page/",
+      "violations": [
+        {
+          "keyword": "hedgehog",
+          "context": [
+            {
+              "line": 408,
+              "text": "title=\"Squirrel Hedgehog Autumn Harvest Coloring Page\""
+            },
+            {
+              "line": 409,
+              "text": "description=\"Squirrel and hedgehog sharing acorns surrounded by pumpkins and leaves, great for festive autumn coloring.\""
+            },
+            {
+              "line": 410,
+              "text": "image=\"/images/collections/holidays-coloring-pages/thanksgiving-coloring-page/squirrel-hedgehog-autumn-harvest-coloring-page-750x1000.webp\""
+            }
+          ],
+          "locations": [
+            22274,
+            22341,
+            22525
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 33,
+              "text": "Thanksgiving coloring pages provide individual file links for easy download. Pages organize by complexity levels, enabling skill progression from basic tracing to detailed coloring. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            1474
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\about-the-author.md",
+      "url": "content/pages/about-the-author/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 2,
+              "text": "title: \"About the Author\""
+            },
+            {
+              "line": 7,
+              "text": "url: \"/about-the-author/\""
+            },
+            {
+              "line": 8,
+              "text": "seo_title: \"About the Author - ColoringVault\""
+            },
+            {
+              "line": 10,
+              "text": "showAuthor: false"
+            }
+          ],
+          "locations": [
+            25,
+            218,
+            250,
+            402
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 11,
+              "text": "sharingLinks: false"
+            }
+          ],
+          "locations": [
+            422
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\about-us.md",
+      "url": "content/pages/about-us/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 12,
+              "text": "showAuthor: false"
+            }
+          ],
+          "locations": [
+            424
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 13,
+              "text": "sharingLinks: false"
+            }
+          ],
+          "locations": [
+            444
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\contact.md",
+      "url": "content/pages/contact/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 12,
+              "text": "showAuthor: false"
+            }
+          ],
+          "locations": [
+            432
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 13,
+              "text": "sharingLinks: false"
+            }
+          ],
+          "locations": [
+            452
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\licensing-policy.md",
+      "url": "content/pages/licensing-policy/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 11,
+              "text": "showAuthor: false"
+            }
+          ],
+          "locations": [
+            464
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 12,
+              "text": "sharingLinks: false"
+            },
+            {
+              "line": 74,
+              "text": "- Include a link to our website when possible"
+            }
+          ],
+          "locations": [
+            484,
+            2102
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\privacy-policy.md",
+      "url": "content/pages/privacy-policy/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 13,
+              "text": "showAuthor: false"
+            },
+            {
+              "line": 67,
+              "text": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+            }
+          ],
+          "locations": [
+            411,
+            1968
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 14,
+              "text": "sharingLinks: false"
+            },
+            {
+              "line": 63,
+              "text": "Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites."
+            }
+          ],
+          "locations": [
+            431,
+            1748
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\takedown-policy.md",
+      "url": "content/pages/takedown-policy/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 11,
+              "text": "showAuthor: false"
+            },
+            {
+              "line": 44,
+              "text": "- Statement that you have a good faith belief that the use is not authorized by the copyright owner"
+            },
+            {
+              "line": 47,
+              "text": "- Statement that the information provided is accurate and that you are authorized to act on behalf of the copyright owner"
+            }
+          ],
+          "locations": [
+            419,
+            1512,
+            1651
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 12,
+              "text": "sharingLinks: false"
+            }
+          ],
+          "locations": [
+            439
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\pages\\terms-conditions.md",
+      "url": "content/pages/terms-conditions/",
+      "violations": [
+        {
+          "keyword": "thor",
+          "context": [
+            {
+              "line": 13,
+              "text": "showAuthor: false"
+            },
+            {
+              "line": 56,
+              "text": "- Attempt to gain unauthorized access to the website"
+            }
+          ],
+          "locations": [
+            459,
+            1785
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 14,
+              "text": "sharingLinks: false"
+            }
+          ],
+          "locations": [
+            479
+          ]
+        }
+      ],
+      "riskLevel": "LOW"
+    },
+    {
+      "file": "content\\posts\\sonic-coloring-page.md",
+      "url": "content/posts/sonic-coloring-page/",
+      "violations": [
+        {
+          "keyword": "sonic",
+          "context": [
+            {
+              "line": 2,
+              "text": "title: Sonic Coloring Page"
+            },
+            {
+              "line": 11,
+              "text": "seo_title: Sonic Coloring Page Coloring Pages - (51+ Free Printable PDF)"
+            },
+            {
+              "line": 14,
+              "text": "Sonic Coloring Page coloring pages, free to download and print!"
+            },
+            {
+              "line": 17,
+              "text": "Sonic Coloring Page coloring pages contain 51 high-quality vector-based PDFs featuring iconic characters. The collection includes E-123 Omega, Amy, and Mighty Ray, along with additional character designs. Designed for kids and children, pages deliver sharp printing on any paper size through scalable vector graphics."
+            },
+            {
+              "line": 19,
+              "text": "## FREE PRINTABLE SONIC COLORING PAGES"
+            },
+            {
+              "line": 21,
+              "text": "Sonic Coloring Page coloring pages provide individual file links for easy access. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            },
+            {
+              "line": 100,
+              "text": "title=\"Sonic Holding Gem Coloring Page\""
+            },
+            {
+              "line": 101,
+              "text": "description=\"Sonic the Hedgehog holding a large gem with determined expression, perfect for adventurous coloring.\""
+            },
+            {
+              "line": 108,
+              "text": "title=\"Sonic Action Pose Coloring Page\""
+            },
+            {
+              "line": 109,
+              "text": "description=\"Sonic the Hedgehog in dynamic running pose with speed lines, perfect for action-packed coloring.\""
+            },
+            {
+              "line": 116,
+              "text": "title=\"Sonic Loop And Stars Coloring Page\""
+            },
+            {
+              "line": 117,
+              "text": "description=\"Sonic the Hedgehog surfing on a loop-de-loop track with stars, great for energetic coloring.\""
+            },
+            {
+              "line": 164,
+              "text": "title=\"Sonic Halloween Jump Scare Coloring Page\""
+            },
+            {
+              "line": 165,
+              "text": "description=\"Sonic the Hedgehog leaping over pumpkins and ghosts, great for spooky Halloween coloring.\""
+            },
+            {
+              "line": 172,
+              "text": "title=\"Sonic Punching Tv Coloring Page\""
+            },
+            {
+              "line": 173,
+              "text": "description=\"Sonic the Hedgehog shattering a TV screen with powerful punch, great for dynamic coloring.\""
+            },
+            {
+              "line": 180,
+              "text": "title=\"Sonic Jumping On Spring Platform Coloring Page\""
+            },
+            {
+              "line": 181,
+              "text": "description=\"Sonic the Hedgehog leaps from a spring platform surrounded by rings, great for energetic coloring.\""
+            },
+            {
+              "line": 188,
+              "text": "title=\"Sonic Halloween Pumpkin Jump Coloring Page\""
+            },
+            {
+              "line": 189,
+              "text": "description=\"Sonic the Hedgehog jumping among carved pumpkins in a Halloween scene, great for spooky coloring.\""
+            },
+            {
+              "line": 196,
+              "text": "title=\"Sonic Decorating Christmas Tree Coloring Page\""
+            },
+            {
+              "line": 197,
+              "text": "description=\"Sonic the Hedgehog decorating a Christmas tree with ornaments, great for festive holiday coloring.\""
+            },
+            {
+              "line": 204,
+              "text": "title=\"Sonic Ice Skating Rings Coloring Page\""
+            },
+            {
+              "line": 205,
+              "text": "description=\"Sonic the Hedgehog ice skating with rings and snowflakes, perfect for winter-themed coloring.\""
+            },
+            {
+              "line": 212,
+              "text": "title=\"Sonic Halloween Mummy Wrap Coloring Page\""
+            },
+            {
+              "line": 213,
+              "text": "description=\"Sonic wrapped as a mummy surrounded by spooky ghosts, ideal for Halloween-themed coloring.\""
+            },
+            {
+              "line": 220,
+              "text": "title=\"Sonic Holiday Gifts Coloring Page\""
+            },
+            {
+              "line": 221,
+              "text": "description=\"Sonic the Hedgehog carrying a large bag of gifts, perfect for festive holiday coloring.\""
+            },
+            {
+              "line": 228,
+              "text": "title=\"Sonic Halloween Haunted House Coloring Page\""
+            },
+            {
+              "line": 229,
+              "text": "description=\"Sonic the Hedgehog holding a pumpkin bucket in front of a haunted house, perfect for spooky coloring.\""
+            },
+            {
+              "line": 236,
+              "text": "title=\"Sonic Smashing Star Platform Coloring Page\""
+            },
+            {
+              "line": 237,
+              "text": "description=\"Sonic the Hedgehog smashing star platform, dynamic pose on iconic stage, great for action-packed coloring.\""
+            },
+            {
+              "line": 244,
+              "text": "title=\"Sonic Skateboarding Grind Rail Coloring Page\""
+            },
+            {
+              "line": 245,
+              "text": "description=\"Sonic the Hedgehog performing a skateboard grind on a rail, vibrant rings background, great for dynamic coloring.\""
+            },
+            {
+              "line": 252,
+              "text": "title=\"Sonic Dynamic Running Coloring Page\""
+            },
+            {
+              "line": 253,
+              "text": "description=\"Sonic the Hedgehog in dynamic running pose with speed effects, great for action-filled coloring.\""
+            },
+            {
+              "line": 260,
+              "text": "title=\"Sonic Holding Rings Coloring Page\""
+            },
+            {
+              "line": 261,
+              "text": "description=\"Sonic the Hedgehog holding rings with a confident smile, surrounded by floating rings, great for adventurous coloring.\""
+            },
+            {
+              "line": 268,
+              "text": "title=\"Sonic Moonlit Pumpkin Scene Coloring Page\""
+            },
+            {
+              "line": 269,
+              "text": "description=\"Sonic the Hedgehog triumphantly stands on a giant pumpkin with a moonlit night sky, perfect for adventurous coloring.\""
+            },
+            {
+              "line": 276,
+              "text": "title=\"Sonic Holiday Sprint Bells Coloring Page\""
+            },
+            {
+              "line": 277,
+              "text": "description=\"Sonic the Hedgehog in a festive sprint with jingle bells and candy canes, great for holiday coloring.\""
+            },
+            {
+              "line": 284,
+              "text": "title=\"Sonic Holiday Present Coloring Page\""
+            },
+            {
+              "line": 285,
+              "text": "description=\"Sonic the Hedgehog in Santa hat holding a wrapped gift, perfect for festive holiday coloring.\""
+            },
+            {
+              "line": 332,
+              "text": "title=\"Metal Sonic Strong Stance Coloring Page\""
+            },
+            {
+              "line": 333,
+              "text": "description=\"Metal Sonic in a powerful stance with sharp features, perfect for robotic-themed coloring.\""
+            },
+            {
+              "line": 388,
+              "text": "title=\"Sonic Pointing Confident Pose Coloring Page\""
+            },
+            {
+              "line": 389,
+              "text": "description=\"Sonic the Hedgehog in a confident pose, pointing forward, perfect for adventurous coloring.\""
+            }
+          ],
+          "locations": [
+            12,
+            206,
+            373,
+            445,
+            784,
+            808,
+            4861,
+            4910,
+            5273,
+            5322,
+            5681,
+            5733,
+            8133,
+            8191,
+            8543,
+            8592,
+            8945,
+            9009,
+            9370,
+            9430,
+            9790,
+            9853,
+            10214,
+            10269,
+            10625,
+            10683,
+            11036,
+            11087,
+            11437,
+            11498,
+            11862,
+            11922,
+            12291,
+            12353,
+            12729,
+            12782,
+            13141,
+            13192,
+            13573,
+            13632,
+            14012,
+            14070,
+            14434,
+            14487,
+            16853,
+            16910,
+            19695,
+            19756
+          ]
+        },
+        {
+          "keyword": "hedgehog",
+          "context": [
+            {
+              "line": 101,
+              "text": "description=\"Sonic the Hedgehog holding a large gem with determined expression, perfect for adventurous coloring.\""
+            },
+            {
+              "line": 109,
+              "text": "description=\"Sonic the Hedgehog in dynamic running pose with speed lines, perfect for action-packed coloring.\""
+            },
+            {
+              "line": 117,
+              "text": "description=\"Sonic the Hedgehog surfing on a loop-de-loop track with stars, great for energetic coloring.\""
+            },
+            {
+              "line": 165,
+              "text": "description=\"Sonic the Hedgehog leaping over pumpkins and ghosts, great for spooky Halloween coloring.\""
+            },
+            {
+              "line": 173,
+              "text": "description=\"Sonic the Hedgehog shattering a TV screen with powerful punch, great for dynamic coloring.\""
+            },
+            {
+              "line": 181,
+              "text": "description=\"Sonic the Hedgehog leaps from a spring platform surrounded by rings, great for energetic coloring.\""
+            },
+            {
+              "line": 189,
+              "text": "description=\"Sonic the Hedgehog jumping among carved pumpkins in a Halloween scene, great for spooky coloring.\""
+            },
+            {
+              "line": 197,
+              "text": "description=\"Sonic the Hedgehog decorating a Christmas tree with ornaments, great for festive holiday coloring.\""
+            },
+            {
+              "line": 205,
+              "text": "description=\"Sonic the Hedgehog ice skating with rings and snowflakes, perfect for winter-themed coloring.\""
+            },
+            {
+              "line": 221,
+              "text": "description=\"Sonic the Hedgehog carrying a large bag of gifts, perfect for festive holiday coloring.\""
+            },
+            {
+              "line": 229,
+              "text": "description=\"Sonic the Hedgehog holding a pumpkin bucket in front of a haunted house, perfect for spooky coloring.\""
+            },
+            {
+              "line": 237,
+              "text": "description=\"Sonic the Hedgehog smashing star platform, dynamic pose on iconic stage, great for action-packed coloring.\""
+            },
+            {
+              "line": 245,
+              "text": "description=\"Sonic the Hedgehog performing a skateboard grind on a rail, vibrant rings background, great for dynamic coloring.\""
+            },
+            {
+              "line": 253,
+              "text": "description=\"Sonic the Hedgehog in dynamic running pose with speed effects, great for action-filled coloring.\""
+            },
+            {
+              "line": 261,
+              "text": "description=\"Sonic the Hedgehog holding rings with a confident smile, surrounded by floating rings, great for adventurous coloring.\""
+            },
+            {
+              "line": 269,
+              "text": "description=\"Sonic the Hedgehog triumphantly stands on a giant pumpkin with a moonlit night sky, perfect for adventurous coloring.\""
+            },
+            {
+              "line": 277,
+              "text": "description=\"Sonic the Hedgehog in a festive sprint with jingle bells and candy canes, great for holiday coloring.\""
+            },
+            {
+              "line": 285,
+              "text": "description=\"Sonic the Hedgehog in Santa hat holding a wrapped gift, perfect for festive holiday coloring.\""
+            },
+            {
+              "line": 373,
+              "text": "description=\"Shadow the Hedgehog stands with a clenched fist and determined look, great for intense coloring.\""
+            },
+            {
+              "line": 381,
+              "text": "description=\"Silver the Hedgehog in a confident pose with clenched fist, great for energetic coloring.\""
+            },
+            {
+              "line": 389,
+              "text": "description=\"Sonic the Hedgehog in a confident pose, pointing forward, perfect for adventurous coloring.\""
+            }
+          ],
+          "locations": [
+            4920,
+            5332,
+            5743,
+            8201,
+            8602,
+            9019,
+            9440,
+            9863,
+            10279,
+            11097,
+            11508,
+            11932,
+            12363,
+            12792,
+            13202,
+            13642,
+            14080,
+            14497,
+            18942,
+            19354,
+            19766
+          ]
+        },
+        {
+          "keyword": "tails",
+          "context": [
+            {
+              "line": 404,
+              "text": "title=\"Tails Friendly Standing Pose Coloring Page\""
+            },
+            {
+              "line": 405,
+              "text": "description=\"Miles 'Tails' Prower standing with a friendly expression, great for character-focused coloring.\""
+            }
+          ],
+          "locations": [
+            20508,
+            20575
+          ]
+        },
+        {
+          "keyword": "knuckles",
+          "context": [
+            {
+              "line": 308,
+              "text": "title=\"Knuckles Flexing Fist Coloring Page\""
+            },
+            {
+              "line": 309,
+              "text": "description=\"Knuckles the Echidna flexing his fist in a strong pose, great for adventurous coloring.\""
+            }
+          ],
+          "locations": [
+            15642,
+            15695
+          ]
+        },
+        {
+          "keyword": "shadow",
+          "context": [
+            {
+              "line": 372,
+              "text": "title=\"Shadow Fist Clenched Pose Coloring Page\""
+            },
+            {
+              "line": 373,
+              "text": "description=\"Shadow the Hedgehog stands with a clenched fist and determined look, great for intense coloring.\""
+            }
+          ],
+          "locations": [
+            18874,
+            18931
+          ]
+        },
+        {
+          "keyword": "amy rose",
+          "context": [
+            {
+              "line": 37,
+              "text": "description=\"Amy Rose in confident stance with fists raised, perfect for dynamic coloring.\""
+            }
+          ],
+          "locations": [
+            1697
+          ]
+        },
+        {
+          "keyword": "link",
+          "context": [
+            {
+              "line": 21,
+              "text": "Sonic Coloring Page coloring pages provide individual file links for easy access. Pages organize by complexity levels, enabling skill progression from beginner to advanced. Each design supports crayons, markers, and colored pencils with optimized line thickness. Print settings deliver sharp resolution on any paper size through vector-based PDF format."
+            }
+          ],
+          "locations": [
+            867
+          ]
+        }
+      ],
+      "riskLevel": "HIGH"
+    },
+    {
+      "file": "content\\superheroes-coloring-pages\\_index.md",
+      "url": "content/superheroes-coloring-pages/_index/",
+      "violations": [
+        {
+          "keyword": "spider-man",
+          "context": [
+            {
+              "line": 8,
+              "text": "collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and"
+            },
+            {
+              "line": 19,
+              "text": "Discover free, high-resolution superhero coloring pages featuring iconic characters from Marvel, DC, and beyond. Perfect for kids and adults, this collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and Batman. Instantly download vector-based PDFs you can print at any size, making them ideal for creative fun, school projects, or themed parties. Explore, color, and bring your favorite superheroes to life today."
+            }
+          ],
+          "locations": [
+            284,
+            863
+          ]
+        },
+        {
+          "keyword": "iron man",
+          "context": [
+            {
+              "line": 8,
+              "text": "collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and"
+            },
+            {
+              "line": 19,
+              "text": "Discover free, high-resolution superhero coloring pages featuring iconic characters from Marvel, DC, and beyond. Perfect for kids and adults, this collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and Batman. Instantly download vector-based PDFs you can print at any size, making them ideal for creative fun, school projects, or themed parties. Explore, color, and bring your favorite superheroes to life today."
+            }
+          ],
+          "locations": [
+            310,
+            889
+          ]
+        },
+        {
+          "keyword": "batman",
+          "context": [
+            {
+              "line": 9,
+              "text": "Batman. Instantly download vector-based PDFs you can print at any size, making"
+            },
+            {
+              "line": 19,
+              "text": "Discover free, high-resolution superhero coloring pages featuring iconic characters from Marvel, DC, and beyond. Perfect for kids and adults, this collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and Batman. Instantly download vector-based PDFs you can print at any size, making them ideal for creative fun, school projects, or themed parties. Explore, color, and bring your favorite superheroes to life today."
+            }
+          ],
+          "locations": [
+            326,
+            903
+          ]
+        },
+        {
+          "keyword": "wonder woman",
+          "context": [
+            {
+              "line": 8,
+              "text": "collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and"
+            },
+            {
+              "line": 19,
+              "text": "Discover free, high-resolution superhero coloring pages featuring iconic characters from Marvel, DC, and beyond. Perfect for kids and adults, this collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and Batman. Instantly download vector-based PDFs you can print at any size, making them ideal for creative fun, school projects, or themed parties. Explore, color, and bring your favorite superheroes to life today."
+            }
+          ],
+          "locations": [
+            296,
+            875
+          ]
+        },
+        {
+          "keyword": "marvel",
+          "context": [
+            {
+              "line": 7,
+              "text": "characters from Marvel, DC, and beyond. Perfect for kids and adults, this"
+            },
+            {
+              "line": 19,
+              "text": "Discover free, high-resolution superhero coloring pages featuring iconic characters from Marvel, DC, and beyond. Perfect for kids and adults, this collection includes fan favorites like Spider-Man, Wonder Woman, Iron Man, and Batman. Instantly download vector-based PDFs you can print at any size, making them ideal for creative fun, school projects, or themed parties. Explore, color, and bring your favorite superheroes to life today."
+            }
+          ],
+          "locations": [
+            185,
+            766
+          ]
+        }
+      ],
+      "riskLevel": "HIGH"
+    },
+    {
+      "file": "content\\video-games-coloring-pages\\_index.md",
+      "url": "content/video-games-coloring-pages/_index/",
+      "violations": [
+        {
+          "keyword": "sonic",
+          "context": [
+            {
+              "line": 7,
+              "text": "pages. From classics like Mario and Sonic to hits like Fortnite, Minecraft,"
+            },
+            {
+              "line": 18,
+              "text": "Bring gaming worlds to life with our free, vector-based video game coloring pages. From classics like Mario and Sonic to hits like Fortnite, Minecraft, and Among Us—each design is perfect for fans of all ages. Pages are delivered in high-resolution, scalable PDF format for sharp printing on any paper size. Click below to start coloring your favorite characters now."
+            }
+          ],
+          "locations": [
+            208,
+            718
+          ]
+        },
+        {
+          "keyword": "mario",
+          "context": [
+            {
+              "line": 7,
+              "text": "pages. From classics like Mario and Sonic to hits like Fortnite, Minecraft,"
+            },
+            {
+              "line": 18,
+              "text": "Bring gaming worlds to life with our free, vector-based video game coloring pages. From classics like Mario and Sonic to hits like Fortnite, Minecraft, and Among Us—each design is perfect for fans of all ages. Pages are delivered in high-resolution, scalable PDF format for sharp printing on any paper size. Click below to start coloring your favorite characters now."
+            }
+          ],
+          "locations": [
+            198,
+            708
+          ]
+        }
+      ],
+      "riskLevel": "HIGH"
+    }
+  ]
+}

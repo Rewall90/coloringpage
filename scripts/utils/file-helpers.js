@@ -87,7 +87,7 @@ export const generateMarkdown = (frontmatter, content = "") => {
     forceQuotes: false,
   });
 
-  return `---\n${yamlFrontmatter}---\n\n${content}`;
+  return `---\n${yamlFrontmatter.trim()}\n---\n\n${content}`;
 };
 
 /**

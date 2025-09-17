@@ -189,10 +189,7 @@ const generateCategorySections = async () => {
         type: "coloring-category",
       };
 
-      const categoryMarkdown = generateMarkdown(
-        categoryFrontmatter,
-        category.description || "",
-      );
+      const categoryMarkdown = generateMarkdown(categoryFrontmatter);
       const indexPath = path.join(sectionDir, "_index.md");
       fs.writeFileSync(indexPath, categoryMarkdown);
       console.log(`✅ Created section: ${category.slug}/_index.md`);

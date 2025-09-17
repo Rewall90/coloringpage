@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block any remaining copyrighted content from indexing
+Disallow: /posts/sonic-coloring-page/
+
+# Block categories that might contain copyrighted content
+Disallow: */marvel*
+Disallow: */disney*
+Disallow: */copyrighted*
+
+# Allow clean content
+Allow: /animals-coloring-pages/
+Allow: /holidays-coloring-pages/
+Allow: /nature-coloring-pages/
+Allow: /flowers-coloring-pages/
+Allow: /vehicles-coloring-pages/
+Allow: /food-coloring-pages/
+Allow: /education-coloring-pages/
+
+# Sitemap
+Sitemap: https://coloringvault.com/sitemap.xml
