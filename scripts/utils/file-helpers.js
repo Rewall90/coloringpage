@@ -94,6 +94,14 @@ export const generateMarkdown = (frontmatter, content = "") => {
  * Write markdown file with error handling
  */
 export const writeMarkdownFile = (outputDir, filename, content, title) => {
+  // Validate parameters
+  if (!outputDir || typeof outputDir !== "string") {
+    throw new Error(`Invalid outputDir: ${outputDir}`);
+  }
+  if (!filename || typeof filename !== "string") {
+    throw new Error(`Invalid filename: ${filename}`);
+  }
+
   const filePath = path.join(outputDir, `${filename}.md`);
 
   try {

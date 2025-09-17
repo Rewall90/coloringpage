@@ -139,7 +139,14 @@ export const processContentImages = async (posts) => {
       continue;
     }
 
-    const categorySlug = post.categorySlug;
+    // Handle posts with null categorySlug (orphaned posts)
+    let categorySlug = post.categorySlug;
+    if (!categorySlug) {
+      console.warn(
+        `⚠️  Image processing: Post "${post.title}" has no category, using fallback category 'general'`,
+      );
+      categorySlug = "general"; // Fallback category for orphaned posts
+    }
     const pageSlug = generateSafeFilename(
       post.slug,
       post.title,

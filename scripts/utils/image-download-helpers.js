@@ -182,6 +182,35 @@ export const buildSanityImageUrl = (baseUrl, config) => {
 export const generateLocalImagePath = (imageContext) => {
   const { type, categorySlug, pageSlug, imageSlug, config } = imageContext;
 
+  // Debug and validate required parameters
+  if (!categorySlug || typeof categorySlug !== "string") {
+    console.error(
+      `❌ Invalid categorySlug: ${categorySlug} in imageContext:`,
+      JSON.stringify(imageContext, null, 2),
+    );
+    throw new Error(`Invalid categorySlug: ${categorySlug}`);
+  }
+  if (
+    type !== "homepage_category" &&
+    (!pageSlug || typeof pageSlug !== "string")
+  ) {
+    console.error(
+      `❌ Invalid pageSlug: ${pageSlug} in imageContext:`,
+      JSON.stringify(imageContext, null, 2),
+    );
+    throw new Error(`Invalid pageSlug for content image: ${pageSlug}`);
+  }
+  if (
+    type !== "homepage_category" &&
+    (!imageSlug || typeof imageSlug !== "string")
+  ) {
+    console.error(
+      `❌ Invalid imageSlug: ${imageSlug} in imageContext:`,
+      JSON.stringify(imageContext, null, 2),
+    );
+    throw new Error(`Invalid imageSlug for content image: ${imageSlug}`);
+  }
+
   if (type === "homepage_category") {
     // Homepage category images: /images/categories/animals-600x600.webp
     const filename = `${categorySlug}-${config.suffix}.webp`;

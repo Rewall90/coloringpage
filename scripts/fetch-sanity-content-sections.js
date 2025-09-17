@@ -213,6 +213,14 @@ const generateCategorySections = async () => {
             page.slug ||
             generateSafeFilename(null, page.title, page._id, usedFilenames);
 
+          // Validate pageSlug is not null/empty
+          if (!pageSlug || typeof pageSlug !== "string") {
+            console.error(
+              `❌ Failed to generate slug for page: ${JSON.stringify({ title: page.title, id: page._id, slug: page.slug })}`,
+            );
+            continue; // Skip this page
+          }
+
           // Collect PDF mapping for Cloudflare Worker (hierarchical only)
           if (page.pdfUrl) {
             const hierarchicalKey = `${category.slug}/${pageSlug}/${pageSlug}`;
@@ -329,10 +337,19 @@ const generatePostsInSections = async () => {
         continue;
       }
 
+      // Handle posts with null categorySlug (orphaned posts)
+      let finalCategorySlug = post.categorySlug;
+      if (!finalCategorySlug) {
+        console.warn(
+          `⚠️  Post "${post.title}" has no category, using fallback category 'general'`,
+        );
+        finalCategorySlug = "general"; // Fallback category for orphaned posts
+      }
+
       // Determine output directory based on category
       let outputDir = "./content/posts"; // default
-      if (post.categorySlug) {
-        outputDir = `./content/${post.categorySlug}`;
+      if (finalCategorySlug && finalCategorySlug !== "posts") {
+        outputDir = `./content/${finalCategorySlug}`;
         // Ensure the directory exists
         if (!fs.existsSync(outputDir)) {
           fs.mkdirSync(outputDir, { recursive: true });
@@ -346,9 +363,17 @@ const generatePostsInSections = async () => {
         usedFilenames,
       );
 
+      // Validate safeFilename is not null/empty
+      if (!safeFilename || typeof safeFilename !== "string") {
+        console.error(
+          `❌ Failed to generate filename for post: ${JSON.stringify({ title: post.title, id: post._id, slug: post.slug })}`,
+        );
+        continue; // Skip this post
+      }
+
       // Create page context for hierarchical PDF URLs
       const pageContext = {
-        categorySlug: post.categorySlug,
+        categorySlug: finalCategorySlug,
         pageSlug: safeFilename,
       };
 
