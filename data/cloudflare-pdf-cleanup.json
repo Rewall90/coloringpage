@@ -1,58 +1,22 @@
 {
-  "cleanupDate": "2025-09-17T11:00:57.924Z",
-  "totalRemoved": 8,
+  "cleanupDate": "2025-09-17T14:57:17.502Z",
+  "totalRemoved": 0,
   "fileResults": {
     "temp-test-mappings.json": {
-      "originalCount": 5,
-      "removedCount": 5,
+      "originalCount": 0,
+      "removedCount": 0,
+      "cleanCount": 0
+    },
+    "temp-small-mappings.json": {
+      "originalCount": 0,
+      "removedCount": 0,
       "cleanCount": 0
     },
     "bulk-test-mappings.json": {
-      "originalCount": 3,
-      "removedCount": 3,
+      "originalCount": 0,
+      "removedCount": 0,
       "cleanCount": 0
     }
   },
-  "removedMappings": [
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bandit-gardening-tools-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/8c10e58061c65d23938ab8c6a429a27e1c4a6a13.pdf",
-      "file": "temp-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bingo-standing-smiling-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/d9dff1fb1afa3519310a3105ed62600cfb9ee121.pdf",
-      "file": "temp-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bluey-decorating-christmas-tree-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/f2574e4b81043434a24135528a517f8540321136.pdf",
-      "file": "temp-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/chilli-heeler-with-glasses-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/c2057c9535f828e6273fd16008e50eb29583cf60.pdf",
-      "file": "temp-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/dalmatian-puppy-smiling-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/9f69f7cb314ce1b61a89ca171abde523038c6252.pdf",
-      "file": "temp-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bandit-gardening-tools-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/8c10e58061c65d23938ab8c6a429a27e1c4a6a13.pdf",
-      "file": "bulk-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bingo-standing-smiling-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/d9dff1fb1afa3519310a3105ed62600cfb9ee121.pdf",
-      "file": "bulk-test-mappings.json"
-    },
-    {
-      "key": "cartoons-coloring-pages/bluey-coloring-page/bluey-decorating-christmas-tree-coloring-page",
-      "value": "https://cdn.sanity.io/files/zjqmnotc/production/f2574e4b81043434a24135528a517f8540321136.pdf",
-      "file": "bulk-test-mappings.json"
-    }
-  ]
+  "removedMappings": []
 }

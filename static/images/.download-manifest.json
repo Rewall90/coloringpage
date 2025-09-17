@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-17T13:23:03.148Z",
+  "lastUpdate": "2025-09-17T14:56:15.709Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -6862,418 +6862,425 @@
       "fileSize": 98128,
       "dimensions": "1312x656"
     },
-    "/images/collections/general/horse-coloring-page/horse-cozy-by-fireplace-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22696438e7e76e87700a3c232abe96962c383067-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:53.139Z",
-      "fileSize": 37020,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-winter-sweater-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-winter-sweater-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5f3faf76452a67ff234567e06221cf18696b6f0-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:53.142Z",
+      "downloadedAt": "2025-09-17T14:56:09.954Z",
       "fileSize": 45642,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-cozy-tea-window-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-cozy-by-fireplace-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22696438e7e76e87700a3c232abe96962c383067-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:09.963Z",
+      "fileSize": 37020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-cozy-tea-window-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e714f9654c35697fa8966f1ef5a25a9c31c0d18c-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:53.592Z",
+      "downloadedAt": "2025-09-17T14:56:10.050Z",
       "fileSize": 37600,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-and-foal-under-stars-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-and-foal-under-stars-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/30196821296b6dea7f1f783fbcada8dfe6a116d4-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:53.622Z",
+      "downloadedAt": "2025-09-17T14:56:10.050Z",
       "fileSize": 28802,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-reading-with-glasses-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-reading-with-glasses-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2144f9c7aeec79a60e349c79e1c72ac7362c863e-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:53.713Z",
+      "downloadedAt": "2025-09-17T14:56:10.184Z",
       "fileSize": 39000,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/unicorn-in-cozy-bed-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/unicorn-in-cozy-bed-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e405be9762492814b6e030e7e024da414e6a912a-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.158Z",
+      "downloadedAt": "2025-09-17T14:56:10.245Z",
       "fileSize": 38630,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-relaxing-bubble-bath-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-relaxing-bubble-bath-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40a5b18013afa2f03139bacf4c5743c700ecdc70-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.208Z",
+      "downloadedAt": "2025-09-17T14:56:10.266Z",
       "fileSize": 46034,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-baking-pie-cute-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-baking-pie-cute-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a9bff8e34d0be2673fcbb98306c1ddbcabc51bf-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.295Z",
+      "downloadedAt": "2025-09-17T14:56:10.273Z",
       "fileSize": 61948,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-watering-flowers-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-watering-flowers-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a5470455ff42da0011d686e08f5098d3ff36019f-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.751Z",
+      "downloadedAt": "2025-09-17T14:56:10.354Z",
       "fileSize": 44642,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/farmer-horse-plowing-field-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/farmer-horse-plowing-field-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d091d7b8fefdff669dbe35349cb60589073890a-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.799Z",
+      "downloadedAt": "2025-09-17T14:56:10.354Z",
       "fileSize": 46416,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-autumn-cornfield-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-autumn-cornfield-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b92caff41fa63e2b546cfc2434d3cb92695dd8a2-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:54.844Z",
+      "downloadedAt": "2025-09-17T14:56:10.393Z",
       "fileSize": 77360,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-carriage-windmill-scene-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab25397e89a095b4dbcbfc1bfb47581bacfea974-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.281Z",
-      "fileSize": 51470,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-standing-apple-tree-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c487a674bee24d277cae579f8f953f6dc7c71d6-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.305Z",
-      "fileSize": 47636,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-dog-herding-sheep-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-dog-herding-sheep-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/320bafc3ba9f6afde6df41f3db45621bbfe6299f-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.368Z",
+      "downloadedAt": "2025-09-17T14:56:10.476Z",
       "fileSize": 35210,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-pulling-water-wheel-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/640ddd889970e7abeee172371cbf8dd20b3c6d03-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-carriage-windmill-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab25397e89a095b4dbcbfc1bfb47581bacfea974-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.800Z",
-      "fileSize": 46654,
+      "downloadedAt": "2025-09-17T14:56:10.488Z",
+      "fileSize": 51470,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-farm-scene-with-chickens-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d2530d34984b73d926ae7c678564e8a664ad338-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-standing-apple-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c487a674bee24d277cae579f8f953f6dc7c71d6-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.854Z",
-      "fileSize": 37406,
+      "downloadedAt": "2025-09-17T14:56:10.506Z",
+      "fileSize": 47636,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/farmer-raking-hay-horse-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/farmer-raking-hay-horse-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/df1b325acc7325bddc2c881ef75a9880d1cfa7c7-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:55.997Z",
+      "downloadedAt": "2025-09-17T14:56:10.585Z",
       "fileSize": 29528,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/cowboy-pointing-on-horse-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23e3d3bbbc29f526661b98f95fbdeb9c8adac2e7-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-farm-scene-with-chickens-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d2530d34984b73d926ae7c678564e8a664ad338-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:56.484Z",
-      "fileSize": 36072,
+      "downloadedAt": "2025-09-17T14:56:10.597Z",
+      "fileSize": 37406,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-majestically-cliff-scene-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eab4a89315930ac0151785e804e1aeb31465ae3e-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-pulling-water-wheel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/640ddd889970e7abeee172371cbf8dd20b3c6d03-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:56.490Z",
-      "fileSize": 62274,
+      "downloadedAt": "2025-09-17T14:56:10.607Z",
+      "fileSize": 46654,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-plowing-farm-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-plowing-farm-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5e09e86fd92f110d9ddd56f7ce99a0407bddfc9d-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:56.553Z",
+      "downloadedAt": "2025-09-17T14:56:10.732Z",
       "fileSize": 50472,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-drinking-peaceful-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-majestically-cliff-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eab4a89315930ac0151785e804e1aeb31465ae3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:10.743Z",
+      "fileSize": 62274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/cowboy-pointing-on-horse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23e3d3bbbc29f526661b98f95fbdeb9c8adac2e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:10.763Z",
+      "fileSize": 36072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-drinking-peaceful-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a4b2256cd19c40206473a15920e20626ae59d71-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.011Z",
+      "downloadedAt": "2025-09-17T14:56:10.872Z",
       "fileSize": 33078,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-galloping-through-flowers-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e793ce06f92b702e7ff498d0a64d3b50af83294-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.030Z",
-      "fileSize": 87424,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-walking-forest-stream-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-walking-forest-stream-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b93a9b766f64fcee7178674d86660322a3fabbce-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.079Z",
+      "downloadedAt": "2025-09-17T14:56:10.873Z",
       "fileSize": 62040,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-grazing-mountain-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-galloping-through-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e793ce06f92b702e7ff498d0a64d3b50af83294-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:10.930Z",
+      "fileSize": 87424,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-grazing-mountain-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b2410019cf59870d806693e8ce01e93d1f6af42-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.570Z",
+      "downloadedAt": "2025-09-17T14:56:11.038Z",
       "fileSize": 58310,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-under-tree-with-butterflies-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-under-tree-with-butterflies-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8f496e10ceb913b65e12dd58edf060aa7d7fe3cc-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.577Z",
+      "downloadedAt": "2025-09-17T14:56:11.054Z",
       "fileSize": 65312,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-forest-journey-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-forest-journey-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/147da58e516beb2a790eb1854b1e4c3ba882e338-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:57.608Z",
+      "downloadedAt": "2025-09-17T14:56:11.175Z",
       "fileSize": 117666,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-rainbow-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-rainbow-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bf040cca7fc70bbbc2a7b59aed622214f60e1250-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.050Z",
+      "downloadedAt": "2025-09-17T14:56:11.288Z",
       "fileSize": 26724,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-drawn-carriage-elegant-design-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab6fd281da07a65ba6733757ee73115d8bdfca51-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.149Z",
-      "fileSize": 48678,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-jumping-ocean-waves-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-jumping-ocean-waves-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce8cf2a68e9d1833652657ca3722cf1f433e0223-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.166Z",
+      "downloadedAt": "2025-09-17T14:56:11.318Z",
       "fileSize": 59632,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-drawn-flower-cart-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a344f90c40892c6080582f99d669d4c040826d1a-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-drawn-carriage-elegant-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab6fd281da07a65ba6733757ee73115d8bdfca51-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.613Z",
-      "fileSize": 58784,
+      "downloadedAt": "2025-09-17T14:56:11.555Z",
+      "fileSize": 48678,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/village-horse-cart-scene-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80bc943293b2a3b15dbacd6e489811c5e1a74cf7-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.618Z",
-      "fileSize": 63214,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-carriage-with-balloons-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-carriage-with-balloons-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c491a9490a09028ee62912f72fb53db74a1f59c6-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:58.647Z",
+      "downloadedAt": "2025-09-17T14:56:11.636Z",
       "fileSize": 53938,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/prince-princess-horse-carriage-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-drawn-flower-cart-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a344f90c40892c6080582f99d669d4c040826d1a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:11.637Z",
+      "fileSize": 58784,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/village-horse-cart-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80bc943293b2a3b15dbacd6e489811c5e1a74cf7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:11.637Z",
+      "fileSize": 63214,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/prince-princess-horse-carriage-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1073156185113e4bc068e007d531862a51cc92d2-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.099Z",
+      "downloadedAt": "2025-09-17T14:56:11.736Z",
       "fileSize": 61594,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/ice-cream-cart-delight-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74beb9d03122e11e82ca3f36929f21280f1c4296-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.129Z",
-      "fileSize": 68000,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/carriage-ornate-design-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/carriage-ornate-design-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1e7261672dcb5f89b6e35dc7c9398df233e00afd-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.185Z",
+      "downloadedAt": "2025-09-17T14:56:11.737Z",
       "fileSize": 68070,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-christmas-sleigh-ride-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/609b25245e90d83adc1ac98ea667df351a153a6b-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/ice-cream-cart-delight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74beb9d03122e11e82ca3f36929f21280f1c4296-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.648Z",
-      "fileSize": 50442,
+      "downloadedAt": "2025-09-17T14:56:11.749Z",
+      "fileSize": 68000,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/cowboy-riding-galloping-horse-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d044fc3089dfa9ea397ccece35d57f946e6509c6-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.648Z",
-      "fileSize": 42336,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/horse-with-farm-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-with-farm-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/62be3d5d1d9f0331f7f0e598c4b001a3b925c423-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:22:59.659Z",
+      "downloadedAt": "2025-09-17T14:56:12.037Z",
       "fileSize": 42810,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/child-riding-pony-around-fence-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-christmas-sleigh-ride-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/609b25245e90d83adc1ac98ea667df351a153a6b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:12.049Z",
+      "fileSize": 50442,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/cowboy-riding-galloping-horse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d044fc3089dfa9ea397ccece35d57f946e6509c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:12.255Z",
+      "fileSize": 42336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/child-riding-pony-around-fence-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a30243b79e04cbcc96f743fdc35115721cffb75-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.081Z",
+      "downloadedAt": "2025-09-17T14:56:12.500Z",
       "fileSize": 29636,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-jockey-racing-action-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-jockey-racing-action-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ed8d7d5435977e835aefff749995846988ec893-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.082Z",
+      "downloadedAt": "2025-09-17T14:56:12.500Z",
       "fileSize": 36638,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/knight-horse-castle-scene-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/knight-horse-castle-scene-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/44f4abcd9118eb1186fec570c32c5755423a5568-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.145Z",
+      "downloadedAt": "2025-09-17T14:56:12.500Z",
       "fileSize": 39930,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/native-american-riding-horse-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/native-american-riding-horse-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9a5f87b3db5869e43a3cc725941f3dcf23fc4c1-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.570Z",
+      "downloadedAt": "2025-09-17T14:56:12.732Z",
       "fileSize": 38224,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/cowgirl-barrel-racing-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/cowgirl-barrel-racing-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7956ad71f7194a516f6a6401fcc12ef0377dd081-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.583Z",
+      "downloadedAt": "2025-09-17T14:56:12.732Z",
       "fileSize": 30974,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/horse-rider-elegant-dressage-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-rider-elegant-dressage-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/761989d408286cf0a9f02cd46c3c88aa07fcd0b2-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:00.603Z",
+      "downloadedAt": "2025-09-17T14:56:12.732Z",
       "fileSize": 36490,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/cyclist-mountain-path-adventure-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/cyclist-mountain-path-adventure-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/191689657f51dcbdb1f9bcb637fc7d3f5182e593-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.055Z",
+      "downloadedAt": "2025-09-17T14:56:13.052Z",
       "fileSize": 43456,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/circus-acrobat-on-horse-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/circus-acrobat-on-horse-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc1c37fd7724cbc1a9f7ee331c5ee6c695f6cd31-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.060Z",
+      "downloadedAt": "2025-09-17T14:56:13.052Z",
       "fileSize": 43102,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/ranger-horseback-forest-path-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/ranger-horseback-forest-path-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7fefd1576c3ee586709f7ddd79a23fbccf12ba82-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.106Z",
+      "downloadedAt": "2025-09-17T14:56:13.053Z",
       "fileSize": 57050,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/arabian-horse-standing-proud-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/arabian-horse-standing-proud-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/59ff9c52d8d42cb4b981933e61670e63e8714206-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.540Z",
+      "downloadedAt": "2025-09-17T14:56:13.387Z",
       "fileSize": 18822,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/american-quarter-horse-standing-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e03eef3d23c47acde91e5c78b5b350f2a4bd5c30-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.557Z",
-      "fileSize": 32874,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/thoroughbred-horse-striding-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/thoroughbred-horse-striding-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f79bd4474aaae1080b8ec689c3afb0de00ba7418-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:01.625Z",
+      "downloadedAt": "2025-09-17T14:56:13.401Z",
       "fileSize": 31456,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/appaloosa-horse-walking-illustration-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/323af52d1c6fa54471fea8f4c836db4e5d2253d1-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/american-quarter-horse-standing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e03eef3d23c47acde91e5c78b5b350f2a4bd5c30-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.092Z",
-      "fileSize": 37628,
+      "downloadedAt": "2025-09-17T14:56:13.401Z",
+      "fileSize": 32874,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/paint-horse-graceful-trot-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/paint-horse-graceful-trot-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4cd7142013fb13bee6e6ecec53b955b2815a96ff-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.092Z",
+      "downloadedAt": "2025-09-17T14:56:13.539Z",
       "fileSize": 35846,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/morgan-standing-proud-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/appaloosa-horse-walking-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/323af52d1c6fa54471fea8f4c836db4e5d2253d1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:13.621Z",
+      "fileSize": 37628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/morgan-standing-proud-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5b792166a9650bcd9eba397f6f47efa19bdc1aa-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.138Z",
+      "downloadedAt": "2025-09-17T14:56:14.663Z",
       "fileSize": 26090,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/tennessee-walking-horse-proud-stride-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/tennessee-walking-horse-proud-stride-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a692850e557ac7c2765792c5ea1508d8103d9e7f-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.570Z",
+      "downloadedAt": "2025-09-17T14:56:14.719Z",
       "fileSize": 27448,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/friesian-horse-majestic-pose-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f180a57af90f13f0f5cddae0bfc4d19463751924-750x1000.webp",
-      "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.579Z",
-      "fileSize": 44486,
-      "dimensions": "750x1000"
-    },
-    "/images/collections/general/horse-coloring-page/clydesdale-horse-standing-proud-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/clydesdale-horse-standing-proud-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad6f4e098cb209781d3362de48d9411ab43f6d58-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:02.613Z",
+      "downloadedAt": "2025-09-17T14:56:14.735Z",
       "fileSize": 32882,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/standardbred-trotting-harness-racing-750x1000.webp": {
-      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ffcc571de4efd1969cfd983b3565ca98c65683c-750x1000.webp",
+    "/images/collections/animals-coloring-pages/horse-coloring-page/friesian-horse-majestic-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f180a57af90f13f0f5cddae0bfc4d19463751924-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:03.015Z",
-      "fileSize": 38764,
+      "downloadedAt": "2025-09-17T14:56:14.736Z",
+      "fileSize": 44486,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/shire-horse-majestic-pose-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/shire-horse-majestic-pose-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4fc57ee18cdc0006dd39397a4f2ef37f653dca16-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:03.019Z",
+      "downloadedAt": "2025-09-17T14:56:14.791Z",
       "fileSize": 30670,
       "dimensions": "750x1000"
     },
-    "/images/collections/general/horse-coloring-page/andalusian-graceful-horse-750x1000.webp": {
+    "/images/collections/animals-coloring-pages/horse-coloring-page/andalusian-graceful-horse-750x1000.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a303871c91754eb823027e15dca8a3bfb34457f4-750x1000.webp",
       "urlHash": "aHR0cHM6Ly9jZG4u",
-      "downloadedAt": "2025-09-17T13:23:03.060Z",
+      "downloadedAt": "2025-09-17T14:56:14.796Z",
       "fileSize": 23516,
       "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/standardbred-trotting-harness-racing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ffcc571de4efd1969cfd983b3565ca98c65683c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:14.798Z",
+      "fileSize": 38764,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/horse-coloring-page/horse-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c27ec887ac0e3dc97d962c4f7efa71be1c0a3739-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-17T14:56:15.544Z",
+      "fileSize": 188298,
+      "dimensions": "1312x656"
     }
   }
 }
