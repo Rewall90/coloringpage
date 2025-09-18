@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-17T15:04:59.132Z",
+  "lastUpdate": "2025-09-18T10:40:23.473Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -7288,6 +7288,671 @@
       "downloadedAt": "2025-09-17T15:04:59.080Z",
       "fileSize": 12984,
       "dimensions": "300x400"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/globe-coordinates-geography-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dd4c001128303da17dd4b700990917e915d6baae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:06.775Z",
+      "fileSize": 26604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-rotation-diagram-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23b48973bf790792795cba7401c5eab5d612af40-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:06.786Z",
+      "fileSize": 35056,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-smiling-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ebd7bea6e09a6bc3d186e7b22cd705ef387b7c25-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:06.796Z",
+      "fileSize": 33578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-sun-holding-hands-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/801879d55a29c639f5195e5ddb3cb797ed5cd2b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.288Z",
+      "fileSize": 29546,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-cool-sunglasses-smile-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e574e21b4952e062ef802ea35d3f32ce02d665e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.298Z",
+      "fileSize": 27262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-hugging-flower-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a73bf16042caaae817a5db261ebf8c5fdf303274-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.388Z",
+      "fileSize": 35336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/sunny-smiling-earth-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/81f2d273fd625356b9de52f51480579fa2d96fe4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.838Z",
+      "fileSize": 31790,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-with-graduation-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/39876a6bf47accd3c5de315727003cda4073cf5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.847Z",
+      "fileSize": 34364,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-holding-umbrella-rain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2fefb2ac04f817a108db3a0a64e153c97a915112-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:07.884Z",
+      "fileSize": 35182,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-bowling-fun-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e64cd6ac213b69b3232321bcb4c32a5a173ca210-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.349Z",
+      "fileSize": 27654,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-animated-jumping-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29aa20a4f3a1499d30e9e683d6407564bff81423-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.385Z",
+      "fileSize": 27026,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-with-animal-friends-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3b9423c88c6753c637198e8304d13e8c60f79cc9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.390Z",
+      "fileSize": 35908,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-knitting-scarf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d125df25819d378eaca086fc49f3f8168b8600d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.825Z",
+      "fileSize": 41808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-sandwich-chef-cute-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1b0b1dc28277a8161af05549c7387324ae30915e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.839Z",
+      "fileSize": 34888,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-dj-music-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0363668856a6798d41259e91900de309459eff2c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:08.849Z",
+      "fileSize": 41160,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-goalie-saving-ball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d54fef313eedf50e626c83770d116939b078436-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.283Z",
+      "fileSize": 35348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-baking-in-oven-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66d1c1e786305a589ea9a2e3acea6757ffefa8a5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.309Z",
+      "fileSize": 32280,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/mailman-earth-space-delivery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f602fed7e1cd437a435bb70f7b33c4e5dd35870d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.378Z",
+      "fileSize": 41458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/reporter-earth-comet-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c44450afd5b4327c1b56fd292fa2a6b428a7a810-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.868Z",
+      "fileSize": 29980,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-snorkeling-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2a5de0b26733e4004eb8c0a246880b375ff03636-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.885Z",
+      "fileSize": 39702,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-yoga-meditative-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fcb7b82cf24418477b24f6df9af2efc50cc0bd9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:09.885Z",
+      "fileSize": 41340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-with-hearts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b999d792ce870266797606b60a343c13105e37cb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.317Z",
+      "fileSize": 22804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/happy-earth-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5907f28eafbe6e519d92c943cefa94a1fe17e7c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.317Z",
+      "fileSize": 26920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-day-and-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25f5f2ec4d1a6a882bafbfd96d2a5c68d5515875-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.359Z",
+      "fileSize": 34102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/flower-earth-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2e1c2210a0036f4897187fd5286c1cbea62c546-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.799Z",
+      "fileSize": 25574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/rainbow-earth-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb62748ce55bff162e7ab052fe2a908d7ecd14be-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.820Z",
+      "fileSize": 33808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-thumbs-up-good-job-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/974952dfd245c27191873823ab224fd63e6c7315-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:10.825Z",
+      "fileSize": 26290,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/sun-and-earth-educational-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/26479174b329dc00cb73ff3638c23faec84d1231-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.228Z",
+      "fileSize": 21096,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-surrounded-by-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee666be6d748ce927eaf54918f7fc0567e0409b6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.276Z",
+      "fileSize": 23964,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-hands-around-home-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/68d3a69c1d8e3e4e57b4b666f613e4df5edd8525-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.286Z",
+      "fileSize": 31162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/cloudy-earth-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d4716c455d8f5adf9e283d6a014bc7df70e591bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.713Z",
+      "fileSize": 19108,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-waving-hello-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea5c75f2481560786d57d3a0b6e2d6ed64a8e5cf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.741Z",
+      "fileSize": 24574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/space-explorer-earth-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7c0558dc3f989b7feee6a95ba5f3feeb94fd4dc4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:11.829Z",
+      "fileSize": 42564,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/planet-party-space-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/35fe4021044d0487894f11653cfbeb0bf7155322-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.257Z",
+      "fileSize": 40182,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-roller-skating-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03b6541d3b18195d246da7e58c0f5b8f9ffccc70-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.301Z",
+      "fileSize": 35446,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/superhero-outer-space-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb158056813ac893eee974561c2b7b882ba80a0c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.413Z",
+      "fileSize": 39960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/space-detective-earth-mystery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/db4c95f165661396b8dc12016be9ac87157431d1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.826Z",
+      "fileSize": 37466,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-birthday-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6558c0b8a7e02125449ca15924e85d9c4aea93d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.840Z",
+      "fileSize": 34464,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-space-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e878b5449fddced6a580c8f11d8f01855236492e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:12.860Z",
+      "fileSize": 49114,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/moon-planets-hide-seek-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb27604fa42438ee7fdb67a36b2c7ebd25b5b5fd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.329Z",
+      "fileSize": 33554,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/time-travel-earth-exploration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c6be46250e222823d505b0dea73df9ec153b0d29-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.363Z",
+      "fileSize": 71974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-mechanic-tool-holding-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d0034b7c863df69bc623be04d7663659a237cf0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.404Z",
+      "fileSize": 46500,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-baker-kneading-dough-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f7e6aa48034f77d56d22fc6c8edb6a3710b4a147-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.858Z",
+      "fileSize": 35300,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-guitar-playing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c8d30b76854bed27d02c5ea2718b9eb39262ee6a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.928Z",
+      "fileSize": 39008,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/magic-earth-wizard-rabbit-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d53e2f3c352f2ea5aa8701ba7f7d81acbaa882f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:13.943Z",
+      "fileSize": 32246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-gardener-planting-seedlings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca4a11925ac35f82912df8cb63653ea38dc687be-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:14.348Z",
+      "fileSize": 34950,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-artist-with-palette-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/108cd520ba853ea6773db59189e8ac2101d10ca5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:14.474Z",
+      "fileSize": 35604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/doctor-earth-cartoon-character-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0ea21b62b9d8cc928ebcee8336aaeaa0dc17bb13-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:14.499Z",
+      "fileSize": 24502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-firefighter-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/43ba9c43cd2693a81769da313130fd7e4599e2ec-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:14.930Z",
+      "fileSize": 30088,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/postman-earth-thumbs-up-mail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e86b58a4c5e89ebd5365c23731e92bcef0f25a36-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:14.954Z",
+      "fileSize": 39278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-photographer-butterflies-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a7981b0295bbc396ac10292756179469f58c8218-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:15.052Z",
+      "fileSize": 62638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/active-earth-jumping-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29aa20a4f3a1499d30e9e683d6407564bff81423-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:15.499Z",
+      "fileSize": 8646,
+      "dimensions": "300x400"
+    },
+    "/images/collections/education-coloring-pages/earth-coloring-page/earth-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc09b311270e7f4b94e07754261aa418297d23cf-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:15.502Z",
+      "fileSize": 43450,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-29-space-elements-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef7a98adaaffb427bf96c77b37671ffb78f069e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:15.954Z",
+      "fileSize": 37878,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-two-tennis-rackets-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc57aa3c75925c7d93808168ead616a466033c4e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.407Z",
+      "fileSize": 42272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/three-basketball-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5c6598f5e84b29ef2feda8ee1f70df87de9cbd3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.455Z",
+      "fileSize": 28400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-one-soccer-goal-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a1f32dafbfe8a795b0a8d211391d5b01a25002c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.456Z",
+      "fileSize": 14690,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-four-baseball-bats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8311a561dd7eb866f75700343e23f1c29b574091-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.896Z",
+      "fileSize": 21170,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-5-pool-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1151daafb1c5b5e98ae34d9e19dfdaeccddf8c8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.920Z",
+      "fileSize": 24902,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-six-bowling-pins-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/26220cf854de6149b642ded4ce7c419ae68a44c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:16.942Z",
+      "fileSize": 19384,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-nine-ping-pong-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3377355a9796b8eb6d7dcda76715858efeb9ac74-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:17.393Z",
+      "fileSize": 49402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/golf-bag-and-clubs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fbfcf050ebcbf42656b199e069729839b435aed7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:17.415Z",
+      "fileSize": 39350,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/hockey-number-eight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5f748813451e29f06a2ecbefe33b714d0c1b1224-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:17.453Z",
+      "fileSize": 52114,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-12-cars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2a7c9209e1608e3060e3c585e17e7776d133734-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:17.949Z",
+      "fileSize": 51912,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/eleven-biplanes-clouds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e458098ffa941f4b8687f51d7a95aff9bc80b289-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:17.950Z",
+      "fileSize": 48612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-10-football-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2081cd54a95f8834b5f267f436c0969a70b848a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:18.001Z",
+      "fileSize": 37458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-14-boats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14d3c0e9a607728dde1333b0cf3e2a161c55bae8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:18.416Z",
+      "fileSize": 58288,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-15-train-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63f8761010aee6b796c21635cae3708929ac658f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:18.488Z",
+      "fileSize": 36708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/bicycles-number-13-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/332176f63fbe4f3edfac128eef376d37d9f8c02e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:18.500Z",
+      "fileSize": 49086,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/helicopter-number-seventeen-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/53eebddcd9cc3d2fe3d775e8027ff6e24b15cf87-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:18.994Z",
+      "fileSize": 48628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/motorcycles-make-number-16-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14f794a578561dfba5c4654246be05cf3a8a4f21-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:19.024Z",
+      "fileSize": 81936,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/fire-trucks-number-18-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2706c63b52cd9dd6eb4deaa42537da6f2f4fd5ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:19.068Z",
+      "fileSize": 98010,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-21-music-notes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0aace53efd0ed81a6e4c49f195ed186a26b97b4d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:19.540Z",
+      "fileSize": 27980,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-19-school-buses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/83d078811017f9552329a409c1c261499959071a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:19.562Z",
+      "fileSize": 39502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/hot-air-balloons-number-20-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77861219c7cd13a042b70230bc19fed295a9b1c3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:19.580Z",
+      "fileSize": 58462,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-23-birthday-hats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2bd27caef45c5c5673bb77b51cbd82b853fe702-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.096Z",
+      "fileSize": 55146,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/balloons-number-22-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e25f518ac3efc6ffcf9a6f8662ca6a1e570adb96-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.120Z",
+      "fileSize": 57312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/advent-calendar-gifts-number-24-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c2d1efa260fc62c463ee935d951c25ec9ee2e3c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.214Z",
+      "fileSize": 83844,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-25-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/287578a1b18262268d1154d64fb899f3ef8ae862-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.751Z",
+      "fileSize": 62090,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-27-magical-wands-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f05fe134a185c2268808371ccdd5bcfe356c2991-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.752Z",
+      "fileSize": 50264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-26-mandala-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ba0374f8003c89ef91b17d0f2bbd621e25075d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:20.766Z",
+      "fileSize": 62610,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/30th-starry-confetti-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23fb6451712616038673cd3a192003c6066df4d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.202Z",
+      "fileSize": 33402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-31-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1da39879ece8a48826695920bac9b584e9d6b6b1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.207Z",
+      "fileSize": 23564,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/detailed-ferris-wheel-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b6627030855f781194377b38f8d551693742c123-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.241Z",
+      "fileSize": 81266,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-32-rocket-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f3ad92cbfc1361de941e45f05210efb39ad210a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.696Z",
+      "fileSize": 49608,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-35-planetary-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/910844c462eceddc31d912911c02930082b52ccf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.730Z",
+      "fileSize": 45884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/cute-bugs-number-34-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a420ee053cc96629df9b61066580a61b50b7a0f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:21.788Z",
+      "fileSize": 53700,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-37-meteor-streaks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab415918a10fb0736031b00b12a55632b09c30af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.290Z",
+      "fileSize": 39932,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-36-moon-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6bb754f14c15d214c117891e1cc8c9192dbc25e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.308Z",
+      "fileSize": 65688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/ufo-surrounding-number-35-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/656fcc9d6e822ebfc7376bbd9660c5dbc00747d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.320Z",
+      "fileSize": 89040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/firework-number-40-burst-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/381c8b5af2c40524705d03557f3e0d7d8ca98344-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.789Z",
+      "fileSize": 36298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-38-space-satellites-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23b3d7c8ae8e6f0adab9bd3d23a3d432fbed0a38-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.801Z",
+      "fileSize": 64914,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/astronauts-floating-number-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/546fc52923ae37d17f5e30f66d3e92b77b920238-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:22.809Z",
+      "fileSize": 105814,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-1-with-soccer-bal-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a1f32dafbfe8a795b0a8d211391d5b01a25002c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:23.215Z",
+      "fileSize": 4820,
+      "dimensions": "300x400"
+    },
+    "/images/collections/education-coloring-pages/number-coloring-page/number-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec989bb3bdbafbd0a349a722b70d10a063d49cbe-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-18T10:40:23.440Z",
+      "fileSize": 101376,
+      "dimensions": "1312x656"
     }
   }
 }
