@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-18T10:40:23.473Z",
+  "lastUpdate": "2025-09-19T08:59:26.946Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -7952,6 +7952,433 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-09-18T10:40:23.440Z",
       "fileSize": 101376,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/nantes-carrot-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a24fefee33ea69509e9dbf4feba4afe8d2c73930-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:47.320Z",
+      "fileSize": 17692,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/imperator-carrot-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/288c5e0a08a2757ffb914b3ca61d19b815e371ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:47.361Z",
+      "fileSize": 17702,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/chantenay-carrot-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/56a18c41c1d9260c03a706140d074c5e276b2f32-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:47.580Z",
+      "fileSize": 14550,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/danvers-carrot-veggie-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c0126af77d8634dc6c0292985af9ae3d78f31e2a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:47.693Z",
+      "fileSize": 20344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/baby-carrots-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd4961cfea0d700e94b16b0b52c9ff0413f06b7f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:47.808Z",
+      "fileSize": 28294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/white-belgian-carrot-simple-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f8ca39779f5eb6fca4f2cdb4fe2b29c33761265-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.024Z",
+      "fileSize": 14416,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/paris-market-carrot-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1bf1fa2ac008751c6c9af700255f4715697070bd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.067Z",
+      "fileSize": 16768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-purple-top-style-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/301a5829d1aa76dd19245ee0094d660305d6d05e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.117Z",
+      "fileSize": 20292,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/thumbelina-carrot-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f852cd046d4151e18aaf9137b4b6ac25c82e81ac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.376Z",
+      "fileSize": 16066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/rainbow-carrot-pattern-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/163146082ccb7f2ce1254694f567113fe6eccfdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.433Z",
+      "fileSize": 28430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-car-mechanic-repair-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/559eeb32ccd4387f4ff7c8a650bfbb9c311f15f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.433Z",
+      "fileSize": 42138,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-construction-worker-drilling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/61052505ecdcf95075e621c97ed3fe990c3c1dab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.659Z",
+      "fileSize": 29520,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/jolly-clown-juggling-balls-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd94a1bd0c206c8ed996392579c90a2618724259-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.672Z",
+      "fileSize": 31762,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/bee-beekeeper-suit-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b06aee4d225ebe2d71026c14de20182ea34c4b16-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.754Z",
+      "fileSize": 26296,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-sweeping-broom-bucket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a03fd713d25b54d308c746254f08fd2c70c9fb82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:48.989Z",
+      "fileSize": 23258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-grocery-shopping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7587c1dcf9d854271f15b8d0bdb211b74ad0fa66-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.003Z",
+      "fileSize": 33246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/breadstick-chef-baking-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/99df95eba4045c142bc754b4a517012aa192bd77-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.004Z",
+      "fileSize": 48472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/mountaineer-kid-climbing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d931384ea2cbea24dbbc107d16656ef302ecd6cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.283Z",
+      "fileSize": 36494,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/captain-fish-telescope-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1de8213192b443595da7ca50e9b900dfe071fe3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.291Z",
+      "fileSize": 37184,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-window-cleaner-ladder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a6555b7b0e2f264d54ea7a16686f943308829cfa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.324Z",
+      "fileSize": 29392,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-submarine-explorer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/383c9e65df820b5481ed65d3f9a0b85d6d86acaf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.552Z",
+      "fileSize": 31912,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-orchestra-conducting-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/101900fb221d3c53a3bd9af00bcb8f42778a5a34-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.650Z",
+      "fileSize": 60272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-submarine-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/26f145d02eb1ef7760a1889fa37b2e8fc7c33e3a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.675Z",
+      "fileSize": 42208,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-orchestra-conductor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee11540ccb884209ce2530393842c371854f9aaf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.896Z",
+      "fileSize": 39252,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/zookeeper-feeding-giraffes-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/194ea5c4eb4da9c73712c50810b8752bc635243d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:49.916Z",
+      "fileSize": 46176,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-orchestra-concert-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/874ad77a4f8824d69e50ee86c0e4d0eb95bbdd8f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.023Z",
+      "fileSize": 42794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetables-ice-cream-cart-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8c5ce5cbc8cde10ede267903134fa536971c987-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.291Z",
+      "fileSize": 35002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/zookeeper-feeding-giraffes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f2e04e0686aeed15619dc3c242f5b85e03a6580a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.308Z",
+      "fileSize": 36152,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/chef-carrot-ice-cream-cart-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e5acf434e6ea6dd815fc1808ad4cba0a953eca0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.555Z",
+      "fileSize": 38928,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-ice-cream-cart-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/32cf1c090ea6881c576f177dd87064d46c44ff50-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.576Z",
+      "fileSize": 37578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-bowling-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b368b36bc728424d04839f054e25e52fe8103e89-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.579Z",
+      "fileSize": 52708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-bowling-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/30f47c9d09e5fdf9c9844a62e80b0125befa2c21-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.822Z",
+      "fileSize": 40614,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetables-bowling-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d938562a86a268b7f60468bf7823613ad7002f3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.868Z",
+      "fileSize": 45250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-tour-guide-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/92cdd8f6c095454434e8153e3d9cfb0ca5ff7f75-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:50.889Z",
+      "fileSize": 40178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/traveling-sausage-landmarks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66338ed8368b5a9f82dd0c71dc1196c168ad205b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.202Z",
+      "fileSize": 24826,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/clown-juggling-unicycle-circus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/57463d7407ea002a8babf0051a10e5d096136f09-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.217Z",
+      "fileSize": 34126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/juggler-unicycle-circus-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04c04269681b0581037bd867084e042f52b52145-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.462Z",
+      "fileSize": 51142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/clown-unicycling-juggling-act-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/579349e43853248a6144b623025eafcf8efcdeb5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.484Z",
+      "fileSize": 39992,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-florist-arranging-bouquet-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/be281d3c3f92fb61c3afdc8477a64cda9c601963-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.601Z",
+      "fileSize": 82400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-train-conductor-holding-watch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/812daab6a7a30b13543391eb7316791af110c377-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.912Z",
+      "fileSize": 34020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-flower-shop-character-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a64b7a977228b1b2ade4027eff298ea4ce4b39ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.977Z",
+      "fileSize": 78604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-florist-arranging-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c0e4f3ebd9e60a49e8a8bbbfa8c0ac60c818a10b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:51.977Z",
+      "fileSize": 80050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-barber-vegetable-shop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f8573d77700918642c8681e290131563ffb6e8d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.227Z",
+      "fileSize": 39252,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-conductor-train-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9a591bd978750e24bedc8ffed151b2a4a35b15d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.258Z",
+      "fileSize": 63680,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-shaving-service-cucumber-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e0b792d11bb28e545f4d442500445676e1c824f7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.493Z",
+      "fileSize": 44396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/ranger-with-forest-animals-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a4aa7a7e8ba0482123a43e57ac05fbec7b37175c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.535Z",
+      "fileSize": 35754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-barber-shop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9c7e3d8300b3c669a1cf1b9107c8a97a1af5579c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.536Z",
+      "fileSize": 37154,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-dentist-checkup-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ff8bdecf9130f5cbde0de51d3e7779eeafed68a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.771Z",
+      "fileSize": 24136,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-news-reporter-desk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/08a83ac2a7fd35b4adf5b2e12da6d887a01d1757-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.791Z",
+      "fileSize": 30882,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-dog-bath-bubbles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af6e01749f6293eadb9ffc4da40fc35b08943bcb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:52.806Z",
+      "fileSize": 42946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-vegetable-photographer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/818abfc9ba249d31aca8f676203d49e624032a29-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.021Z",
+      "fileSize": 27340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-lifeguard-pool-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7704ae51a193cd73c3e15a583a1817a7deb3a8dc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.069Z",
+      "fileSize": 28260,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-hairdresser-boutique-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/100d0bb841b50208bd70541517f52cf070cd91fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.112Z",
+      "fileSize": 45416,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-yoga-veggie-meditation-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5c4a6a4dc964264ebf466a07d2e1a60eeb03d2a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.352Z",
+      "fileSize": 31388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-postman-delivering-mail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed25efdf2544365a7438152bea8db21c70baaacf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.357Z",
+      "fileSize": 36644,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-library-reading-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/528b942f1ff5213cbd3049336192a823ee866253-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.412Z",
+      "fileSize": 83782,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/vegetable-camping-night-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2c84499c61eacfd007dd3348146ce71e44355a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.644Z",
+      "fileSize": 34258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-weather-presentation-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49e6e77350cc235cdd750311a3729fcd8dd13fd5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.668Z",
+      "fileSize": 24042,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/taxi-animals-travel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ceabe379fa174937ac68c2074b97cba2db35dc76-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.668Z",
+      "fileSize": 31132,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-coloring-page-as-a-baker-baking-bread-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/99df95eba4045c142bc754b4a517012aa192bd77-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.863Z",
+      "fileSize": 13400,
+      "dimensions": "300x400"
+    },
+    "/images/collections/food-coloring-pages/carrot-coloring-page/carrot-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d2765988a60c17e27ae66233f9175418a0b9b70e-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-19T08:55:53.958Z",
+      "fileSize": 46374,
       "dimensions": "1312x656"
     }
   }
