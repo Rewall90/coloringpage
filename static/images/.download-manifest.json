@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-19T08:59:26.946Z",
+  "lastUpdate": "2025-09-20T08:42:24.124Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -8379,6 +8379,405 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-09-19T08:55:53.958Z",
       "fileSize": 46374,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/superhero-truck-and-kids-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e25ed5d0447a70d2035fcb28eb8b171c825fdf5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.136Z",
+      "fileSize": 48892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/toy-truck-with-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd4c564147b79ce3fa0275b1f2228914535b9be6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.169Z",
+      "fileSize": 54838,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/ice-cream-truck-happy-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14434c5977e9354e022b1e0b30f8f01c83168f6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.169Z",
+      "fileSize": 55246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-butterflies-rainbows-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23c3092ab748b6a2e68f21b519a0592effde6ebe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.659Z",
+      "fileSize": 55050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/kids-animal-rescue-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3028b63f63e2e2da655c5a80b3b3b3a2cd722802-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.708Z",
+      "fileSize": 39190,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/cake-truck-party-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/727c0941f2d37334f76bee0237cb15bf6ae5816e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:14.712Z",
+      "fileSize": 62628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/space-truck-with-alien-astronauts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2eb56671a3d377069aedc43a1c5a5558697d062e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.146Z",
+      "fileSize": 50960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/pirate-ship-truck-transport-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4cb315587530b29df8289a1495e9df193b2a583b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.191Z",
+      "fileSize": 59994,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/dinosaur-themed-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3fe41ce12541234696e0f6498438b601c5c1dd7c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.205Z",
+      "fileSize": 48604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/toy-truck-full-of-toys-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/42f1c3d0ff95e8584fbc7a11e43793b04193ed66-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.682Z",
+      "fileSize": 40786,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/animal-transport-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b1acf4b8a41e4a23542cc7d24a367b24c0573643-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.701Z",
+      "fileSize": 30318,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/magical-parade-fantasy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/944842d4232e0f99c0cc562176a15a844dabc5d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:15.759Z",
+      "fileSize": 89288,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/ice-cream-truck-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f28fecf8f000ab63edeb96639eaecc0e598c6cb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:16.415Z",
+      "fileSize": 29364,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/car-carrier-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/08d80fb897e908f70c5e9a2c47c30a72d78bf12f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:16.415Z",
+      "fileSize": 33636,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/circus-truck-fun-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ce09b5d85ced4c83af9763d5e7be1bea20a8b11-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:16.474Z",
+      "fileSize": 43354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-space-cargo-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f4e45fe825c38613822faed489d20ee9759dda22-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:16.913Z",
+      "fileSize": 36600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/logging-truck-in-transit-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f8661a885ea721e333beae91a0730ae335534a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:16.953Z",
+      "fileSize": 37428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/construction-hauler-truck-machinery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6cfd814f93f31608b17d0735c3371f32a5d5e3bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:17.026Z",
+      "fileSize": 43276,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/ocean-tanker-colorful-scenes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a96d9aa0bd467635767d23a78ab3358217f906bf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:17.510Z",
+      "fileSize": 38250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-desert-highway-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9985cebb7ce4e4937e6a3201b14330347288f44-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:17.516Z",
+      "fileSize": 39830,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/party-truck-balloons-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6843dbc527fbe1c4a0d3aba5e750346802e28da6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:17.540Z",
+      "fileSize": 39966,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-stop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5d3ec9c850a31fe492743ded3df4033f55ffae9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.050Z",
+      "fileSize": 34284,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-under-bridge-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/610cc971808f0c76e70cb56ba605013ba0ae321e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.051Z",
+      "fileSize": 22958,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3a9fca0c224b22154631cb4178bc15536e0627fd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.115Z",
+      "fileSize": 58724,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-oilfield-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45544ef64c3a6b2dff47b21e4d774a4fa3953813-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.546Z",
+      "fileSize": 28186,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-winding-mountain-road-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e85e2698b9fd72beb7637c7b43ac1bbc7076bd6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.554Z",
+      "fileSize": 42288,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/logging-truck-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1a314b6f01dbe275d9dc6e564a852dfba92fc878-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:18.745Z",
+      "fileSize": 64050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-heavy-load-highway-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ef8f6280bd7aa0ca4f92887b04c819728eba5ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.311Z",
+      "fileSize": 31520,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/container-truck-port-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aeb4719e16eb4642eda9142614b1087aca3ee01b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.329Z",
+      "fileSize": 71770,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/semi-truck-farm-field-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8949646ec6d6dc2281481728449c3ed1fdce6364-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.371Z",
+      "fileSize": 43612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/construction-site-machinery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5db7f1b9756855a69723f33510bf87d5a1f63a2f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.821Z",
+      "fileSize": 40062,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/construction-site-truck-excavator-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca5870df28edd93413a7f4c458ac119973383c03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.844Z",
+      "fileSize": 35436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/family-moving-day-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/92c414a5f55d39c962874eb0545136cf454085ed-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:19.883Z",
+      "fileSize": 36976,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/tanker-truck-gas-station-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/96fcc92f728d6d351a8fb5a2b1ff6abf1fee7a9c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.321Z",
+      "fileSize": 31924,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/cement-truck-cityscape-construction-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b53fb7a376768b9008becefcb212432f1d672d8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.351Z",
+      "fileSize": 36026,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-desert-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45f5b2235826842c2440306d12710719ebf2ccdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.426Z",
+      "fileSize": 60514,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/vintage-truck-desert-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c97d72f8c836434d3c2f7aa5701359f76b3ec6f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.860Z",
+      "fileSize": 44810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/industrial-truck-factory-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ea7ecff99d7b54fd1d10dc3aca1027dc92d53e5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.864Z",
+      "fileSize": 28866,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-carrying-harvest-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/67c509c389b27537605d2d8bf7e730253d94c532-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:20.939Z",
+      "fileSize": 61688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/cement-truck-industrial-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d992d6212004c1503b87617ddda56f29b920002-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.352Z",
+      "fileSize": 30928,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-pipeline-mountain-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25207fa7dab4d3efb6da727a742f502116ac20ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.442Z",
+      "fileSize": 40348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/military-vehicle-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e26a8ab659ae3d98b0ae11f1c89c4e47ce26a5a3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.470Z",
+      "fileSize": 51408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/cityscape-truck-highway-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d825db2d08e9c990e6947886730763c3a439568f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.933Z",
+      "fileSize": 53894,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/industrial-construction-site-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/037e3b0bf2b43ff55fb14069bb2d37869869ece0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.963Z",
+      "fileSize": 52662,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/logging-truck-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d52fc59d41cd60159488ac5fd9e4ff0b9c24b8c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:21.982Z",
+      "fileSize": 76488,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/kenworth-truck-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/908c9a6c21487d971c155643180cffc78b69a25e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:22.457Z",
+      "fileSize": 29282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/peterbilt-truck-front-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5531ba84576e59d1963ec407bca6c9da9c1594a9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:22.475Z",
+      "fileSize": 30706,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-transporting-wind-blades-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2497d1a21a50fe59361d69fa7ea6cb43da9cd29f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:22.534Z",
+      "fileSize": 35174,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/mack-truck-line-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d94e957535b7cc90c3334747866e57dc06825dff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:22.983Z",
+      "fileSize": 30612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/volvo-truck-front-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51fd60e083317a37fc187b8277371a058fb3f30d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.011Z",
+      "fileSize": 25852,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/freightliner-truck-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ad5077210802d869a441e59c087b06bc58eb0bd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.012Z",
+      "fileSize": 32072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/international-semi-truck-front-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6be0dce231cc90cbeadbbff67902a36b4d0c19ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.500Z",
+      "fileSize": 35580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/paccar-truck-sideview-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/59ead0a23fdb2815e6b4d98b0a5e5ec81917854c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.527Z",
+      "fileSize": 26736,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/western-star-truck-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d955db19ad6a9babb37f52d34dd2199d55343837-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.548Z",
+      "fileSize": 32542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/isuzu-truck-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/36030ab09e7db0fb49f31c670b5503c538548592-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:23.991Z",
+      "fileSize": 25602,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/coloring-page-of-a-heavy-logging-truck-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1a314b6f01dbe275d9dc6e564a852dfba92fc878-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:24.026Z",
+      "fileSize": 14124,
+      "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/truck-coloring-page/truck-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84530a02c661ea1f97d1aff8101e6b9941ea835c-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-20T08:42:24.094Z",
+      "fileSize": 101060,
       "dimensions": "1312x656"
     }
   }
