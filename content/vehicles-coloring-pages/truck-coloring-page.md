@@ -5,7 +5,7 @@ image_width: 1312
 image_height: 656
 image_alt: truck-coloring-page
 categories:
-  - Vechicles
+  - Vehicles
 featured: false
 draft: false
 showHero: true
