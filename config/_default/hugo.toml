@@ -13,7 +13,7 @@ summaryLength = 0
 # Force rebuild for layout sync
 
 buildDrafts = false
-buildFuture = false
+buildFuture = true
 
 enableEmoji = true
 
