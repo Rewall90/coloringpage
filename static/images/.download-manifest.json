@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-20T08:42:24.124Z",
+  "lastUpdate": "2025-09-22T06:24:11.563Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -8778,6 +8778,762 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-09-20T08:42:24.094Z",
       "fileSize": 101060,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-confused-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/402d053c75e060f1aec9e03222ff9f76cea2e38f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.430Z",
+      "fileSize": 25246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-sneezing-funny-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8bcc47b6980409841ed6009176a0c7c00965a783-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.466Z",
+      "fileSize": 39498,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-reading-newspaper-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2219e9d3976b9650f8e8828ecc2c3ebde95700a0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.550Z",
+      "fileSize": 38260,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-hiccup-and-surprised-clouds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef6bf58aeae221fbfccbd6f302dc2a5074cf96b9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.609Z",
+      "fileSize": 33388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-dancing-with-clouds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/043a8e9eb0bae7e51830a90467422eb33b479957-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.661Z",
+      "fileSize": 33626,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-spaghetti-creative-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a611e0296489acc83ed6cafbbd88c4254f6b21dc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.751Z",
+      "fileSize": 35722,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-clouds-toothpaste-battle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d09f584e91bd09a8398d9b5c1104d1a6be07b2b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.761Z",
+      "fileSize": 32690,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-character-relaxed-eating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/768a514631cb5f2f22c3a016340f0add5efacadd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.762Z",
+      "fileSize": 37262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-clouds-happy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5200593dd2c4c7610278447c7a64d6718505276b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.844Z",
+      "fileSize": 32032,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sleepy-sun-with-coffee-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f06532da8a0a28261042c6cf9044d2036bbbf7ac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.851Z",
+      "fileSize": 34628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-and-playful-clouds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/715715725845bfcfbfe4711fd88a1a1e9e2ab18c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.858Z",
+      "fileSize": 33978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-moon-campfire-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c3298c5446b4e893b7283240a9fc3a9966b3b556-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.922Z",
+      "fileSize": 44366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-teaching-shining-101-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad481cc6d665b21d89275697fe12e0a20f26a5e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.943Z",
+      "fileSize": 42250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-faced-ballerina-dancing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ce38da4766fad8d340fee053e60fc2fb7ee8b6f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:17.948Z",
+      "fileSize": 41296,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/celestial-birthday-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/deca5f7560b5aab05e3af716388244275f04089a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.004Z",
+      "fileSize": 23744,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-winking-amidst-clouds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bf842221579f53c2072ac02f7616f7a4e658b581-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.016Z",
+      "fileSize": 24168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-dancing-cloud-circle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0bcec1a1305e49e6b97cc08809049950edd09113-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.021Z",
+      "fileSize": 42446,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-moon-play-music-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9a07e8049791fddba218a94dd081894a177fd8c3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.093Z",
+      "fileSize": 38088,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-clouds-raindrops-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1387e5ed1b3762b8e63c5b8632b09b8621ed88d1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.123Z",
+      "fileSize": 24270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-reading-book-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb0a5b925a2b940cb9c19dbd207a48c6344760c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.132Z",
+      "fileSize": 39444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/solar-system-comets-orbiting-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/17b451db8b2dd5d9726a1328c21b5c33e71efc61-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.256Z",
+      "fileSize": 53874,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/farm-animals-sunshine-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6b9e72b7d0eac27741f431c5c5fafa32d20a35ef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.262Z",
+      "fileSize": 52928,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/smiling-sun-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7828f58af308df285404523c14fb3e6e16222531-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.289Z",
+      "fileSize": 81386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/safari-waterhole-animal-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80c094df2846f90adef4183842111dcfd2bcbbdd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.349Z",
+      "fileSize": 49356,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/geometric-butterfly-mandala-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aea2514779af06d49839b678ea0f2f3a908373f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.360Z",
+      "fileSize": 58774,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/intricate-geometric-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8a7d8e502ccb6447509f09d7471fa7bb88a7f802-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.362Z",
+      "fileSize": 56492,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/butterfly-space-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c997fa15dbbb96c3c482889e7a990a8aaa2f06b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.482Z",
+      "fileSize": 68424,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/marine-life-sun-wave-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fcdaf12447591429da3545119d59b99ee8ed879b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.483Z",
+      "fileSize": 65338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/intricate-butterfly-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/64aecb3d2e41fc9f2af73a16920684ac69aff3af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.483Z",
+      "fileSize": 101542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/yawning-sun-whimsical-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4464a2afaf7183512c99227763ef3eca2c4120b4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.566Z",
+      "fileSize": 32532,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-wearing-sunglasses-smiling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbf7552473faf02d74f642aa576c738e04eeaf90-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.566Z",
+      "fileSize": 36792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/animal-picnic-sunshine-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1691cf2c4811dc5a121828382601aee851dced79-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.568Z",
+      "fileSize": 57076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sunburst-smiling-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9c818b5f80735c67243aff0e11cae76abb86b6b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.629Z",
+      "fileSize": 26052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-with-happy-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af66b0f1d237262ec68da6647d4c7ef998b07c34-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.630Z",
+      "fileSize": 25646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-with-hat-unique-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2204dc83220fdafd4b6b0b8d79acd59b61c7109a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.635Z",
+      "fileSize": 36810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/mischievous-sun-shushing-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1367431707bc480358d1078c86ebe8949755a547-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.708Z",
+      "fileSize": 24844,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-sandals-summer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0333f374ae032f337422cf54936d17eefe0ab8fd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.711Z",
+      "fileSize": 29248,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-winking-heart-kisses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9899e55a46fa4d11d0094ad82ccf141e8f6cd4e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.714Z",
+      "fileSize": 38860,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-reading-book-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/907e12ccbf522c6323a363f6b3744baf70489bd9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.789Z",
+      "fileSize": 36502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-smiling-party-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/48611a7df45d671bef8e1241c3838d90b344173e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.790Z",
+      "fileSize": 34256,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-relaxing-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/770d2c98c06392ce37ed0d77d5f1877c07ac9865-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.790Z",
+      "fileSize": 47764,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/penguins-ice-skating-snow-play-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/93ae2c83cc8d69b1191a31b9b0e20ebe452f1dc3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.867Z",
+      "fileSize": 53918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/cute-sun-squirrel-fall-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c43837b510b50c694b5173f2cb5631506ee93004-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.867Z",
+      "fileSize": 56676,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-floral-crown-smiling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6adc4d7e8f7666604371a00ddf0b1be15cb586d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.903Z",
+      "fileSize": 44472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-in-pool-summer-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f0e2439b8eb1557d3dc0c294ff900eef5c438d46-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.988Z",
+      "fileSize": 30968,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/child-gardener-watering-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e246faa7847309653b495bd352a30f45015cef1d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.989Z",
+      "fileSize": 71504,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-fall-leaf-jumping-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea14837787bbdc4204c5677c38d3ac19901addc8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:18.990Z",
+      "fileSize": 65992,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-character-beach-volleyball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90b8a49a97d285498057c8d8b82b1dc0f2106766-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:19.060Z",
+      "fileSize": 30378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-cook-grilling-burgers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4700f5fd398bea1214a63aeb639b70a5bd83cfb3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:19.061Z",
+      "fileSize": 60052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/child-snowman-building-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/88650bb1e7e71a36ee2250cc60cf4df5e258394c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:19.062Z",
+      "fileSize": 62434,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/smiling-sun-with-sunglasses-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbf7552473faf02d74f642aa576c738e04eeaf90-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:19.466Z",
+      "fileSize": 11322,
+      "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/sun-coloring-page/sun-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c29b6bd5ab8dc6c3618bee92c3e06d4f7388408b-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-21T11:03:19.589Z",
+      "fileSize": 63814,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-jumping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c3e330c209cb3ec7c3779d52cfae4fd5cf3d06c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:02.214Z",
+      "fileSize": 61360,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-on-tree-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/806176085b5241e03424917fbb9f77817312860f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:02.260Z",
+      "fileSize": 37692,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-climbing-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/557a10312bc8c9f83f55a8e3331d8e7c23bd7ef0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:02.653Z",
+      "fileSize": 26570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-holding-pinecone-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/486cb5cc36ef96d590cd20d19cfdc630a375c0e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:02.669Z",
+      "fileSize": 34786,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-forest-play-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f76abe317d2fa7e8e088aa6c77c5d363aecd994-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:02.784Z",
+      "fileSize": 43920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-gliding-from-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31269ab29e4651976d656644df92ca890afa59f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:03.222Z",
+      "fileSize": 39634,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/flying-squirrel-among-trees-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51b1a554582264dbec774f8a43fd82a206880fe5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:03.247Z",
+      "fileSize": 84146,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-playful-playground-escape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5b5c51a42e8410ce6a11880c5b7c55bc6fff2126-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:03.248Z",
+      "fileSize": 42450,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-circus-tent-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2fe1bed3554e7d5c0d661b8f4d29e8ca038a39f0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:03.720Z",
+      "fileSize": 50234,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-jumping-branches-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/82a825b0432f9950a754cd4c22bcc011a708c7e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:03.722Z",
+      "fileSize": 38464,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-balancing-wire-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/504c9999de46478c415ce590b6662474df7a20c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.116Z",
+      "fileSize": 19026,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-leaping-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77a3b879b6e4182ec9f8bc22fba86f349aae9acc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.137Z",
+      "fileSize": 25756,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-treehouse-approach-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a0873ec3041679ccb8b2552c29b68de23ff2a4d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.246Z",
+      "fileSize": 47456,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-holding-acorns-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f0f89e174f0b4f54a7c3dc033a173be46fd4fce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.650Z",
+      "fileSize": 38548,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-peeking-with-acorn-trove-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2aa78d3d0ec1a3b1e1703b359cb36b4d90701e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.683Z",
+      "fileSize": 27574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-forest-branches-play-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e4feb95b0e5d6607987854cc372b5794524c8d5c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:04.714Z",
+      "fileSize": 95262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-baseball-game-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6492f272a0604c43a41aacd72f96726b04719c2f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.153Z",
+      "fileSize": 34600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-detective-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a17a06bd10b55dbcef9922dc80589cae40720e4e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.157Z",
+      "fileSize": 29378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-picnic-teatime-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b29b0fde3b9b4d0b49d52a6d7eef04bab8dcc60e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.171Z",
+      "fileSize": 38906,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-racing-cars-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/605c6fc8fc550c2992bb0006078847884fe32648-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.616Z",
+      "fileSize": 29542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-jump-rope-play-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2991e2fbfab0d491ac81ccdf9e11f4ae1750ff7e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.639Z",
+      "fileSize": 28278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-bbq-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d05045d597447d650bc728df4e4a2398f5c8bd4f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:05.743Z",
+      "fileSize": 56798,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/fox-birthday-party-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a999dcdd127bb63163bc30ea00258526f9144ce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.154Z",
+      "fileSize": 42100,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-teacher-classroom-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a72948fec71fdd96642133e2eb652f1795dc66ee-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.187Z",
+      "fileSize": 39558,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-tea-party-top-hats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d8affea3786dce4db53f3f6b5bee69f88798ded8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.187Z",
+      "fileSize": 45438,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/super-squirrel-cape-and-mask-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b32d11e7d85c128cb137da4ba57d94e291d87ed6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.579Z",
+      "fileSize": 36250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-building-blocks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15f067abe0fb2bc1eb524d9401b02acd080a4c6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.593Z",
+      "fileSize": 26138,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/hamsters-camping-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1686d4e134a07d25112146839e275bf51b4682a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:06.606Z",
+      "fileSize": 37300,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-gathering-nuts-fall-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2d363cbf596a778a6b5204c0d16fe60b514199c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.026Z",
+      "fileSize": 40372,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-gathering-acorns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f52a17330cba0bdd5e8fe6664be36fe61345c82d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.069Z",
+      "fileSize": 63810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-treehouse-activity-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e3d3622f43376c8645039a653ec0f7818cee6272-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.069Z",
+      "fileSize": 66294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-tree-branch-interaction-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd27dc659cc3fd099598cf77daa83bfd40790a65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.488Z",
+      "fileSize": 54966,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-collecting-pinecones-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/96972e968264a5b5dff7d27450bc6113536fbfa5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.490Z",
+      "fileSize": 78160,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-on-tree-branches-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1fb8be8c0c4f0c32379b9afc400081a9754d71f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:07.565Z",
+      "fileSize": 55548,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-eating-nuts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e7925819f3b69733fe0e0c69830e7e0de3fce69d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.013Z",
+      "fileSize": 82666,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-playing-oak-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2302337ec595d526ab325a6143379abd7167e9f3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.013Z",
+      "fileSize": 81196,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-drinking-and-playing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfa0dbf4b8820af23271b4a649dd00f0f0edd62f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.414Z",
+      "fileSize": 52486,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-cozy-tree-nest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ae111c5bec6f477109bd32b13b24e4a7c976d22a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.460Z",
+      "fileSize": 42924,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-eating-in-forest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc5a18559f2c8203f162e7efcdd62678ecbca5d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.493Z",
+      "fileSize": 42944,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrels-night-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/574c28628ca4fdb41bf97d43d9b0ad46401aa35a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.923Z",
+      "fileSize": 36660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/chipmunk-floral-meadow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1e277b2354a180eedc275d04495662b8d07ef910-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.944Z",
+      "fileSize": 39258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/winter-birds-and-squirrels-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdfb099d9185f7c92989ecf5771639407e25fdba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:08.996Z",
+      "fileSize": 68846,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/fox-squirrel-sitting-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ca3f3b7e93a9dfbcaed9d50215e57b016f31429-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:09.371Z",
+      "fileSize": 27320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/southern-squirrel-in-mid-glide-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/43c427dfa10c7c738b5d93184049b9371c5ec636-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:09.417Z",
+      "fileSize": 24150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-nut-holding-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1a1c85443566d02798d46f98b6cf1d2f7623087-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:09.423Z",
+      "fileSize": 32650,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-with-bushy-tail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c85e0ffcbc0a722f718512132ca5c3cca5976a9e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:09.820Z",
+      "fileSize": 24190,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/thirteen-lined-squirrel-wildlife-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95b0579031c84a072938e3889f6b9dec6aa920f0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:09.870Z",
+      "fileSize": 36562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/prairie-dog-standing-posture-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f4903c9849b0935e8735a981e5c958d8cf958850-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.283Z",
+      "fileSize": 20406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/douglas-squirrel-on-pinecone-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4bb8e6440e2306e3b08670bdaecf926f7fbbd4a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.319Z",
+      "fileSize": 29646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/western-squirrel-bushy-tail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ead23026dcaa792dc4b139e3109a325a5d11dab9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.359Z",
+      "fileSize": 31072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-detailed-gliding-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed6d6b7e2838675ea1d65272c645e0a77b7114d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.747Z",
+      "fileSize": 40714,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/rock-squirrel-intricate-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f24a7ba384636f2ffdbea4d584b79cff39e7fcd5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.853Z",
+      "fileSize": 49820,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-textured-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e82fffa7861b15927f3b6a8bf512cda48dce1358-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:10.866Z",
+      "fileSize": 63888,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-jumping-on-a-tree-branch-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1b4152844888ab7157eeb06d8fb840fbf80a4c24-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:11.236Z",
+      "fileSize": 9978,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-upright-nature-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea11329f5ac258fb184fab3b6fa2b951a383691a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:11.315Z",
+      "fileSize": 37818,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/squirrel-coloring-page/squirrel-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f061fee6eb52253114bf8f954eb2692979b1aa28-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-22T06:24:11.523Z",
+      "fileSize": 134046,
       "dimensions": "1312x656"
     }
   }
