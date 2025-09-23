@@ -80,6 +80,7 @@
       "name" $category
       "item" (dict
         "@type" "CollectionPage"
+        "@id" (printf "%s/%s#collectionpage" site.BaseURL $categorySlug)
         "name" $category
         "url" (printf "%s/%s" site.BaseURL $categorySlug)
         "description" (printf "%s coloring pages category" $category)
