@@ -1,5 +1,5 @@
 ---
-title: Vehicles
+title: Vechicles
 h1: Vehicles Coloring Pages
 showBreadcrumbs: true
 description: >-

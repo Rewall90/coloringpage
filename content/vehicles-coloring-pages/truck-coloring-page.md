@@ -1,11 +1,11 @@
 ---
 title: Truck Coloring Page
-date: "2025-09-19T08:27:51.335Z"
+date: "2025-09-20T08:27:51.335Z"
 image_width: 1312
 image_height: 656
 image_alt: truck-coloring-page
 categories:
-  - Vehicles
+  - Vechicles
 featured: false
 draft: false
 showHero: true
