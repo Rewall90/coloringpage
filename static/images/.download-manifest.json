@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-26T10:36:54.175Z",
+  "lastUpdate": "2025-09-27T09:35:04.750Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -10711,6 +10711,426 @@
       "downloadedAt": "2025-09-26T10:36:54.063Z",
       "fileSize": 9702,
       "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-hot-dog-spray-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8e7aa9a35be99081572996ff0b8838cf6908ab9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.311Z",
+      "fileSize": 44830,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-driving-school-bus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cc70a15accb17edb1f3d810a988d44d509e723ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.331Z",
+      "fileSize": 26336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-4th-of-july-bbq-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0c5a4e52fddc453dd463d4cbead5c194db7d9e4b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.391Z",
+      "fileSize": 43230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/fox-football-player-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bfa9b9b530c44b5edaa0c53b6557e0ead4ad0b30-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.797Z",
+      "fileSize": 24384,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-drive-in-theater-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a0fc602a9ef8519f70a09bc516a7187bea23635-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.824Z",
+      "fileSize": 44140,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/super-elephant-halloween-candy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cbde3d51af763922eb617bb814e3fda6cc07671f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:54.907Z",
+      "fileSize": 43848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/fox-driving-truck-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1bd905b7dd25d31908f14d59f589558390283a5b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.372Z",
+      "fileSize": 40526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-baker-donuts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/be1262f75fa8fc5f6d5a72efa96a43add262c160-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.385Z",
+      "fileSize": 54488,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-thanksgiving-feast-table-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/17dbd5ce219d30359b6038b7e0cf53a3fc0cfa82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.397Z",
+      "fileSize": 30274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-fair-ring-toss-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da7f397663547dd8f4fd424a5d8ac0941f3460b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.856Z",
+      "fileSize": 55542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-skateboarding-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b938db0ba35ed541a2e76dad77c73459671a7451-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.867Z",
+      "fileSize": 59488,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-fresh-lemonade-stall-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed922aef30344ba16137d36fdbec092d5e4da5b4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:55.891Z",
+      "fileSize": 50836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-eating-pizza-delight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cc23dc243a1ca480917eecbe3f6612839a6ed594-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.308Z",
+      "fileSize": 40230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-uncle-sam-patriotic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40d05bdf253f7e9fdd7260acb743c5d3d513b155-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.327Z",
+      "fileSize": 53774,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-rodeo-bull-ride-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/12d0caf75a225eac2fb5f55870ad4c6d4959fcca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.431Z",
+      "fileSize": 69034,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-camping-smores-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/569e541864158d9329d443b82585fabcd56c9b61-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.826Z",
+      "fileSize": 40760,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-surfing-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b60917895c8d993e73e134cd1e8455eb026b1608-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.875Z",
+      "fileSize": 47902,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-garage-sale-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/11f9bfd139fca791cb24faf87dee7582efbee5b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:56.903Z",
+      "fileSize": 64934,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-jumping-pool-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3852aea86c126e9b53682d2f66336618922a8862-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.309Z",
+      "fileSize": 39366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-driving-tiny-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5d877f450c9566fa0679fb68bc07e68cdd208bc1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.338Z",
+      "fileSize": 53996,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/yellowstone-animal-camping-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1030099b6e6f6e5a9d0a6ff2c881527bfc3fa71d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.375Z",
+      "fileSize": 37080,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/fox-library-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c856ef29710d90d31a4a203f1cb6b437b9473cb3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.801Z",
+      "fileSize": 72770,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-fox-picnic-city-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40b42f12a75ab3340e8392e045e7f999aa35d9a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.859Z",
+      "fileSize": 42664,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-waterskiing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/000143cc8533d596b491fe7838669219c3fc1df9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:57.862Z",
+      "fileSize": 35630,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/forest-animals-orchestra-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c91ea93459fedaeb6fcb7af24a8fe77c14836967-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.305Z",
+      "fileSize": 63548,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-surfing-hawaiian-shirt-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/59df9b3a0d85623d8d6b010d121dde9f0390dfb6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.335Z",
+      "fileSize": 58748,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-fox-market-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b3d1feb09508a49b42d89eb6bdee8a6d51dbc2c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.493Z",
+      "fileSize": 70926,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-leading-animal-group-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cf80f13011bd01be977298fff09eb69321e2ba08-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.934Z",
+      "fileSize": 43380,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-family-rafting-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aa9417aeaef2053eb885a6486e5b275d3b296227-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.955Z",
+      "fileSize": 63812,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-selling-jumbo-hot-dogs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/169bb6a337afb718471eef509c1f0beaa6ff83f0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:58.997Z",
+      "fileSize": 94918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-family-drive-thru-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/50408e5d5be5708510337072db6d9be509ace779-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.409Z",
+      "fileSize": 47332,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-safari-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2472f4e8198a1fc3dc14753c14d94b788d16536-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.479Z",
+      "fileSize": 42132,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-gardener-playground-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e697cc11183ed384c1e874c4bbc25cee229465e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.492Z",
+      "fileSize": 34154,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-ranger-scenic-exploration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ab5bfce2419d860cb2cd7db8dbda1f57d6b7fb9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.892Z",
+      "fileSize": 58988,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-with-farm-animals-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7821c78c6fdac066710c06a7745c32ae05ae014f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.940Z",
+      "fileSize": 63290,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-underwater-diving-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2fa96e0d264635c0a2df933fc49a4d734ba47cc6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:34:59.959Z",
+      "fileSize": 44178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-lighthouse-sailing-ships-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1ab4c4ce3c27e5eadc527349bab5d2fe7b9cbfa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.391Z",
+      "fileSize": 63134,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-amusement-park-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04c2ceacca501c50ad99fa4c2c5bbc3aa58aba11-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.447Z",
+      "fileSize": 59816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-splashing-in-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/234694253670f022b81b7127468ac96a584c9a20-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.487Z",
+      "fileSize": 78992,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-playful-jungle-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdc2bc9e862ac08895a09ca7a081c8211c91d607-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.971Z",
+      "fileSize": 61164,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-under-fruit-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95b42526d2282ea062e59165273c07623d2894c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.979Z",
+      "fileSize": 62262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-water-lilies-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/59e5056eeb2e4e48857515ff8136a18d237d5507-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:00.991Z",
+      "fileSize": 34158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-slide-with-meerkats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f1da1b03390b1f58a0c90c835ec758cdba7ce9e9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:01.383Z",
+      "fileSize": 49432,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce53db81c9bf7d7ed969625de6be565db9a5460e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:01.424Z",
+      "fileSize": 71382,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/animals-sunshine-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/52134f9411cb349f16ec17143e594eface7048e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:01.439Z",
+      "fileSize": 44452,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-monkey-garden-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01bd18fc303a6da72fed1946f5fa2a3c7e544517-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:01.962Z",
+      "fileSize": 90714,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-boat-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b27cb86a60c4cf4ac4bada53410d441428637716-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:01.998Z",
+      "fileSize": 68274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/jungle-animals-among-trees-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80f086fd70d308da81f8d24cadb350c9382575a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:02.295Z",
+      "fileSize": 54566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-forest-wildlife-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/30d1f48de49337f7c81a569e05573a91c2b97c39-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:02.707Z",
+      "fileSize": 55800,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/safari-night-animals-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/13ebbfc0ba09ff1ff2563d7e7038b468b64ddc0a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:02.756Z",
+      "fileSize": 32496,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-cave-crystals-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f753c7deacdce078144a19ba247e1a22fdafa23f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:02.807Z",
+      "fileSize": 47868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/fox-elephant-friends-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4aadf0587e51a2dc3ed8c7dcc8d2e50704e53120-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:03.208Z",
+      "fileSize": 40710,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-hippos-wading-pool-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/779a078a382de124b633dd15b1b1f0d48271bdd2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:03.274Z",
+      "fileSize": 58962,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-whimsical-forest-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8514a45513f98ce70ca9d17b8b8bacdd8044ebad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:03.287Z",
+      "fileSize": 31436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/animals-at-watering-hole-fountain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2cf883996180952d2dd337d8717bd6a75885f834-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:03.756Z",
+      "fileSize": 49806,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-jungle-gathering-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b3a8a53b0ae9e5cb210175f33796e69882a42dde-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:03.803Z",
+      "fileSize": 71016,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-in-jungle-ruins-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4386d58c898354894e2b7cc1e7962983dc35cc32-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:04.038Z",
+      "fileSize": 77418,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephants-playing-in-water-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdc2bc9e862ac08895a09ca7a081c8211c91d607-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:04.422Z",
+      "fileSize": 16422,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/animal-parade-flower-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/adab1ef534063df55e2af3b6db72fb0b0ebc2283-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:04.560Z",
+      "fileSize": 48158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/elephant-coloring-page/elephant-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af77bb137ee85783642fa6412f1ed5cddb1391c9-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-27T09:35:04.563Z",
+      "fileSize": 88370,
+      "dimensions": "1312x656"
     }
   }
 }
