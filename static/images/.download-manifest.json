@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-27T09:35:04.750Z",
+  "lastUpdate": "2025-09-28T08:52:59.229Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -11130,6 +11130,461 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-09-27T09:35:04.563Z",
       "fileSize": 88370,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/luxury-yacht-line-drawing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c451b80fafd8eb6fb8f20ddc362260d70cf87014-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:48.798Z",
+      "fileSize": 19148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/speedboat-skimming-water-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee8ee21d0f5546eb1e7679ea21554969b18f6306-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:48.799Z",
+      "fileSize": 24038,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailboat-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/52be361264acfdcbdccd221489f08c7a5094ab44-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:48.799Z",
+      "fileSize": 16442,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/motorboat-outline-with-driver-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/502dcddab7b811fa46b9d97d5433d9249deee335-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.196Z",
+      "fileSize": 15894,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/pontoon-boat-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1ac9d4ee80cac1eb9f2c91856583bfd4b2766353-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.217Z",
+      "fileSize": 31652,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-boat-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a72ed44ddf56b4efc38350fb7ec39e3f57c94b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.264Z",
+      "fileSize": 48392,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/canoe-wood-with-paddles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33a1c97d8baa69c0308b2980265f087a799c1205-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.668Z",
+      "fileSize": 23490,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/kayak-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/81a1a13b678005dbae8e1f02b284cad8e5efabb8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.685Z",
+      "fileSize": 16000,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/jet-ski-on-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dea6cc6baaf4a65f3d8adc9894c74e6bc9bfa9e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:49.701Z",
+      "fileSize": 28386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/catamaran-front-view-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/071892882be2442b783cedf99e099a4580679aef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.081Z",
+      "fileSize": 22738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/coast-guard-cutter-sailing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a91cf14bc9562a799c6686f4104e9ac609e7929c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.096Z",
+      "fileSize": 32844,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/tugboat-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1a2776de657fa3dd6274390e1c40f772fd1415af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.149Z",
+      "fileSize": 39176,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/submarine-ocean-vessel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/70094f6c4517f1df49b08feda351c2d2a5cc3e99-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.565Z",
+      "fileSize": 20716,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/ferry-with-cars-nautical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9d56b62139177396bfb4e9114aa0c4f5b1ec145-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.586Z",
+      "fileSize": 34846,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/cruise-ship-detailed-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a10cf766e0ed50a589773bceb9db58f6490df2a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:50.605Z",
+      "fileSize": 37616,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/bass-boat-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca05b0f936b544cd438b50698a4501d90e7d2637-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.017Z",
+      "fileSize": 29400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/dinghy-boat-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e69630941767ac3fc5a4d0f6d2ec8de43cd62f98-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.020Z",
+      "fileSize": 18732,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/houseboat-floating-on-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca942606bb76f24365bdd600e48d6dec7b305bc7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.021Z",
+      "fileSize": 29312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/hydrofoil-gliding-over-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5f3517517508476f2510da70c654a9ae9a1d2164-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.428Z",
+      "fileSize": 26210,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/riverboat-detailed-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/36d35dff2ab65dc14bafb1b8f7d7dff230fb5d10-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.429Z",
+      "fileSize": 28840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/pirate-ship-adventure-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fa10bc5fccb817afa7dedbc08e25c55660f24b71-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.443Z",
+      "fileSize": 52646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/ship-stormy-sea-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b64a909ca679be2a289d9b519088e8c3c6986859-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.860Z",
+      "fileSize": 73990,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/pirate-port-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7288823e27b53cbffbe3b6dd6a41971265968f34-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.884Z",
+      "fileSize": 99712,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/pirate-treasure-island-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/93042479babfbf87ccfd04cdc880c3c5ba177d8b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:51.885Z",
+      "fileSize": 66558,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/tropical-paradise-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/068ef1c72dce59824f07da3a2a9a10023f32be61-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.315Z",
+      "fileSize": 61912,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/pirate-ship-arctic-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cb36368e12e73a171400478523f2f5b0f0aff1f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.416Z",
+      "fileSize": 99820,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailing-race-finish-line-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b8ddd85eba1f9f192cbca96212f401b6b24aaf48-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.454Z",
+      "fileSize": 43904,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailing-lesson-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/35c1f7dc40f8eac4140464bedf14d06c10af34d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.847Z",
+      "fileSize": 40414,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailboat-sunrise-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5e24034acda4091057f02e5c2b24333643a721d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.856Z",
+      "fileSize": 27760,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/dawn-fishing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5a69a40a2c49cca3ff0053b57bbcc84253363f27-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:52.985Z",
+      "fileSize": 45336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/ice-fishing-boat-seals-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31233d08970d60a056f7bdfc08b7fadb69b0b3d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:53.406Z",
+      "fileSize": 45394,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/reef-fishing-snorkeling-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6d35a2864a790446be21de959155bed16bf7c4e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:53.408Z",
+      "fileSize": 62254,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-boat-joyful-capture-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b9f3dad82eab96f367f1d3ea5e266ac1b062c992-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:53.441Z",
+      "fileSize": 47900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/lake-fishing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7fcce423367d4ebf015a923e1974a2c0c78c051-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:53.833Z",
+      "fileSize": 26958,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-boat-successful-catch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9da191ea7e45c66293794a6acd50fc95073ce594-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:53.897Z",
+      "fileSize": 59200,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/salmon-fishing-boat-nature-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bae1740a94fe762454d07d7fcd5cab4f8af6a83f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:54.050Z",
+      "fileSize": 83430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/seagulls-donut-ocean-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f7d24c6d37c72e02ad7342784d36ba5dcb113886-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:54.458Z",
+      "fileSize": 37386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-sunset-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb6a6fb75befe407f04933187e469d9a66ab905a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:54.514Z",
+      "fileSize": 47014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-boat-stormy-seas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9786dfe8f293f106c17a15974e15eebc12d377e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:54.570Z",
+      "fileSize": 73200,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/shoe-boat-with-fish-flag-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/130edffe46b5f0188e4b7a69e7cb3a1e96bc8230-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.023Z",
+      "fileSize": 36840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/captain-bear-sailing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7668bc45548ae9d258ad6812d337dd5d6e0e680-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.046Z",
+      "fileSize": 20444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/underwater-taco-party-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/681ae2141596095a3a0f6955b03d84d62637f1ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.093Z",
+      "fileSize": 56658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailing-ship-with-fish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f4c2a8ee4c016390d2a5aec4496b3d484a81e969-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.469Z",
+      "fileSize": 37168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/musical-boat-fish-band-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/949c72c538a0e9dcd0767a028c44f862244efa53-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.523Z",
+      "fileSize": 40498,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fox-boat-basketball-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77617948854125e06ff0170b14c6f15abf822c0a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:55.596Z",
+      "fileSize": 54682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/sailboat-geometric-underwater-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/439e939e0782a8ecf43cc1e742c76c437f9fa26b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.013Z",
+      "fileSize": 37490,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/crown-ship-with-fish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ed148428ef1c56478288609a8b5316ccba7e592-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.020Z",
+      "fileSize": 48646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/cupcake-boat-party-sharks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f0bf3a3417d5af3331d3a58f37de07e0d9997ebb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.041Z",
+      "fileSize": 51002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/floral-ship-with-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/931ea00a711bda6d24f98682faa659f4020e5985-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.458Z",
+      "fileSize": 81610,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/whimsical-sailboat-bubbles-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a8fe9ede07907bd0020d924fa70f5aa5c38e3c45-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.468Z",
+      "fileSize": 29352,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/whimsical-ship-with-pirates-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b13c3eef39736c562fe8598491caff03b82b5031-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.477Z",
+      "fileSize": 67912,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/owl-and-fish-abc-boat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31af222bff1e2d52f6b30f71fe0ab8e085e67db1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.870Z",
+      "fileSize": 41528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/popcorn-ship-with-film-reels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8776c7b1edd3341f5f839a38666d259540ef4955-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.894Z",
+      "fileSize": 53768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/clock-boat-ocean-fantasy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cba30b7d420ca7f86c8ce5d2ba291e4b1b659902-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:56.989Z",
+      "fileSize": 39094,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/landing-craft-birds-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/98ae1bb0f20fd6d4a121bc30733b06b485958dbe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.406Z",
+      "fileSize": 41896,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/navy-destroyer-sea-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/deec0fe760dc43e551b75fae5379da369b5bb704-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.423Z",
+      "fileSize": 35886,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/frogs-sailing-boat-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfb488f775198f0ac3b469bad74c82d8c96ccb21-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.446Z",
+      "fileSize": 60156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/military-submarine-dolphins-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c15fbf1dd6aabddb1d46097f44fe1f3815d4e8f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.876Z",
+      "fileSize": 24282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/coast-guard-rescue-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aa478795519d186a8e881ac7b0cd8df13dd0ad0c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.877Z",
+      "fileSize": 48532,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/aircraft-carrier-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7dffcd92d812e879bf777556c07632f9e1056dfe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:57.905Z",
+      "fileSize": 24810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/icebreaker-ship-arctic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/41dd9ac7a5b410d4381b14b1eb7269a687bced4a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:58.329Z",
+      "fileSize": 52592,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/naval-exercise-ships-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/085c89e5a0f60ae7ebd8c3470941f5df553995cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:58.357Z",
+      "fileSize": 31494,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/missile-cruiser-detailed-ship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f63ae5a04b9c47c59a36530f993569c03b4f818-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:58.372Z",
+      "fileSize": 37834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/fishing-boat-line-drawing-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a72ed44ddf56b4efc38350fb7ec39e3f57c94b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:58.732Z",
+      "fileSize": 13020,
+      "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/boat-coloring-page/boat-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e517ffcf49a9c525b9306be648368b5aff307eb7-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-28T08:52:58.966Z",
+      "fileSize": 131762,
       "dimensions": "1312x656"
     }
   }
