@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-09-28T08:52:59.229Z",
+  "lastUpdate": "2025-09-29T10:06:06.946Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -11586,6 +11586,370 @@
       "downloadedAt": "2025-09-28T08:52:58.966Z",
       "fileSize": 131762,
       "dimensions": "1312x656"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-digging-soil-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5cd0e82d216769a556ad987cb04329cfeeb509e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:57.470Z",
+      "fileSize": 40884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/mini-excavator-digging-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb1d971a24aa8ed1cb54616134a1fb6ef1646053-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:57.901Z",
+      "fileSize": 38000,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1e9d51752c3d90e2f608273fe2ce8f89fa70435-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:57.994Z",
+      "fileSize": 37840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-dump-truck-construction-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5653c0869050f25f54046cdbe0c320f8cca5a77-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:58.031Z",
+      "fileSize": 22398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/logging-excavator-lifting-logs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4d0f3bdcb6fc5468ca4176bede1648ad6c725f90-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:58.442Z",
+      "fileSize": 37686,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-demolition-attachment-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd0d99c534792e94e1df288853dae7d342b01518-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:58.543Z",
+      "fileSize": 37090,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/long-reach-excavator-extended-arm-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/926153e356580569d9f29790152605c293d1d030-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:59.112Z",
+      "fileSize": 26542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-operator-waving-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc2cf1b686a75fb4bd98e6d5e9a5e51cd1ff8d8d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:59.586Z",
+      "fileSize": 33816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-road-construction-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/116132082fc89011e27dca32121f9ff3fc255f56-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:59.638Z",
+      "fileSize": 32328,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/snow-excavator-plowing-snow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b4f1e0453e4a96ec01df920b839b22e7ee8c7223-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:05:59.660Z",
+      "fileSize": 36134,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-construction-site-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6bbc310957f537ccc9e2c0afe26174c9b5c5cc9c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.109Z",
+      "fileSize": 30784,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-house-builder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6cec540d1e2f1a795961d6b226420f628eff366f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.110Z",
+      "fileSize": 35208,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-pool-digging-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25cf41c176a0d978b110f879505c9e632af1cc5e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.124Z",
+      "fileSize": 41828,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-farm-helper-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c5d4fee08596c6ae769c4ff0fd668a4b52a405f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.565Z",
+      "fileSize": 47236,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-digging-site-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e2d43cba2e4d6257037cee4af3d53d371c79dc4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.582Z",
+      "fileSize": 59388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-storm-cleanup-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/496fdca94727b237e2242011499c8e4c7039c1e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.590Z",
+      "fileSize": 42366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-river-cleanup-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/806cd2020f7e7a244fd56c106dca4fd1cb32fe5e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:00.978Z",
+      "fileSize": 47894,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-building-playground-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/937589ffe4d8f087505ed1fd5e0c256b9fbb2267-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:01.016Z",
+      "fileSize": 35178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-recycling-helper-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6cf45d06c3e2ba8d45d6222915ef64e38a80fb0d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:01.065Z",
+      "fileSize": 52134,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-parking-lot-builder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9a69fe64d330fb2a74c44e1cc659cdddd7c2480e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:01.493Z",
+      "fileSize": 35402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-tree-planter-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/755b772df8c8549bc256cbaf16bf9675c8c30a29-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:01.542Z",
+      "fileSize": 35454,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-bridge-building-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77a5093ec2e81cf0f74213aff341bf980922d9f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:01.605Z",
+      "fileSize": 38748,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-school-helper-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5098b1d2ccb29dc3ede33a52e0ea41a93f2d751-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.043Z",
+      "fileSize": 34354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-beach-protector-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bcbd4384cc1f776f82fdfb72a59bb0de44d2a8e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.066Z",
+      "fileSize": 27960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-zoo-helper-animals-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/289f525f3fadd1c4df8433d59618f7a7a31fafde-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.074Z",
+      "fileSize": 41674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-sports-field-builder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/daf0102c46a50ecfe58cbccd7d233f14a611a3c5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.537Z",
+      "fileSize": 37654,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/emergency-helper-excavator-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/388948ef63cf018d028cb1086595ef833ea53eeb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.610Z",
+      "fileSize": 55218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-garden-helper-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/971d98ea96468681e22eef2865a84cdef6224bdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:02.668Z",
+      "fileSize": 66398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-campground-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d0003d66cd63d0ed77fc787795dcbf449b0d978a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.043Z",
+      "fileSize": 39590,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-baseball-catcher-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3cf9bd356bac0f2e7c245e56eb4ff0c90e1a6fa4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.141Z",
+      "fileSize": 28384,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-community-gardener-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74642650e52b0821572372d1e56f73db5363b0fe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.157Z",
+      "fileSize": 50052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-flipping-burgers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6694e4ffbad982c105a1b6250e36ead4eff9c3f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.609Z",
+      "fileSize": 41166,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/super-excavator-saving-cat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0846bdf9406d71017a1fb090e20fe5874a312560-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.613Z",
+      "fileSize": 54178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-donut-cowboy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ec5a0fb044bc4e72c447887ea9c7d076fa67ddf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:03.637Z",
+      "fileSize": 33406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-birthday-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b9d6083b85d5dd22a2077a6bf759a40c172a98a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.097Z",
+      "fileSize": 32802,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/professor-digger-blackboard-lesson-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6132a7c0b552fed3e3ce87fa721fd76725b85735-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.120Z",
+      "fileSize": 35846,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-splashing-puddle-boots-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d4b2beb67d9d317cc2eb4d9aac692b98b5f9ee47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.233Z",
+      "fileSize": 50290,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-snowman-builder-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7fe0cc4a36e8e9b8de8e3d7549abccdbba31c592-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.694Z",
+      "fileSize": 36562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/pirate-digger-excavator-treasure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/518f49d4e11f17b9e74d70f911c70e956cd1522e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.708Z",
+      "fileSize": 38464,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-music-conductor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a8bb6b07a320aee49318842cafefae10b87fb9c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:04.726Z",
+      "fileSize": 48390,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-fire-fighting-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77402d8dca49dee644e909499a0107a8a32e7cce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.135Z",
+      "fileSize": 29976,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-tooth-doctor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3fc3aebf0485daf829016c2b1f594f86de7c029d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.142Z",
+      "fileSize": 37562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-magic-rabbit-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63a7946bdeb850f1ccdeb858eceb8924a24c78b4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.184Z",
+      "fileSize": 28216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-traffic-officer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d9de3e511c3c7bce3ebc3ab395bc0d81d7c204d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.582Z",
+      "fileSize": 37176,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/funny-farmer-cow-excavator-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22d241cdd439eb640a1bf41302d0e736309c4885-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.677Z",
+      "fileSize": 30790,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-with-football-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69ca6c4a07d268faa00509dd224a30a9b5dbd24e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:05.845Z",
+      "fileSize": 32646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-pool-swimmer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/047ee8687fa6ae8fb17957a9245f71924fd4c7f7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.229Z",
+      "fileSize": 30788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/artist-excavator-painting-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5f91da5a18213b1ca144d8951f8309cc78f41d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.265Z",
+      "fileSize": 35670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/space-explorer-excavator-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd00c2aa1faf5bc4aba188ba7b979ec707f6f453-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.300Z",
+      "fileSize": 28952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfbe35fac52b7030be13b290c0ff77a8c95f5602-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.766Z",
+      "fileSize": 79362,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/line-drawing-of-a-demolition-excavator-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd0d99c534792e94e1df288853dae7d342b01518-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.783Z",
+      "fileSize": 9776,
+      "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/excavator-coloring-page/excavator-circus-performer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ace355f4c5544afbdf08b8c1c8b8bffe03b3e65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-09-29T10:06:06.787Z",
+      "fileSize": 32098,
+      "dimensions": "750x1000"
     }
   }
 }
