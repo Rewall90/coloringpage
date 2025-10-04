@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-03T04:58:17.326Z",
+  "lastUpdate": "2025-10-04T12:40:08.228Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -13657,6 +13657,447 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-03T04:58:17.055Z",
       "fileSize": 232756,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-woodworking-racecar-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e27b94d9f3aef02307eef4e391e5268fbb5efd42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:57.297Z",
+      "fileSize": 23072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elves-family-holding-hands-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/895f52f46764b2d260ba4e370904f80a3d70bb86-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:57.303Z",
+      "fileSize": 27702,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-pushing-toy-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc4be0d3b64236669bfe9c7f94905cb4b52e6fde-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:57.772Z",
+      "fileSize": 20978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elves-building-racecar-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc5969a73c2e8656694344663a839b60676e3cf9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:57.775Z",
+      "fileSize": 29858,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-elf-toy-workshop-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1713d1eb9946e88bf34884b20a56f16d32e12dfc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:57.928Z",
+      "fileSize": 37978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elves-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ad3af9f976414795414cd4334fa6a92b8a0461f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.407Z",
+      "fileSize": 40738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-painting-toy-train-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a8bebfd399644fe7c0b2a983d9dbb93ae8e510a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.432Z",
+      "fileSize": 31718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-wrapping-gifts-cottage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1ae593e40aa718009393018abc3131f38cb7df2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.518Z",
+      "fileSize": 27984,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-building-toy-boat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c512d6b55edea963eba4ec213182278c31452b94-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.953Z",
+      "fileSize": 36978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/elf-family-reading-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f62c1213adb76b8d69d506c3120b1528d7138c1b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.962Z",
+      "fileSize": 27220,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-christmas-tree-decorating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/94f97fdf8c24caf312eb3d88df65ef7f4cb34640-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:58.967Z",
+      "fileSize": 33934,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-dinner-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/71e86227058d12abfa704c070978cd235a18b5fc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:59.408Z",
+      "fileSize": 32708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-baking-cookies-activity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1ababa328b2ac2daf75e1d4f2398de3b0af34e84-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:59.479Z",
+      "fileSize": 23690,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/father-son-cookie-decorating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b5e427c9b9d033b50e50a774e291731d4bc5ff91-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:59.928Z",
+      "fileSize": 37042,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-christmas-dinner-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e4084207696c1dd6bbcc72d68a08905b8767538-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:59.935Z",
+      "fileSize": 30294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-christmas-tree-decoration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9029aa597a75f317364fbc3a976ff48f0b75f92-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:39:59.961Z",
+      "fileSize": 30896,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/kids-cookie-decorating-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/57ee1ca08b587ade1d056b735c680b6bd2a6fd9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.413Z",
+      "fileSize": 31282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-prayer-thanksgiving-dinner-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a7daf131ae9b1cc5286461116bf19bd23ee891f0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.417Z",
+      "fileSize": 33370,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/family-gift-opening-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/519fdc63f81136e43cf648058c909f44e29c0a47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.417Z",
+      "fileSize": 33302,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-fireplace-stockings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5696b902df55d45fec27345dd138000f870593d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.831Z",
+      "fileSize": 19946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-wrapping-gift-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b7e09a2fe147cf69fd50323990cc1049c350193-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.870Z",
+      "fileSize": 34348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-opening-gift-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/373f1754323881f0c15b343fae503d93bafaf617-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:00.902Z",
+      "fileSize": 31910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-teddy-bear-surprise-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/47e97714ecfeca5e157d28f6d1aad824ee50b0ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.342Z",
+      "fileSize": 27264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/children-wrapping-gift-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e5dbcf45cf889636fc3b2d84f5fffaa0316b576-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.378Z",
+      "fileSize": 31966,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/festive-stockings-on-mantle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33df62a581c0effaf040a8cbe77e6c210e1f3c42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.439Z",
+      "fileSize": 29060,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-with-large-gift-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e7f87f515350dae03fc4d914462a64cba9b87829-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.943Z",
+      "fileSize": 28130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-stocking-filled-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/071c91547d4023fe19bbe502d3c020d2784c1471-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.960Z",
+      "fileSize": 24388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-teddy-bear-play-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d7678466cb439780f2a783550f8a404a195cfb5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:01.975Z",
+      "fileSize": 32414,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-christmas-gift-wrapping-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4372a33b58e10bf179805f56806b6d686157ed75-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:02.468Z",
+      "fileSize": 22396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-joyful-gift-holding-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/72b38c38ad3ed9a591c181fd1eb5213002a33610-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:02.479Z",
+      "fileSize": 30344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-smiling-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bcad27ff2f18fd6379580e43661656985c432ea5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:02.521Z",
+      "fileSize": 21714,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-claus-jolly-smile-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/85bfd5f548bd0135224c67883adee65b1d15f20d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:02.937Z",
+      "fileSize": 27272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-claus-carrying-toys-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/13d282d2fae228ebc617125e91c681d117ad9ef2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:02.983Z",
+      "fileSize": 29334,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-reindeer-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/72db03258806051d853b8420724eebfa71830813-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.015Z",
+      "fileSize": 32212,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-riding-reindeer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9499e5e282d9cd50e9d2191d278f68293c3578e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.447Z",
+      "fileSize": 27166,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-delivering-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f745a49bd943f24a770105c09b38b67d95c881df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.498Z",
+      "fileSize": 29528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-toy-sack-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d3ca9d410dc563fa5f9f11b0073b38c1c8d4378-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.550Z",
+      "fileSize": 25270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/candy-cane-with-bow-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dad5b2bae3b300cafd06383148bd48f73d972e31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.984Z",
+      "fileSize": 19314,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-reindeer-holiday-greeting-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef6754ed103f2c47cabe8409971654e9b035b8c5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:03.985Z",
+      "fileSize": 30674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-claus-finger-on-lips-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63cbddbb835be26ef47998d2b1c28bdbaaf5de84-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.015Z",
+      "fileSize": 32394,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/holiday-bell-with-bow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da5da766f3c879b87b03b72804fff9fa51e00214-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.449Z",
+      "fileSize": 23176,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/smiling-star-santa-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3a8157f9f9fcaf1fb27929f538d1e59bc4aa044c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.521Z",
+      "fileSize": 17630,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-wreath-bow-ornaments-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9113a546508910d5beea9542e3c19c94e7d473f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.521Z",
+      "fileSize": 34362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/gingerbread-man-happy-wave-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/24618d1a58630fee5fe8693454a93cfad1ef90bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.967Z",
+      "fileSize": 20102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/star-and-gifts-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1db33c1830b6bbd71463858e6287631d14315883-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:04.968Z",
+      "fileSize": 12468,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/festive-holiday-treats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b86a981e46e0a15ed193cda1b3eb4899d169742c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.043Z",
+      "fileSize": 18238,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-tree-decorations-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f15997dc086288f8fdd1e889859dc12006d7ab95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.474Z",
+      "fileSize": 15332,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-tree-simple-decorations-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/68641744aebf19ad0284a192dbb42b8f0d55d358-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.491Z",
+      "fileSize": 15788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/child-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/46ddeb61eedfc01ceca8a670686a02efa189ec0c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.513Z",
+      "fileSize": 24734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-tree-presents-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9ac8577aafbecd83ef58f1a72fc6dd7766edfe3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.937Z",
+      "fileSize": 15670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-tree-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9522994a6edef624407f8b1823a51fba63c2f8f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.970Z",
+      "fileSize": 17278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/kids-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/88d63aa8d164149ab5101d21a567eb23da7de82f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:05.999Z",
+      "fileSize": 27428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/reindeer-cute-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6085eef03b031e377f77fdffb79b30a2ce7d70d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:06.439Z",
+      "fileSize": 27954,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-tree-present-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b6b4be2259b268f7480c4656516cb08e62c3dc06-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:06.496Z",
+      "fileSize": 19220,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/santa-waving-with-reindeer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fe667cf507f25876e1ee0f26175e07c55441770-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:06.913Z",
+      "fileSize": 31626,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/rudolph-striped-scarf-adorable-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/095a9aad3727d27bd2b06204e647e8086ab48a44-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:06.992Z",
+      "fileSize": 21552,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/reindeer-smiling-cheerfully-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3a815f74839e9fd58d4f0fc4f7f95c3a76d8eddb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.004Z",
+      "fileSize": 18020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/kids-building-snowman-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb45865bfeb7b44d6eda7f5ab43ba418d40090e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.431Z",
+      "fileSize": 25658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/snowman-candy-cane-cheer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/86e7e295d11cb4db6ee96e8501f2086488691ad8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.473Z",
+      "fileSize": 25142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/snowman-santa-hat-smiling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb92492351c477a8a9281603e0e2d32ffbad2f42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.479Z",
+      "fileSize": 15734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/outline-illustration-of-santa-claus-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/85bfd5f548bd0135224c67883adee65b1d15f20d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.873Z",
+      "fileSize": 8850,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/stick-figure-snowman-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04d2c0dd6420d56edf25316d957a67abd8e33c1e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:07.935Z",
+      "fileSize": 23102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages-for-kids/christmas-coloring-pages-for-kids-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b0eef38e6a59ff6ed73badebb757057aa095b838-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-04T12:40:08.004Z",
+      "fileSize": 56600,
       "dimensions": "1312x656"
     }
   }
