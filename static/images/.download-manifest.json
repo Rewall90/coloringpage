@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-04T12:40:08.228Z",
+  "lastUpdate": "2025-10-05T04:30:05.636Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -14098,6 +14098,461 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-04T12:40:08.004Z",
       "fileSize": 56600,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-waving-candy-cane-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e15bb2ba037bfdfbfd0509b53f69d73c541804ce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.032Z",
+      "fileSize": 32824,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-whirling-wind-effect-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e96cca80e4d6402afe38a231ea97960849b83e2e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.035Z",
+      "fileSize": 58960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-checklist-on-drum-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b8ac8595b08bacd420251995a68bb6efd58b1b79-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.271Z",
+      "fileSize": 39354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-ringing-bell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bece63fae047cf7232edcb8bdfc81f967750ab23-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.331Z",
+      "fileSize": 32246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-gift-winking-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/67e887e603be2634d5a090610239e31ec090cc8f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.432Z",
+      "fileSize": 34880,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-adjusting-boot-with-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/93c2642f6f7b04ff2c101b2732bf62f7b00daddc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.671Z",
+      "fileSize": 31834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-candy-cane-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25c9675d75c1864bded8b5f96d55cf603849bbba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.744Z",
+      "fileSize": 38206,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-cute-candy-cane-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ae7b7f5c4ff17e6e23bd36f598909707c4ee3658-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.751Z",
+      "fileSize": 21524,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-toy-sleigh-happy-dance-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c425e5b1c6fd2651bc9f8022bc00d39b65f1804d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:53.973Z",
+      "fileSize": 28896,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/child-winter-attire-joy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3bab995f22670903bf276882e170eb1173476d24-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.001Z",
+      "fileSize": 24122,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-on-gift-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3953dd4e8e4eb9813d54a0305c4fc0bfa34cbdf3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.002Z",
+      "fileSize": 30090,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-sleeping-with-toy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/370ea052e78d3a5a72ebf72acb564a2fbe14390d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.233Z",
+      "fileSize": 30598,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-cookie-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/87f29a6689ecdd300dac061eed34a20fd6e2630e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.259Z",
+      "fileSize": 27372,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-christmas-lights-entangled-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14666e25eb876cba0860738e048af9ba844094f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.293Z",
+      "fileSize": 35338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-workshop-assembly-line-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff1b5834cb42b30d330ec309c5e48dab69b56d86-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.560Z",
+      "fileSize": 58484,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-elf-letter-sorting-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e0fba9cbc85ff6b01cc69c4231ccab81d379081c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.571Z",
+      "fileSize": 74752,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-coffee-with-elves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90ba2680f8fc20387eb12783f082b0fcd0ae2c18-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.619Z",
+      "fileSize": 69076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-gift-sorting-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8ee1c1a1afac902012884595e5ffea547a5ffd2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.877Z",
+      "fileSize": 54354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-elves-decorating-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/07e0a10cae97c1af5d18989d62b268407289ed91-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.878Z",
+      "fileSize": 63624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-guitar-workshop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49575f72a601711216a99ba43a64950a25c94530-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:54.878Z",
+      "fileSize": 70910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-chimney-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f989a3036f5aabccd4cef192aa2b6d6654b93a8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.090Z",
+      "fileSize": 29924,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-north-pole-team-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3bd95f6d79de59190b2b2e1dc7312d98b24e03fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.116Z",
+      "fileSize": 47052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-sleigh-rooftop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/132a1f856ed99c274a4c55636eac4ed49e346d2b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.120Z",
+      "fileSize": 37472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-flashlight-and-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbd8abc2aba9051d5ddb014b24b048fe89ead8e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.369Z",
+      "fileSize": 32646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33fa77c940fc1fbd82b9e4a6a211a70d2115e8cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.507Z",
+      "fileSize": 44066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-bicycle-fireplace-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74f502ec4c358a29549b3f0dc4093d0d5dd8de5c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.512Z",
+      "fileSize": 67516,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-enjoying-cookies-couch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5c9654943b484093373dad22bb6aa87fdcafb24-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.736Z",
+      "fileSize": 33558,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-rooftop-map-viewing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1b3a5fd169cd53879a1cf148f3f855f6253dc540-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.795Z",
+      "fileSize": 44536,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-gifting-kids-tree-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5b2e2d2be3d15751dc53dd96dbab0cb70f344d9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:55.821Z",
+      "fileSize": 56266,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-kitchen-dining-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c64f4dca52c67f69121d9c2684f7493573696a97-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.059Z",
+      "fileSize": 39282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-holding-cookies-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/36486842d490426b454d1eb58f67e201d7860f60-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.088Z",
+      "fileSize": 36130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-eating-cookies-christmas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/05e8f5a8c8413954688de0af231067ed88b9dfae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.117Z",
+      "fileSize": 64766,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-placing-thank-you-note-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b4719f22635ba2ff252fba9eb13df71343b92bd9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.370Z",
+      "fileSize": 37612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-reading-thank-you-note-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/19798c3cc54f59510b8a0baf64761312cd8cd890-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.375Z",
+      "fileSize": 40286,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-juggling-treats-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/818e8b39f63e2085e5bf502d9082d14af71ed86e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.403Z",
+      "fileSize": 39216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-sleigh-over-nyc-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a19a9ea8a019140d147fd79966c3780222948852-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.709Z",
+      "fileSize": 40860,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-town-parade-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7decf915663e3ef18597d43de83475fd58573159-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.715Z",
+      "fileSize": 86828,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-flying-over-snowy-mountains-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d6daf6f129d624b675bc9d797c2cdfb4d1cac49-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.739Z",
+      "fileSize": 36300,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-reindeer-gift-delivery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6d88562c9f664d1a6d490e90f3a19577c5a44741-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:56.982Z",
+      "fileSize": 56724,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-fireworks-sleigh-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9bbee705daea23ec66b38cfd32f68570c516cdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.030Z",
+      "fileSize": 74782,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-sleigh-night-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b9e9302df1a4134e6b6014e919d0836d52cea4e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.098Z",
+      "fileSize": 49642,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-child-reindeer-antlers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2c8c13d395bda13f2afae7bc3e40550132f2406d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.372Z",
+      "fileSize": 35960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-sleigh-over-lighthouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/228ee0e4a527e4b60f165033ef4bd78007832fe0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.373Z",
+      "fileSize": 42938,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-high-five-family-moment-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/febed23f8043007aa604cd0b56f62295c2db172f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.374Z",
+      "fileSize": 37908,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-storytime-with-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/35e19f5228c1ad23f8fba81ca979f017d4c0ae13-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.608Z",
+      "fileSize": 40900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-kids-gingerbread-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c6e73639a0cccb309be4f16181dcb20c3329f514-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.654Z",
+      "fileSize": 49892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-child-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8a98c194c178b8b27d3587728a1c59d5e99492f3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.698Z",
+      "fileSize": 41110,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/christmas-tree-with-presents-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f15997dc086288f8fdd1e889859dc12006d7ab95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.873Z",
+      "fileSize": 15332,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-dancing-with-children-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e0f98a49da7cf419960396af9f2f9d968a737d3a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:57.927Z",
+      "fileSize": 33248,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-giving-gift-to-children-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f445f4a06ded50e71d6d7f59727d6cd960fff14b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.055Z",
+      "fileSize": 58646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/kids-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/88d63aa8d164149ab5101d21a567eb23da7de82f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.195Z",
+      "fileSize": 27428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/simple-christmas-tree-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9522994a6edef624407f8b1823a51fba63c2f8f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.220Z",
+      "fileSize": 17278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/christmas-tree-gifts-simple-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9ac8577aafbecd83ef58f1a72fc6dd7766edfe3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.233Z",
+      "fileSize": 15670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/tree-with-star-and-gift-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b6b4be2259b268f7480c4656516cb08e62c3dc06-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.424Z",
+      "fileSize": 19220,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/child-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/46ddeb61eedfc01ceca8a670686a02efa189ec0c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.428Z",
+      "fileSize": 24734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/reindeer-happy-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6085eef03b031e377f77fdffb79b30a2ce7d70d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.464Z",
+      "fileSize": 27954,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/reindeer-scarf-smiling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/095a9aad3727d27bd2b06204e647e8086ab48a44-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.595Z",
+      "fileSize": 21552,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/reindeer-smiling-simple-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3a815f74839e9fd58d4f0fc4f7f95c3a76d8eddb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.613Z",
+      "fileSize": 18020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-with-reindeer-and-children-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fe667cf507f25876e1ee0f26175e07c55441770-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.680Z",
+      "fileSize": 31626,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/children-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb45865bfeb7b44d6eda7f5ab43ba418d40090e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.834Z",
+      "fileSize": 25658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/snowman-candy-cane-waving-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/86e7e295d11cb4db6ee96e8501f2086488691ad8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.842Z",
+      "fileSize": 25142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/snowman-santa-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb92492351c477a8a9281603e0e2d32ffbad2f42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:58.903Z",
+      "fileSize": 15734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/stick-figure-festive-decoration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04d2c0dd6420d56edf25316d957a67abd8e33c1e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:59.058Z",
+      "fileSize": 23102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-smiling-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bece63fae047cf7232edcb8bdfc81f967750ab23-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:59.117Z",
+      "fileSize": 9848,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/santa-claus-coloring-pages/santa-claus-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/794760ac46d900245ca34d5c73cdbf0745602719-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-05T04:28:59.204Z",
+      "fileSize": 66600,
       "dimensions": "1312x656"
     }
   }
