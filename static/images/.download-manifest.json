@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-05T04:30:05.636Z",
+  "lastUpdate": "2025-10-06T05:04:21.948Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -14553,6 +14553,293 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-05T04:28:59.204Z",
       "fileSize": 66600,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-trees-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d56bbcdbf2baa56853e019ef5b58db448e1ef3d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.049Z",
+      "fileSize": 57140,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-fireplace-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/621d163ca0fea2b7b4ef224d21b900ef4bda2962-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.050Z",
+      "fileSize": 33834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-living-room-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c596a03c55384545aa7de6764984ab054def5ee4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.060Z",
+      "fileSize": 51044,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-with-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/89e9d62f76296567ff2f5b6b4ab5dd9093b9f8e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.512Z",
+      "fileSize": 17456,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-living-room-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/919f2e1eb32313b452deedc876bf32e294da4093-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.523Z",
+      "fileSize": 58368,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/family-christmas-tree-decorating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54079f97cbb82d5d4ccda689ba8945cdcb33d462-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.942Z",
+      "fileSize": 36826,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-gifts-decorations-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5c0a1be25031b932071cc4afeb5a1e85ea5e1270-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.967Z",
+      "fileSize": 48204,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/kids-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cb0d62d2332c9acf991a57128a02506f03018f3f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:15.974Z",
+      "fileSize": 31256,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/family-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2fe3d5f67dd4494799686e90242849aa2991ba4f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:16.384Z",
+      "fileSize": 36680,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-children-holiday-caroling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b85763c936d3938b4e79fbc7d676f4af1303c040-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:16.404Z",
+      "fileSize": 33910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/children-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3e9c095ece5ece2666ac65e8a30a8a989152afc3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:16.429Z",
+      "fileSize": 44392,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/family-christmas-tree-hug-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22b9565455cc4619152f967b196baf708447c7f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:16.843Z",
+      "fileSize": 38278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-tree-squirrel-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea7a9ca882a43842215b078dd4fb104f9b62148f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:17.181Z",
+      "fileSize": 36850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/kids-ice-skating-christmas-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd3d33335231a897819c475abf6fbe0fc61d857c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:17.601Z",
+      "fileSize": 37686,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-cabin-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d75481e1a22cca9e3ff19b7dd8dad8290303708-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:17.601Z",
+      "fileSize": 55474,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-reindeer-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6ca85b3784c5ecbb6e4fa52e833b4db1939fa125-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:17.610Z",
+      "fileSize": 52782,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/children-building-snow-fort-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e2e211ecf5501760e3b86236449ca4ea1385973-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.013Z",
+      "fileSize": 52142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/lighthouse-christmas-tree-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/411f945deac949c01dbc0decaa9ff0447f2379af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.033Z",
+      "fileSize": 29738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-gazebo-foxes-christmas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f3fb2e4eea52de7adc96cf52dc487a2dbd5c4e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.045Z",
+      "fileSize": 44480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-tree-boots-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d6c8d32d56adf6833b3bfe0505c5475b3ff4944-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.446Z",
+      "fileSize": 16792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-trees-mailbox-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2c2adb7aff437f620ecc18cfba6964c859c9c8f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.483Z",
+      "fileSize": 15968,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-american-flag-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fa67334961ee8e84557e3554c0d194af6938bbdf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.523Z",
+      "fileSize": 13950,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/cartoon-christmas-tree-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29767f76487ff9548e6151c11db0818cf48bf1bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:18.948Z",
+      "fileSize": 14536,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/striped-christmas-tree-baubles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c3f37b80cf599fe0c17a0a7e33cc4e840f445131-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.029Z",
+      "fileSize": 23972,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-elf-reindeer-tree-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc64abebd27241115e5e8f212cda34bb9f78c9e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.435Z",
+      "fileSize": 43628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-bells-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4970c9114017a2abf9d746ceb8964edfcee8b486-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.448Z",
+      "fileSize": 20718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-elves-decorating-christmas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01550952c8fdc54e8ce56dc56e13c47bae20a6da-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.448Z",
+      "fileSize": 37718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-claus-tree-decorating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84aa68533af00ddcef46d18d796c6304c02d02d7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.878Z",
+      "fileSize": 38356,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-under-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2328c6f92108e4a310a6c3a9e6ee81ae306880e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.882Z",
+      "fileSize": 65212,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-hanging-stockings-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c261a10975e6bae77e0068a9b0436e7d5a4c355-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:19.923Z",
+      "fileSize": 53890,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-books-gifts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b9ad05a11db1ed705d34552f62a7a51ab9c9566-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.334Z",
+      "fileSize": 39468,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-claus-reindeer-selfie-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b8b1c26b31a1dc01cae130963c3a1d585f48e8c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.347Z",
+      "fileSize": 53350,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-christmas-tree-cozy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc20a774463b5fbc24bbbb539c328ebb01d4ec2f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.376Z",
+      "fileSize": 52304,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/tree-gifts-and-bears-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/94145d264233c10f0484a0076666f02e72e10d12-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.753Z",
+      "fileSize": 40244,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-gift-tree-toys-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e0e2ba400814928659b10971b73c7607272171e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.787Z",
+      "fileSize": 42096,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/santa-toys-christmas-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/489748296b4c1a8738f7812899456d19bb948aa0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:20.812Z",
+      "fileSize": 42048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/nutcracker-tree-gift-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/19697683a5bc9bf6f53677dd2d2721bd36e60d64-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:21.197Z",
+      "fileSize": 36450,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-cozy-atmosphere-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/221d9df37e3f2a2570d3957c6c72d18640f6cd98-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:21.216Z",
+      "fileSize": 51562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/reindeer-gift-circle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6656a65288d8d22fd0c3465057b57dda0e2af6e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:21.228Z",
+      "fileSize": 61216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/black-and-white-coloring-page-of-a-decorated-christmas-tree-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5c0a1be25031b932071cc4afeb5a1e85ea5e1270-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:21.612Z",
+      "fileSize": 12298,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-tree-coloring-pages/christmas-tree-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c78131c579dcd3248435ba423bda4c55acf99af-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-06T05:04:21.699Z",
+      "fileSize": 103306,
       "dimensions": "1312x656"
     }
   }
