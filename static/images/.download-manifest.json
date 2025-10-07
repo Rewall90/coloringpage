@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-06T05:04:21.948Z",
+  "lastUpdate": "2025-10-07T05:47:18.568Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -14840,6 +14840,335 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-06T05:04:21.699Z",
       "fileSize": 103306,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/city-bus-traveling-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fec220aedfa7397534bf94c056259f7c4d319402-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:02.011Z",
+      "fileSize": 45378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-airport-waiting-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a9385b50b346ec999ec66e139c8847fb9c34105-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:02.018Z",
+      "fileSize": 58646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-exploring-aquarium-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b2ccb11f5933106358907f8f589da83d2e08362-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:02.459Z",
+      "fileSize": 40422,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-exploring-ancient-ruins-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/747571734ace5102a967fa30edbf6d24c2e3990b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:02.612Z",
+      "fileSize": 63152,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-hot-springs-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8534375b202a9b66e57d22f87b7b74ec7ece151-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:02.659Z",
+      "fileSize": 80180,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-coloring-city-skyline-view-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/120947c867dfe2cc1409049b373231bf0a4a36c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.134Z",
+      "fileSize": 59376,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-train-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e903ae018035fcfe4932aaa63149cdd97987f9bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.189Z",
+      "fileSize": 62768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-coastal-road-trip-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ceedf64559a273d172678cd655626804b8d7d07b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.211Z",
+      "fileSize": 48974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-cozy-igloo-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/00bf9f6ab83a1b74fc98b8f78e0dd26b356c20cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.667Z",
+      "fileSize": 58046,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-reading-and-drawing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e3d761c165be16eb0406c02719ff94781806ca5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.819Z",
+      "fileSize": 63866,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-botanical-garden-walk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e3f5a0359ad7ec5a71d03326333635503555b755-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:03.844Z",
+      "fileSize": 161020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-cruise-cabin-activity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb9964d4d46f785e5e06e49c508d3f98773a187c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.323Z",
+      "fileSize": 42140,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/airplane-passengers-relaxing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c430c8d63cc69f0e5dfe39b72fdb22c7c9faca10-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.324Z",
+      "fileSize": 47780,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-canoeing-mountain-lake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65b8eea6234d72a080f1bbaab6f1df2e58f45d65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.362Z",
+      "fileSize": 51740,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-safari-coloring-activity-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d927a3016ef21f1ee81015e88157f4abbfc49e5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.832Z",
+      "fileSize": 70218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/floating-market-family-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/478d8bdc51705f87a2f85458129dcb0481a5fd93-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.868Z",
+      "fileSize": 78278,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/camel-desert-caravan-kids-riding-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6a8a254ca3278d3a6d7dc7c96f828176597271b9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:04.883Z",
+      "fileSize": 43456,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-winter-travel-plan-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee688f35b63a7d24ab5bb6b1a203dbf4a33e2627-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.302Z",
+      "fileSize": 45340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-waterfall-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b9527c479c3e4c053575291fe56a2e98f22b171-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.350Z",
+      "fileSize": 64348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-car-rental-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15f9e291afa8054ac2132c193638b8dc232e7e5c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.351Z",
+      "fileSize": 52282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-volcano-exploration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1572146de153b32c17a4e496fb4381f9586b39d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.782Z",
+      "fileSize": 60234,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/city-train-passengers-scenic-ride-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/256bfc7cd994e45320c41969b5a18e70cbffbb79-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.830Z",
+      "fileSize": 52162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-space-exploration-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ae8b395a72a3233900e6ed5b8fc4fababce99bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:05.830Z",
+      "fileSize": 45252,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-train-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/618e0546eb317b8d8b6edc4b05329d3daba1936f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.276Z",
+      "fileSize": 50150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-stargazing-desert-camp-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cbf459b64425d5f6732190db984132fb58a5cc56-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.403Z",
+      "fileSize": 44620,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/children-jungle-rope-bridge-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3935ee0b0216a080f8595ab39e57f197b9146d9c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.427Z",
+      "fileSize": 125302,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-whale-watching-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/000ead7a57513b896d11c83d9d53f875232bcc93-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.856Z",
+      "fileSize": 33178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-planetarium-experience-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d808449f4fefa3555683d3fe11b1d68a910a317-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.867Z",
+      "fileSize": 45592,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-canoeing-and-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc07169a3cb48ff2c89fabac1306192cb3b0b22b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:06.868Z",
+      "fileSize": 47380,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-drawing-city-bridge-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/902586c0f1f879ead76288341df89c6fab7f5cd3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.316Z",
+      "fileSize": 44778,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-airport-dining-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/18e13640cf392126aa20cf5fa6f71e2e30d9ab87-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.317Z",
+      "fileSize": 48584,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-scenic-train-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e35f04c3eab8a204d430e2943434a2223b5030f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.427Z",
+      "fileSize": 66260,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-camping-table-campfire-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d208ad6dfd3496472f80878dff0bf64873e71888-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.860Z",
+      "fileSize": 57028,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/boy-waiting-train-station-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b03365fe2a9c39a1c3e14f8b73f2d03ebcf391d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.867Z",
+      "fileSize": 56190,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-shelter-rain-umbrellas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15906a9399f9b2fced6c11c6e53228c1c98684b9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:07.904Z",
+      "fileSize": 52386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/safari-bus-animals-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/70a30d5b49ddb5dedde20bbe9de8f352b00f9c9f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.391Z",
+      "fileSize": 35044,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-camping-national-park-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef40fc91def8d81eef75266c1d41ee535bfe1194-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.436Z",
+      "fileSize": 49948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-road-trip-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0720d7de93ba81519d9f0ac84eb2ee6f5d50633b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.474Z",
+      "fileSize": 74268,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kid-drawing-on-cruise-ship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca31d649533dd56b36f2aba30605da47bccb6b1f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.898Z",
+      "fileSize": 36380,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/kids-travel-coloring-book-session-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74080355f8cf0beff46fad9547ca14cec18522c8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.899Z",
+      "fileSize": 37086,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-travel-scrapbook-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0aeee444ffde1ede8fa31d10886add81ab9edc43-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:08.932Z",
+      "fileSize": 65906,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-market-festival-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/817675100efc92df272e6d81b8499869e9356b28-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.412Z",
+      "fileSize": 63820,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/child-adventure-prep-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04d39f39c8400b121f94bce7da10238844271209-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.461Z",
+      "fileSize": 37952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-adventure-map-exploration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5e2ef35ff98aba00903cda835fac08d0f629f403-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.461Z",
+      "fileSize": 49162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/family-in-a-glass-igloo-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/00bf9f6ab83a1b74fc98b8f78e0dd26b356c20cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.803Z",
+      "fileSize": 14636,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/children-traveling-landmarks-bus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6d0fdfe52169805d5652962ee9c132c4793d3eb0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.900Z",
+      "fileSize": 49880,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/traveling-coloring-page/traveling-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0816bfef75b8c824c4c6dda00261c33f84c67e69-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-07T05:47:09.983Z",
+      "fileSize": 109644,
       "dimensions": "1312x656"
     }
   }
