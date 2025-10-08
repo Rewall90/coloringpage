@@ -1,5 +1,5 @@
 ---
-title: traveling coloring page
+title: Traveling Coloring Page
 date: "2025-10-07T05:27:21.447Z"
 image_width: 1312
 image_height: 656

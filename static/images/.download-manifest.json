@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-07T05:47:18.568Z",
+  "lastUpdate": "2025-10-08T06:33:05.633Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -15169,6 +15169,454 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-07T05:47:09.983Z",
       "fileSize": 109644,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-baseball-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f11d321af2702880ea577421ca062f043dcd916-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:58.231Z",
+      "fileSize": 39516,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/pelican-surfboard-amusement-park-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d732151b6d4578d749fc4ce181bd7ec19669a377-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:58.513Z",
+      "fileSize": 50338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/flamingo-camping-marshmallows-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e6f75a3cc7bbf79c07b4fb3e150935dc3cfd2ae2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:58.724Z",
+      "fileSize": 42362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/wise-owl-reading-library-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/981497d6c5a580f86c99c1df95cf8fce62615450-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:58.796Z",
+      "fileSize": 106130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/woodpecker-carving-mount-rushmore-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c71ceb5d645cbf559bc889453bf3d7f80383ae4a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.036Z",
+      "fileSize": 43628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/seagull-ferris-wheel-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc4072a099da30381ff2a02287235cd0040c6b03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.092Z",
+      "fileSize": 62976,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/turkey-drum-marching-cake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/10af7b9329b2b098bef3a94b0cfc3dc449f56f62-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.134Z",
+      "fileSize": 43470,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/duck-astronaut-usa-rocket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7458b36926026066046b203bddc36484b521c7c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.408Z",
+      "fileSize": 31158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/pigeon-roller-skating-cityscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/be71ecc007293fab92dcb9860a8ab8116a107a00-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.444Z",
+      "fileSize": 50502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/hummingbird-watermelon-picnic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fe2b07963395970d7fa6d9b5e18c5145e1d4df67-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.509Z",
+      "fileSize": 57144,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-guide-map-animals-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/47a16aaff74ee3552997de8aa3689d0e8e0bc180-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.792Z",
+      "fileSize": 41596,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/duck-playing-saxophone-music-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/68733710c24132af24a2504316afce531e7f39c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.794Z",
+      "fileSize": 48594,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/squirrel-acorn-roller-coaster-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d67bd8e718457a9479d0a1c4be54595e733c1f88-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:32:59.795Z",
+      "fileSize": 50224,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/road-runner-route-66-dash-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a5c686a934025e526c951ced8a8061fbaee71831-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.070Z",
+      "fileSize": 35980,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/puffin-pulling-sled-arctic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7ed779c2a278ffce9226247c1b4afd3aec3246af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.072Z",
+      "fileSize": 36148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/football-player-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9c5431409524b01182f751d754563e1f740b6fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.086Z",
+      "fileSize": 47444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/swan-perfect-skate-performance-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd2d4be39f5ee5b8abdf8690244fb95c5a635a96-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.330Z",
+      "fileSize": 26574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-winter-window-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4089cc51e2261ace4d6d16679e151a804e6a6d9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.354Z",
+      "fileSize": 35960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/stork-painting-easel-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/56d41b9a9fcf4bee7f7117b220df3b389be27222-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.357Z",
+      "fileSize": 42036,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/owl-apple-balloon-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f4a7ac72878721c6db1e4ae5b0308159b41737e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.643Z",
+      "fileSize": 48754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-captain-boat-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e268e68d259471be55f29da68200e860e68b3b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.674Z",
+      "fileSize": 47324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/goose-barbecue-cooking-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4fce51fa2db5b0deabb5e411948fe5c5f562cd43-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.704Z",
+      "fileSize": 45862,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-singing-animal-concert-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6328d68a78c0914eb045d9a27b09ffe75faa3ed2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.960Z",
+      "fileSize": 38910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/desert-road-trip-scenic-bird-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69affa83f7f2451d4bcb8213181f53d4066f810d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:00.968Z",
+      "fileSize": 59084,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/duck-canoe-campfire-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dfdd62d43196c6bb5ee1c8864a36722362386c8f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.034Z",
+      "fileSize": 41214,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/route-66-diner-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b602434c01afd2892883b46a93a1891dd4fe35d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.300Z",
+      "fileSize": 40416,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/family-picnic-fireworks-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/13a7866957f16110ab02f43e381b4e80c9822e2b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.313Z",
+      "fileSize": 64020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/birds-road-trip-desert-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/894c1227caf4cf6b867e6f3ff57fdd2b0c48ada3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.327Z",
+      "fileSize": 59586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-gardening-sunflowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/789b3cae210e86c305c1cf3dc92481eb49fa0eb4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.624Z",
+      "fileSize": 66566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-painting-american-flag-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bcebcbcf0447a84433919411ade4212f8673f7c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.675Z",
+      "fileSize": 67386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/heron-dj-beach-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fe4c10c8bcf9aaab63d013afb19807a24c0f5566-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.740Z",
+      "fileSize": 74652,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/forest-animals-science-experiment-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e784c62ef9c579eab00b9937eb457551c3c0157-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:01.994Z",
+      "fileSize": 36644,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/stork-parachuting-bunnies-field-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/396a06f4b1b03af1181d1b1cec03d06c33e631b6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.002Z",
+      "fileSize": 53156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-magician-magic-tricks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1ac94995cff12e561e38c42acca33fd6b4f3ae5c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.076Z",
+      "fileSize": 57022,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-baking-kitchen-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/07c15c80289084c91e6fa2f59db957d38c8f58b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.348Z",
+      "fileSize": 54150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-coach-training-squirrels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea66e59e02c56acb7ff2a40f16f00e8c91c9fff7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.357Z",
+      "fileSize": 33848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/heron-frog-band-marching-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6703e3e2500530961e485cfb5eae1e1a78ad23e0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.384Z",
+      "fileSize": 48850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/common-grackle-bird-perched-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90511df018bb3dda9f4115e36af8e1fda4ee398b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.665Z",
+      "fileSize": 32082,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/blue-jay-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a20c020d753e71120751a77601620a25c29f3a52-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.684Z",
+      "fileSize": 29812,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/tufted-titmouse-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e4a306fe1297f3a9456d47c6fb83396da541e35-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:02.739Z",
+      "fileSize": 56566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/american-crow-standing-simple-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45191bd5d371d44da100d141d3d643f8d8eabc2e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.012Z",
+      "fileSize": 37776,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/house-finch-perched-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8dfe65a311f7f186d6a693c2d77e447ba11af70b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.014Z",
+      "fileSize": 33606,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/carolina-wren-singing-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4bd042a7d74cfcae90193446453a8f338b256f15-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.123Z",
+      "fileSize": 35744,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/eastern-bluebird-perched-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/46b2d1daef6326fed73c9e4b313e579739697bc2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.362Z",
+      "fileSize": 32218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/song-sparrow-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0abc243b239bfae5995501055b3c4a4861afef3f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.421Z",
+      "fileSize": 37868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/chickadee-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c7103e2ba4fce4399ec29656a561e3a2629cebd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.437Z",
+      "fileSize": 39500,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/red-winged-blackbird-reeds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4550ca0ba7825e86d3c93b8bcfab2ab762bbf645-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.719Z",
+      "fileSize": 40526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/mockingbird-perched-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f49a1cdf466745548af36266a8a8f5570892cf3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.725Z",
+      "fileSize": 32100,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/cardinal-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f63ad5b85d968554957e9bd4d3a03cc2f6145b05-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:03.725Z",
+      "fileSize": 31872,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/towhee-singing-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6241d1ff630639e919f865c95eb9d4e829710a2c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.023Z",
+      "fileSize": 30534,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/robin-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3e360dcf66559f367940423744e3789ece67c8b1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.054Z",
+      "fileSize": 25448,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/killdeer-birds-nature-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9d6b6858082bd7dcacd5c4c7a0fe799f8ed09ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.080Z",
+      "fileSize": 68394,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/junco-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/50d74b5dcfc9268276ea9c66464bc29c5b9448e2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.380Z",
+      "fileSize": 38320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/goldfinch-leafy-branch-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af68b993e60ea25a3eb557d4517ae3a3651652e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.428Z",
+      "fileSize": 44206,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/downy-woodpecker-on-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec3bcd40915bc88cae2c5c9aec2112adbc3a1fdf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.431Z",
+      "fileSize": 45340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/sparrow-branch-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7bd5b6a3cf9ba4ec892b82cf7c4b5d2431318640-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.675Z",
+      "fileSize": 38900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/sparrow-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c725b99fb8a25ba2b4df070646251ee967d4801-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.691Z",
+      "fileSize": 51830,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/barn-swallow-perched-wire-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80aa9010f9eb7584805d060d82bd189425624310-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.717Z",
+      "fileSize": 32396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/mourning-dove-detailed-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d57cfa7d206401390449e5fdd3d015eba6f357c0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.976Z",
+      "fileSize": 27680,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/european-starling-detailed-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fe1338f016d89965e9f3c698b2042085d4aa00ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:04.977Z",
+      "fileSize": 40578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/nuthatch-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f475c058e5a1b6db1be73e70cb2639fe781cf3a6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:05.012Z",
+      "fileSize": 34328,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/coloring-page-of-a-bird-quarterback-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f11d321af2702880ea577421ca062f043dcd916-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:05.225Z",
+      "fileSize": 10802,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/red-bellied-woodpecker-tree-perch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/112686baae4c738bd854be85c100a89e229d83f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:05.283Z",
+      "fileSize": 42542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bird-coloring-page/bird-coloring-page-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b23f429aa9b37ddaf0c8f64a85986f4c4b16ee7f-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-08T06:33:05.312Z",
+      "fileSize": 88370,
       "dimensions": "1312x656"
     }
   }
