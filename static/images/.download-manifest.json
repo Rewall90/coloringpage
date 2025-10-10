@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-09T08:23:50.523Z",
+  "lastUpdate": "2025-10-10T05:27:52.304Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -16079,6 +16079,300 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-09T08:23:50.383Z",
       "fileSize": 13632,
+      "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-heart-puzzle-with-dogs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66f451e7bd3fbbfc7b91ba32c8d14d9b5bfcce40-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:35.953Z",
+      "fileSize": 23264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/animals-heart-carousel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d56dfa472277f54e958c80cfcab17c293df70f0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:36.033Z",
+      "fileSize": 37654,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-in-garden-greenhouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/abbc5bb7bb0a01365bceafabe73254b29471c5e0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:36.492Z",
+      "fileSize": 53152,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-heart-balloons-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ced45da674d74f5c7c0d2ff1d8eccdb7d3977211-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:36.503Z",
+      "fileSize": 42122,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-science-lab-experiment-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6ced30bb8d34b12e56b8912315e49039ed3474c0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:36.595Z",
+      "fileSize": 41972,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/camping-tents-hearts-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6005c8bf695fe60cb0c809ca6d91c8d2290521b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.010Z",
+      "fileSize": 30346,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/teacher-heart-diagram-lesson-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4cab6dcebd13e0b3eed7cdfdd48305cae3aa6761-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.073Z",
+      "fileSize": 31052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/cute-marching-band-hearts-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/62a12a8e0f0d28989deff6d69f345e0bd5c675e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.250Z",
+      "fileSize": 43308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/mermaid-ocean-slide-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0bdd696d4093de5af8833387f13fd50836b09b6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.644Z",
+      "fileSize": 29650,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/tree-singing-with-birdhouses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7c7e18a0c83bc94ef28fdf346b69a8892e16de8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.762Z",
+      "fileSize": 42660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-reading-heart-shelves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7c14dc05cfebc2ac85c2c26f5e31a010de3c5e1e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:37.762Z",
+      "fileSize": 49526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/mermaids-soccer-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a7070be812bba889426ac74ca774d6ce5004617-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.200Z",
+      "fileSize": 20606,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-smoothie-truck-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9be78ae499fb9015be1b276fc618082f02ee2b62-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.209Z",
+      "fileSize": 40262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/telescope-watchers-hearts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/07d57b3512ee38fb4b478e9c631fe1ffdbb4c037-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.214Z",
+      "fileSize": 38476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-pottery-class-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34c7b6a8528009c32478905eeccaf3208f40849b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.624Z",
+      "fileSize": 32594,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-heart-fountain-ducks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2908541297718cd0db4ff2ebf0fdb48ba589354d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.648Z",
+      "fileSize": 26154,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-making-kites-craft-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9ff927b29eabb8174a187510759de247126a46bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:38.660Z",
+      "fileSize": 48668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/mermaid-heart-shaped-dancers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/444628c38e4004dcbd6791bc44fe74f5218f8fad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.064Z",
+      "fileSize": 33598,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-building-heart-sandcastles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/adf3befbf8f2930e0d20ede4ce0a269553993f7b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.116Z",
+      "fileSize": 33648,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/mermaid-heart-shaped-frame-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/11ffd9f88d75397ac8cee99455796f5624f8c65e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.129Z",
+      "fileSize": 23902,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/balloon-artist-kids-hearts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0458d1947ee540997f8fed18d62d7afd66195bf3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.543Z",
+      "fileSize": 36642,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-space-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b949d54dc32a7a87cb2e091390943458fbe19630-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.583Z",
+      "fileSize": 39962,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/dragon-with-children-hearts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6c3e307a2311fcc7cf4b60dd0e2d98929e0b7a4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:39.595Z",
+      "fileSize": 30650,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-race-track-heart-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f55aa341ad4175e9b095d7d7c63251928f91aa9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.036Z",
+      "fileSize": 43316,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/mermaid-baking-competition-stage-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/44434b1266dee89e3d25b8b2ec94eb7aa1fb0ed9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.066Z",
+      "fileSize": 28438,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-heart-swing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca4d34c86dcf91342bde13fd71fd586653767e1e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.104Z",
+      "fileSize": 29306,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/astronauts-heart-shaped-pod-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d08cb235fc6ac55aa3b56cfef264248a2074ac9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.528Z",
+      "fileSize": 40766,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-arts-and-crafts-table-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/acbe83cf4dec336aa1de72089b918ac2bd5050f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.539Z",
+      "fileSize": 35598,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-releasing-lanterns-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51b7e627fbaedfe4e37d911cf4719e4306ea47ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.560Z",
+      "fileSize": 33112,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-heart-crafts-table-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cb02bf421e79eceec83be642aa28b354ab1a1b69-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:40.972Z",
+      "fileSize": 40270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-hedgehogs-heart-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/859980c4dfe679023cf566fbb4d04734711f9075-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:41.008Z",
+      "fileSize": 43120,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/animal-picnic-sunny-day-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aca62c7fbc9c1686119cdcb947eaf959914ca720-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:41.018Z",
+      "fileSize": 36034,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/heart-shaped-water-slide-splash-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d950a867d6fa4ee2e51baf44eaf59cefe3d5684-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:41.446Z",
+      "fileSize": 26274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/heart-ice-skating-penguin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1ce06e428e2beefb3ba443a54811a10583f00b9f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:41.558Z",
+      "fileSize": 28310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-treasure-chest-discovery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95b9d63643afa413fef63ff1720f1bf3b3dcb12e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:41.584Z",
+      "fileSize": 54102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/market-stall-kids-snack-time-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc6eb6479afc556beb592d98fab7e24f8d7cb9a7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.099Z",
+      "fileSize": 38988,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/kids-robot-building-teamwork-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/636a54e0674b697680d8f267a1d6c5622e99472e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.120Z",
+      "fileSize": 31658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-zoo-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b7aae0507b4d43b0147cca58d29cde7b81a5169f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.281Z",
+      "fileSize": 37940,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/children-theater-play-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8d56cb711ad73d7e8a28894920548ac31cc15402-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.756Z",
+      "fileSize": 45076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/heart-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/897dcf5d0330b379249590a00f80036115b3a0a1-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.780Z",
+      "fileSize": 48960,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/family-scooter-ride-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef6e735f6ff2cb09f58cf858134b0d78da0e45ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:42.780Z",
+      "fileSize": 41480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/heart-coloring-pages/line-art-of-kids-pulling-heart-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/859980c4dfe679023cf566fbb4d04734711f9075-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-10T05:27:43.166Z",
+      "fileSize": 12444,
       "dimensions": "300x400"
     }
   }
