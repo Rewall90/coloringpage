@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-10T05:27:52.304Z",
+  "lastUpdate": "2025-10-11T04:26:56.460Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -16373,6 +16373,384 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-10T05:27:43.166Z",
       "fileSize": 12444,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/detective-spider-library-mystery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/489498b9750a336f1fd7cc56c7b8cc2aa4984e80-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:39.380Z",
+      "fileSize": 76368,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/frog-flag-boat-parade-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45196589d8fdb9405e18f800e48af6283b43894f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:39.396Z",
+      "fileSize": 39430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spiders-playful-cake-tower-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5727707bf66951edcfbf896cac33dbb73002fed-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:39.712Z",
+      "fileSize": 61164,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/astronaut-floating-tools-space-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65960146b704273c4055fa95ec67aeaf61956d54-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:39.757Z",
+      "fileSize": 57222,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-baking-cupcakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84e52da99ba4689d33d46d27e2e0dd4167b198f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:39.796Z",
+      "fileSize": 41432,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-archaeologist-discovery-site-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25239f6b166d5e762ade04e93d2b000be1fdba50-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.039Z",
+      "fileSize": 43972,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/whimsical-spider-mushroom-village-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d519484c57c6d21a9fe72f3035ccea0a828089b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.041Z",
+      "fileSize": 49530,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/bamboo-wind-chimes-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/786499c204ea83e3137a820315e4f083ac202100-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.053Z",
+      "fileSize": 42582,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-roller-skating-with-crabs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f3e72c9468e9c21dc8e83266925ee030b60fe43c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.283Z",
+      "fileSize": 46236,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/circus-bear-with-squirrels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cb7dcb84d6894708b8bb1352834d54e48f12e7d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.342Z",
+      "fileSize": 38568,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-chef-flipping-pancakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af4c1fba5f72d0bc639ece96fe5a2644271a9eeb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.477Z",
+      "fileSize": 37408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/astronaut-moon-food-space-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/376089f5d2001e53856749375688030099b46236-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.729Z",
+      "fileSize": 28474,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/insect-dj-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dda300e1f7d4f0657dcb6f40c7bbe53e902c7006-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.760Z",
+      "fileSize": 72822,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-goalie-soccer-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f987935cbef00ab3373e727a9fd53894f081417-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:40.856Z",
+      "fileSize": 56030,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-teacher-classroom-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd29aabcf7c4968a8cfdc94f227b3ee75f36e405-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.106Z",
+      "fileSize": 64398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-holding-harvest-vegetables-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fa7694b8c828335f44aef1e3fc46fef51b200a3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.136Z",
+      "fileSize": 52892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/pirate-crab-ducks-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b7de75c275d24d1e1ab7a06393aa82fb165d3421-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.137Z",
+      "fileSize": 48268,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/mermaid-ferris-wheel-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/de570f67937acb68ca5dcbff228d03bed0e509dd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.379Z",
+      "fileSize": 69506,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-frogs-treasure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/71775ba4de08c29698395bb14c20251140cf4872-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.435Z",
+      "fileSize": 55792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-artist-web-creation-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3753ce305a6a84deac9a0ee8716d55bba5948c98-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.438Z",
+      "fileSize": 53772,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-hopscotch-game-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/895d3b0857557ddd0a0fd3498b86ff456785892d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.678Z",
+      "fileSize": 45840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-man-web-swinging-city-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ff4345a33809b517145539cf2cb72a58a5dc70c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.686Z",
+      "fileSize": 43126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-ice-cream-vendor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d748d2317383feef01ad61f7f0e7396773d71bc2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.741Z",
+      "fileSize": 58846,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/whimsical-crab-book-stack-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b6977c56df04aadfb83749ae558a7658160340dd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.997Z",
+      "fileSize": 29824,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/mouse-detective-bench-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd2e09f117f996bdc7bc03e98c4d7d40d1a45aba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:41.998Z",
+      "fileSize": 32216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-surfing-on-leaf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e3506cee961c33c0ebca6647151b5ce426648f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.042Z",
+      "fileSize": 33650,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/mermaid-space-adventure-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9113c9fe52903e51046a32d4fb43f004082dcd03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.277Z",
+      "fileSize": 70130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spiders-building-treehouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fc9c62dea631e75e172ac36cfaa1cd3bab019a7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.298Z",
+      "fileSize": 48024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/baker-decorating-cupcake-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a8e27f5bda1bf9272ec1f4c9e6dcef6fd147bb0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.309Z",
+      "fileSize": 55530,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-whimsical-kite-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8564c1be83f34484aa994d05183097ad76c540ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.571Z",
+      "fileSize": 53592,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-unicycle-circus-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/efffeea4827bc35cbfb362daf2815e6e6d2d2acd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.617Z",
+      "fileSize": 38246,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/steampunk-submarine-sea-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6b44147d4b50ad44c9e4c881f61a0b4a36012a4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.630Z",
+      "fileSize": 48418,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/insects-bumper-cars-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc57112e68740ecf7a70d81c0a2b1592d7d34c35-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.877Z",
+      "fileSize": 53282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-scientist-lab-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/efc1f7bbbd686b0ce36a40ba6336fa61eb659471-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.926Z",
+      "fileSize": 27822,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/mermaids-campfire-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/342e59fa212cba545200d243337eaa433a223f97-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:42.946Z",
+      "fileSize": 45760,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-web-shelves-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f7609b0605072cda1e456813cc06deb86b489bf6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.220Z",
+      "fileSize": 36268,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-balancing-on-rug-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15b07876c7a9adc78539c3d06884ceb0250826fe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.225Z",
+      "fileSize": 56360,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-playing-ornate-piano-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb0a75ab55c18b1f25831fe8f137aa485f4ff4af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.264Z",
+      "fileSize": 73212,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-and-succulents-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/86a4357dc9964d2e70848b07a461c9b68898a1de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.504Z",
+      "fileSize": 41750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-lantern-and-jars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/600318fbd26917519868a9ade011de26cc2c2490-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.533Z",
+      "fileSize": 40344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/zebra-jumping-spider-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63407806d2d2e181e64d6c1d02220ded89f6c18e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.549Z",
+      "fileSize": 64302,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/southern-spider-web-scenario-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2cea5bbdbf6c0740f040b7e3f54d8db31fbdcdd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.792Z",
+      "fileSize": 58600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/american-grass-spider-web-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f8836fcb7ec5079f4cbb458039f39e74762c30a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.803Z",
+      "fileSize": 51602,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/wolf-spider-forest-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01b50cac6b098028a08f08e40e64b01d38e1cb55-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:43.866Z",
+      "fileSize": 41816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/western-black-widow-desert-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4d993f2d7fc1bc3af2fb40b7c28762af69f4fb07-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.115Z",
+      "fileSize": 64048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/black-widow-log-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/767a6c7fe0335bd615c7454c70f842bc40061955-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.174Z",
+      "fileSize": 50506,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/brown-widow-under-chair-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfa2d97951f459014cce21d43e62cc65fca003bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.270Z",
+      "fileSize": 35844,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/brown-recluse-spider-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/09db35462d36d9030c3fdd76d3bcc4fccbb9bcc9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.587Z",
+      "fileSize": 55036,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-with-sunflowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dda9286b276657e1de0c44314875d09f66b56f0b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.587Z",
+      "fileSize": 78698,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/barn-orb-weaver-spider-with-tools-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3f6ceb93a4e13bf7d5e21b9e7d4d20c6adb5aeca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:44.613Z",
+      "fileSize": 46754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/flower-spider-daisy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3de4f2f134c3a706dd96e6d6597b674405ffa416-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:45.008Z",
+      "fileSize": 48436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/09b0eafd6621cf032bef652634c0ac8f891e95e1-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:45.009Z",
+      "fileSize": 100798,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/orb-weaver-web-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c689fcf33e7687e9c38df168f0822754f3a60529-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:45.013Z",
+      "fileSize": 84338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/spider-coloring-pages/spider-artist-with-palette-and-brush-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d0b426339451952d73c8c194aaae4b647b3dce92-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-11T04:26:45.236Z",
+      "fileSize": 9752,
       "dimensions": "300x400"
     }
   }
