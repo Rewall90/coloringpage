@@ -6,7 +6,7 @@
  * Run this after your build process generates the mappings
  */
 
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
@@ -17,6 +17,44 @@ const LAST_UPLOAD_FILE = path.join(process.cwd(), '.last-upload-state.json');
 const ACTIVE_NAMESPACE = {
   id: '8122081381114c80872c143ae13272fe',
   name: 'production namespace'
+};
+
+const resolveWranglerCommand = () => {
+  const binDir = path.join(process.cwd(), 'node_modules', '.bin');
+  const binaryName = process.platform === 'win32' ? 'wrangler.cmd' : 'wrangler';
+  const localBinary = path.join(binDir, binaryName);
+
+  if (fs.existsSync(localBinary)) {
+    return { command: localBinary, args: [] };
+  }
+
+  const bundledScript = path.join(process.cwd(), 'node_modules', 'wrangler', 'bin', 'wrangler.js');
+  if (fs.existsSync(bundledScript)) {
+    return { command: process.execPath, args: [bundledScript] };
+  }
+
+  return { command: 'wrangler', args: [] };
+};
+
+const runWranglerBulkPut = (bulkFilePath) => {
+  const { command, args } = resolveWranglerCommand();
+  const namespaceFlag = `--namespace-id=${ACTIVE_NAMESPACE.id}`;
+
+  const legacyArgs = [...args, 'kv:bulk', 'put', bulkFilePath, namespaceFlag];
+  const modernArgs = [...args, 'kv', 'bulk', 'put', bulkFilePath, namespaceFlag];
+
+  const commandLabel = [command, ...args].join(' ').trim() || command;
+  console.log(`Using Wrangler command: ${commandLabel}`);
+
+  try {
+    execFileSync(command, legacyArgs, { stdio: 'inherit' });
+  } catch (legacyError) {
+    try {
+      execFileSync(command, modernArgs, { stdio: 'inherit' });
+    } catch (modernError) {
+      throw modernError || legacyError;
+    }
+  }
 };
 
 // Command line flags
@@ -104,10 +142,7 @@ console.log(`💾 Created incremental upload file: ${bulkFile}`);
 // Upload only to active namespace (not both)
 try {
   console.log(`⬆️  Uploading ${bulkMappings.length} mappings to ${ACTIVE_NAMESPACE.name}...`);
-  execSync(
-    `wrangler kv bulk put ${bulkFile} --namespace-id=${ACTIVE_NAMESPACE.id}`,
-    { stdio: 'inherit' }
-  );
+  runWranglerBulkPut(bulkFile);
   console.log(`✅ Successfully uploaded ${changeCount} mappings!`);
 
   // Save current state for next incremental upload
@@ -132,3 +167,4 @@ try {
 }
 
 console.log(`✅ Incremental upload complete! ${changeCount} mappings uploaded to KV.`);
+
