@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-18T06:43:56.798Z",
+  "lastUpdate": "2025-10-19T04:14:25.879Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -19713,6 +19713,328 @@
       "downloadedAt": "2025-10-18T06:43:56.378Z",
       "fileSize": 52238,
       "dimensions": "1312x656"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-garden-landscape-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33088bf88e2279274cfad7f740923de2f8b73f85-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:16.730Z",
+      "fileSize": 53692,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/tall-whimsical-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d0b74c3c324daea57de7f277f6b59203a8768aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:16.867Z",
+      "fileSize": 55576,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-smoking-chimney-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da76c7b94bb7342e233ab6cf18ac3ee939742417-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:17.335Z",
+      "fileSize": 23778,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cottage-charming-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/55f0d7a44072b22b9ff4ef5c26bacef3695778f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:17.391Z",
+      "fileSize": 44754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-with-arched-window-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/011b363ca3de409c698d76b10889e85c47238953-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:17.579Z",
+      "fileSize": 32098,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-cottage-pigs-home-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/38d33da444bad88170db052c035d21a12ceb1639-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.072Z",
+      "fileSize": 42318,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/house-arched-windows-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84b41d62b60943186dda7dfabd704722636ac2a0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.086Z",
+      "fileSize": 52342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/whimsical-cottage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/88c8bf8ce9d5ce8f44264808c07d05760a4a3822-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.098Z",
+      "fileSize": 44646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cute-pig-cozy-cottage-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0cf10fcc21b323c47380f0542035c91af1c30402-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.564Z",
+      "fileSize": 42170,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/victorian-house-illustration-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb7c6e0a83b2e35c7902cb76a9f3b52755aa012e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.602Z",
+      "fileSize": 49826,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-charming-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5b41706bae54cf5212855c03d17c261e01595b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:18.670Z",
+      "fileSize": 38412,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-cottage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/239e35ad6261321297264abee941a3a8c39b64ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.186Z",
+      "fileSize": 28478,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/simple-house-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d978220d184cf955fc812c8bec3c5f32a5fe0155-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.226Z",
+      "fileSize": 27286,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-stone-cottage-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d5991d9a049c078f37d1e005188e5c5dc3c38de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.248Z",
+      "fileSize": 61284,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-with-garden-path-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/981779f573dc527048f13cddaf93844477efa5b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.767Z",
+      "fileSize": 59212,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cozy-cottage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc2a2d25348ef8f38b9ef42c7d63ff98e9850548-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.780Z",
+      "fileSize": 38704,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-garden-path-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/85750b0028f5abc831275cb3ebd024d20f6fd498-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:19.804Z",
+      "fileSize": 83824,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-with-path-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1424025c0d765247d49ebfcf40bd6ec91be105f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:20.197Z",
+      "fileSize": 36566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-brick-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b1c1777886d912dae3cf05266dec8915f2b0f6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:20.245Z",
+      "fileSize": 24186,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/whimsical-cottage-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9abf77e5a5481c030d38c006fffb4e74f75bef5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:20.284Z",
+      "fileSize": 53354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cottage-whimsical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac1d9a87af7e19ec5dca383940ccdf167def73bf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:20.712Z",
+      "fileSize": 44242,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-with-trees-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b011a9291ed7b0d3e0a294e2ddf90879b0a6cea3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:20.750Z",
+      "fileSize": 36900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cottage-chimney-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a08afe8bcf2dd71f5f3fa905c528b3d721e2e966-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:21.200Z",
+      "fileSize": 52406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/whimsical-tall-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2f5ec16861066d862f55406991744269966692e2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:21.212Z",
+      "fileSize": 39986,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-country-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/577c64e49504e6286d8a969f0a6bbc8e7cdafa74-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:21.230Z",
+      "fileSize": 56388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-stone-pathway-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/187f8e4c7335af26ffaecd809fcfdda53054482e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:21.679Z",
+      "fileSize": 31048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-in-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1359bcab78ee7f4c59b40c8d60adad0f243c80ef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:21.702Z",
+      "fileSize": 33666,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-smoke-chimney-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/284f284c1046e1aa45f8257a4c7bc9c60b3cf340-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:22.170Z",
+      "fileSize": 24570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-cozy-and-whimsical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bb675b5180090fe0c8b8717c7c148ff105b05dd7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:22.170Z",
+      "fileSize": 35202,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/house-exterior-with-garden-path-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8aa46b488cc8f38cc9ddf7defd4ad36e8805184a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:22.617Z",
+      "fileSize": 33840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cozy-house-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed07ab00501c910c7ad32f464a5477fbf9b4af03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:22.626Z",
+      "fileSize": 40604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cozy-path-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/633ecc08def8c04f84d49f387d5d4b842fdb5f46-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:22.641Z",
+      "fileSize": 53098,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-bungalow-cottage-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f50c48f7f4b37ebc857a918dd68481e38e7ad9ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.092Z",
+      "fileSize": 35256,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/house-facade-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5a0fadf99524b4d12263678c76a8090fc291eabe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.135Z",
+      "fileSize": 29484,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-cottage-front-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cbcdb728024f59ec85d490aa5c8d53530c4d9e47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.160Z",
+      "fileSize": 55480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cottage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f78626d6222065ee5d51628866dbae29247a2073-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.622Z",
+      "fileSize": 42768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b45f0229a59d0261c67201d224620fc4666a1305-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.623Z",
+      "fileSize": 40612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/storybook-cottage-smoke-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac1d516a2e23ea1d03d0be36795959b0716d2d29-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:23.632Z",
+      "fileSize": 38194,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cozy-a-frame-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2178929c443bacd1281942a0ba7aa235cc56eac3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:24.050Z",
+      "fileSize": 33434,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-cottage-pigs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/521b584c10a094b1f6b2a3451106a665bb56e9c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:24.079Z",
+      "fileSize": 26974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-garden-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/599ee144114ea0c44957b5ac8ce751bd655bbe06-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:24.135Z",
+      "fileSize": 31294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/house-with-tower-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d4e128d8016720ad50ff9aaefce6974d6b648a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:24.569Z",
+      "fileSize": 24002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/charming-house-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8dac91e152b351230749905e9d94a72ca05539dc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:24.635Z",
+      "fileSize": 34500,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/piggy-charming-house-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/047ae5bd77c7c4bd12a91051755d50730eaf7e1e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:25.191Z",
+      "fileSize": 52198,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/house-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1621a06b945fa1fc65cd73c37686e0332dbf14d-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:25.213Z",
+      "fileSize": 70494,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/education-coloring-pages/house-coloring-pages/cottage-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac1d9a87af7e19ec5dca383940ccdf167def73bf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-19T04:14:25.597Z",
+      "fileSize": 12228,
+      "dimensions": "300x400"
     }
   }
 }
