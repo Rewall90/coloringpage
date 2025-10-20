@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-19T04:14:25.879Z",
+  "lastUpdate": "2025-10-20T13:17:37.752Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -20035,6 +20035,440 @@
       "downloadedAt": "2025-10-19T04:14:25.597Z",
       "fileSize": 12228,
       "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/polar-bear-standing-on-ice-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54b9c3b4fdf77be5a405e660a80b75653341735f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:26.769Z",
+      "fileSize": 25974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/arctic-fox-walking-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b64a8c99fe258fb63957dad5ca8dbed823969565-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.257Z",
+      "fileSize": 26404,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/reindeer-northern-lights-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cefe47133c991fceacbfe81358cadf550a5dd282-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.394Z",
+      "fileSize": 30986,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/walrus-iceberg-resting-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b3eb18877febd34a8e661363b84972c8673486f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.394Z",
+      "fileSize": 27406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/narwhal-arctic-waters-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/afa06be7f8faca459d7b45fd110eeaf7cd87f8f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.853Z",
+      "fileSize": 23320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/snowy-owl-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5eb0aaf46b5593620d6499189f5a45dfcba6c2bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.866Z",
+      "fileSize": 31956,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/arctic-hare-sitting-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8537afbe31e122f48997af11a38fd4b1a29ef9cc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:27.890Z",
+      "fileSize": 20724,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/harp-seal-on-ice-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd805c00a683ab747dbac6dc9f0bebd5ed77436d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:28.348Z",
+      "fileSize": 19920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/musk-ox-with-goggles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1a35035e61c2e0bef02f070d9f885e109d9de5ce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:28.348Z",
+      "fileSize": 34074,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/ringed-seal-ice-habitat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40bf11fa4f130b14e2a025e350b953f07db7f01b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:28.400Z",
+      "fileSize": 22280,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/puffin-standing-rocky-cliff-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0ba4e5e0e02dbc6ded719eca50b0fee0045377ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:28.858Z",
+      "fileSize": 23138,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/ptarmigan-with-bush-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8556142db9468fb0aacde171bbf1e0080c8a2f6f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:28.858Z",
+      "fileSize": 28926,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/beluga-whale-ice-floating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0af41173a77208130218319a080abbbf0948b400-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:29.262Z",
+      "fileSize": 25624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/orca-fin-sea-icebergs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a331216c1ecd04e2fd05d6e9bc96e1a773d46c25-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:29.671Z",
+      "fileSize": 21684,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/snowflake-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e33db7679292eb1ef8f76f15b40f7f62f1bf9ce8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:29.695Z",
+      "fileSize": 21286,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/lemming-burrow-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/198b9be55a1939b5156e4d34ead9472ab63cb407-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:29.735Z",
+      "fileSize": 25002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/geometric-snowflake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c44afcab4e557eb8fbaf1011150bc568fea89f06-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:30.170Z",
+      "fileSize": 21516,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/decorative-geometric-snowflake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a2ecbaa060ed8b0bb59128835ea771714d5ffbf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:30.175Z",
+      "fileSize": 32738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/floral-mandala-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/71c6c428da54361228e8292d9f45704696d41404-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:30.231Z",
+      "fileSize": 28840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-building-snowman-winter-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1603bcb4bd7075a634d9c7e80a4a35a7bda5b0af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:30.666Z",
+      "fileSize": 50816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-decorating-snowman-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff2619c1762a6b26248c0549d16df01126b00cf2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:30.736Z",
+      "fileSize": 25502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-snowball-fight-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/75c448632ab6fdf9a1d49ae0603480cc3ff2fd91-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.168Z",
+      "fileSize": 30176,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/pigs-building-snowman-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/acf47dabebcbcc276fd9213193e3d2386a3152b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.177Z",
+      "fileSize": 29074,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-snowball-pushing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/53469ef01f15b933e5a39cb303b96e7c720f0f2d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.227Z",
+      "fileSize": 26942,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-snowball-fight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d01a313bdfe145031764d63e5e152170f6882949-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.682Z",
+      "fileSize": 22656,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-pulling-snowman-sled-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c9c06b83f1877a21bc6bd365280a30ef0ee96ff4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.712Z",
+      "fileSize": 24916,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-snowball-family-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29517eb768baccdb1b25b0552179084bd6c61340-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:31.905Z",
+      "fileSize": 27982,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-making-mini-snowmen-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9633acbccc5c319454831cfa9b18878b2308f106-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.298Z",
+      "fileSize": 33932,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-snowmen-parade-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/570ebea2c69a57bd2c3409a19d7a28f0aa68dd5a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.338Z",
+      "fileSize": 30998,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/child-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/986ae9a9db0d0cbca1acff0fac87ed0b0c6d1ded-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.411Z",
+      "fileSize": 27066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/pigs-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/98ada1777066f66167b31b99a010d59c4588f96c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.825Z",
+      "fileSize": 23572,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-building-snow-fort-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aa57e6c1463a14d903ebf2f898319e94d1b58baa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.833Z",
+      "fileSize": 25952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-building-snowman-winter-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7178ca895327cfd97e4a3a318ce729152345c2f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:32.856Z",
+      "fileSize": 41352,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-building-snowman-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49a2f35b1a3cadf6203251868674db84ee252a89-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.224Z",
+      "fileSize": 41116,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14030c344031cbcd4bdc5d67b6d57d1f6772fc9f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.265Z",
+      "fileSize": 37350,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/snowman-contest-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/39057183bf422d5569d51c77dcdfdca7f92b03cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.321Z",
+      "fileSize": 46580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-building-snowman-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/afb656298194f39ff488881208b26b656be32dbb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.752Z",
+      "fileSize": 33850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/kids-ice-hockey-game-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8393146ab466c2207ed81e1a8bbf2ccac3208497-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.792Z",
+      "fileSize": 28624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-building-snowman-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b94a94e31b530b88bd4f91a1c6afbedbd4a63f3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:33.792Z",
+      "fileSize": 35638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/pig-gardening-house-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2bddba19088768f009c3bc890079865d0eec540b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.218Z",
+      "fileSize": 15230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/child-sled-school-closed-winter-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2e398c0a56b7970732ca5d3b4ca8a0bd6d12086-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.258Z",
+      "fileSize": 34906,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/children-hot-chocolate-stand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fc5a40c6bc6630023078bd3e51983943b046940-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.258Z",
+      "fileSize": 38320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/forest-trail-bench-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1fbc20efe96b25935472a21c7a2d6dcb1f85b5b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.682Z",
+      "fileSize": 30570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/lighthouse-on-rocky-cliff-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff598d9f232d96a81e96f41d435344f554c92584-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.706Z",
+      "fileSize": 29050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/swan-ice-sculpture-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/687bf666d650cd7948916bccbb1ab3eb59b31f4b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:34.727Z",
+      "fileSize": 26208,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/child-cleaning-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/864ec8805c6d3bf006cf21d24f46955eaafd08ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.159Z",
+      "fileSize": 29256,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/dog-sledding-winter-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/130fd7da7b6a0203dbc6440071c31ea66f5d33b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.174Z",
+      "fileSize": 27262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/birds-winter-birdhouse-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9aac9eeaa8c425a49d53a7b8eefc57c4b6d43718-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.185Z",
+      "fileSize": 34458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/playground-slide-swings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6eb0bccf8db713b1657663cf5bb03635fbc970b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.639Z",
+      "fileSize": 24504,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/fountain-with-trees-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/403aca4ea5a395bf2641ef45432f38a1dd4c8cbd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.679Z",
+      "fileSize": 46136,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/farmer-pigs-winter-feeding-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd020ad221bb28678774228628bf307ceba0ac3a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:35.705Z",
+      "fileSize": 27000,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/dump-truck-over-bridge-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02cf0273712e97aee6a03e6c2d2d16cbcf4a4c7c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.159Z",
+      "fileSize": 25682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/train-front-view-arrival-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a93404c63e9be842ba8294bba9114ac03412257a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.199Z",
+      "fileSize": 18550,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/pigs-shoveling-snow-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c07ab06a15643e55f0edf318041a18f8b5c15fae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.215Z",
+      "fileSize": 20708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/beach-lifeguard-tower-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dcb073cd78ca30cc8b06ac8eb6c8ab47e709a03d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.639Z",
+      "fileSize": 25666,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/bridge-pond-ducks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e2deacb1105e75355d587256226ac91e65f621a9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.673Z",
+      "fileSize": 32334,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/ice-cave-exploration-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d3f5a05b58ac71e074235c84ea805076958886c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:36.704Z",
+      "fileSize": 17226,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/northern-lights-chairs-deck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2c02f8b53dee374f3f11c1c2b7ab65a9d4dce7c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:37.144Z",
+      "fileSize": 43444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/roof-snowy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/11981cda0e992486019789da3d2be005a3e42b81-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:37.145Z",
+      "fileSize": 22484,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/person-installing-tire-chains-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/776a792fed7610538e7893e84d098f27ecf0fca7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:37.175Z",
+      "fileSize": 25004,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/two-kids-building-a-snowman-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff2619c1762a6b26248c0549d16df01126b00cf2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:37.536Z",
+      "fileSize": 7758,
+      "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/winter-coloring-pages/winter-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdda80a938c552d94e90d5b36a255d6e2afd1676-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-20T13:17:37.752Z",
+      "fileSize": 60474,
+      "dimensions": "1312x656"
     }
   }
 }
