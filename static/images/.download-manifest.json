@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-20T13:17:37.752Z",
+  "lastUpdate": "2025-10-22T05:54:09.414Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -20468,6 +20468,825 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-20T13:17:37.752Z",
       "fileSize": 60474,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/santa-toy-sack-list-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34ce6e4562bdf299d2f3a309d36a98337849c537-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:49.444Z",
+      "fileSize": 36892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/santa-flying-reindeer-sleigh-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfb24cec8efa8c823633b1ad0b70f89deaabdba5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:49.970Z",
+      "fileSize": 33268,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/reindeer-smiling-with-bell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e90d308e25e1f11d19bfe50e52d3962c97212e76-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:49.973Z",
+      "fileSize": 22838,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-tree-presents-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/986661db2d25774bac98fa244dec0c7376c43f0e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:49.994Z",
+      "fileSize": 19242,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/cozy-christmas-house-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/330f23054ac6c880740282d4ddce6abb7d4c503d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.402Z",
+      "fileSize": 24948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-trees-and-fence-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad9236d7174a8f039b8e66c2b80aa884c343a0ff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.429Z",
+      "fileSize": 22838,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/car-christmas-tree-rooftop-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5b59c1660bda38db362e2d8939acf6479d6db72c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.480Z",
+      "fileSize": 19442,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-cookies-milk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/733b75b5415d8133affc83192b43e22cbff4a6b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.865Z",
+      "fileSize": 24710,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-fireplace-stockings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6f08877f61f3e43e845423fd8ce789340b67b571-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.902Z",
+      "fileSize": 26202,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-door-wreath-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/628cd596f9d60f0fb59117e5785e88910a37998c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:50.909Z",
+      "fileSize": 20768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/gingerbread-couple-smiling-friends-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2f1c0626237f3f517ee1434b4f301120e74403ac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.329Z",
+      "fileSize": 30076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/gingerbread-festive-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2a2b67b335f1d878dbc794a1f2eea4c6f12e69d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.377Z",
+      "fileSize": 39734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/candy-canes-with-bow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b5da621996a6215f1671ffa2d4f5d412349cb5af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.415Z",
+      "fileSize": 27724,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/peppermint-candies-christmas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d214bf609a3b8d3d24e6b90650632d06bff4d2df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.774Z",
+      "fileSize": 18612,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/poinsettia-festive-christmas-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3965778df3d960849bd17effa2bbeb0c42f2407b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.834Z",
+      "fileSize": 23150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/nativity-scene-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9c77617cfbc3878413f9e485f85048ae64d4530-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:51.878Z",
+      "fileSize": 15840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-wreath-with-bow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/36f84cfb3769e30df41db23fa33dae464baac951-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.322Z",
+      "fileSize": 32628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/snow-globe-village-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63efd635cac69efa69b8c128e16c7aa13914ec5c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.332Z",
+      "fileSize": 33660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/mistletoe-bow-elegant-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/375dd9a92e9f5093359e7af1b9f2dbf20aa5c9ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.365Z",
+      "fileSize": 26002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/cocoa-cups-with-marshmallows-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3aba768043e146d4d2fb3779bbacb5c3ff29590f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.764Z",
+      "fileSize": 33530,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/snowman-top-hat-cheer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a49f03c20377ca67e54b6ff4d6c537526778d3b1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.769Z",
+      "fileSize": 25370,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/snowman-christmas-carolers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f01ba158574df7e31bef3f41fc4b33bfbf80426c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:52.821Z",
+      "fileSize": 39264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/gift-wrapping-table-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bce8b536c941245671819dae1346dee7f2ee7aa6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.215Z",
+      "fileSize": 16748,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-gift-stack-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6b99ceb647773f542336a50278fa7bb93ba9b78e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.289Z",
+      "fileSize": 35396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-train-tree-stand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c58d6e2cdb7ccb5ccba107498c15a809ef87b582-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.345Z",
+      "fileSize": 22880,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-lights-garland-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b16b04370b0b5549319a583ebd65e664a29ce531-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.748Z",
+      "fileSize": 18272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-star-tree-topper-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c57e00573a41ff64cd95a3c3bcf57bc4491b0513-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.785Z",
+      "fileSize": 12072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-bell-with-ribbon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da0cfcf2e4bb14f8e2a080b351c402f6d96ddade-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:53.800Z",
+      "fileSize": 14240,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/sledding-christmas-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec038aff43f4ddd08bf28eda9cdc1844e2931bf1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.201Z",
+      "fileSize": 23274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/ice-skates-hanging-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a1623d425deb87b98084ee33740c9da343487d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.201Z",
+      "fileSize": 25770,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-stocking-teddy-candy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31fc2317e01064812e27d9a14562f35a6f4b3219-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.233Z",
+      "fileSize": 20914,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-present-bow-wrap-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/21234c42496922c58ec8cde7cb59b6b5399e0e63-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.604Z",
+      "fileSize": 14478,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-candy-cane-hammer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e2aacf4d27f6adaa636ffe388b99ed46ac6cf25d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.638Z",
+      "fileSize": 12254,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-village-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/93d7c765d1e46be48581f902a439b0061f74560b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:54.653Z",
+      "fileSize": 15642,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/heart-shaped-candy-canes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c920369440b867b1314724fbfe7035ad18ddb960-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.017Z",
+      "fileSize": 15016,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/intricate-snowflake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3c708b469ba1fd4e43798be9ca9b5dbcaf57e9d9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.048Z",
+      "fileSize": 28216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/nutcracker-standing-soldier-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/604ab5c139e2a471a313551e92df2c0d1febdfe5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.118Z",
+      "fileSize": 19444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/pine-cone-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/293e0dfe38a1ce4c22c412a1d031563b521de270-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.508Z",
+      "fileSize": 18974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-candle-cozy-holiday-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25026b09bd284851155aec6d2c6aee245db774ee-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.528Z",
+      "fileSize": 34322,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/holly-berries-christmas-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/38cbbb48417929cd81cebf3bbbeead61f97f948d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.589Z",
+      "fileSize": 20430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/reindeer-antler-headband-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/400e07258ec92b42244ce2b16f924691db92a035-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:55.985Z",
+      "fileSize": 18158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-snowflake-sweater-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34e8968efe7a5050312d7833062674440d3c821c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.096Z",
+      "fileSize": 24580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/santa-simple-hat-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee5e791dda395ec01d83e75e63e0015f2026fe57-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.113Z",
+      "fileSize": 14952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-cookies-on-plate-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/133f7e285c9a7cfbfcc3c0c66f75cf8e4fc8f47b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.493Z",
+      "fileSize": 36580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-tree-star-ladder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7ecbb90df504ce07943e71f0f6349d59a402601-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.523Z",
+      "fileSize": 24708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-ornament-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f8ee1f94e4fdb7a79ac267066fe533d831743e68-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.533Z",
+      "fileSize": 39428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/fudge-squares-festive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9dc3181ca0ec1e063eda75898c912d32eb5ea168-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:56.981Z",
+      "fileSize": 56542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-living-room-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/92ec37cd0e8193704b630f27a2ced83b150221ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.000Z",
+      "fileSize": 32682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/mailbox-christmas-bow-snow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/217cbf31dbc225731b5cd2684b5f3b63a288da31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.126Z",
+      "fileSize": 22338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/car-christmas-wreath-decoration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c63a1f2b8a6df201de0d43a55a55587f47eb556d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.532Z",
+      "fileSize": 19334,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/snow-angel-scarf-hat-winter-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ebd1695fd77afc288928d0445ccc67e16ae5c0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.549Z",
+      "fileSize": 21834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-angels-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdc2903a46acce53d67e0e885b17159299c578e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.608Z",
+      "fileSize": 32846,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-throne-candy-canes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3b26db917bbc27fda48dec1bc9a645899e867acc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:57.991Z",
+      "fileSize": 23742,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-cauldron-bell-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c33ad95e42b0e6d44059f9ae2f510c850086b29c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.029Z",
+      "fileSize": 13240,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-cookie-cutouts-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bf879d581409aa7cdd2a0b6c7a803a373f3f8340-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.063Z",
+      "fileSize": 25298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-staircase-decor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2739037a17cfbf76e949efb4d1f53db1c00ef614-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.462Z",
+      "fileSize": 45066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-cookie-baking-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/28dbfe5d56d2cbd66d8d67d69025d8d4ada4d015-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.493Z",
+      "fileSize": 32048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-toys-candy-cane-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fa27388ca22be357d40295553cf1e3399ccd559d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.541Z",
+      "fileSize": 25572,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-train-with-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/011e61b1fb0acfebe670193c7b3eba8e3dd27218-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.953Z",
+      "fileSize": 34986,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-ornaments-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dff991c8be68166c93a4cfe6cfb95fcee428e701-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.958Z",
+      "fileSize": 24528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/festive-mailbox-gifts-snow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/311c70c815adea6a109012fc68e813abe13eadfc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:58.988Z",
+      "fileSize": 23608,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/truck-christmas-tree-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/32dc604342980c8bf3f2ee122b2e5e7790c30647-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:59.389Z",
+      "fileSize": 21048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/candle-window-wreath-snowflakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/87449ecc14a7be0a2e19d3756f6ddf1b02fdbc08-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:59.426Z",
+      "fileSize": 34294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/christmas-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/589ea403b87ec89378479083b363c9a4b87de890-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:59.469Z",
+      "fileSize": 64042,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-coloring-pages/santa-claus-waving-with-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34ce6e4562bdf299d2f3a309d36a98337849c537-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:53:59.799Z",
+      "fileSize": 11246,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornamental-bauble-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd7c3fff986cac125d24050a7046069bd7d7c4b3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.232Z",
+      "fileSize": 11848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-simple-elegant-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3def46bbcd1c051d9b3263a1eee96f1ca3e0dd68-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.232Z",
+      "fileSize": 12420,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-teardrop-shape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0b109a986f09cb95ced510c6bfd2f078c828825c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.241Z",
+      "fileSize": 11526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pine-cone-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/913cd329bd134d203073a3bede240ad8d436b8ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.664Z",
+      "fileSize": 16686,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornamental-lantern-geometric-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dda254a89718daa47c5fcc5dae91d96126f9100d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.690Z",
+      "fileSize": 20918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/geometric-pig-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1d49ba1b7d969b34b4ecb2bace8c6fbd7ff55b3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:00.694Z",
+      "fileSize": 15066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/trumpet-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/269d22f9ef96c5605cc557e2212d19d38a5f7054-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.079Z",
+      "fileSize": 15048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/rocking-horse-rider-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/11b795a5a896bb0daf4af0351ac471ee39dbeafa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.107Z",
+      "fileSize": 19380,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-drum-toy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f34c55909da593b3be11a1d761a73d4168e0367c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.164Z",
+      "fileSize": 18270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/bird-with-winter-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a85d511a79a92316d347d7b21f421f7741f3e662-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.539Z",
+      "fileSize": 15540,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-house-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02fe98cd53a80b9a81a7304d34396710c5ddcdef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.549Z",
+      "fileSize": 15646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/gift-box-with-bow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bb406c2da32b8e913a729b11952709b088b77242-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.566Z",
+      "fileSize": 24556,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/simple-bell-with-bow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce6c1e22c1902601136cdf7d0c9233fb652e9e0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:01.970Z",
+      "fileSize": 15522,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-sunshine-decor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1dd02916f4543786495ec36bb6c17b3438f511a6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.022Z",
+      "fileSize": 18260,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/sled-with-bell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6d86921d864f498e237163fdd810b7fa7ca4f676-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.033Z",
+      "fileSize": 26366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-spiral-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/372a6fe69322530cedeca146aafdd972dc7aac75-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.413Z",
+      "fileSize": 16008,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornament-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a0856bc793877e626fae6d82498add2832163a41-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.470Z",
+      "fileSize": 16746,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornate-christmas-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ce07e876e0fa8497816fb8dc80eb7c5545f66c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.477Z",
+      "fileSize": 16824,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornament-outline-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4bfdb72daa69ccc9b2338fe5bc01dd5dfad65f88-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.868Z",
+      "fileSize": 19314,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/gourd-shaped-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bb9bcbee13bfb2ad45ee241b260088a018b541e2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.889Z",
+      "fileSize": 11540,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/festive-ornament-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6f8ef86baa70de91a8bdf44b9d3ae21ec2a8e341-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:02.895Z",
+      "fileSize": 21896,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-spiral-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/73b346095e25c5fefadb6bb2b580645bf6ac0045-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:03.302Z",
+      "fileSize": 16736,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornate-hanging-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6666649263659c9b04cb08b6368afa39cb5495c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:03.735Z",
+      "fileSize": 20216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-decorated-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc0c3a94c8753dc7aa3feceafcca65d2876be41c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:03.736Z",
+      "fileSize": 16974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornament-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/193583735e8369b46362a5f7b91fbf2b741bc189-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:04.126Z",
+      "fileSize": 16816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/intricate-ornament-star-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b9d3ff3ac03f980d5efeacd3bec2c39d24fdc04-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:04.241Z",
+      "fileSize": 19618,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornament-stripes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4105c26d3eede8b67f396bee00adf95cf8ee7135-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:04.641Z",
+      "fileSize": 22892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/polka-dot-ornament-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f4375f81458a9a139e4720d977f0d5702dfbfe8d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:04.642Z",
+      "fileSize": 18554,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/striped-christmas-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a5e63d9832c4ef0d4bfb262a294bdcbac49579a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:04.689Z",
+      "fileSize": 20156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/decorative-christmas-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0aed9cab8f7f16f7a9843c6c155465ad55da6272-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:05.137Z",
+      "fileSize": 17890,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-stars-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a7dc7f5161c144b9a7dad0e13d752b33a9caddaa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:05.159Z",
+      "fileSize": 21068,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornament-snowflake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ddf1fc7b9628c3ea03d42933024cd2c076aade9f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:05.561Z",
+      "fileSize": 23502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornament-detailed-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1b4d0ccdacc34e49e14a5fecc1ea69db08b611f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:05.585Z",
+      "fileSize": 25072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/ornate-christmas-ornament-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef9efdc54047ccbee6d278a4890d75fa8ee942db-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:06.023Z",
+      "fileSize": 31020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/striped-ornament-plaid-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b7c1aed0e1cf8e4c788d333d05a7fd8c1834799-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:06.088Z",
+      "fileSize": 36126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/rocking-horse-detailed-saddle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2bed13d867c154c7af3ed508c9e3ccb44a878b47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:06.487Z",
+      "fileSize": 22804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/train-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ebc87ea5b825744e6ff4531bc2c813e374247ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:06.555Z",
+      "fileSize": 12968,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/car-ornament-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0e8d90b7d470acdc42d83d6a2902569c525d76c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:06.597Z",
+      "fileSize": 18856,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/sailboat-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1762a9c434e4a6ca7acdcc1ad852d2638978459c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.011Z",
+      "fileSize": 10884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/teddy-bear-party-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f493f74da6f00af1bc09376d418dfd598360f44-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.049Z",
+      "fileSize": 23038,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/airplane-simple-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/89713713d1fba7f5cce5d5d45f531e3b6ff2c2df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.062Z",
+      "fileSize": 22166,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/nutcracker-standing-soldier-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9968730b50052d8e0a98f8a07fa9f5833b7d163e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.480Z",
+      "fileSize": 17408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-drum-playing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb16dc734d462322c5b593df17e51f7a0c7a8d95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.517Z",
+      "fileSize": 22444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/nutcracker-wooden-soldier-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/38209282d8daadbb0a9bc2d9f35466d1c5035a36-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.537Z",
+      "fileSize": 16698,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/duck-toy-bell-wagon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e6f95cf4648e4916ac09c9b2fe463dcd43e3c0b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.933Z",
+      "fileSize": 21968,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/spinning-top-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6f41d11eb1e9cdffd3fc274e5a4fe0f590aaa5b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:07.976Z",
+      "fileSize": 14948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/yo-yo-detailed-string-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6bef42b3d4eb9b5f80bb6f9161463d43baac1eb7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:08.102Z",
+      "fileSize": 25400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/pig-recorder-instrument-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9ec4baff83c263adfca1971c0a681efefd3542aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:08.521Z",
+      "fileSize": 13206,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/simple-toy-blocks-stacking-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/39fe66bc72e7e235e080398e072531bdac0ce4e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:08.530Z",
+      "fileSize": 15318,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/hobby-horse-stick-toy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cc9376548ec157f5a990927e9e9d880c86530c52-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:08.572Z",
+      "fileSize": 20736,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-bell-ornament-coloring-page-for-kids-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce6c1e22c1902601136cdf7d0c9233fb652e9e0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:08.919Z",
+      "fileSize": 5608,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/christmas-ornaments-coloring-pages/christmas-ornaments-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9fd66dd0b30a8e66791da426ca190809ae53e63-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-22T05:54:09.026Z",
+      "fileSize": 25828,
       "dimensions": "1312x656"
     }
   }
