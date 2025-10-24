@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-23T06:21:58.128Z",
+  "lastUpdate": "2025-10-24T07:40:47.337Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -21609,6 +21609,545 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-23T06:21:57.455Z",
       "fileSize": 41554,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/dungeness-crab-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b7e55e7ca5554ed9ff7a957e24334dd902caf36a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:38.858Z",
+      "fileSize": 39326,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/blue-crab-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a48b279dc6c5c0efec3d6f9ee4abf02f23b421a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:38.898Z",
+      "fileSize": 32564,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/red-king-crab-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b5bd8be35befe8b048336f03cd5b7675027deb63-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:38.909Z",
+      "fileSize": 43826,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/snow-crab-detailed-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4aa33e626237d59b9ba34195509584fcc8035405-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.194Z",
+      "fileSize": 33536,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/jonah-crab-detailed-sea-creature-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40cd7b63fef19f415735aa1838bc5de977b68dc4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.236Z",
+      "fileSize": 33026,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/stone-crab-centered-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/718c80ba273492f2ea974da6b04bbee797e8c3f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.360Z",
+      "fileSize": 29898,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/peekytoe-crab-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d68d3c4f47083971186d5260955b2ce40ca84575-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.601Z",
+      "fileSize": 32310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/spider-crab-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/995fddb944c1c94d4178da6f7e30fa8b504dcdf2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.634Z",
+      "fileSize": 31796,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-rocks-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc4ec8343232dc72643b3fb573af9f3aa2c600ed-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.649Z",
+      "fileSize": 31200,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/golden-king-crab-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9ef0e92435c5b482d49280d7223fcc03fdcee65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.898Z",
+      "fileSize": 37310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/box-crab-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dcb59f35e7f3a1475693e40fad082851495b031b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.919Z",
+      "fileSize": 26588,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/pacific-rock-crab-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3cbdbbee1d0de03c65af947299588e22d70f4aab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:39.922Z",
+      "fileSize": 26848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/ridgeback-crab-detailed-shell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/99c4eea411cac8fe6ee0023dfedf6ce7ed6c435d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.172Z",
+      "fileSize": 29536,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/sand-crab-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/685adb1c9733e239904a9d0b70b2c79e34aa7008-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.214Z",
+      "fileSize": 20622,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/hairy-crab-realistic-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/203e9a54148f92e6d4ded213e74bb0062c32d5dc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.224Z",
+      "fileSize": 54468,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-kicking-soccer-ball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cb588bcfd72276ac0df6deda0f9fdf6158340deb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.474Z",
+      "fileSize": 21194,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-painting-art-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/858e8b7558e0cb25c7c49fb2ea44a8f36e6503aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.474Z",
+      "fileSize": 27126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-umbrella-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2cecad3d0280aeb5d32f280e003ed816df21acd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.506Z",
+      "fileSize": 29856,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-camera-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bcee9692cfca2288a3b97f6b4b2ecd30a0c8cad1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.740Z",
+      "fileSize": 23462,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-scientist-with-microscope-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14e73ee58c0b73e2a1b9db5ea389dd0c7f9f8e4f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.787Z",
+      "fileSize": 18848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-roasting-marshmallow-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fa1a63c2b3a02962216ceaccda60504e363dab6e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:40.845Z",
+      "fileSize": 27016,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-surfing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/abffdcfe14e78a611ac8ec5db738dbd505910d8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.080Z",
+      "fileSize": 23014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-riding-log-raft-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5e6b834dbf890f4695f7a58a284a4f184267d10-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.105Z",
+      "fileSize": 29606,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-dj-music-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/98b189cc976b5540753390a2df05e0be3bf10dba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.132Z",
+      "fileSize": 28816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-watering-plant-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45e293b2562589e0928b871be01787eb81fa57bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.469Z",
+      "fileSize": 24018,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-airplane-above-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/795c55a37319e26de3378276dd2c6742a380f943-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.470Z",
+      "fileSize": 24804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-sailing-paper-boat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54b2e847a74812a618fbe8fde19a9bc7e1f3425f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.493Z",
+      "fileSize": 21324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-waving-claw-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b7763c9ded6c7dba48e6fc9811df85d083b9d240-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.744Z",
+      "fileSize": 19108,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/smiling-crab-hot-air-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d597c9e61c5c3447b37976cdfb5c8fe88bedf7ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.752Z",
+      "fileSize": 30712,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-watermelon-picnic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a0aae027e92f1ea9a9ddd338e086c39e476c36a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:41.808Z",
+      "fileSize": 32930,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-firefighter-with-hose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fadf006ec81d66efeb176b70fadaf5574aace8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.005Z",
+      "fileSize": 18964,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-mail-delivery-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/99c194023e8426e97f09550b7285999ac7a9dda7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.056Z",
+      "fileSize": 23670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-building-with-hammer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b85737a27d44b96758a56e335a093fa85dc02705-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.252Z",
+      "fileSize": 30258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-party-hat-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb045a3043190d851e9945f19bd5e11245ca35e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.577Z",
+      "fileSize": 26932,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-books-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/365287152210863899e9b890000badf4e191f5a6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.581Z",
+      "fileSize": 22238,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-yoga-meditation-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c2031a64ba7208cdc7ceb105815d3b443af78e0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.581Z",
+      "fileSize": 19298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-ice-skating-scarf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1acdc6733bd4b95d3b8a6957a1923302bdecc195-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.876Z",
+      "fileSize": 24678,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-skiing-snowflake-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ae03159e5213e1f62b7b4bebe6c9dca8ce2fd79e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.908Z",
+      "fileSize": 34038,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-conductor-music-stand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2f17a4b5dac18134ab668e922df252be0607bdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:42.930Z",
+      "fileSize": 21070,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/pirate-crab-steering-wheel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed85cc2cd0832353a8f37df580182c34ca1577e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.170Z",
+      "fileSize": 28840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/hermit-crab-with-seashell-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01408932398f082e3dfa45808ee87e8e1fd668ac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.196Z",
+      "fileSize": 25452,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-snorkeling-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ae891ef98cb4a86e205906f9c75fe3e4703d6dac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.343Z",
+      "fileSize": 25162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/ninja-crab-holding-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/580d6b8fd88944bf8322896b135ba5d42e45f192-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.580Z",
+      "fileSize": 21450,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-sandcastle-starfish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0d096a352b3a41d76147adc0c65635e0349ee455-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.601Z",
+      "fileSize": 19838,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-playing-basketball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/becfa8e58606a3e2562f752954d9df0abe80fd38-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.708Z",
+      "fileSize": 27294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-tennis-activity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dfcfbabeb178687c2bef24ac043e028dcd11b302-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.965Z",
+      "fileSize": 24920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-holding-leaf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/57c598a6ce4504edc95ebe82e060d684e2cd7800-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:43.992Z",
+      "fileSize": 28018,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-playing-baseball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b7489b16119ea2b3de898881f3b54a259ae3910-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.010Z",
+      "fileSize": 22316,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9fa4add7cbfea30b6c7471179997a3ea05063b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.241Z",
+      "fileSize": 22622,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-holding-seashell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7fd5d1203a977461ff6e556a4c9c822f749c669c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.270Z",
+      "fileSize": 23412,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-playing-xylophone-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ff59eb07dd5b543d371ed5baeb9b8a691d41d15-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.349Z",
+      "fileSize": 24274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-holding-windsock-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4aca32816fc6ffa2c80e4b8f48686fc7acea3ab8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.571Z",
+      "fileSize": 29004,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-unicycle-balancing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/645da8dd6d8224cb046d4d7b996a6b8ec1eb7aae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.572Z",
+      "fileSize": 21510,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-yo-yo-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c1e3b1faad2f502d5b8e46106bde20fb249db7a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.621Z",
+      "fileSize": 28624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-train-conductor-waving-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ccbaf7c746eccff77af03b6f246b528f173e7adf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.875Z",
+      "fileSize": 21726,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-rowing-boat-cute-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c8d94ee5db93e2e3f2d895caa5cb2d110c15d816-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.885Z",
+      "fileSize": 21064,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-parachute-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/924adb955323cc5f2297dc25f2065f1b26de90e9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:44.913Z",
+      "fileSize": 31218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-bicycle-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6a96e1fa1a054d0e26948d42b291110c2d118d9c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.178Z",
+      "fileSize": 25056,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-fishing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d0d65dc117459d8f79703adf98c19cb2ea282c15-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.179Z",
+      "fileSize": 28280,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-waving-claws-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3edd8dd0514d793e160cd05e7f327cfdd4afcdec-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.197Z",
+      "fileSize": 24794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-playful-paper-airplane-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5303d9751df7c9fb901a97af575f99431c2ef50-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.436Z",
+      "fileSize": 21876,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-frisbee-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69d77139d23ecc7d883645696990b1ca9733955f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.449Z",
+      "fileSize": 24244,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-hanging-ornament-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0d74852c54c604ab695c09ce8cf22d2e3abc096a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.482Z",
+      "fileSize": 22286,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-building-snowman-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/55f1db22d4e92ac4924bb54fdba8a986b4ddea6b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.712Z",
+      "fileSize": 24440,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-carving-pumpkin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/532ef57de6cf22db196a8db09e94657a0bc427df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.724Z",
+      "fileSize": 26462,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-sledding-christmas-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5026ea071830bf212c814a5f1f4c2cc3421b8dd4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:45.770Z",
+      "fileSize": 26296,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-with-balloons-flying-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3a172793e7918c9fa24e5f4f72589cee0a16eb3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.032Z",
+      "fileSize": 22422,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-checkers-table-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2b7d943fd5dc95778ca40a3a9f65a1d329c9b32-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.036Z",
+      "fileSize": 23340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-balancing-beach-ball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6fb94d80ecfe785efa5303cf5923827a6c44d132-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.084Z",
+      "fileSize": 21902,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-holding-fish-and-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/802f065a015880c08ee5aac1a88e389c5b1ef776-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.353Z",
+      "fileSize": 26138,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-camping-hammer-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0b1c4562556f5f222a596c3b52066d4c37c2c852-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.361Z",
+      "fileSize": 24934,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-pulling-wagon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f0d463f95d2ac0a644c2d5abfe318eeb7765cf0e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.377Z",
+      "fileSize": 23400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-planting-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb5571059907818d81e7a82de09df9cdd4d8db84-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.579Z",
+      "fileSize": 19758,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-bowling-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/68e4b15817d7ad94ba0d5a1fd7bb0d6a69b17307-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.603Z",
+      "fileSize": 24938,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-reading-treasure-map-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6fce5fca62579fa9279f2446480f01503d4a3b3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.605Z",
+      "fileSize": 26358,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/line-art-pirate-crab-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed85cc2cd0832353a8f37df580182c34ca1577e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.820Z",
+      "fileSize": 8642,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/crab-coloring-pages/crab-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2f4aa2185f0a035affb6e87bfd32bbc0b3a86ed8-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-24T07:40:46.940Z",
+      "fileSize": 52320,
       "dimensions": "1312x656"
     }
   }
