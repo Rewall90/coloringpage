@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-24T07:40:47.337Z",
+  "lastUpdate": "2025-10-25T11:53:47.877Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -22148,6 +22148,433 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-24T07:40:46.940Z",
       "fileSize": 52320,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-wearing-hat-farm-background-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02240d83006b7a3cda11b05abfaee7b0300b0bd1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:36.674Z",
+      "fileSize": 26218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-parade-fun-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/baebd42da9c63c6cd2f11dd47195b432f46803ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:36.674Z",
+      "fileSize": 28578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-ferris-wheel-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7152849a2e843a41f61fdc3d8899b9532f5c63a9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:36.738Z",
+      "fileSize": 43772,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-school-bus-stop-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f9c06c06dea3fbf5efe46fad93c0fa45136ee12-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.159Z",
+      "fileSize": 30482,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-baseball-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a0e8b5ea36b98602561dc8693274372ad4888c80-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.164Z",
+      "fileSize": 33342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-farm-pumpkin-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c3642a948fef44ec2193ea1e3c422f59cb678080-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.197Z",
+      "fileSize": 27698,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-park-bench-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b95977be4073b128c7ad1e17d166b68507739a81-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.623Z",
+      "fileSize": 29256,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-camping-tent-lantern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27a70ad4a69e4e972d37653d755a8e3d1a0b2def-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.664Z",
+      "fileSize": 30850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-beach-sunglasses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65aa887a7359c1aaaf979a306932f509c005d75f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:37.671Z",
+      "fileSize": 27840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-market-stall-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a840d5e5c25e0e131c9c1581eb66ea8092affa59-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.084Z",
+      "fileSize": 27270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-picnic-basket-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7306ef55c8ab9431a97be0ac79487efe12dddcdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.103Z",
+      "fileSize": 35340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-astronaut-rocket-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e9d617e732b4136a17a283d5a0c7daa26cab9d97-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.175Z",
+      "fileSize": 28534,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-winter-scarf-holiday-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d135bee7b4efe770d90cdc462a614dca11953280-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.596Z",
+      "fileSize": 21674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-mountain-road-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7945028135e24bbc218a538e3ccfd58c702517e5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.631Z",
+      "fileSize": 33664,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-swing-set-pasture-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a600b1c8093bddd728ce0bbb6efc1969afbd1f76-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:38.759Z",
+      "fileSize": 29038,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-playing-guitar-gazebo-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f423fae6042e50ff980cc44adff5ac6301cddf0c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.230Z",
+      "fileSize": 45988,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-barn-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9e6e174c46460278e2d021560bf8ba4e0be8de78-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.256Z",
+      "fileSize": 23068,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-standing-rodeo-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/068cf8e48418f4405ceeb0b51291ac864495d767-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.256Z",
+      "fileSize": 25828,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-fireworks-skyline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f1610a800694bd0ce75266d04d3b7ef99df9891c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.678Z",
+      "fileSize": 24130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-with-flower-on-head-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/031d0c67a5549dcf84bd3c367bb4ed4fc60092bd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.678Z",
+      "fileSize": 35740,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-farmers-market-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e3069c7a7eda5f414235ec29c808ec5438e4e985-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:39.730Z",
+      "fileSize": 28260,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-and-calf-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3b74cfb10033b13f50c185bbda6704a50e0f40c3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.156Z",
+      "fileSize": 25344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/calf-sleeping-butterfly-pasture-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fff491660f2fd6f2a057e79bd433f98605b26a95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.156Z",
+      "fileSize": 24734,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-jumping-over-puddle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b564e80b1a2a7097ffd044ae2a8f01b4d6e15651-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.257Z",
+      "fileSize": 29636,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cows-meadow-floral-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d7b5fd22b8fee2d4c6cfeb00ecd12da1a9decedc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.675Z",
+      "fileSize": 48382,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/calf-leaf-path-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23578239982a352c7520f2c0aa116e222f7ec636-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.718Z",
+      "fileSize": 26544,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-peeking-over-fence-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2d061463ea8bc84f9bb01e6a243620fdb87d6e31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:40.720Z",
+      "fileSize": 42600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-in-front-of-sunflower-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f1ef6374bc3afb6a6837963ffb101c2761771e29-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:41.144Z",
+      "fileSize": 36310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-bell-meadow-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8478d2cbe57b9eddf13956be4a6c7c8a5972729a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:41.152Z",
+      "fileSize": 29642,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-grazing-flower-meadow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9cf4b6ebe685c05d0690bce27366afc12a5ee65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:41.213Z",
+      "fileSize": 37092,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-by-lakeside-peaceful-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f8820ac0d5f1454bcedf87b70514556da8e4656a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:41.682Z",
+      "fileSize": 32084,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/playful-calf-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/162f18edb965f846d50fe3de84b3e2db601a1deb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:41.683Z",
+      "fileSize": 29674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-in-field-with-rainbow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/48d5fad1108241aa70c09f5b1b00bc44cc0177e9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:42.306Z",
+      "fileSize": 46320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-peeking-haystack-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d4f65bbdc4fc18fe99c88911bb273659de9706b3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:42.710Z",
+      "fileSize": 35928,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-with-scarf-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b71853aa3c422b3ac8bb0f24ede7bc896d1a14b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:42.731Z",
+      "fileSize": 41366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-drinking-water-bucket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6feb7304c9825968abbed763b2f899e6a97484fd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:42.854Z",
+      "fileSize": 42386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/calf-pasture-signpost-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6111206864e7a627b09d47aef97875e5399becd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.262Z",
+      "fileSize": 27312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-crossing-stream-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5a1b87616e96905db5b8b0915cdcb5cfe058cff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.281Z",
+      "fileSize": 40836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cows-eating-hay-floral-field-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3fbc2c846b3e57a75a10e69579fe915f9be6190e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.340Z",
+      "fileSize": 53792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-river-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/acecde6f43da19188f77398de28accb2e7ca4a27-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.724Z",
+      "fileSize": 31788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-calf-under-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/389a1ea36de8e049df5f647762232bc6f25838e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.855Z",
+      "fileSize": 19586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-eating-flowers-pasture-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a126dc78eb984ac14743d0ba5a94e12d678ee9e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:43.872Z",
+      "fileSize": 38654,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-field-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/014c5115433a55fd200108f4f04ce9858277b600-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:44.293Z",
+      "fileSize": 20178,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-pasture-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce5fca60cfac55e4c1b8fccd2c3f5d6d1aafc6c3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:44.518Z",
+      "fileSize": 16654,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-grazing-under-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0afd103d4f38990eee0218068dbe426ac96fa207-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:44.602Z",
+      "fileSize": 54508,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-river-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b63e63096fd0e86978816664ec0c4f357f267129-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.046Z",
+      "fileSize": 34798,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-windmill-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/244fa1a46558f5f37750d92d8945c34a5b3e1e3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.047Z",
+      "fileSize": 31480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-relaxing-under-rainbow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9564a83ec0f907dddee5c2a140838e40e23fa7e0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.090Z",
+      "fileSize": 31024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-orchard-apples-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9cf9e343b432ac445ea78168437da40c607d2f3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.493Z",
+      "fileSize": 34458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-scenic-lighthouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/76079466b3197fec5ac43f36d75cab2aa66d96b6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.572Z",
+      "fileSize": 58218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-pondside-tranquility-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cf328c35fbec9142d6a47530155c5a87d42befe8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:45.654Z",
+      "fileSize": 94522,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-sunflower-field-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb6ef9363b570ea274afa1149a5a62fb45df74d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.088Z",
+      "fileSize": 43402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-barn-sunrise-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd5249c499c0fee34c0523cfe6fac064c583839b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.089Z",
+      "fileSize": 23228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-crossing-stream-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c421a9f35e8d0193ea012d94f4f0f53c85c5a5ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.128Z",
+      "fileSize": 31638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-farm-scene-signs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/109c8df43df5c214c9191c288b9c78c53554ddab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.546Z",
+      "fileSize": 24372,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-farm-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8075e62f50d202503f5f9510d4d8eaa90151bec1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.547Z",
+      "fileSize": 36254,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cows-facing-over-fence-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c64616e583bfeb4e056f0f94da9351450c93aa3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.570Z",
+      "fileSize": 40604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-farm-barn-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/014531b5257fc18182bb0343826d934d72df3f6b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.943Z",
+      "fileSize": 45880,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-pastoral-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66dd96b7668699d97dc33fc9c670da4a6e4013d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:46.977Z",
+      "fileSize": 31678,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-at-a-forest-campsite-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27a70ad4a69e4e972d37653d755a8e3d1a0b2def-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:47.361Z",
+      "fileSize": 9266,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/cow-coloring-pages/cow-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9de5df10f6f4dd5ea7de9697a9142ac3302901cc-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-25T11:53:47.489Z",
+      "fileSize": 64536,
       "dimensions": "1312x656"
     }
   }
