@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-26T07:41:50.829Z",
+  "lastUpdate": "2025-10-27T09:25:35.289Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -22912,6 +22912,370 @@
       "downloadedAt": "2025-10-26T07:41:50.742Z",
       "fileSize": 9470,
       "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/sugar-maple-tree-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d02add4911e2726622d4f42bbcb87e38ae02d781-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:25.823Z",
+      "fileSize": 52174,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/red-maple-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/494506fb4df19c9ccb565f2ff3dd53d6805e8420-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:25.839Z",
+      "fileSize": 46020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/northern-red-oak-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b09705599f6c929bcc03ea009fc0f8f8a4c87f5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.359Z",
+      "fileSize": 52312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/american-elm-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c086402b6dfac4535d6cdb4ce14c4d3e98f8c21e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.379Z",
+      "fileSize": 49068,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/white-oak-detailed-branches-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/212d03472f84037340d7035d990771c48fb8e070-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.379Z",
+      "fileSize": 49794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/white-ash-tree-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/768796fd4cdaf45a95743ef23d27bf12543abcf8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.799Z",
+      "fileSize": 26966,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/green-ash-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee5d8b9bc562179e0114aa8a63cd5890c81dc02e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.869Z",
+      "fileSize": 28516,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/american-beech-detailed-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8d86297fb4f7d0e295f9fa550fdc54ec84cb8973-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:26.992Z",
+      "fileSize": 74354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tulip-poplar-tree-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/00d2546f510d89e645b55737113af5ecec513809-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:27.392Z",
+      "fileSize": 33750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/american-basswood-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5b72a56870653d49875992ede58935fbca0b7611-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:27.450Z",
+      "fileSize": 62910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/eastern-white-pine-botanical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/743df547b3d5e47e789a455a45c0adda3610cd31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:27.535Z",
+      "fileSize": 35704,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/loblolly-pine-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee9b3c7285a0b9407b1dcec1271d87c4399e987e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:27.988Z",
+      "fileSize": 33036,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/douglas-fir-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b5898ee6cdde4bf985fdca042d96e6e7ef979e09-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:28.000Z",
+      "fileSize": 42662,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/ponderosa-pine-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/219fceb9ac1f7c617a5c3b6090f2e1aa5993b18a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:28.111Z",
+      "fileSize": 62794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/sitka-spruce-tree-with-cones-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/991db04481a6a297c642d21f6d338e1fc584f9de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:28.604Z",
+      "fileSize": 30430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/eastern-hemlock-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6bb2d47ccf7ed8729ed4dbf0f7133ed31e4e1a2c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:28.624Z",
+      "fileSize": 58230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/sycamore-detailed-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3fd0a9bfae2c35c89e573ce8805967dffabcd286-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:28.624Z",
+      "fileSize": 66124,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/silver-maple-tree-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec943b87543ad4c575d6a13539a37ee7ec381d57-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.040Z",
+      "fileSize": 35648,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/shagbark-hickory-tree-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63aa241c2afcb0c4a1b2002fc77d104acbb7975d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.097Z",
+      "fileSize": 69264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/black-walnut-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6da223b54d439791a157e2e7544ff4b0bd3b11c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.125Z",
+      "fileSize": 65918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/sweetgum-tree-detailed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54a8666539a636cf45a40bf4a280bf438d04efb8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.562Z",
+      "fileSize": 53994,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/american-chestnut-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e8f7bce96ecff6f09a305e17c4f265d15389756-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.634Z",
+      "fileSize": 53528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/eastern-red-cedar-botanical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dcc6fe3626ec4e4174a9f880b9602d44f4b32d01-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:29.634Z",
+      "fileSize": 47864,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/quaking-aspen-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3b9eb78abaecc2bc5ad1047ecb25a2771a52f95e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.079Z",
+      "fileSize": 34446,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/bald-cypress-tree-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/89c2cc4280a2fd658dc4573ecbdcbee881f559ec-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.109Z",
+      "fileSize": 52430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/cottonwood-tree-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7e9ad40f90d495bf9890b1e3a48b6c284defa127-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.110Z",
+      "fileSize": 52460,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/dogwood-branch-with-blossoms-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ba727a6623a0f0d100d75f0d258e4eaca90b6fdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.562Z",
+      "fileSize": 38766,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/paper-birch-tree-sketch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c190fc25d9bd89c269bda293c51439a6915fa64e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.570Z",
+      "fileSize": 41702,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/redbud-tree-heart-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/05268261761c8bf367f5631b4c9bfd0c6048e4ef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:30.601Z",
+      "fileSize": 46984,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-cool-sunglasses-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f57710a0dce5a41e870d0dff63663429ebfe041-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.374Z",
+      "fileSize": 16948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-joyful-leaf-dance-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e0692ddad0513f2cd3362f8f0daa4f971a676eca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.379Z",
+      "fileSize": 27754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/magnolia-blooming-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5c5ee24c131c8ce06f7122ff6dccdca3d37c576-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.385Z",
+      "fileSize": 49720,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-meditating-owl-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8aace8700b7eebadcd075dd7a59a9dd2eca3dc72-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.784Z",
+      "fileSize": 27222,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/squirrel-tire-swing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/883f1dc46ec65ba0e817a28bc7d3196de125d390-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.914Z",
+      "fileSize": 27014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-playing-guitar-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c9fdc6252b645e3e18abf0ac7c857bcb6218d4c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:31.914Z",
+      "fileSize": 27760,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/cloud-raining-over-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6b649e71c35d306b1598caace6cfe0dfef38deeb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:32.346Z",
+      "fileSize": 23376,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/ice-cream-cone-cherry-top-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/72c7a155dae4129c98330972aae1fd6adbceea22-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:32.366Z",
+      "fileSize": 18444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/reindeer-with-cape-and-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af4c739c7cca15ca2f51a15ffbd47d9205743aba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:32.645Z",
+      "fileSize": 25328,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-racing-helmet-wheels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc8734e8e4a88b8419b28199666599adb136f2a4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.099Z",
+      "fileSize": 18670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-blowing-bubble-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d3bf221d48823c5678e83c15b2abde00d15afb48-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.099Z",
+      "fileSize": 30670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/reindeer-friends-high-five-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c0e36a9446911834be90b290dc811aa4d7b32478-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.385Z",
+      "fileSize": 29576,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-chef-cooking-pancakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e6a3d40ff92e68c0d60b9837f182d2dc458231e2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.797Z",
+      "fileSize": 29140,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-stump-magic-bunny-show-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/44f5b189c8c492eecfa8f17da5f5dfbd630cbdde-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.802Z",
+      "fileSize": 23746,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/groot-soccer-goalie-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40066963246a35b3b905506e9fddb1dc07ee6461-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:33.837Z",
+      "fileSize": 52210,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-stump-dj-music-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6539b3e228d9f7bdabb6bea10b22b286d440a615-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.233Z",
+      "fileSize": 52566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-character-with-bird-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fcdc00e99a9ea3ed6cbed1e1b18b4e71fbaae339-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.282Z",
+      "fileSize": 30850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-friends-holding-hands-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b129ab8b411f49782dfaec0e243746961c771273-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.314Z",
+      "fileSize": 23688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-with-scarf-whimsical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c3e7a8f65470b2440a339820656a49075a5cb00-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.811Z",
+      "fileSize": 26496,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/tree-throwing-airplanes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f786a2ae9450cdaeed7bd59f524456ebf1b1d2da-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.822Z",
+      "fileSize": 23578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/rocket-smiling-launch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0f1d7b819191e02e437147ddf745d4745fb22bff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:34.822Z",
+      "fileSize": 28104,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/coloring-page-northern-red-oak-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b09705599f6c929bcc03ea009fc0f8f8a4c87f5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:35.237Z",
+      "fileSize": 14386,
+      "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/trees-coloring-pages/trees-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/19416a4cbe8c307f824a95844bca2f0ed4c08d0d-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-27T09:25:35.255Z",
+      "fileSize": 59064,
+      "dimensions": "1312x656"
     }
   }
 }
