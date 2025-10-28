@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-27T09:25:35.289Z",
+  "lastUpdate": "2025-10-28T07:40:00.451Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -23276,6 +23276,356 @@
       "downloadedAt": "2025-10-27T09:25:35.255Z",
       "fileSize": 59064,
       "dimensions": "1312x656"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-crescent-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/79c742b71323656dc2a2af0d28d8b6e25e32f959-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:51.241Z",
+      "fileSize": 27266,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-weathervane-moon-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/828812667da41d0b5172111ba66802ae16c4d9cc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:51.655Z",
+      "fileSize": 23802,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-branch-and-mountains-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a012c1cadf65729b706fa15e43352c56ecac2d47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:51.831Z",
+      "fileSize": 42558,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-night-window-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f56c158f48d3a542f69a297d6507e16c10b94e72-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:51.869Z",
+      "fileSize": 17228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-stump-with-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d9ec0777bf9368a2dd49089b8b792ef0f5e6e22-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.302Z",
+      "fileSize": 36776,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-flying-over-meadow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b8af8056361befdd90e54c0660df48a7f6236506-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.314Z",
+      "fileSize": 23930,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-lighthouse-perch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/617c50f7764589e67304db6a390085de86ac537b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.390Z",
+      "fileSize": 36218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-in-cactus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0b90adfc3dabaf001d92aee90e18de9e2d450851-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.786Z",
+      "fileSize": 24126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-between-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5235f37217a797cbbf5bd11134a8a15faf373b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.790Z",
+      "fileSize": 27486,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-moonlit-wall-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9a7d5912c8242c7a00710535fedaf43ade2de9be-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:52.833Z",
+      "fileSize": 30348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-rake-with-birdhouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/28d82854b33601226e39bd1b832d90a597acf5b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.278Z",
+      "fileSize": 18718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-tree-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6182e0077cd19b2f5bccf69a65314305513d62b7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.278Z",
+      "fileSize": 34104,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-apple-tree-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1828e181f3523960a6526ac2b4bd3b1d4fdfb7ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.311Z",
+      "fileSize": 23324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-wooden-camping-sign-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b82067001ac5a91f7e0872e1b1862a6620f02910-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.751Z",
+      "fileSize": 17050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-perched-on-wooden-sign-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b34c52bb09ba6695e507aaaefe2350bf19c3c50b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.782Z",
+      "fileSize": 33556,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/52e8501ff8a074ff1fc42a6401484b27a0c442e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:53.846Z",
+      "fileSize": 136658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-geometric-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/acbbaae229770fe4859d254fe4b8550fa126b740-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.313Z",
+      "fileSize": 82850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-flight-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74e23789b7b229217cf76cdf2f62a11e8ef2a989-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.329Z",
+      "fileSize": 95336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-branch-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e725237e9a97245d7a5e3870ea8af923bc65cab6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.348Z",
+      "fileSize": 87222,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/db5d720a8187e0077eac24788e6599bb11272ecb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.819Z",
+      "fileSize": 67304,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-flying-over-forest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0821c8ad27d5d9eaa941407e819311fc05878180-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.852Z",
+      "fileSize": 125886,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-floral-background-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1c3a2d542964d356df3013e353b92dc96f830213-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:54.876Z",
+      "fileSize": 131496,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-window-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aff9025555b8ab8f7fcdd448b9b229176748f2a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:55.299Z",
+      "fileSize": 82940,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-acorn-circle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb3e959c95c24ec04723c1f61d32386a5e46af96-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:55.316Z",
+      "fileSize": 102406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-feather-details-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fee12cfe4173f177143ef489149bc45d51aece0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:55.430Z",
+      "fileSize": 55616,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f3ac257cac87a033f9330c05e1816964f7ac20df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:55.870Z",
+      "fileSize": 58298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/intricate-owl-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7cbff2f0e15d8be345f18e151ff635ed75e4eb82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:55.983Z",
+      "fileSize": 135766,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-swirls-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8e7f5d9d0fad97cf549789c786f1563b616ab672-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.038Z",
+      "fileSize": 102468,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-bench-sunrise-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29dfb956fb8e2dcbf693b3ff026fc51cbb645c10-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.493Z",
+      "fileSize": 23682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-landing-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/098845652333d06a565d0798e50a124d06e2b611-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.497Z",
+      "fileSize": 62000,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-pattern-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/695df67cc7cee36fe56fd041c0dd5a5967bf0541-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.518Z",
+      "fileSize": 73996,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-farm-fence-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8a303d4b25ee58d461920e48f964960d6c231bdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.894Z",
+      "fileSize": 27634,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-landing-on-boardwalk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6eb79dc7eb1638c874c80ed1d461a4dc04d1c6e4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.907Z",
+      "fileSize": 25870,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-cave-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54b1ee3495135194ee1b4affcb92625ee949f59d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:56.941Z",
+      "fileSize": 16232,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-sitting-tree-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a61457f5b3f4d26f41f1df41300f01e53c6f686-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.294Z",
+      "fileSize": 28198,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-perched-fence-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b748eeaeebf39ea8fc2c536ccf7055ee1911699-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.353Z",
+      "fileSize": 24162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-sitting-on-arrow-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a5758a2a2b747a7131620553cf50609dfbd6e8a9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.378Z",
+      "fileSize": 15952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-rock-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6aafa82a5b28b612b5e0907a88043d75ee3aad4b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.800Z",
+      "fileSize": 21396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-on-rock-near-waterfall-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33032ea173f365f5ef24ed11b791cb84c22039e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.858Z",
+      "fileSize": 28624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-perched-wind-chime-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95e7e9e179d638baf2b30e8302efb4c6d8f40d9a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:57.941Z",
+      "fileSize": 19040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-floral-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/734cf4cff4b9654a899912a573c736cefbc33f82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:58.449Z",
+      "fileSize": 63406,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-detailed-flight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c8c9b9f4c0bf90bef5475b81610fd609ca5ad023-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:58.691Z",
+      "fileSize": 88918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-intricate-patterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/be145efa198b3a63e099ed6a57154ad2059a4b89-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:59.170Z",
+      "fileSize": 70012,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-surrounded-by-grapes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1bdf2813277e442e063a558628557a965a9ee419-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:59.205Z",
+      "fileSize": 93020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-garden-fountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc55567075e27a744307f16cd0018bcb380777aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:59.652Z",
+      "fileSize": 104492,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/intricate-owl-ornamental-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02c98c34f1ec6840a020fe7d01b782681e5198b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:59.720Z",
+      "fileSize": 96884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-sitting-on-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb11aecf076b14629316f8559b3a54a4745dd4c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:39:59.730Z",
+      "fileSize": 93946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-perched-on-a-pine-branch-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a012c1cadf65729b706fa15e43352c56ecac2d47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:40:00.119Z",
+      "fileSize": 12680,
+      "dimensions": "300x400"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/owl-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7e231fc0d73f0ea8bd147229b89ccca144116408-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:40:00.142Z",
+      "fileSize": 44094,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/nature-coloring-pages/owl-coloring-pages/intricate-owl-forest-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f648989bd702c7b44dfed2843255ed05d26f43de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-28T07:40:00.308Z",
+      "fileSize": 125596,
+      "dimensions": "750x1000"
     }
   }
 }
