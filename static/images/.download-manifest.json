@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-28T07:40:00.451Z",
+  "lastUpdate": "2025-10-29T13:43:57.498Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -23626,6 +23626,349 @@
       "downloadedAt": "2025-10-28T07:40:00.308Z",
       "fileSize": 125596,
       "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-drinking-pond-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ea22158a5ae768d7f06070c4578318f61175f4e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:48.927Z",
+      "fileSize": 29730,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-shaking-off-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c720040801f13fbe526c467d2309afaf8af1c6c0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:49.553Z",
+      "fileSize": 40272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-chasing-butterfly-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/28c6d4959d7fe60d73036ae362d46fb298f09a07-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:49.575Z",
+      "fileSize": 37292,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-windy-nature-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a28538d6df6b267707a405753a69782480c1fe3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:49.575Z",
+      "fileSize": 34790,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-sleeping-under-evergreen-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e4e0186a6d49ad0749e01aea4aa15c711cd0f982-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.121Z",
+      "fileSize": 40456,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b477e9ad41c6303a441be52e01fc8c793bcabfdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.121Z",
+      "fileSize": 26680,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-leaping-over-log-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e595a5a2362584dcb2db3df4f5d4e2df4a003192-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.122Z",
+      "fileSize": 32798,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-forest-stump-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e2612772cfb656b8d9fbb63f79d62f375ad89acf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.550Z",
+      "fileSize": 35504,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-through-grass-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fce9ef4be074d1fdcb6d64595f7c61e7e6d40cdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.560Z",
+      "fileSize": 31266,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-crossing-wooden-bridge-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/67921782ba4bc3bccc79952b86d7efdef5385793-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:50.613Z",
+      "fileSize": 34850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-cave-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f2e94323447b12afd535cde8c035fc5d28ac16fb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.004Z",
+      "fileSize": 27750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolves-howling-at-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1984ddf6ed58767e469e9c08fbdc361614cdcbe8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.004Z",
+      "fileSize": 23886,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-mountain-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d267c6abfec9ac97c72be8d485b4412f6d471be5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.146Z",
+      "fileSize": 28016,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-by-stream-nature-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff5bf56c33fc9ac2a4e9bf98b5e9a6bd4d016f93-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.589Z",
+      "fileSize": 40720,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-standing-on-tree-stump-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15e1dc46f8bc1765928677406b617bfcb269196c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.640Z",
+      "fileSize": 29384,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-serene-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ba6f5db5b1c31dbcf1636b54321d9c83fc79939a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:51.670Z",
+      "fileSize": 33678,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aaf62205801cb6820be3d2755a2f40d8b0498484-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:52.118Z",
+      "fileSize": 25388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-by-stream-nature-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01b51087af90e157e34e14feac03157869e02b2b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:52.230Z",
+      "fileSize": 45016,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-relaxing-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eafda4e1180d989b0d30266c11e9d5a3442c8c1a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:52.674Z",
+      "fileSize": 44956,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-log-bridge-crossing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/742832bcac47b7e0d8a84205959dcd8790b25589-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:52.689Z",
+      "fileSize": 34782,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-flower-meadow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb2c90bbc5bd24972c7db2a35581f5188272728e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:52.736Z",
+      "fileSize": 75336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-nature-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8bbe8eb88ea2ee2ba1f56386edcab8b17c072512-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:53.153Z",
+      "fileSize": 27718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-leaping-over-stream-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da9d4266a0039b669a642181b2b8954598a9e344-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:53.159Z",
+      "fileSize": 30682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5b8feabe401337e735c5ca48db1d2552bfda8fb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:53.238Z",
+      "fileSize": 29566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-moon-reflection-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7e5824406168d679c53f616551cd1f69479710c9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:53.630Z",
+      "fileSize": 17794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-standing-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8f3d05de96bf44a480ab64e51957051be63f63f4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:53.647Z",
+      "fileSize": 33086,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-mountain-scenic-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4668235aaf2e3d96d603e71ffe06d99815826b7e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.054Z",
+      "fileSize": 26148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-standing-in-field-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b1900bcfadd2d8fc1353ab694d589a9074556c8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.095Z",
+      "fileSize": 26354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-rainbow-rain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0121bdaeeca6e85410afc2eadb60dcfa38aa2a04-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.120Z",
+      "fileSize": 39780,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-sunset-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1d883e14c4c51a94e6e910c4680b12315c56cb7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.536Z",
+      "fileSize": 26638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-river-crossing-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d69f7ed794b6e95d2f7091066e7770495e6bc111-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.606Z",
+      "fileSize": 28836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-forest-waterfall-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/384989838cda14cc1603c403f3bc778fdb7dcc0b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.608Z",
+      "fileSize": 38616,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-birch-forest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bef0b730259023477f6df5a65633a3b47ecf3a64-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:54.977Z",
+      "fileSize": 33756,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-howl-mountain-peak-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a085940177964431e01a551138ba91d93faabe35-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.068Z",
+      "fileSize": 29586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-bridge-nature-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dddabb6e9466f3fc941de2144038a4e1ea0f5a42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.073Z",
+      "fileSize": 51030,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-desert-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd6f0a823f65ee2ecd3be63deeeb6ac711ea65c5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.473Z",
+      "fileSize": 31932,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-sitting-howling-birds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2f7d43cf427800c6556b8cc5a5aab286ca7fca4b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.477Z",
+      "fileSize": 20732,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-howling-river-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eca8d73aee301a71dc6c9613a13b3cf4da663ff8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.505Z",
+      "fileSize": 52472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-riverside-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/28e5a3119bcb9585271f36ca751ccad109db14eb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.940Z",
+      "fileSize": 32524,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-sleeping-forest-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c3d7854447dfa19a14291cd41de79df6dfb0851-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:55.979Z",
+      "fileSize": 41964,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-canyon-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/870315820312d0553c32aeba6e2792d45bab0236-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.011Z",
+      "fileSize": 59056,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-exploring-meadow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/339a8b7b3a054d67144873187052a2c5cb1f8d65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.401Z",
+      "fileSize": 24708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-mountain-stream-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45dc9cdd1d3157ce36ccc74374354b912ec955df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.493Z",
+      "fileSize": 56360,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-in-rain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e96b14c49ad578d65ab39fb322d2363e28c6aaae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.493Z",
+      "fileSize": 29340,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-drinking-water-riverside-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c38ef986b0279577b0f739079c2ca09661c43443-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.930Z",
+      "fileSize": 34134,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-forest-scenery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1c328d2099e351e88189d2c8220a943828eaf3aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:56.944Z",
+      "fileSize": 43540,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-leaping-over-a-fallen-log-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e595a5a2362584dcb2db3df4f5d4e2df4a003192-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:57.292Z",
+      "fileSize": 9524,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolf-walking-by-stream-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9dfce7cf21694a03b62723965ca5699d8fe0e8ac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:57.357Z",
+      "fileSize": 28448,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/wolves-coloring-pages/wolves-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eaf662d478777c3ea42831defea9e8e44bcd0d8a-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-29T13:43:57.498Z",
+      "fileSize": 55704,
+      "dimensions": "1312x656"
     }
   }
 }
