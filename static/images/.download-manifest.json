@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-29T13:43:57.498Z",
+  "lastUpdate": "2025-10-31T04:36:06.322Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -23968,6 +23968,370 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-10-29T13:43:57.498Z",
       "fileSize": 55704,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-reading-together-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c59c0166158c31f45a0bfd205489401e3291c2b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:56.206Z",
+      "fileSize": 28756,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/children-sharing-umbrella-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6d8e334616e19d7befa29260ce03c98727141fff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:56.241Z",
+      "fileSize": 30600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-lemonade-stand-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/251d9fff0957bfae83974ec2d0d4f7c8243b308e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:56.743Z",
+      "fileSize": 31716,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-baseball-bench-chat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2caf1bbe2c6772968b34151ad88fd2ac79e71d31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:56.764Z",
+      "fileSize": 32172,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-reaching-bookshelf-library-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec608d3228f1d810ba42079993a66b0d5173d3b7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:57.631Z",
+      "fileSize": 41822,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-on-seesaw-playground-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e0c050a48a73af9227df0b2461696fe15a7000e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.069Z",
+      "fileSize": 30770,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-relay-race-activity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/20b807581591ad174ba4026bd21af75bd54ad6dd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.089Z",
+      "fileSize": 41110,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-building-snow-fort-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac326c944bda7656d7ba0dceb485db06519bc0e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.196Z",
+      "fileSize": 38476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-market-basket-fruits-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c892f6f833aebb70fb578570c8c8a2ce87a3c288-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.646Z",
+      "fileSize": 36738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-beach-cleanup-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0d62b0743359aee06b558a5eca84f09dff46f1b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.671Z",
+      "fileSize": 24204,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-camping-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bca4bd0c4976c892fb3a5d51f5f9785d7d44be9d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:58.710Z",
+      "fileSize": 31584,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/animals-party-sharing-pizza-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec7d98b06d5b40e828183b27211c2e8e9eed75bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.134Z",
+      "fileSize": 34408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/children-gardening-friendship-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b9e7626fa14918ed96be1b98d3239cf1b273414-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.134Z",
+      "fileSize": 31538,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-biking-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3760c0eeb60dd8a643e482f4e2dc1ddd50863c46-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.158Z",
+      "fileSize": 34986,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/fox-bear-bunny-pumpkin-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b0e06ba8f98188519fa4f7a981f33c2f88dcf961-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.574Z",
+      "fileSize": 39586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-sharing-ice-cream-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fdd34cac62e13448860f41e3f3f3e05be8cee8d7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.607Z",
+      "fileSize": 24558,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-rollerblading-with-music-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5408041d86d864ac931d181eb36782eb15bc7b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:35:59.693Z",
+      "fileSize": 40776,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-parade-band-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14899d901d74f29418101b1c75b7e6ba0d0ae1a7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.090Z",
+      "fileSize": 36750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-volcano-science-experiment-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff3c589644c8aa34fd029054638b41f5a798426f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.090Z",
+      "fileSize": 28364,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friendship-soccer-goal-sharing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff28c6cb56210a5a97842bfe97af312610a1220c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.181Z",
+      "fileSize": 36054,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-sharing-lunch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da7f3e551ab67846df596d647bc4b64aa02872ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.590Z",
+      "fileSize": 34308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-school-locker-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fffcf096f10b9a557660bcce027e2eeb919ae78a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.653Z",
+      "fileSize": 34172,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-organizing-locker-books-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/01f72638a76fda9588d90449f3cb285187f6574e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:00.765Z",
+      "fileSize": 44310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-chalk-heart-star-drawing-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5df031295033a1e567851c07f1cbcd764ba5adb1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.190Z",
+      "fileSize": 39774,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-building-bridge-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/79818388115ab58587394b78f71823fa9c424085-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.192Z",
+      "fileSize": 34978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-jump-roping-playground-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/003a71a7977e322cbb00336f56fe6170dffd12a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.214Z",
+      "fileSize": 31024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-studying-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5d695d22c1e7ad9dcd3b7865dcc508d5cbc9537d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.653Z",
+      "fileSize": 23568,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-scooter-fun-park-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8fa2faa205773a61fd777acdab6ec2d0e8edccdf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.653Z",
+      "fileSize": 35888,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-paper-airplane-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6f09c31c95e4fdcf114d2a626006242c655f404-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:01.712Z",
+      "fileSize": 31792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/rabbit-and-bear-sledding-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/891d66bff9fc1416f189862595326be0e61f2a0a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.126Z",
+      "fileSize": 38116,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-building-birdhouse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0404a111c61c3579e7f649de0d9517112fd5d61a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.157Z",
+      "fileSize": 34224,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/child-bear-apple-picking-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d92029e279178eb2d4ec162504bfacd6b3b9dc8c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.285Z",
+      "fileSize": 29594,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/squirrel-bear-playing-ball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/87f083cc76fff8e072b38c33a5a118dbf3b2fe3f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.665Z",
+      "fileSize": 25922,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-making-crafts-table-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f3a7f673aed94c8709ff71d925f7c3800531bddb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.669Z",
+      "fileSize": 46964,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-walking-dog-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9cd07bc0bee289e919cee139845fefc995975574-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:02.854Z",
+      "fileSize": 31148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-hanging-lanterns-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b5e951641b2a774fac6e696959d116175330a7d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.255Z",
+      "fileSize": 35274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-recycling-city-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8da6d929ff1b4c239298847367e8760b66a85e88-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.307Z",
+      "fileSize": 34348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-snow-day-cocoa-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9643942d163c47ee58c3c8555cc3df4e4c113ae-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.307Z",
+      "fileSize": 27040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-baseball-game-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/62a144d7af950a1688c966f553d69fe88bc425b9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.749Z",
+      "fileSize": 33540,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-bicycle-workshop-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5e7441ac3c2e2bf8c991d29127f957a4f29c9a1a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.757Z",
+      "fileSize": 23854,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/dog-cat-magic-carpet-friendship-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1e36a98d238493666cb3df7baae8260c29e3291a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:03.782Z",
+      "fileSize": 39096,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-playing-piano-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/380f5e90efecd559ca9aa8a73fd1c2cd70dfa28d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.165Z",
+      "fileSize": 27918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friends-reading-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/56b09a00939c2f333facc45a43c70bf02a2dc212-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.245Z",
+      "fileSize": 29808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-garden-hose-play-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b3e406a7a78c81b07dfa903605d2cac3d3028b26-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.296Z",
+      "fileSize": 36136,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/cute-chef-friends-baking-cookies-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d33c3daa14ac0af1e4ce17c147ac99500e73cda-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.733Z",
+      "fileSize": 26298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-hiking-adventure-sign-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6a2e30800a0f2e102530869535fc8b9c25c15728-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.757Z",
+      "fileSize": 34714,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/children-classroom-friendship-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fe518fbd51131fc76ce72ce67a0ce2b94b9289fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:04.805Z",
+      "fileSize": 29216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-sharing-cookie-playground-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/186cae3a55d3d57aa3c2862fdd0362dd60ecf46b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:05.191Z",
+      "fileSize": 32664,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/kids-planting-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b00e760ccd0502f3b9487f0fd26b1b201dfd35a3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:05.214Z",
+      "fileSize": 28502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/children-building-blocks-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e34729be4bb12f70818b756557db218dab6cb62f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:05.501Z",
+      "fileSize": 26458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/two-children-build-a-snow-fort-together-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac326c944bda7656d7ba0dceb485db06519bc0e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:05.860Z",
+      "fileSize": 11724,
+      "dimensions": "300x400"
+    },
+    "/images/collections/superheroes-coloring-pages/friendship-coloring-pages/friendship-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b0f092dff543ad1d08171c1c6f21fe11317a0696-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-10-31T04:36:06.004Z",
+      "fileSize": 67914,
       "dimensions": "1312x656"
     }
   }
