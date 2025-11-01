@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-10-31T04:36:06.322Z",
+  "lastUpdate": "2025-11-01T05:04:16.256Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -24333,6 +24333,370 @@
       "downloadedAt": "2025-10-31T04:36:06.004Z",
       "fileSize": 67914,
       "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bears-playing-hide-and-seek-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e611a495ef9cc448f244a37899d12b33d283abdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.170Z",
+      "fileSize": 33622,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-chasing-butterfly-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/068a7b81b8d0abebc5c36a880d4b36a7089c703d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.180Z",
+      "fileSize": 24156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cub-balancing-log-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/884d2cf0835e90be29f83e3da3aa4970667c3b6a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.251Z",
+      "fileSize": 23574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cubs-flower-field-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3bc9b20ea8e9f00425051754245d235c5b43d697-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.671Z",
+      "fileSize": 40168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-on-tree-stump-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a4a699df16f2236c8a34536efb4a6546d72304b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.746Z",
+      "fileSize": 27910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cub-with-cone-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d436298df87a2182f6de776b8a46896a2eef7ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:07.854Z",
+      "fileSize": 26008,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cub-with-butterfly-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c1d2e51b0a12f6b043c07c8a42527e1c13e401f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.257Z",
+      "fileSize": 20040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-walking-with-stick-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/86af1e229625ac6ea1da6d63bd159efc95eb399e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.274Z",
+      "fileSize": 20358,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-jumping-stones-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c4ec88e345ba86b543f09cf08d845b2e143390c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.396Z",
+      "fileSize": 34462,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-balancing-pinecone-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ac0740d715703b5b8cc164cad1ddb415ec8abd8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.785Z",
+      "fileSize": 16518,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-peeking-tree-hole-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd19afb025a885cf10600ffd3515b4b58d539bbd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.845Z",
+      "fileSize": 26774,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-reaching-falling-leaf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a530685f642d1a720f1920138c659d1f1d686f30-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:08.891Z",
+      "fileSize": 29756,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-holding-maple-leaf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea49dc9601b932503863da0d064fccc5f2abe4a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.292Z",
+      "fileSize": 23444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-frog-pond-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e472d8f5a5d6f21b139044c0d2168feaf9731dca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.292Z",
+      "fileSize": 31930,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-boot-camping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fb98e0c86719dce6103d2601f276ed6a601f1dc1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.318Z",
+      "fileSize": 30762,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-hanging-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9844f6180901c694888c5cb30be1c4b763623260-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.778Z",
+      "fileSize": 20942,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-flower-crown-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2ac316ba7f529c53fdaf1731f0286a0ede4f585-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.810Z",
+      "fileSize": 36342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-drawing-in-sand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74c92abf56ad8144cda92b1856cfe2f8510a8277-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:09.846Z",
+      "fileSize": 25498,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sitting-with-snail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5f75a1c5a8983a24cb7423e178c596106a16a5d0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:10.268Z",
+      "fileSize": 22476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cub-on-back-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/540eb33696237083549d211608b4d22af39ec5f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:10.310Z",
+      "fileSize": 25220,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-peeking-dragonfly-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4e5c98b585344fc168155077ef12483c3f8215cf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:10.541Z",
+      "fileSize": 34240,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-stacking-rocks-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27dfa44de62f6ddf90a9ba886310fd49d8bbc21e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:10.968Z",
+      "fileSize": 21872,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cub-with-ladybug-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a68c1d1ff5c59adc667aaec53c773a8180ad70c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:10.973Z",
+      "fileSize": 23094,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-blowing-dandelion-wish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce88fed6a9460ef713ce1c652bff09941aacbd8d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.000Z",
+      "fileSize": 18708,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-cute-peeking-box-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/595ca5332525af0f9b76e2ae1d560dfe427f63c5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.441Z",
+      "fileSize": 37202,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-playing-drum-on-log-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a647a851cc9f557f785790d922186528ea33ba8b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.468Z",
+      "fileSize": 31202,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-dancing-with-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2491f6833dda01e8670e506b1f7fe103bd15322-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.522Z",
+      "fileSize": 25168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bears-roasting-marshmallows-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ecc2b58fc7c0d99c5f7947bdc5a92510cb4d61c9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.914Z",
+      "fileSize": 24396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-camping-fire-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a67581275369b384bdd17ac5f4fa7044d56e4d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.932Z",
+      "fileSize": 26942,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-paw-print-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/280bb9bbe84bd21f6fc477aa1174011287233f2d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:11.959Z",
+      "fileSize": 28154,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-peeking-earth-motif-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33107d38537b242364a4e456a087e76c3b7c5045-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.471Z",
+      "fileSize": 15836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-mountain-scenery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/55364361d076196a90abb855e9db6a17c8a7855a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.471Z",
+      "fileSize": 17240,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sliding-on-blanket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/75e418f8d24aba6f23df6251584c7b02cafa327c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.472Z",
+      "fileSize": 25694,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-pushing-snowball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/62292bfc676ad0a65017eb52b890a3b5254c91b4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.941Z",
+      "fileSize": 14934,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bears-building-snow-bear-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/38004137f1fe1e839c67376d7ae7380a162d9bc8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.942Z",
+      "fileSize": 25800,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-snowy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f7dd7a464fa4c2b924ae65a59c554a4242d8c89c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:12.990Z",
+      "fileSize": 44402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-in-ice-cave-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8a90a728f34baab3354ccccb0fdaf5f9009758a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:13.476Z",
+      "fileSize": 32600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sledding-woodland-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6762d24c9057df2a18b0dd0f7cfe4ade707eb9a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:13.477Z",
+      "fileSize": 22396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-ice-skating-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/316dad17473850177971347c5b52f85e6e5c3062-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:13.499Z",
+      "fileSize": 29102,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/polar-bear-under-aurora-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a5019885b519ff9dd8abec28b8c0d65f270263e0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:13.927Z",
+      "fileSize": 55298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-bridge-forest-trail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/94dab08c68c9cd0c6c196dd9f31c09cac67fa561-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:13.969Z",
+      "fileSize": 42678,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sitting-cabin-logs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14476d5603f6dfb20d6fe984831eb13f24bc726b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.087Z",
+      "fileSize": 39712,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-walking-road-sign-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aba8614f1090d3fe9628897a54722d28d3ef57bf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.509Z",
+      "fileSize": 24386,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sleeping-in-cave-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b0dfd446cf608b8777184b3d361e685ce354fc65-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.513Z",
+      "fileSize": 24698,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-carrying-broom-tree-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad529b19121f58058ddece1aaa4860ef10e5f5b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.550Z",
+      "fileSize": 31892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-mountain-bridge-walk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/706fafc01789bb7b52420435d68d4e5d64db143f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.968Z",
+      "fileSize": 24962,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-walking-with-birds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ea285436beab3151591cca6a5623ae6dfbf73ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.972Z",
+      "fileSize": 41228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-sledding-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f874327e39b357d16ac16cfbfcedaf3ac5782e99-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:14.998Z",
+      "fileSize": 27832,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bears-playing-tug-of-war-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/46530101c81d4c797930e4932bb4bfc6850c6b27-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:15.449Z",
+      "fileSize": 30072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7f45f331084823ccb5b91d97a713ddc1159dd675-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:15.479Z",
+      "fileSize": 51806,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/bear-camping-cooking-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b88938febc853c9ba39d3901ff164bacf772b89-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:15.493Z",
+      "fileSize": 35502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bear-coloring-pages/two-bear-cubs-playing-hide-and-seek-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e611a495ef9cc448f244a37899d12b33d283abdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-01T05:04:15.847Z",
+      "fileSize": 10400,
+      "dimensions": "300x400"
     }
   }
 }
