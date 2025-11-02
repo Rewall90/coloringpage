@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-01T05:04:16.256Z",
+  "lastUpdate": "2025-11-02T05:59:01.400Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -24697,6 +24697,391 @@
       "downloadedAt": "2025-11-01T05:04:15.847Z",
       "fileSize": 10400,
       "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-rushing-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a007902d674cf0371f9e6deb392842c9ac1308c0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.091Z",
+      "fileSize": 34084,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/child-playing-fire-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/949f0e3d7371ea08881fa8f0a1c4b2f97674739a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.335Z",
+      "fileSize": 27312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-hose-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/309ed6e60de9f2027da46dc1369c7c130797f27f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.489Z",
+      "fileSize": 27482,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-mountain-bridge-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d95d6ff336798483faff930cbfa6a0ff5fb25e9a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.496Z",
+      "fileSize": 35320,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-holiday-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2acfff4573533ea801e12d721188f4833b5ae45c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.839Z",
+      "fileSize": 58312,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-vintage-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5681558d125e89212390fab6a9d330aec2cfde21-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.868Z",
+      "fileSize": 51780,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2c7d4db6842bb97d9d52497a25101ff394150322-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:55.869Z",
+      "fileSize": 32532,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/robot-fire-truck-pose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1564a047e181e122b675647da101ee33b96a2a30-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.118Z",
+      "fileSize": 39108,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-rainy-day-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2bd4cd12195089e2cfb7ca9c8d7c26e25dc3155c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.144Z",
+      "fileSize": 52362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-storytime-truck-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/13a0ff86d40bae4bccfa70a683e7bfcd5c161649-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.154Z",
+      "fileSize": 52496,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-in-tall-grass-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ddd7d24552197effa8f967cde017b85fd0f3e903-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.399Z",
+      "fileSize": 51470,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-carnival-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb02be4c0807505e4ca555fcbb4771b5260250e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.432Z",
+      "fileSize": 45472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-water-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/994960434640269d8ea62947ec22fe2cf37733de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.460Z",
+      "fileSize": 58892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-mechanic-repair-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a93b0c981e9a5ef0d156999a61c71b1b39bfa717-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.747Z",
+      "fileSize": 56864,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-mountain-snow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4a2d282b49d4d5ccf6d52f1e01fc75c9ae410fa1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.795Z",
+      "fileSize": 61052,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-july-fourth-parade-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e2eb0989dad7408d4dfdb5e73e793a273f97c338-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:56.828Z",
+      "fileSize": 51508,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-child-cape-hero-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ee9f919b02335434dc4685c2f96ef24e697239df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.059Z",
+      "fileSize": 46660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-water-pumping-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6d5d376ff3c8525e3cb7daa6623d3283a894e7d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.160Z",
+      "fileSize": 31148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/urban-rescue-fire-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1bd1ca1c3dd47ce1200c1e2794c77a26b1f04d5a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.196Z",
+      "fileSize": 26048,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighters-exercising-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/162aa2aa1e459ed542f394576a9a45d7eb6cca32-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.433Z",
+      "fileSize": 30056,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-charity-balloons-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c976b61ced822c9271a71792da2dd6e664f437c1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.468Z",
+      "fileSize": 60316,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-boat-cityscape-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/48ab6265d13a2ce3082e0c1ea20729020da91f5b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.474Z",
+      "fileSize": 37100,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-under-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9956919a4737a1151cac9bd7bbc44a1ee0d53372-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.691Z",
+      "fileSize": 26372,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-holding-puppy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2c9f0951605b1ac632a3818a19263a08870f00c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.703Z",
+      "fileSize": 34750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-rescue-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22f5aa28d845586ded3e530c8c5dc3fc282a891c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.761Z",
+      "fileSize": 52308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-with-ducklings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b9c645d2f12e31aa7db405425c7439f31f18c8e6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:57.995Z",
+      "fileSize": 21594,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-trucks-watering-ceremonial-limo-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1871afa06d53613762d5e4f568eec517b23b0ea4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.011Z",
+      "fileSize": 40834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-sitting-on-fire-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c23f200b18447680ba0b5e89e54e4823b13a4937-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.032Z",
+      "fileSize": 32526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-earth-day-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1901012e6e160360fe7f3c84d33c3d493575ab87-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.315Z",
+      "fileSize": 57338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-vintage-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9af1a8204d3ed28a9711749f8c1db88a050b885c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.450Z",
+      "fileSize": 45726,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-rainbow-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6b68fe0360de4700336aa361427d88a35e07f46d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.450Z",
+      "fileSize": 43110,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-labeled-details-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dae94f9936c7f6390f105e311d6d83b369d07bd1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.766Z",
+      "fileSize": 33236,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-rescue-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9e73b8202d831dc67776b2aa54b3984358a45339-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.766Z",
+      "fileSize": 44124,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-with-firefighters-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a13d6e4bcb66518c13b59502844c345f81dc1224-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:58.767Z",
+      "fileSize": 55720,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-autumn-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f0c91a4659045fc4857c4e704296821b90db40f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.048Z",
+      "fileSize": 37184,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-community-safety-day-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/feaca24c3b51c5a0c4c847cc483b9c68f16a5fdf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.055Z",
+      "fileSize": 59694,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/squirrel-fire-truck-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8c10048b707dfb154798cd4cae0018bb4960bfb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.066Z",
+      "fileSize": 24938,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-with-cats-driving-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63c7f66efb2f03c51369c92e6d42fd4cc8660c17-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.402Z",
+      "fileSize": 43900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-planting-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0126a7f6aed08ca10ccedc5991ca01a5eed10c54-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.402Z",
+      "fileSize": 37810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-rescue-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f7ca2e9b6ec09ae84eb582997866a5f4cba090ed-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.402Z",
+      "fileSize": 43948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighter-high-five-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54b14e8c91ebf6e59749c2c12003ada28aaa11cc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.651Z",
+      "fileSize": 41626,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/futuristic-fire-truck-floating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b44a9657552ff84fbda9243e82c9559aec799dd1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.664Z",
+      "fileSize": 46008,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-maple-leaf-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9cdfcf7581ad6b99f83ee61f2b4eca6db59a7fe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:58:59.812Z",
+      "fileSize": 26228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-bunnies-and-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/026867e2a03aeeaa583cc55fcb25f14027e23d37-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.063Z",
+      "fileSize": 46596,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-accident-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5283ce06bdd631338c8e6baf0b7fb5d753ce9778-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.063Z",
+      "fileSize": 52350,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-sunburst-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e385db0e86f6b3e33c8e7a91d267058c7497723-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.097Z",
+      "fileSize": 33378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/teddy-firefighter-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2083ddfbed11ea6da55d81e0afdfd09c51341b9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.427Z",
+      "fileSize": 24252,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-musical-parade-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d65d6153730f26c9b0b4d81c304a9cc720c57234-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.427Z",
+      "fileSize": 46142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/vintage-horse-drawn-fire-truck-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/185fe5a6ded573266aedee0ea9a9e253e7572e9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.427Z",
+      "fileSize": 60570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-owl-ladder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6b8f9b910e1346819fbe886d38886c99c231c7b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.652Z",
+      "fileSize": 32120,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-garage-repair-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1e4b5241626715d4e1fc659fd450dc5a160c4b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.709Z",
+      "fileSize": 58432,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-summer-festival-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6fc7a3d0bd2d5d7ccf0c61e9220ebbc274f217dd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.711Z",
+      "fileSize": 38736,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a13d6e4bcb66518c13b59502844c345f81dc1224-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.938Z",
+      "fileSize": 12724,
+      "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/firefighters-picnic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dd668964082f05c09149785bd01326ac5e1a62d6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:00.987Z",
+      "fileSize": 41656,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/fire-truck-coloring-pages/fire-truck-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/10b3f2ac84c51312c21dc6149410e241b127f708-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-02T05:59:01.052Z",
+      "fileSize": 92924,
+      "dimensions": "1312x656"
     }
   }
 }
