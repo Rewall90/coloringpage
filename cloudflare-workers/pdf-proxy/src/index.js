@@ -39,6 +39,23 @@ export default {
       console.log('🔧 Stripped /pdf/ prefix, new path:', workingPathname);
     }
 
+    // Redirect old URL structures to new ones (fixing historical 404s)
+    if (workingPathname.startsWith('/posts/horse-coloring-page/')) {
+      workingPathname = workingPathname.replace(
+        '/posts/horse-coloring-page/',
+        '/animals-coloring-pages/horse-coloring-page/'
+      );
+      console.log('🔀 Redirected posts/ to animals-coloring-pages/, new path:', workingPathname);
+    }
+
+    if (workingPathname.startsWith('/general/horse-coloring-page/')) {
+      workingPathname = workingPathname.replace(
+        '/general/horse-coloring-page/',
+        '/animals-coloring-pages/horse-coloring-page/'
+      );
+      console.log('🔀 Redirected general/ to animals-coloring-pages/, new path:', workingPathname);
+    }
+
     const parts = workingPathname.split('/').filter(part => part.length > 0);
     
     // Different validation for PDFs vs images
