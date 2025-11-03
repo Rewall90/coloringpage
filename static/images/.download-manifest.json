@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-02T05:59:01.400Z",
+  "lastUpdate": "2025-11-03T05:30:37.573Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -25081,6 +25081,405 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-02T05:59:01.052Z",
       "fileSize": 92924,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-painting-moon-easel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/545046c5bede977150e2fb7f740299e040018319-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:27.489Z",
+      "fileSize": 29682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-doctor-holding-stethoscope-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/72edd4b237e297f306f1ff73bb1439ad00a60597-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:27.490Z",
+      "fileSize": 32716,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-intricate-oak-leaves-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1455819c0e2be6f9f55d17dcce01ba2e67881590-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:27.761Z",
+      "fileSize": 66368,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-ice-skating-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7ce305a73bd2abcdeb705de0f3dab240ea428070-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.160Z",
+      "fileSize": 25322,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/firefighter-bat-holding-hose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90040d74c24f24566a4804efbdb39c700f528cb8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.227Z",
+      "fileSize": 33796,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-baking-cooking-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f47b81872d7ae00eaa53881750bb2db9ccbb80d1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.295Z",
+      "fileSize": 38896,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-snorkeling-with-fish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/97a4538770d662a5e2f3c106f46ba799fac3ebbf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.703Z",
+      "fileSize": 29942,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-wizard-with-magic-wand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6be946aef03a6da0c16fbee3394a394c170b5d83-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.709Z",
+      "fileSize": 32428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-watering-garden-cute-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/62acb93a65e46c2e5206b3eaded3df61b6c60c8b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:28.729Z",
+      "fileSize": 40600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-mail-carrier-fun-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9717539583163c78e374589e2b87799fa9634fe6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.119Z",
+      "fileSize": 31076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-building-snowman-winter-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a043c8369f51e62951a7f8967effa679bed6cd4a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.182Z",
+      "fileSize": 36436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-drumming-energetic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74067082577b821c101756363da7a3093dda4d2f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.226Z",
+      "fileSize": 57576,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-ballet-dancer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd9e18584abb19bd09f76e67219317a835f06add-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.652Z",
+      "fileSize": 22524,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-police-officer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/88eebae790232547e3d05572847a9624e41620f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.652Z",
+      "fileSize": 35706,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-flying-with-kite-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a7cdd9726fe76e3c43b2fcb9e6424cc498a5c0cb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:29.704Z",
+      "fileSize": 39768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-eating-ice-cream-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1e835e4bb5573948a6e8a26b471b29fef1604386-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.109Z",
+      "fileSize": 28810,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-riding-bicycle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d1719780881545095623a450a4d40a8fcf7efd14-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.185Z",
+      "fileSize": 34998,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-educational-abcs-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03f6d722df785306fd664d6d74855b37f6c6f674-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.185Z",
+      "fileSize": 34548,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-blowing-bubbles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5ea7b55a05828fafbbe166123e58dbb57712d5c3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.615Z",
+      "fileSize": 28862,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-knight-with-shield-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab77b56f00954f1bad846e32846d8aefc15dabad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.717Z",
+      "fileSize": 36512,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-photographer-with-camera-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/85a6ba58e8186c4f97953a0b893169650bb0d052-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:30.739Z",
+      "fileSize": 24540,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-playing-tennis-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7824bc4a1321f31c45c3aafdd2fe5cc518a1208b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.139Z",
+      "fileSize": 31094,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-chef-holding-bread-trays-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8a94e85ef984fc64afc47c252a180bf358ac7c12-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.210Z",
+      "fileSize": 40438,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-jumping-puddle-rain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b1c4f047c313861c83cf310abc60218e9c568839-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.410Z",
+      "fileSize": 40636,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-baseball-player-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6dc906cf2e93ac7a18ded6ccf0208641a60c304f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.794Z",
+      "fileSize": 15550,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-cowboy-costume-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/48a7626644a5b0697502a367a455d4127448dedf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.804Z",
+      "fileSize": 29680,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-farmer-with-pitchfork-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc49e3bb8a879243aab53210991c87f02ac0f8ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:31.912Z",
+      "fileSize": 38676,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-space-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/07692f5e48621d95148c1e65491280a42d0fea52-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.304Z",
+      "fileSize": 24864,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-holding-donut-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/92cd8c8710bf534fe96c0f8a8748b0a4c454bf50-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.348Z",
+      "fileSize": 33592,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-pumpkin-costume-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a63454ee23d01187db961ca7c7073dcdce2c5c11-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.429Z",
+      "fileSize": 38346,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-dunking-basketball-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b0da82fd8827bf2da9bcb52a1515879e14e6c71d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.889Z",
+      "fileSize": 22502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-patriotic-uncle-sam-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d31ccf816cf8ce7d7cbdf4625f508844a9f8d912-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.925Z",
+      "fileSize": 32338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-thanksgiving-feast-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/728d8f7d9f303f88fe1a8c9609787abc1332e9c0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:32.946Z",
+      "fileSize": 34660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-holding-us-flag-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/534a6a0636b8e070c9d36b28c68a210ef1ac65b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.352Z",
+      "fileSize": 41630,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-football-player-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/789af55e2f7fa1c82d3f4cb1b4859b7b64be4970-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.389Z",
+      "fileSize": 33648,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-flying-above-canyon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b3d7d5232cd125b10dba328dcf2017b7cc0af7a6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.474Z",
+      "fileSize": 34634,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-cheerleader-pom-poms-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/70dc87226deb97456303a7827086c814275290b0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.915Z",
+      "fileSize": 35948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-eating-cake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a22b1b1dd1c30ab574bfadec47f9f6f1179a77d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.916Z",
+      "fileSize": 25788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-surfing-waves-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b36744829c2d634c5b612f511f0dfa9abaac703e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:33.964Z",
+      "fileSize": 36898,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-popcorn-movie-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/94ab065414262bbb6b0f03dc3f2079d0de2af9e4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.363Z",
+      "fileSize": 31980,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-forest-ranger-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e0961c2499f17b7eb1fe443cb57ad3a1a401cac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.380Z",
+      "fileSize": 38564,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-statue-of-liberty-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3b743295d32a45b03e755b493250bcc75f40e61a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.399Z",
+      "fileSize": 24128,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-warrior-headdress-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/75e97f39a952af2b2209040053d51a25f4f1fe07-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.809Z",
+      "fileSize": 47264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-playing-guitar-porch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95c90c6e03694ea687ec43c01ff97238a66c8328-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.828Z",
+      "fileSize": 36046,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-holding-large-burger-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a1d133cf3baf0d9a999b4172b6bb2c5d0830fdd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:34.845Z",
+      "fileSize": 43132,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-camping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/97770808eef2e4768c4ac04fa8330059b1b6ec00-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.268Z",
+      "fileSize": 29960,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-race-car-helmet-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/933ebc863b3192da5171353ffc4d2beef2812b28-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.271Z",
+      "fileSize": 24368,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-holding-cotton-candy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2b3ea4fdd1841ec13e5142a15e81e85c5ccaa6d9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.422Z",
+      "fileSize": 29890,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-riding-horse-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b54a512586154a3ea4446c450e5008ff3296e1cb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.831Z",
+      "fileSize": 34342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-sitting-on-pancakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e97fb7d6de7638f57b2a39b1ec7d98a8eb2777c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.871Z",
+      "fileSize": 39270,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-lifeguard-sunglasses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/386834b9fb093e375b19be63a8a96fdde183f03e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:35.877Z",
+      "fileSize": 28156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-construction-worker-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/11e6aa961d410465816edc3336e6f7ee521fe279-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.284Z",
+      "fileSize": 25816,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-soaring-over-waterfall-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1a70d3887acb7699562ffb6a35a1d1454d8704ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.340Z",
+      "fileSize": 44282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-scientist-lab-flasks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/58180f31d8fba40e2959ef5e28ad6bf9546f1aee-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.447Z",
+      "fileSize": 31134,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-coloring-page-dressed-as-wizard-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6be946aef03a6da0c16fbee3394a394c170b5d83-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.796Z",
+      "fileSize": 9328,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-eating-pizza-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9086ba369196ab89160be8bb70934dfdacfff944-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.844Z",
+      "fileSize": 29528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bat-coloring-pages/bat-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/324bdc55e39a58cf685e8243fd7bbe04dca1aec1-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-03T05:30:36.926Z",
+      "fileSize": 67226,
       "dimensions": "1312x656"
     }
   }
