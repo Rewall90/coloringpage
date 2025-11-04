@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-03T11:07:01.948Z",
+  "lastUpdate": "2025-11-04T14:56:21.139Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -25481,6 +25481,230 @@
       "downloadedAt": "2025-11-03T05:30:36.926Z",
       "fileSize": 67226,
       "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/family-nativity-scene-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/89a25f9093f503947eda8c815d6e9aeb783d05f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:15.239Z",
+      "fileSize": 33782,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-biblical-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c1bb35e1c7030f5017861aabdd8b9fc704492d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:15.699Z",
+      "fileSize": 47130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherds-with-lanterns-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31806c6a9f1536a3240adc841e1fc0e09c1e4a7c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:15.834Z",
+      "fileSize": 40880,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/angel-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5e4d7ba68fbd53ab28553c38708d051ac068a95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:15.986Z",
+      "fileSize": 27046,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/holy-family-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b1bcacb876d38fd57cfa4cd0e18aae7e32a5efb9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.428Z",
+      "fileSize": 33622,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/wise-men-star-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ece9a35767ad6132b4b64e1807b3fa036665e0cc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.443Z",
+      "fileSize": 47604,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/baby-jesus-manger-radiance-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2024e3dc2ececb18c0d576257c9e5e6858faff2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.466Z",
+      "fileSize": 38562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherd-carrying-lamb-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34b7c1f4d1fdeee3378cff2c07100a07f3abc286-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.918Z",
+      "fileSize": 30882,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-scene-circle-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2a6cec6bdfb2fa4ffcddcfb1f3747c167b8bb0bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.971Z",
+      "fileSize": 51800,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/mary-adoring-baby-jesus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c6bf2198068bc2e945ed8b9752731c04bac04c28-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:16.991Z",
+      "fileSize": 31922,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/journey-to-bethlehem-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c54f2448d8bc6a04240d2a9a0588ebf67aab4f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:17.399Z",
+      "fileSize": 42370,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/angel-mary-visit-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a11b4401e92ee5e8db56967514af6139415aaa5b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:17.483Z",
+      "fileSize": 52400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-no-room-inn-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc6044bba65643b0b07b9da59ca305765560eb5e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:17.534Z",
+      "fileSize": 41582,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/mary-and-joseph-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/faf405fe577069e672c9d2dc85e9b2f51a401ace-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.031Z",
+      "fileSize": 40138,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/baby-jesus-manger-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/610e3734526d3a59b9abf5a7834ca7b8f5565307-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.031Z",
+      "fileSize": 39630,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-stable-star-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/682745cfc67acb07e74c662938be3ed12dedf27e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.086Z",
+      "fileSize": 36130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherds-fields-night-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1aaf6859c3d4159544ac26d20e7fdb783b127fe9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.519Z",
+      "fileSize": 32478,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/animal-stable-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6975dbaa3d8d66c6400015fc2ca0ce5f9428184c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.526Z",
+      "fileSize": 39122,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherds-night-sky-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/df3cf651e8ebbccac3908594701e783e8ad0fe35-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:18.587Z",
+      "fileSize": 40408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherds-village-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c8108beb10a1f15a672e82252d699500fc2b62c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.008Z",
+      "fileSize": 42244,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/shepherds-visit-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/addf60237360257c8dc93f9577da5ba8460fe4e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.026Z",
+      "fileSize": 54768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/angels-appear-heavenly-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a3b9c0d4e2585c7e156b993b09e82210b34bcd9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.071Z",
+      "fileSize": 85028,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/wise-men-journey-camels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90e850fc9aea293efaf4c045585b7bc0d75bb36f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.500Z",
+      "fileSize": 34070,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/three-kings-gifts-manger-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d546ce2897b6eedd8b2f5e5228f0e47809085c33-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.522Z",
+      "fileSize": 46586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/star-bethlehem-over-village-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90aeefd7c011be77ec088a18ba74dbe84ae75fdb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.550Z",
+      "fileSize": 48384,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-traditional-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9cac7f8828492fcef567a3cc1d12e1e076118602-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.975Z",
+      "fileSize": 54112,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/gnome-gift-of-gold-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03c817bd6e0a4ac42856a2c3541cf0e8135f191f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:19.992Z",
+      "fileSize": 29918,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/angels-singing-sky-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51b29a924dea3bd4246f0b93eae0c7cbf2978602-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:20.059Z",
+      "fileSize": 46150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2991ed75eb2952c194f1c2a77b87526c09c4cc58-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:20.480Z",
+      "fileSize": 57008,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/nativity-scene-baby-jesus-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d96bca85dd94b260a3aa99661584f23373f035b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:20.491Z",
+      "fileSize": 43582,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/mary-baby-jesus-embrace-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e06adf43ef7f761aa46e86e60e5c15d53debc146-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:20.519Z",
+      "fileSize": 28024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/nativity-coloring-pages/wise-man-in-decorated-turban-and-robes-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c1bb35e1c7030f5017861aabdd8b9fc704492d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-04T14:56:20.911Z",
+      "fileSize": 11540,
+      "dimensions": "300x400"
     }
   }
 }
