@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-05T05:50:05.368Z",
+  "lastUpdate": "2025-11-05T11:17:31.023Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -25858,6 +25858,293 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-05T05:50:05.206Z",
       "fileSize": 12922,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/bear-driving-decorated-van-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5216ab9644b5971ef1e61a4d6a661981a22ea93a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:23.392Z",
+      "fileSize": 48004,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/dog-wearing-sunglasses-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3464b381ba2bc6702a57c7a0f35cd76d9025455d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:23.801Z",
+      "fileSize": 28300,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/cat-sleeping-on-map-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f8c36e133cf2c913fbc4dfcc806f7ce92b48a4a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:23.948Z",
+      "fileSize": 39056,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/giraffe-driving-convertible-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e3ad3697e7bb4593d68fa5a41cf48d6eee3f840-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:23.949Z",
+      "fileSize": 33562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/elephant-driving-car-ice-cream-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4340e3bd8fc0f530c87ef4076ed2b2ceb7b03b2d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.400Z",
+      "fileSize": 25772,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/penguin-beach-car-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3e7794e86c970817549e7ac899bb8634cf8d4ae6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.404Z",
+      "fileSize": 34318,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/bunny-family-road-trip-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbe5ce293800e7da719445fa432a0cb49d4ee39b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.426Z",
+      "fileSize": 60356,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/raccoons-gas-station-mischief-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/126398faefd68b3e13b315f0bda705185bccfaf0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.881Z",
+      "fileSize": 25262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/sloth-traffic-jam-driving-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/23b4ed4ee54bb1e20b3e256db5c79fc75f9fedde-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.888Z",
+      "fileSize": 33936,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/fox-family-camping-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a1a9d6cab96e74ec5bc093064d6507bdab41fb86-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:24.936Z",
+      "fileSize": 32248,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/lion-driving-convertible-cool-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/29b0530996d2d6d9ba9cbe32d0834d05287cdee9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.372Z",
+      "fileSize": 35122,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/monkey-on-car-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/37ed8969aafb0f0bcd795d028df4a9d8ca585c4c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.383Z",
+      "fileSize": 34188,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/deer-family-road-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cac3581898da1b7381c416d8795c6e2259491f9f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.405Z",
+      "fileSize": 35210,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/koala-driving-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fa864d4f5dc1eb169f002f1a752276ebca7489d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.840Z",
+      "fileSize": 38388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/owl-driving-under-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9a4bd1c782070dad90d7d5cd4a06aec1f81a3b95-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.879Z",
+      "fileSize": 24706,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/pig-family-picnic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9cf1594e730c1234d4dae8d1261919e8c89e7e76-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:25.903Z",
+      "fileSize": 41856,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/bats-waterskiing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6f0f9d439c104e00ebc569c0e186cbd44e3c0500-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:26.357Z",
+      "fileSize": 23050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/kangaroo-family-road-trip-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d3baddd692836fee2ccc600a4d8b753abc958d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:26.473Z",
+      "fileSize": 32776,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/cat-driving-packed-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/858c62c4571a8d4f4c455574efe00a2057b861ed-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:26.502Z",
+      "fileSize": 38330,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/rv-mountain-camping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/08b564004a0993244792a6ecf14b9a2b8375eec7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:26.943Z",
+      "fileSize": 42198,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/car-road-trip-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/39460d3d4ebb3e8f7286c0b784dbce6796333f2a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:26.965Z",
+      "fileSize": 35326,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/vw-van-beach-sunset-roadtrip-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fe9b73652124db66f3fb5bb7f26c6cf3dce77d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:27.215Z",
+      "fileSize": 38712,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/mountain-highway-scenic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/96b1aad16c729c0a0e9e2cfda8267ea3cc97239c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:27.607Z",
+      "fileSize": 24122,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/vintage-truck-desert-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/925eff32dd8e2144a83738e394f7a493547f0e24-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:27.623Z",
+      "fileSize": 35184,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/convertible-coastal-road-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/83f758bdd5bb00f1f22629d4fb6230fec0a13ed3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:27.691Z",
+      "fileSize": 55186,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/seaside-cliffs-and-seagulls-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a12d53c2002920a88085997d8f9ec56f61da3f5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.172Z",
+      "fileSize": 40990,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/desert-road-cacti-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/344ba5dcd3f2605d6139dde17d262d0227c361f0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.175Z",
+      "fileSize": 50066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/winding-river-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/efce5985fdb6d20925aab2af3f8d2f7958669d68-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.220Z",
+      "fileSize": 36502,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/family-road-trip-preparation-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bbddee2e16b46d239bbff0b37bb09ef1e2294f70-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.705Z",
+      "fileSize": 36124,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/family-scenic-mountain-vista-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/91b80351a78d3660e7eb40509732718f8b953867-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.724Z",
+      "fileSize": 32940,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/tree-lined-road-autumn-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9939164f057d7fb6c4e48793c8ddc6e4df8f0187-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:28.845Z",
+      "fileSize": 76324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/family-picnic-car-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3e3a4f4073317609b2111eec7b45b85da2015f26-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.254Z",
+      "fileSize": 32084,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/vintage-car-gas-station-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cca60e072a426c6659699651573fae2aac63e47b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.362Z",
+      "fileSize": 37076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/camping-van-night-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54ff795aab4e905d19d2fd38d1d0eae3366da54a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.508Z",
+      "fileSize": 30578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/classic-car-road-trip-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/735c63699f6e12a559123270ee816320f1a6313d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.896Z",
+      "fileSize": 40028,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/vintage-diner-with-classic-car-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9a2927dead9013020285d181e69f148204fc553-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.921Z",
+      "fileSize": 20346,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/grand-canyon-viewpoint-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c067e4a1177d45b11b18c6af4aec5cb95a20ce8f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:29.946Z",
+      "fileSize": 66378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/route-66-desert-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d78e6adb5b0e85e78cca948b36a15c8d9a00cd3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:30.384Z",
+      "fileSize": 28968,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/bridge-mountain-sunset-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff22cf3565b3752c1298a659cc148dd036328d93-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:30.437Z",
+      "fileSize": 50982,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/road-trip-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/32af2c338d9d52b2d7cbf2bf2c4808d69c0f5433-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:30.472Z",
+      "fileSize": 97096,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/road-trip-coloring-pages/giraffe-in-striped-scarf-driving-convertible-car-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e3ad3697e7bb4593d68fa5a41cf48d6eee3f840-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T11:17:30.930Z",
+      "fileSize": 9528,
       "dimensions": "300x400"
     }
   }
