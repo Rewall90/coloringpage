@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-05T11:17:31.023Z",
+  "lastUpdate": "2025-11-05T14:25:15.594Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -26146,6 +26146,349 @@
       "downloadedAt": "2025-11-05T11:17:30.930Z",
       "fileSize": 9528,
       "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-with-flowers-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45b254789fb9b175d5460752f1130cc947e35ace-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:05.782Z",
+      "fileSize": 18144,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-high-fiving-beehive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/099752efa187f565d8c773e981cb9f0fa22513ef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:05.851Z",
+      "fileSize": 27982,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flying-over-farm-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0df7db04b4444027da07e439bd8a1a2341b51e3e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:06.290Z",
+      "fileSize": 16868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flower-sun-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0daf7de651f89788e97b00d8282535dca395188c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:06.302Z",
+      "fileSize": 22050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-sleeping-under-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2371f18fcb21ba63d8440d320376af5c330f9d73-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:06.551Z",
+      "fileSize": 21008,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-conductor-musical-log-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fbc05b6660a21593f85ac81ac8355bb104b3612f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.021Z",
+      "fileSize": 31316,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-soccer-floral-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/343059c7046c060b9b8882ac0063164b450a0cad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.030Z",
+      "fileSize": 32628,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-and-butterfly-garden-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45d7d3829cb093001335a4f2ee847ba7355e4e81-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.030Z",
+      "fileSize": 58624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-chef-flipping-pancake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/557b1dcfc14b4cb78c82736916680b74ce412fa4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.477Z",
+      "fileSize": 29150,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-camping-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/32624f8bb6fcc24dc4c8e773c5844a23315f0124-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.521Z",
+      "fileSize": 29822,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-painting-flower-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/655b16b11c5c89e2523b53e9389ba031a898e5d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.559Z",
+      "fileSize": 20878,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-surfing-with-sunset-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a31b47d2e72663c6815eddcd4382720e4e2da5aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:07.995Z",
+      "fileSize": 20670,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/beekeeper-colony-frame-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0adfb2b8b55a67ee4ada7d26f31737aefc25dba9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:08.045Z",
+      "fileSize": 36398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-explorer-treasure-map-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03d82e49c85f2702cc6e9ab49c19b55ea237e3d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:08.066Z",
+      "fileSize": 25508,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-delivering-mail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/036cae8d1188e7a848469c277040e81525c3687e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:08.489Z",
+      "fileSize": 21648,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-gardener-with-sunflowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d15cc6b2774a5f46962d83b8f7b9081aad7d892a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:08.593Z",
+      "fileSize": 43114,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-winter-scarf-igloo-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6680da97b1cac2b8dbaad60be538a558bdc13d7b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:08.647Z",
+      "fileSize": 26768,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flying-over-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65f5a10e2e4dc58728b7190c0e386d1bd74714a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.053Z",
+      "fileSize": 33440,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-astronaut-honey-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14f4794c8ac55b68347c5f3475ae435a65f60ff7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.062Z",
+      "fileSize": 28550,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/yoga-bee-on-rock-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5f4a0bf89674a32b237e9e64d05a13454b7b630a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.154Z",
+      "fileSize": 22840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-goalkeeper-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/203e25eebaadb5d86724b8e995703d7b27604721-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.596Z",
+      "fileSize": 48014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-picnic-checker-blanket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9ff5129e0fabbe2caf25e70b72c3b7b952de4d59-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.633Z",
+      "fileSize": 27342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-checking-honeycomb-books-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d0a90755e75565d999179f6539d15457219aaab2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:09.719Z",
+      "fileSize": 27948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-relaxing-beach-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/61e0e6b7df4b659b4779000894dc4bcc93b2a414-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.124Z",
+      "fileSize": 25076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-festival-parade-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/600c8472073c878c78e0e92eca5c0ac22e63c38f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.167Z",
+      "fileSize": 34500,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-pilot-airplane-journey-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/edc3d1ac01064148adacbbcdb01327e063bfc481-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.187Z",
+      "fileSize": 27534,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-spiral-flower-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c03c395669932b6cc3a2f246abca5183d91f32d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.653Z",
+      "fileSize": 19910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-skateboarding-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04bbe0eeb9069ca34d1a65cdac5afe002704600f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.695Z",
+      "fileSize": 30674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-scientist-lab-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9c1bb0cc036358f2ca93297d9b949a23a72d3a55-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:10.718Z",
+      "fileSize": 35348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-with-leaves-as-umbrellas-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/18cd926dcc190c97aa03debfa89c0b95c245d4de-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.132Z",
+      "fileSize": 46096,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-trimming-heart-bush-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/48d4e053f2e733236777e8c3e7f5a7fa3e86f240-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.174Z",
+      "fileSize": 21916,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-teaching-flower-anatomy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a8b2284c18a535f758aac835d121f727e901a5d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.233Z",
+      "fileSize": 31904,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-with-umbrellas-parade-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/24e8a3df6027de8e01c44ef639217c92957b196c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.626Z",
+      "fileSize": 29194,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-conductor-leaf-train-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/809d2b3e9fff2dea745d05041d733784fe4aa541-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.642Z",
+      "fileSize": 29172,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-sleeping-turtle-bed-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/553968040fe95cfedb8d546edab250fed7dc261e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:11.663Z",
+      "fileSize": 25504,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-lifeguard-watchtower-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fc207de4c72b5d561204440b1690c9b6c54d4317-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:12.084Z",
+      "fileSize": 20076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-pulling-strawberry-cart-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aa4ee469710d803eff95e916214e09a71b4ff66a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:12.183Z",
+      "fileSize": 22388,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-leaves-autumn-vibes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d9dd689225e8e828db396fd62bde91f182d33c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:12.408Z",
+      "fileSize": 38022,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flying-over-city-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ff90bb5280cabfa94b3b214c185a5fd8fe345e91-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:12.795Z",
+      "fileSize": 14014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-cactus-sun-happy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eeaaada74b53f11d268abdefe046ee0ce075e920-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:12.799Z",
+      "fileSize": 23258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bees-mountain-trail-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/de2472524f8a5083ddf44fb52547096cc5b039fe-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:13.209Z",
+      "fileSize": 21480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flying-over-bridge-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ea4168a52a5b34ea59bb5cd74a20b96b3ed6bac0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:13.630Z",
+      "fileSize": 33674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-sunrise-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/58b523f29d87c767ecc937f67bef91ddbe73da1d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:13.700Z",
+      "fileSize": 23306,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-flying-over-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80cfe93980c8a1555d3d0984dccf4b7fdc2e72e7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:14.169Z",
+      "fileSize": 21948,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-painting-rainbow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6701906b76fb4ead21f732a7616383e0b70f4763-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:14.572Z",
+      "fileSize": 34870,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-ice-skating-snowflakes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/89a70cbd0a12a0f7b22971b601017f089d4b760c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:14.611Z",
+      "fileSize": 25476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-stargazing-telescope-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/849b1dd6b6d4268974de603c26c300d48636669d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:14.719Z",
+      "fileSize": 16420,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/cartoon-bee-sleeping-in-hammock-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2371f18fcb21ba63d8440d320376af5c330f9d73-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:15.077Z",
+      "fileSize": 6698,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/bee-coloring-pages/bee-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7851c190ce7b7cc43ad83106d1ab67abd017d8f4-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T14:25:15.172Z",
+      "fileSize": 80010,
+      "dimensions": "1312x656"
     }
   }
 }
