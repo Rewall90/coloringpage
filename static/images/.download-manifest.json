@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-04T14:56:21.139Z",
+  "lastUpdate": "2025-11-05T05:50:05.368Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -25704,6 +25704,160 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-04T14:56:20.911Z",
       "fileSize": 11540,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/baby-loggerhead-emerging-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/56347af8c748d9c036b2fa04b3aefef488ecb859-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:01.595Z",
+      "fileSize": 41228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-racing-ocean-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e8cfb8e567ee08375306f87eda6ba04b6672a151-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:01.659Z",
+      "fileSize": 43796,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/loggerhead-swimming-with-ocean-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c48734ac0884b4e48a0c3cde12dae6918d4bd18a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:01.685Z",
+      "fileSize": 51610,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/sea-turtle-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8beea7cb071267e60992ea4b7ab813da3e4fe798-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.110Z",
+      "fileSize": 47528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-jellyfish-lunch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e4d423c82dafdd83ea5496ee701f2dbb2c9b8c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.180Z",
+      "fileSize": 35262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-reef-explorer-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/43491328954a0ac8222e842cad235fb6eaee0550-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.249Z",
+      "fileSize": 80956,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-nesting-night-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5fa50d42c7ccaaeb5a497a763cb57abbafaa26ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.747Z",
+      "fileSize": 41464,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/loggerhead-graceful-swimming-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a327c1f19581a4132da87cefa9ab8905fa5dc9a7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.752Z",
+      "fileSize": 52066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/ocean-friends-turtle-dolphin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5f7516f517b149c8f0db0c8628e5bc3f69c18eba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:02.772Z",
+      "fileSize": 33624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-surfing-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69038862684328ebf95586dbd96b2791ee88571f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.183Z",
+      "fileSize": 45362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/super-turtle-floating-cape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dc9bc774258ad9c438c6aa289c6448393663ded5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.237Z",
+      "fileSize": 33990,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-shipwreck-explorer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dd0c3719f05840a4a06b7b5f2c2bb0a2f681bd3d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.242Z",
+      "fileSize": 70888,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-undersea-birthday-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/694d824dcc5af8176e12f0be2972a98535ca7668-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.726Z",
+      "fileSize": 42286,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/sea-turtle-surface-breach-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e921f7c9c274ff155f820174b9b0d2a9757458fb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.727Z",
+      "fileSize": 48118,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-ocean-current-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6a826438c078e2f1f06d1e4f46bf2784e4b1b2a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:03.738Z",
+      "fileSize": 83678,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/sea-turtle-ocean-floor-rest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0da023e72afdeb66123eb46ac94badd2347fa625-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.210Z",
+      "fileSize": 51460,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/sea-turtle-ocean-hero-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f71e6d63d68f5fd72660985a0e3a73b4dc56ac50-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.215Z",
+      "fileSize": 61288,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/wise-loggerhead-reading-turtle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/20c30d53b2d7741d421ef39c1eac4b614a68b638-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.319Z",
+      "fileSize": 62514,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-sunset-swim-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/104cc23928a8ca26c7ffd591118106898adafcc7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.754Z",
+      "fileSize": 36936,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/loggerhead-turtle-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/64977216a311d542ebcde46be0cb645fb84a916c-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.773Z",
+      "fileSize": 89956,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/turtle-hide-and-seek-ocean-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3072456a9b5d3ed8015acadb4e027a85287d0115-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:04.852Z",
+      "fileSize": 61442,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/loggerhead-turtle-coloring-pages/loggerhead-sea-turtle-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69038862684328ebf95586dbd96b2791ee88571f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-05T05:50:05.206Z",
+      "fileSize": 12922,
       "dimensions": "300x400"
     }
   }
