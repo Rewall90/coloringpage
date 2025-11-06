@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-05T14:25:15.594Z",
+  "lastUpdate": "2025-11-06T19:44:30.194Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -26488,6 +26488,363 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-05T14:25:15.172Z",
       "fileSize": 80010,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-education-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9c97e796b1d4227fa7a77a1889d31776a0c89e3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:20.856Z",
+      "fileSize": 18688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/cute-scientist-lab-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c595b2f45c3aded631a6deca48734c5df46aba3b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.326Z",
+      "fileSize": 19120,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-mail-delivery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4045ae81f8be9d9c9643a1c34adfec8ee5de35f2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.427Z",
+      "fileSize": 16792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-builder-holding-hammer-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/417239299131338f046df2f25cf96d1365b2c3f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.446Z",
+      "fileSize": 17308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-surfing-wave-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b1f7aaa845883ffb30db7fdbd9cb90ce4e64d0f7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.865Z",
+      "fileSize": 15586,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-camping-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0101b056919c44602da854766e67d78bb2ad4268-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.891Z",
+      "fileSize": 18306,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-hybrid-with-camera-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5a918333f953caeac08b7daba2496e9cfde2a2b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:21.987Z",
+      "fileSize": 16428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-cowboy-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6df666adadcf5b4d090fd544bdf1def4d37964ce-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.401Z",
+      "fileSize": 18352,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/turtle-doctor-stethoscope-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4245c2954f8cedaa6813b78621d9394bd79c6701-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.444Z",
+      "fileSize": 24050,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-knight-shield-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1f638f71ee65102391714af0ad3f0e36322f9a51-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.484Z",
+      "fileSize": 23258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-character-organizing-bookshelf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad202cb80514fda62d4200f6ba837060ac6aeb90-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.881Z",
+      "fileSize": 15826,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/beekeeper-by-beehive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/50d4a574ec98ba0a9ab3c950977a4710d64d9a8e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.892Z",
+      "fileSize": 25194,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/skating-egg-scarf-winter-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f2737bbefabcf5c769902d19c276179fe278263-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:22.899Z",
+      "fileSize": 26378,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-painting-pot-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eb45ebde48c964e597ace8368f498a3567ea5b90-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:23.304Z",
+      "fileSize": 14668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-scooter-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3be008371b5c96dcde77495b35cce5a24418a4c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:23.312Z",
+      "fileSize": 20012,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-snorkeling-with-fish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d61e5266f68127e930a0607da4fb826420b0580-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:23.387Z",
+      "fileSize": 24010,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-smiling-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33969d1140935be723ab97679b006eb6dae8b896-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:23.864Z",
+      "fileSize": 20342,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/penguin-pilot-airplane-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f536a0fe89d7897e69c667fde698f2b8910a174e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:24.234Z",
+      "fileSize": 20718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-feeding-pet-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95b3fb2d881d63f23f6bb41d44766c867bce1b31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:24.350Z",
+      "fileSize": 16448,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-playing-violin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8cee330c54bcaf23e035aca749351c80a179e3d5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:24.823Z",
+      "fileSize": 24876,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/smiling-egg-pitchfork-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/81adb1ca032508eca1a044d38a9fb11a02a0c7f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:24.847Z",
+      "fileSize": 21536,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-coding-desk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6b0225a3cdca7e9ccc93166c256e736437279df-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.090Z",
+      "fileSize": 13040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-fishing-cute-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b29b1d59aeffd303153611e68c430d4cbc7cb82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.470Z",
+      "fileSize": 18570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-nurse-hat-clipboard-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7c421896669cbb3ddb8a698c4c0ed58a61aae430-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.483Z",
+      "fileSize": 15296,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-stargazing-telescope-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c022e24d80cdaa863ed94a6dbf7de81a7909cd4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.500Z",
+      "fileSize": 20216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-skiing-snowflake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b98aea33482e0de30f74bb0241e288f977fca2b2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.905Z",
+      "fileSize": 19070,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-baseball-swing-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7ec692549710824a1ea810e1630f11fb9ae4765a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.922Z",
+      "fileSize": 16264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-sailor-steering-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/671a21592026c58fdee4f93417fa186126c8ebc3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:25.948Z",
+      "fileSize": 21946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-ninja-kick-cute-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/297b884d58718532008381f8fdd0a8e5a72e4506-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.352Z",
+      "fileSize": 17274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-crafting-heart-page-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/da54b6f80947a8ae8bb6dbbbd3a15a7437fc3b4e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.377Z",
+      "fileSize": 14354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/beehive-pattern-turtle-shell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02231bec98dc67965aa4d0275183049af3a5dd08-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.434Z",
+      "fileSize": 27884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/turtle-shell-geometric-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af27ccb14f5c249f78554c14641dda263af21363-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.823Z",
+      "fileSize": 15266,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-geometric-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7adb450bff53b7bfe2359a62cd5fae90df20cc47-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.859Z",
+      "fileSize": 27704,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/striped-egg-creative-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbb57d1e9bf4ea6b464d372f2245ac50ac79e82e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:26.866Z",
+      "fileSize": 21884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-hive-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6a7d99f980cba66fd67e53506e13204db8664b1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.289Z",
+      "fileSize": 19798,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/abstract-turtle-shell-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4261399d2a026d622d61f8be8d99094de1909f64-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.327Z",
+      "fileSize": 48244,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/intricate-egg-gears-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b149d27057567d8cd5c711f6bee4b93f687e151-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.403Z",
+      "fileSize": 57294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/turtle-geometric-shell-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6bc815d0dea0d07d3ecd6e981f8b2de4fa735d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.802Z",
+      "fileSize": 35920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/geometric-egg-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/762281515e568abe24208ffc1f79af347c408b70-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.847Z",
+      "fileSize": 30920,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/turtle-shell-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ebd53d0fd02eb8f0a1fa87d51a51a5e9558b7b8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:27.896Z",
+      "fileSize": 20458,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/bee-turtle-egg-shape-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66d97d43d725d305a4197a6bcd0d82f71c9b559f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.345Z",
+      "fileSize": 28814,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/woven-egg-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/14c91d5aaf8e5142d234a543cfbc63b5b45aa175-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.367Z",
+      "fileSize": 27840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/turtle-egg-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eaa2277467164fb794fb8ce1c912ad5e0f320564-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.411Z",
+      "fileSize": 24180,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/zigzag-egg-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/584ef216dd82b347de6375e2c1ab6f876c4c96ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.801Z",
+      "fileSize": 28014,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/abstract-egg-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5e879904e9fe306da05118d1cbd37c8f32c9b25-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.815Z",
+      "fileSize": 29110,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/patterned-egg-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d5722e071d41b248c49f94fc4a22e5fbc1f07b7b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:28.816Z",
+      "fileSize": 53460,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-maze-puzzle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfc89516ce7700c6edad0df8a4580643c602b958-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:29.235Z",
+      "fileSize": 28172,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/easter-egg-stars-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ed5ffdd6cacba2f727dde287c0601a78b9d67d48-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:29.273Z",
+      "fileSize": 34398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/geometric-egg-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51b7632242180d6b946c50d1f9a9d14d1d6987ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:29.304Z",
+      "fileSize": 44088,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-character-catching-a-fish-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b29b1d59aeffd303153611e68c430d4cbc7cb82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:29.684Z",
+      "fileSize": 5830,
+      "dimensions": "300x400"
+    },
+    "/images/collections/food-coloring-pages/egg-coloring-pages/egg-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9baf6191ca756944bede6cc7595d158191eb3f79-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-06T19:44:29.791Z",
+      "fileSize": 33126,
       "dimensions": "1312x656"
     }
   }
