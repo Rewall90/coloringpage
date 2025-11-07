@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-06T19:44:30.194Z",
+  "lastUpdate": "2025-11-07T05:53:23.505Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -26845,6 +26845,370 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-06T19:44:29.791Z",
       "fileSize": 33126,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-usa-flag-cloud-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dda139eed98a08484454e035e2b22c529d76c3d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.070Z",
+      "fileSize": 27928,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/615e44e9cecfdd77aea2be1b09f42d5a8e2528d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.373Z",
+      "fileSize": 27658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-baseball-swing-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c1430a436e804b513e1e36b84f537f653b823487-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.414Z",
+      "fileSize": 18564,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-holding-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d427379cf635302e90c7600b31696683a5d36c0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.451Z",
+      "fileSize": 25644,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-pencil-book-back-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e5fab3937142bc9c241dba0c3a8aa930f38b023c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.703Z",
+      "fileSize": 26934,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-football-goalpost-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7b1dbdaa728b078b4a3a777ff6c4a456bba6686-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.746Z",
+      "fileSize": 21770,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-drummer-marching-band-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0b5175b7501f6bc45dc026e44339d30919b7501a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:17.912Z",
+      "fileSize": 35788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-roasting-marshmallow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc8f61699b88765d1f7cc5180cfa818a22086e31-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.137Z",
+      "fileSize": 27082,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-building-sandcastle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e478cd02d5463e1cd993f04ea960ddde630b9351-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.163Z",
+      "fileSize": 31514,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-holding-fruit-basket-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/57b9def12a341688be8858371d16165ab74655f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.226Z",
+      "fileSize": 52658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-serving-pie-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c87709eddadfafe7421cb4d3c2a955ccb1ce86a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.483Z",
+      "fileSize": 26600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-decorating-christmas-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cc0bd57a7079873b2021ac0c129a50e4f2c0c3f1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.497Z",
+      "fileSize": 22398,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-holding-star-wand-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d004c6790825fc36a7f3c679c0b471e1d5263881-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.551Z",
+      "fileSize": 23024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-recycling-bin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7697a515a68ce3d2df54a2b0e89aea2241381ef0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.800Z",
+      "fileSize": 29234,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-astronomer-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/92fb8cb1d04784930087c41f685bb78d2c5dc2f2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.800Z",
+      "fileSize": 37868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-basketball-slam-dunk-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/823506a04d31fff44beab4e8987bef5f7bbd2f6e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:18.805Z",
+      "fileSize": 24850,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-reading-book-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ffc93b7caba33753eda1e3f223396ed5451b3b46-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.059Z",
+      "fileSize": 16800,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-orchestra-with-choir-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e7a9c72c5f27ad36cb8a19855a67b6e11c7ca3e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.094Z",
+      "fileSize": 40192,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-feeding-ducks-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc581d0732d90148aedd1218bea20f18f8582942-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.098Z",
+      "fileSize": 39344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-time-and-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0c66889445b699f4cc912bdec2bfe8fe67010528-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.365Z",
+      "fileSize": 26010,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-heralding-shepherds-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/351b1147ccdcf83a129a7e5be39bde614a202c27-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.373Z",
+      "fileSize": 30112,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2d8aee1c935051982abbeaacd6aa1deeac753ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.373Z",
+      "fileSize": 30148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angels-singing-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/02a843e1bee575fd83aea926dbf67aa0d7d1020b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.622Z",
+      "fileSize": 26430,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-guiding-wise-men-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/af60d719fbc728308ab292f39a8b671a0483f6aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.663Z",
+      "fileSize": 25878,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-above-church-heavenly-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6371193712d326588ff2c8df64a6672761318eab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.928Z",
+      "fileSize": 29036,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-praying-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5663a43d8fddc885da84f32dd4d05caf7dc67b57-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.946Z",
+      "fileSize": 16582,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-nativity-scene-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c237d167ebd5f6e2ef00930473728a7f561c0791-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:19.974Z",
+      "fileSize": 14514,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-trumpet-and-sheep-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bee6a7071cabfa8a12206b89c94b3beca6fe0c3c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.194Z",
+      "fileSize": 20250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angels-bethlehem-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4448e6da926dd6f0eade015e4dab1cb1e15ccc88-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.327Z",
+      "fileSize": 29866,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/nativity-angelic-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dd84fd994197db9d0803a480c1d016e2c283b9e1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.554Z",
+      "fileSize": 20034,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-on-crescent-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/565bce7fd074466ec86a38388196bb4d9729455b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.579Z",
+      "fileSize": 20170,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-knocking-door-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74fb5e56d3963fda2f964274e68bc4f87c311613-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.831Z",
+      "fileSize": 29100,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-pointing-star-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/db4a2359d495e5c033076bd1ff89c01cfe577425-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.832Z",
+      "fileSize": 33668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-above-house-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/412dde4d153f8502b39cd7b9291c700ac82151cd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:20.853Z",
+      "fileSize": 13128,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-nativity-gazebo-winter-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/56ce8a5ab0cf7d36ab699c158c612572a44e9952-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.086Z",
+      "fileSize": 34754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-and-shepherd-star-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e7e38e0929512b2374036e8da63fc351f01863c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.126Z",
+      "fileSize": 29472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angels-trumpets-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e579d7d91806cb3b3c678f766150574f2fc9bcd6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.340Z",
+      "fileSize": 20822,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-with-trumpet-nativity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0f00c438811e7e2615e630f93b34ef084ddfef57-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.370Z",
+      "fileSize": 24660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-with-halo-manger-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aeacdc3708dcf50c6eb23cac66731f4aa7cf33d0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.395Z",
+      "fileSize": 36166,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-church-lantern-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d543e1ca662971679bb9891ac2ae922cf030a6b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.628Z",
+      "fileSize": 18688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-hanging-wreath-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0ce9efb116912fe459b4588a32bb26e53267c827-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.666Z",
+      "fileSize": 24892,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-guiding-camels-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/28a63a27317642b1a96ee094e67b296940f1a87c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.683Z",
+      "fileSize": 24444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-nativity-banner-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7ba151dc5cee36a67bf9f9f5287bc9a40d345384-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.931Z",
+      "fileSize": 28688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-watching-over-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/19df48f026ff496f30fad917d530692df0d4ffd0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:21.946Z",
+      "fileSize": 31444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-ringing-bell-nativity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ea43bb4fe8bb0e60e5cc06ae36228b5e09bc0d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.182Z",
+      "fileSize": 24436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-winter-child-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce402ff3d7a2a640b3404c94828e078883e7c0c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.206Z",
+      "fileSize": 34940,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angelic-choir-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8050444bebc05d30edfe88f1f944b67dc8cd7480-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.255Z",
+      "fileSize": 39774,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-kneeling-nativity-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a88810d79ef7f5fbae5a669889fc98b0cdc00460-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.510Z",
+      "fileSize": 28132,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angels-holding-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ad7384decbd5b705502787f61ecfdf3b03361a3c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.510Z",
+      "fileSize": 42060,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-riding-donkey-nativity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5b8e54e1f2ec9503d0643d1753dc3bb83a05226d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.590Z",
+      "fileSize": 36828,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angel-with-halo-and-wings-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d004c6790825fc36a7f3c679c0b471e1d5263881-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.791Z",
+      "fileSize": 6948,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/angles-coloring-pages/angles-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cc6aac8b32f25297ad13385ae153c17c6994c97d-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-07T05:53:22.843Z",
+      "fileSize": 46328,
       "dimensions": "1312x656"
     }
   }
