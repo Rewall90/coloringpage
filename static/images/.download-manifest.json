@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-08T03:34:54.863Z",
+  "lastUpdate": "2025-11-08T18:21:34.906Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -27490,6 +27490,363 @@
       "downloadedAt": "2025-11-08T03:34:54.452Z",
       "fileSize": 6802,
       "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-scooter-helmet-ride-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/355304967413abc752826211a402dc261eec5c99-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.185Z",
+      "fileSize": 17784,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-bubble-playful-lilypad-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7646680a8074191ae0bfda1e53adbdd57a09221c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.239Z",
+      "fileSize": 24830,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-singing-with-flies-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/24329ca2e1de67829cc2ed89d49834faca6de9ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.266Z",
+      "fileSize": 35958,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-mailman-delivery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f6a0fa30576ca4f41e0b1c455ab4c24c12c1eac-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.704Z",
+      "fileSize": 20714,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-astronaut-space-floating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f6dd6523084d12b995547d69aa85a1b7845d37da-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.750Z",
+      "fileSize": 18328,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-chef-cooking-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/070a77ddff29c73474ca86e753b644571f5f4366-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:24.757Z",
+      "fileSize": 28210,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/pirate-frog-treasure-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/67db5c3e350103d67dd7856947a573f6ef890484-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.196Z",
+      "fileSize": 32898,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-artist-painting-easel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/919831bbd26ddf74cabdd4183c77de46cf83a767-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.262Z",
+      "fileSize": 32660,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-dj-music-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/557fc3149110631876ff2f7a67d94edb920c54c6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.262Z",
+      "fileSize": 36364,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-harvesting-carrot-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b3eb10d4925807ab1e98cec9e3d055b45c04366-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.681Z",
+      "fileSize": 24136,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-with-top-hat-and-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f698b5b1c45828b84f48fb7ee0e2693b5be02718-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.682Z",
+      "fileSize": 40916,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-firefighter-hose-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ac8f102ed557758752ab934e56dbe4bf39c96110-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:25.703Z",
+      "fileSize": 22602,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-dunking-basketball-hoop-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/abd29715175af3416cd047a93f5b1e9b50417e43-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.123Z",
+      "fileSize": 23290,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-goalkeeper-soccer-save-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec002408c35e80e0d505fd78d4b5f82a31edf950-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.187Z",
+      "fileSize": 28310,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-reading-books-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/be2db08f2790a7b33e3298b99e60738b422f57a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.187Z",
+      "fileSize": 27308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-surfing-action-wave-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ad69b97856ba18c31957dda54f1d931d0484241-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.609Z",
+      "fileSize": 31562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-skateboarding-ramp-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d5a3e3a49e081421dd5fc5b0c2d25b9387d8b6c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.631Z",
+      "fileSize": 20476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-snowboarding-winter-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dfbce7da4a8ca11df7df300abcc188ee59e50dbd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:26.647Z",
+      "fileSize": 29962,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-flying-kite-activity-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/97bdc2a8e2350311d0b5fec7c7d0266eae8123a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.109Z",
+      "fileSize": 22130,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-ice-skating-spin-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ff1f8d556d0058cf976b4f4b8e32cf2d9ffbc5a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.109Z",
+      "fileSize": 22272,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-eating-sandwich-picnic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/71b33c28ca7a9c00ae9f998efdd8ffe605339736-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.110Z",
+      "fileSize": 30194,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-unicycle-juggling-tricks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3856db3457eb326056247d373c9855e9ed141f6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.538Z",
+      "fileSize": 27324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-pilot-paper-airplane-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27bda8a3ade59d0e13653e2dc1d0ca46bb8f627c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.550Z",
+      "fileSize": 20638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-playing-electric-guitar-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/71f3abc989aef233ea28b6b1ff2da83281aa93ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:27.723Z",
+      "fileSize": 42650,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-under-moon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2826ece0f0095928c23f30ece1bc33b2f8506c82-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:28.136Z",
+      "fileSize": 15366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-on-cattail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/16e894874f53500c79e9c5d6acade2fcf5cc0ac5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:28.177Z",
+      "fileSize": 15656,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frogs-taking-photos-cute-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45d89725d452c323070232b03dd3afcc6e357b49-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:28.275Z",
+      "fileSize": 28496,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-peeking-from-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a36aee0372121258e3ff0c71d232b872ecf24f72-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:28.783Z",
+      "fileSize": 27328,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-leaf-log-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b494e9939eb4a43509eba8eaaab51c862568d87-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:28.787Z",
+      "fileSize": 42672,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-on-branch-detail-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f0c10441199c2290b38b1309bcd0d0f7f2b1125-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:29.157Z",
+      "fileSize": 59264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-on-rock-near-pond-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/73d3dc3e08d631d3486206c1ccdc123f1ae178b6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:29.591Z",
+      "fileSize": 28724,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-on-lily-pad-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65104b2fb9a78c0a097c5610af23db1c5d6fc215-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:29.670Z",
+      "fileSize": 34354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-catching-dragonfly-action-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40cb37210aba6d96ee953cb6e478fbf7c97edc6b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:29.671Z",
+      "fileSize": 23366,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frogs-singing-ensemble-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1fba64adc18065bf2346cbca97ae994f9eefc999-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:30.114Z",
+      "fileSize": 22772,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-on-lotus-pods-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27eac12e6a197b8f092899039dab32a924cf6757-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:30.182Z",
+      "fileSize": 28372,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-wetland-sun-basking-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0f758404399e9fce505138dbc6bedf4a2a3562ca-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:30.485Z",
+      "fileSize": 21494,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-jumping-riverbank-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/43151463c3a245d9fdecc7c96fdb0c91a200fee3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:30.919Z",
+      "fileSize": 20408,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/tree-frog-resting-on-leaf-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/41c3cbbf90ab33818eef09febef8d36670bc90aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:30.932Z",
+      "fileSize": 19594,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/52cfa21589010d24faf3dbd642c84c0b417efc1c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:31.409Z",
+      "fileSize": 26298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-flower-perch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80a60e911427b9d89d39cc5204e645763e34a3ff-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:31.857Z",
+      "fileSize": 27162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/toad-on-leaves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8f0a3c54d37e24c87189e5f63b5886d498c634e9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:31.929Z",
+      "fileSize": 50358,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-under-mushroom-rain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7d2f9419ba0d72c7586ce66ad4e7b71776679178-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:32.331Z",
+      "fileSize": 35574,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frogs-dragonfly-log-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/840df4605e60252448e0eec7093e96b41a250556-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:32.784Z",
+      "fileSize": 28440,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-climbing-hose-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/081b32e1b611fc26d4ce132e4a41b6fecfca8b37-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:33.154Z",
+      "fileSize": 29532,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-underwater-rock-bubbles-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5abb77d0991c772da2219243b79eafdf47a7f179-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:33.253Z",
+      "fileSize": 28620,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-sleeping-moon-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03893f4c10975f8583a315338c9add4718ebbcb7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:33.683Z",
+      "fileSize": 14676,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-jumping-lily-pads-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74b3559e7b084463d582b0b7377f7d11c41d106a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:33.711Z",
+      "fileSize": 31812,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-tongue-out-mud-patch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d3931d2557462e177abb4ca823416ff2c06cecd9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:33.765Z",
+      "fileSize": 29732,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/realistic-frog-with-spot-pattern-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65104b2fb9a78c0a097c5610af23db1c5d6fc215-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:34.175Z",
+      "fileSize": 10072,
+      "dimensions": "300x400"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-footprints-by-reed-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ca9ff0d701c11f209d2c689e1633407761cceed7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:34.215Z",
+      "fileSize": 14542,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/frog-coloring-pages/frog-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f09f5478532d18baa872d7417fac993cc53b1358-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T18:21:34.306Z",
+      "fileSize": 44966,
+      "dimensions": "1312x656"
     }
   }
 }
