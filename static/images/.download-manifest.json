@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-07T05:53:23.505Z",
+  "lastUpdate": "2025-11-08T03:34:54.863Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -27210,6 +27210,286 @@
       "downloadedAt": "2025-11-07T05:53:22.843Z",
       "fileSize": 46328,
       "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-peaceful-branch-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/766c10466150622cd7ee3a1e6b98e200a91838f2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:47.326Z",
+      "fileSize": 23262,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-eating-seeds-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03d02925c3b5b9505da62bd81418a8b037215e2f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:47.813Z",
+      "fileSize": 14476,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/lovebirds-perched-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/70604b1939ef757364f5cc401a5c54ea0609854d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:47.988Z",
+      "fileSize": 19228,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-perched-wooden-post-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4d9945dfd662e1219b17a2538c97ffd302fd20c2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:47.989Z",
+      "fileSize": 23124,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b1a1e4d57dedb5c38e812bd990ab3072ac73720f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:48.424Z",
+      "fileSize": 19864,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-perched-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5074c42e537fce62812be95d49582da53358a28f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:48.500Z",
+      "fileSize": 16164,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-birdbath-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c02a4f31bedeb14578265206e452134994328811-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:48.507Z",
+      "fileSize": 20952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-holding-olive-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2bbd2ef5f4686deb11139429703077d8d2d3cc9b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:48.941Z",
+      "fileSize": 20804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-graceful-flight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/99c9f4a0e2dd3865e469fca86c78e163c4daadbf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:48.946Z",
+      "fileSize": 22170,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-nesting-in-tree-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/718fb6dd1169b0209121822e6456ce72bd855de7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.049Z",
+      "fileSize": 30578,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-eating-bird-feeder-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1bcc1b5841b193f2f6b3dc1ef01e973c958c92af-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.450Z",
+      "fileSize": 15668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-feeding-chick-nest-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fe534be40aaf24fb04386485060fabb2984d1cbb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.450Z",
+      "fileSize": 14906,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-mailbox-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a3cd0a0ba52e585d4705ff4c7b7673813584cb1b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.545Z",
+      "fileSize": 12596,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-with-leaf-in-rain-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/245b05efcdf66e42c21ea241581c9cbc7b269250-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.953Z",
+      "fileSize": 22806,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-landing-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b9626bc891d0d3e1c783870ae64070af91d9f91-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.990Z",
+      "fileSize": 34750,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-holding-berries-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a6c4551f18a702880388c2e9bbbbdbac0e0aafbd-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:49.990Z",
+      "fileSize": 41666,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-trellis-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6a177b63a9b4750c939a1165027a57427ed5af51-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.445Z",
+      "fileSize": 14230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-with-footprints-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/61c3f2d05d34db09f02d88634d4ca2f3a424921a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.460Z",
+      "fileSize": 12804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-moon-star-symbol-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/95b9421be683a29e078eefbf535bf0c03b41a000-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.509Z",
+      "fileSize": 12356,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-landing-on-rock-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d49b0cdefcde080a3ade97819dbaec0aca44a311-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.916Z",
+      "fileSize": 26070,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/mourning-dove-labeled-diagram-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a8bad65f3ed2ed2f045a241426de527936aae257-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.958Z",
+      "fileSize": 32848,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-on-branch-profile-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/051f13be90037d91322731c318449a4557b7544b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:50.975Z",
+      "fileSize": 19414,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-pine-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3e1918fcfad5242629d1668369d6f239bcbf64b6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.403Z",
+      "fileSize": 34338,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-drinking-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d24186914f9ff54b441ef8b06c8cf24cd9f4019-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.430Z",
+      "fileSize": 16094,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-flapping-wings-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7abd7fbcf3ba79c0e4f10d7027a11509b2c89de1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.469Z",
+      "fileSize": 30494,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/doves-perched-together-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/acee48f033cbc2b07d6b386cbcf38b75b2ffd454-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.901Z",
+      "fileSize": 20006,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-pumpkin-autumn-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/04f46d938fc277c6e5030f6b2cc1d19f73946a0b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.930Z",
+      "fileSize": 34094,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-preening-its-feathers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1384f12087db39da216635dc8b330aab27182fd9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:51.940Z",
+      "fileSize": 16568,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-branch-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4f46ef4eaa87ef595ab84725bddd6342bbb9946d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:52.354Z",
+      "fileSize": 26668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-flower-pot-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/74355f01a31f73aed5eef3e2c6394885ae4451a3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:52.354Z",
+      "fileSize": 16910,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-rooftop-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/954e19e9988174f9bdc887bebbe39756a8eddf56-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:52.391Z",
+      "fileSize": 21162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-snowy-mailbox-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0ca2f777c4bbeed820bf77f098fa19675b4c9be4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:52.903Z",
+      "fileSize": 21326,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-flying-elegant-motion-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49da291a3ad1ec7de14703bb3f754aab3625b45c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:52.919Z",
+      "fileSize": 17028,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-desert-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aafe6d17c0b206793e589590c5f9d41fb261efbf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:53.315Z",
+      "fileSize": 22444,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-on-wind-chime-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2b2b85496281199f864f866e0f42775b0c095f8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:53.415Z",
+      "fileSize": 15156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-sitting-on-garden-hose-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7ab3a4466afafc9403f2eab916a31af05031169-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:53.440Z",
+      "fileSize": 24162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/mourning-dove-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/540f6a0f8376256f82a2f90daf5d32a95739c29f-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:53.927Z",
+      "fileSize": 30378,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/bird-simple-flying-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/100d2454d083278c673931cde118df4372b27fd4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:53.991Z",
+      "fileSize": 15886,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/dove-dot-to-dot-interactive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a80891903dd4d854c294daae6630efdc38dbbd0f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:54.064Z",
+      "fileSize": 14946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/animals-coloring-pages/mourning-dove-coloring-pages/mourning-dove-perched-on-a-branch-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/766c10466150622cd7ee3a1e6b98e200a91838f2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-08T03:34:54.452Z",
+      "fileSize": 6802,
+      "dimensions": "300x400"
     }
   }
 }
