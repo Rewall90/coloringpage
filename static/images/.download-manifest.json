@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-09T06:03:59.485Z",
+  "lastUpdate": "2025-11-10T19:24:15.430Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -28175,6 +28175,433 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-09T06:03:59.232Z",
       "fileSize": 14552,
+      "dimensions": "300x400"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/rocket-simple-launch-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/abbb4a2bb1be151f3f6951fea42cfb7fb542f7d1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:04.658Z",
+      "fileSize": 15690,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/cat-face-balloon-simple-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5a94436aafab9988048f75a62de9a457e574856a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:04.761Z",
+      "fileSize": 17428,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/star-balloon-sparkle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/653d0dff3e05af745bc8cf54401505acb3994851-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:04.790Z",
+      "fileSize": 10634,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/number-one-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/46301d11f1b2ec4c92983d7baf30b3518561849d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.224Z",
+      "fileSize": 7404,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/intricate-geometric-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d4aef069fd12faddc21b48c331f45c8dd56835e5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.234Z",
+      "fileSize": 31424,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/hot-air-balloon-grid-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b378c606c3812944eab02255a0bb371a84709042-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.273Z",
+      "fileSize": 22556,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/striped-balloon-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/990d10916e0fe985c7f27712b5ed2d6d5f76e183-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.718Z",
+      "fileSize": 19988,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-simple-outline-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8588b76b2ba04c3fd853c61265d89983a45e8b2d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.729Z",
+      "fileSize": 15794,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/soccer-balloon-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7dce52dacc5fb0f9b7da3b5c8f07ee75c64e0a3d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:05.762Z",
+      "fileSize": 16362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/unicorn-balloon-with-star-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d126d96ab781d44e5fb1ef9617c57d02e7ff49ef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.238Z",
+      "fileSize": 18834,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-maze-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b628285011f3e2beea3b4dadfa30606ea4720ea3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.256Z",
+      "fileSize": 33396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/butterfly-balloon-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b41dc593bcc3756efd75549276404b7725c403d2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.283Z",
+      "fileSize": 13314,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/elephant-balloon-simple-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/94a99d3f4e2a0a9c7cef9d2498bd5b6144378eb8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.719Z",
+      "fileSize": 13728,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/crown-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80f7c4a8f54e4fb405cb287413f3513c0408526a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.719Z",
+      "fileSize": 12200,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/ice-cream-balloon-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1c37aacaa7bbe1f17547712bdcb097fd1d80e7a9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:06.767Z",
+      "fileSize": 11706,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-striped-sparkle-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84fc6ac26c9c11157c7487b7765b721ad0f34641-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.215Z",
+      "fileSize": 14682,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/football-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ab6815f3938b5d517a0b9768152599b819bfc867-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.224Z",
+      "fileSize": 11946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/soccer-ball-balloon-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1f10134f18c22d2e7052afb35b5a87910239f195-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.466Z",
+      "fileSize": 15282,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/letter-c-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6acb9b4b5bf8d8efb020f642c82f5e1eb361e09e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.911Z",
+      "fileSize": 10950,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/number-2-balloon-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c2ae9b5897866e1302deb53c2d132571e4328e5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.933Z",
+      "fileSize": 12570,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/spiral-pattern-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49d5407b5d8040df07413c5a130d1e64d202129e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:07.948Z",
+      "fileSize": 16560,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-star-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/eaa57f7f591464878752585b15359b1c4ad8598f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.393Z",
+      "fileSize": 17712,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/geometric-flower-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/647f837c8b5bed21cc5c26a4537872910c681d42-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.431Z",
+      "fileSize": 17716,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/ghost-balloon-smiling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90df07d007ae07f1c1ffcbc00babec31dea1a455-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.496Z",
+      "fileSize": 12396,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/snowman-festive-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/69bc599ffd20c3e9d11907b5f5b0f457272c2347-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.889Z",
+      "fileSize": 12938,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/flower-balloon-with-bee-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f20755cfa80dfa9648655518142623b844201a8b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.920Z",
+      "fileSize": 13158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/lion-balloon-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/55c6e5e774957acc2540873da1a6141e30ef162d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:08.958Z",
+      "fileSize": 16994,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/penguin-balloon-snowflake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/df50ff8190d2adc63b0300f586031153334cdcf5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.427Z",
+      "fileSize": 14360,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/whale-balloon-with-spout-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/45b2ce56f97cadcd9a350058507a1b479669a59c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.471Z",
+      "fileSize": 12470,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/turtle-balloon-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8b179566d9c028b015ec7cb68d119950599acba0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.474Z",
+      "fileSize": 14788,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/koala-balloon-cute-smile-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c78a00fcc1dfc008db6afd8a8e8ef04000f980f4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.899Z",
+      "fileSize": 16780,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/train-hot-air-balloon-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/49c1ee1ad8a7cdb30bf94d70028c744fd351eec5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.926Z",
+      "fileSize": 14886,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/airplane-floating-midair-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a55a8cf473e3eeff8bb6419e09408b002f8a379a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:09.947Z",
+      "fileSize": 13580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/monkey-balloon-smile-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e94bffabb870279c5db5c6939bc35dddb4820bd4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.385Z",
+      "fileSize": 16572,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/shark-balloon-floating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d6a324cf026bfb13fa7473e5537b06b3c69c1d8c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.393Z",
+      "fileSize": 12974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/bunny-balloon-whiskers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/25df8acf56d9f0144dd5a6dc130004f5cc626741-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.414Z",
+      "fileSize": 15772,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/fish-balloon-smiling-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/888a58ddc264edb7c2862456bc555fc58179aa9a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.857Z",
+      "fileSize": 23188,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/giraffe-balloon-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cd20436fdd9c78ef399d2d29d910df9f8f44299b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.857Z",
+      "fileSize": 13868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/simple-balloon-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63b2678619c8c5adfaa123aff047fd7a5de624be-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:10.876Z",
+      "fileSize": 12526,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/truck-star-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ecd6741f7e072a08c178f0e63b7b395c471a8b0b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.323Z",
+      "fileSize": 9248,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/house-balloon-floating-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/088f92b844f8c736dfd77e4123335dccf0ec8b56-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.350Z",
+      "fileSize": 9314,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-star-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7e1d2e17493d5076da9ce325a1430a07954a0a71-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.405Z",
+      "fileSize": 13856,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/balloon-puzzle-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1f7d54d8a69946bc9e1949e65742d10a3cad7037-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.872Z",
+      "fileSize": 26478,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/stained-glass-balloon-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6e027112f9f545df40427be696623546eec03b51-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.911Z",
+      "fileSize": 25276,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/children-heart-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7877e8fd41c205049d8edb93814e42fbc5a0d4eb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:11.931Z",
+      "fileSize": 15840,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-holding-butterfly-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03a54c6b9b131acc2257007e7d209cd30cea31c4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.348Z",
+      "fileSize": 21108,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/number-five-balloon-child-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/339d47be505cee391eb0fc9ada0670119fa8d0b5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.348Z",
+      "fileSize": 15382,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/boy-holding-unicorn-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8877eb359b6d1ffdddf4970d11da132b665ca98e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.392Z",
+      "fileSize": 18082,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/astronaut-moon-balloon-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a45233ff62b72fd6b968937b39f58bb5588e4cf3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.791Z",
+      "fileSize": 22754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-dog-balloon-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2bc258abd3c3e152360045570453b4d44c440f58-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.847Z",
+      "fileSize": 18600,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/hot-air-balloon-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/66a1f6b5a18927c509d2f36ed9e0d50310a66599-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:12.851Z",
+      "fileSize": 19722,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-raincoat-rainbow-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03c93cc5b7ed8a10aeb5a98be3672ac3c08c4532-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.252Z",
+      "fileSize": 26868,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-letter-a-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6920eb2df19b1041c44c12d81c8b7baacf977878-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.303Z",
+      "fileSize": 17804,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-scooter-polka-dot-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b77effa87388327e455b39d1fda63f8ea834338-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.304Z",
+      "fileSize": 21218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/boy-park-bench-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/688cd773bbe640be6f24205dac49e3f21168edc5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.704Z",
+      "fileSize": 31324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/boy-with-soccer-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c8b59dbe9963888a71296198bd222503e34b43d9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.758Z",
+      "fileSize": 22118,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-holding-cupcake-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0b8ab98a64a0584b4fc0642b31e2863fa88ffc03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:13.819Z",
+      "fileSize": 24230,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-heart-balloon-wheelchair-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d2d85871442df0d7c18463600b72e31b4bbc1150-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:14.280Z",
+      "fileSize": 16728,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/ballon-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/354c840e99bdbe701c1d91aa14e9be5f29742f19-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:14.296Z",
+      "fileSize": 31432,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/child-with-star-balloon-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/df35eebfb7cbdf36ffc3e0147f6188167618a6cc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:14.297Z",
+      "fileSize": 15668,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/fantasy-coloring-pages/ballon-coloring-pages/cute-cat-face-balloon-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5a94436aafab9988048f75a62de9a457e574856a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-10T19:24:14.673Z",
+      "fileSize": 5908,
       "dimensions": "300x400"
     }
   }
