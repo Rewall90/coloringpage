@@ -4,12 +4,38 @@
  * Images: Serves with optimized caching headers
  */
 
+// Global cache for PDF mappings to minimize KV reads
+let cachedMappings = null;
+let cacheTimestamp = null;
+const CACHE_MAX_AGE = 3600000; // 1 hour in milliseconds
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     // DEBUG: Log all incoming requests
     console.log('🔥 INCOMING REQUEST:', url.pathname);
+
+    // Load PDF mappings from KV if not cached or cache is stale
+    const now = Date.now();
+    if (!cachedMappings || !cacheTimestamp || (now - cacheTimestamp) > CACHE_MAX_AGE) {
+      try {
+        console.log('📥 Loading PDF mappings from KV...');
+        cachedMappings = await env.ASSET_MAPPINGS.get('pdf-mappings', { type: 'json' });
+        cacheTimestamp = now;
+        console.log('✅ PDF mappings loaded:', cachedMappings ? Object.keys(cachedMappings).length : 0, 'entries');
+      } catch (error) {
+        console.error('❌ Failed to load mappings from KV:', error);
+        // If we have stale data, continue with it
+        if (!cachedMappings) {
+          return new Response('Service temporarily unavailable - PDF mappings not loaded', {
+            status: 503,
+            headers: { 'Content-Type': 'text/plain' }
+          });
+        }
+        console.log('⚠️ Using stale cached mappings');
+      }
+    }
 
     // Extract the slug from hierarchical asset paths
     // Format: /category/post/filename.pdf -> category/post/filename
@@ -85,17 +111,17 @@ export default {
     console.log(`Requested ${isPdfRequest ? 'PDF' : 'image'} slug:`, slugLower);
     
     try {
-      // DEBUG: Log KV lookup attempt
-      console.log('🔍 KV LOOKUP for slug:', slugLower);
+      // DEBUG: Log mapping lookup attempt
+      console.log('🔍 MAPPING LOOKUP for slug:', slugLower);
 
-      // Get the Sanity URL from KV store
-      const sanityUrl = await env.ASSET_MAPPINGS.get(slugLower);
+      // Get the Sanity URL from cached mappings
+      const sanityUrl = cachedMappings[slugLower];
 
-      // DEBUG: Log KV result
-      console.log('📦 KV RESULT:', sanityUrl ? 'FOUND' : 'NOT FOUND');
+      // DEBUG: Log lookup result
+      console.log('📦 MAPPING RESULT:', sanityUrl ? 'FOUND' : 'NOT FOUND');
 
       if (!sanityUrl) {
-        console.log('❌ Slug not found in KV:', slugLower);
+        console.log('❌ Slug not found in mappings:', slugLower);
         const assetType = isPdfRequest ? 'PDF' : 'image';
         return new Response(`${assetType} not found`, {
           status: 404,

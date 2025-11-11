@@ -8,7 +8,8 @@
     "deploy": "wrangler publish",
     "dev": "wrangler dev",
     "tail": "wrangler tail",
-    "upload-mappings": "node upload-mappings.js",
+    "upload-mappings": "node upload-mappings-single-blob.js",
+    "upload-mappings-legacy": "node upload-mappings.js",
     "clean-kv-store": "node clean-kv-store.js",
     "create-namespace": "wrangler kv:namespace create ASSET_MAPPINGS"
   },
