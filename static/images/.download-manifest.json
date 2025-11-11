@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-10T19:24:15.430Z",
+  "lastUpdate": "2025-11-11T08:09:16.620Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -28602,6 +28602,454 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-10T19:24:14.673Z",
       "fileSize": 5908,
+      "dimensions": "300x400"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ship-captain-steering-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9a4b384a668748d0eac620eeb4984f9cad100aef-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:08.681Z",
+      "fileSize": 58828,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-caf-family-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fefe3d509e4cdcc865f2b15d0d0ab16b84debe5f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:08.932Z",
+      "fileSize": 40158,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-boarding-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7476286f74c68b7924fe0a8ecea4ece4ad88551c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:08.974Z",
+      "fileSize": 37830,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/worker-inspecting-engine-room-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/571b4e6bebfee90efe127219132950ce7fd17952-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:08.976Z",
+      "fileSize": 120322,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-with-bow-on-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ae4a6582063a3007daf68d3bf3072f52a3bcd633-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.113Z",
+      "fileSize": 24196,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-deck-crew-rope-handling-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f42cfd1bd1210186a0c4e041889703149fb89705-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.113Z",
+      "fileSize": 40148,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-welcoming-kids-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bce52327a16a5018647fb84eb72df9786007189b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.292Z",
+      "fileSize": 32294,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/friendly-ferry-family-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0a9771338ab59afcaee20c54cbd435c04901781a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.425Z",
+      "fileSize": 34040,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-superhero-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b46901c72d82cc52089f10fe754ab4395eb9666c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.426Z",
+      "fileSize": 24754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-smiling-with-fish-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c34c25569403c6568c5091764ea145e0b78409c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.623Z",
+      "fileSize": 44472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-on-ocean-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f9332225c9b23a04a5da8dc7e446c1bfa7e9b02a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.756Z",
+      "fileSize": 17306,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-side-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/80cdc43edc5a0ec505d3198946ab0829e53fefbb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.759Z",
+      "fileSize": 18648,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-with-cars-and-seagulls-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a09ceb69b615702529611bba2c4c42cee02871ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:09.935Z",
+      "fileSize": 40218,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-playground-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fa5e97cc408b9e09ac6c50c3eb4ce0e65245b19f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.207Z",
+      "fileSize": 43700,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/harbor-hopper-simple-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b3817e0f55cba900d79f3c042ce5c942caa6f45-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.232Z",
+      "fileSize": 24738,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-dolphin-watching-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/06ba505d3e6a13b5dbb54daf7c71f9b7cea35510-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.381Z",
+      "fileSize": 27380,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/kids-birthday-ferry-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d024eebc9522d5f008eec33232d0c2e1ad6f7282-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.392Z",
+      "fileSize": 90924,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-dining-room-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/34c1ed1833fafcc08bb4d7e9a6c23ac621dc82aa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.647Z",
+      "fileSize": 72060,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-dock-people-boarding-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d84792ef19072ff3e3c85d75d2e1eead14f6786-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.784Z",
+      "fileSize": 51142,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-city-skyline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/226f901114bf05005d5b27179609d19d0fc39218-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.795Z",
+      "fileSize": 34232,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-sunset-relaxation-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f5b1db5ab771a9bca34b7784aef97d056a9a85ad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:10.948Z",
+      "fileSize": 47020,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-terminal-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/59e3d19dad3c42c4be694609adcb8696c01605d4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.090Z",
+      "fileSize": 42416,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-journey-ocean-view-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/898120b778e579f8593dc774738a2b6da59987bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.095Z",
+      "fileSize": 43598,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-loading-vehicles-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b4017502d60a104fea62df99553fd4adba2cbbd7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.236Z",
+      "fileSize": 40722,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ocean-liner-ferry-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bb42a32fb7ea5a8a282b4627b9259fba5ce0ab54-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.373Z",
+      "fileSize": 24702,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/steamboat-intricate-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d2b4bebf03c8ef7cf6e2cdd6e7132dd149594a67-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.407Z",
+      "fileSize": 49004,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/steamboat-floating-water-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c7570ec8589bd4f01cb8c93a05c8d1135bcf5af0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.542Z",
+      "fileSize": 25156,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/futuristic-ferry-spacecraft-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/689c3c2090fea6589120dd0836a7ed17406750f9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.721Z",
+      "fileSize": 24240,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-islands-sunset-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e6a4089129d28edaf209c8188e1d88b429c1aa6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.740Z",
+      "fileSize": 41522,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/modern-ferry-outline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a856263dc0b60cfbcf30ead6862c68f747516c1f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.852Z",
+      "fileSize": 23236,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-island-arrival-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4e19cd32577132a74b0e40b00847ffad5f7abd4a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.981Z",
+      "fileSize": 28620,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-lighthouse-sea-scenery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7a4e0d18cee251cb4cebc65db8d51ebd991d2f7a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:11.995Z",
+      "fileSize": 52982,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-coastal-town-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3ff192162265aed49e7ad7c7e615a885750c5b04-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.199Z",
+      "fileSize": 25970,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-dockside-scenery-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b6ac5c814e3e47e0f7b41fa4b7ef2fc7dcfac33-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.337Z",
+      "fileSize": 40638,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-mountain-sunrise-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8d6c94f7a945a8b8f130b8e43876b41636eeb735-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.340Z",
+      "fileSize": 39592,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-jungle-river-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d20098218c47af24b0a80ae1c35aecef7aeee7ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.494Z",
+      "fileSize": 68664,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-under-bridge-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8624529e244ac67e58ea5754f194b0fb88a0540c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.628Z",
+      "fileSize": 27076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-docked-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d9454e03419c8e721dd973a03b244cb28c37a4a7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.628Z",
+      "fileSize": 44348,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-lighthouse-mountain-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/63e168b7eff0241c8b29293da3dfddfa0a43d472-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.782Z",
+      "fileSize": 24200,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/autumn-ferry-river-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d4a5af06a3d7c1f8a7a4cd0ef15d304fe9e9887a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.921Z",
+      "fileSize": 69562,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-mountain-snowflakes-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d50c77b4340d4ea353a12854d33530ccd4436087-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:12.935Z",
+      "fileSize": 41054,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-sunny-deck-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b5acc35b7ef8b6fc8be9890166a472dc11e300f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.099Z",
+      "fileSize": 25350,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-pumpkins-autumn-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c1e148fc7f6fb171f4a1193869aa9d40eeab9738-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.235Z",
+      "fileSize": 38232,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-ocean-adventure-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5545ccd8d35cfa8475c8d120bdc0f6ebd8813198-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.239Z",
+      "fileSize": 57980,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-and-floral-frame-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d42d31e0c05caaee0fba1a93106278226a23ea7c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.505Z",
+      "fileSize": 96126,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-sailing-on-waves-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/60fb34bc0381ee382fd267728a7860467ed63c45-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.638Z",
+      "fileSize": 15748,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/whimsical-ferry-rainbow-garden-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5490b1ddf634e5cb1633b9706cde5f042dae25ab-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.641Z",
+      "fileSize": 34754,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/winter-ferry-scenic-ride-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/03dffd4b4f86beeb22b4bd6a955a50aed6f67bea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.836Z",
+      "fileSize": 37972,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-passengers-boarding-vessel-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d844fc714299e0201a2f5a353540c9832de4f28-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.957Z",
+      "fileSize": 16136,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-on-sunny-day-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6c2e9b7cbd0a4bf150dae45449441bd836b40d23-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:13.970Z",
+      "fileSize": 16112,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-with-seagulls-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6261038a3bc5e029f31531272f76949091fc628d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.152Z",
+      "fileSize": 27362,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-sunset-mountain-landscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/113362c7f4b5639ec4349b9570d3d8a674c219c5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.301Z",
+      "fileSize": 24336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-seagulls-sunset-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/41095448c3a1cf1a2aca8f2ec1764f11817805a2-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.301Z",
+      "fileSize": 28580,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-illustration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8c01aa5e35052cc08fe561c6289af74cf86f3608-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.477Z",
+      "fileSize": 28168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-with-lighthouse-at-sea-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2cd30ab37626ee7c74881dddf60647713c62d9bc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.620Z",
+      "fileSize": 33204,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-swirl-stars-moon-night-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d973710cd1c101121c18df15e796b4afa3075b6e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:14.887Z",
+      "fileSize": 56472,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-rainy-weather-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3f459b6a50d08df95b08f58daf013326b28e9309-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.101Z",
+      "fileSize": 58264,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/hong-kong-ferry-skyline-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d01ec37af46e448a14957e9bcca4c2f9958b3ea-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.233Z",
+      "fileSize": 48484,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/venice-rialto-bridge-ferry-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b344277d67f538ea378e34b382dcec0931ef7e87-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.240Z",
+      "fileSize": 66222,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/sydney-ferry-opera-house-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dce08344e4d482ac2a2a5c1420272696458fd666-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.429Z",
+      "fileSize": 29160,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-seals-bridge-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/136b73021ee87803dd41574f60caa3022b281e46-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.565Z",
+      "fileSize": 49060,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/ferry-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a70d6b4595cf4978cce8e297f07bd56dc5938cb7-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.584Z",
+      "fileSize": 119924,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/istanbul-bosphorus-ferry-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/859ac60b805fed7892fd724ae2d990295fad1d8a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:15.955Z",
+      "fileSize": 37752,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/vehicles-coloring-pages/ferry-coloring-pages/cartoon-ferry-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c34c25569403c6568c5091764ea145e0b78409c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-11T08:09:16.238Z",
+      "fileSize": 12320,
       "dimensions": "300x400"
     }
   }
