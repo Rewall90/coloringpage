@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-11T08:09:16.620Z",
+  "lastUpdate": "2025-11-12T11:00:55.959Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -29050,6 +29050,335 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-11T08:09:16.238Z",
       "fileSize": 12320,
+      "dimensions": "300x400"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-whimsical-cake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/35b9c853ed8bf985a362d61ac54bbd80d237a4a6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:52.969Z",
+      "fileSize": 35836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-moon-cake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9c0ea6e575c6d5a8ab1c6940fcd29067238ead69-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:52.974Z",
+      "fileSize": 34268,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-with-butterflies-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d495bbb11252886fcfede60ee428d187c32ace99-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.037Z",
+      "fileSize": 40528,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-with-stars-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/252c22ac36de01aa3d577c1b4cd9bbdacf17c446-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.041Z",
+      "fileSize": 32062,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-detailed-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/558c34eb2a0d867d05b265587f4e8606ba0ec4fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.194Z",
+      "fileSize": 42694,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-cloud-decor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/00ef0ea1068258465e83b0331e7abfb6554a43a1-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.253Z",
+      "fileSize": 35852,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e00fc148fb9c8180c26e2b4a66a8802e9b5f5e92-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.259Z",
+      "fileSize": 34002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-elegant-decor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8ea613eed471359196c21d53cbfc483d478814f4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.266Z",
+      "fileSize": 45676,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-layered-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/12ba9e03ffc8611c34470f14404a6d701629b6c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.311Z",
+      "fileSize": 25800,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-moon-cake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2e576ace413ee59ca33334b0ed94dc8fc961c93c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.318Z",
+      "fileSize": 42128,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-dessert-display-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/633239571417f7ea39b3e096c479ec9e0b64cd7e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.339Z",
+      "fileSize": 73116,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-rainbow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65970a0c0763adae47323d34c950a7d627db97d8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.394Z",
+      "fileSize": 44434,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-floral-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c264c53b0e2acfceeb0a4ac8855ebe5b7b26fe45-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.397Z",
+      "fileSize": 42402,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-with-sweets-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dbfeaa20bb93ed571c097abf6c3b4d3722eee300-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.397Z",
+      "fileSize": 36620,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-cute-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b45a3e7a3fce52b407776046d7921be39ede3d00-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.449Z",
+      "fileSize": 27308,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-winking-fun-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e594313d7d020e5270bab2f5a07b514c828c1429-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.453Z",
+      "fileSize": 39410,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-birthday-cake-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bc34203101fe463d116f752473bcfbd64b885bad-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.500Z",
+      "fileSize": 52220,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-decoration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8df8b6ba79e3ce58b6925b655eaea49d88d24849-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.502Z",
+      "fileSize": 46590,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-macarons-stack-cute-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/77fbc0981a25e205919ab526ded47e2a3928fb76-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.549Z",
+      "fileSize": 36066,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-pops-whimsical-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/33e1f52f05b2a5f3378b7e0a5464bde1d19558d3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.556Z",
+      "fileSize": 34802,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-floral-border-art-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9a1b08d7c788ecc63b89327acac4ab471e68d07-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.589Z",
+      "fileSize": 82416,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-ice-cream-cone-fantasy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ef9c40e6d9badd79cf8d3aa2a576f421cdc8314a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.643Z",
+      "fileSize": 26808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-pizza-slices-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/15619bf737a8bfe6610a10d19ba0bda93dce374f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.645Z",
+      "fileSize": 60354,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cookies-shapes-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4fd7cf53b9f4ba43ed4a4e92af0998d22b83ebdc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.654Z",
+      "fileSize": 64076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cute-cupcake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4c6404508740addb82ca9f4d193a1d9388762764-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.693Z",
+      "fileSize": 25072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-pretzel-magical-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3d283482f1029641bd9cb7d1f366704048d6d577-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.694Z",
+      "fileSize": 45900,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-trio-heads-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1ec26ea4bd5b06f6d28f242801a0e9d3f7063f0e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.697Z",
+      "fileSize": 32414,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-fantasy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/41090532279386be66ad689a81df46c6546f6f6d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.738Z",
+      "fileSize": 28204,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcakes-fantasy-delight-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/436c41383ae40724a7a6b1af773f3f3abb56f498-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.739Z",
+      "fileSize": 46836,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-tier-display-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/183ae79e2f1ee3a360d11c1b214f1133cc19b98d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.763Z",
+      "fileSize": 47164,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-magical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4ccfcec399e1799b25a74844e784fd37bd362b71-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.816Z",
+      "fileSize": 32658,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-rainbow-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/36446fb2428d2b66f607655a910b5975c9077f70-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.816Z",
+      "fileSize": 33336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-faces-creative-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fbee69563c434078f32180c4a5a4e4a1789cd51b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.816Z",
+      "fileSize": 33026,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-magic-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1d00d7074dab3b6bb90070a05baaa288399d9e43-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.858Z",
+      "fileSize": 32992,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-party-hat-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/bd3f52e196c73c01645a3bdb0808949188024462-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.858Z",
+      "fileSize": 36192,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-floral-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cfb586f0361a1fc6819dec3d06c2248b76b6b4e8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.859Z",
+      "fileSize": 46298,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-flower-crown-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/90872f34fc913345dc2f1c7031e78a0f2f3c68be-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.919Z",
+      "fileSize": 34978,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cupcake-dream-dessert-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/653efdd57e53509cc2f28a4a951cf26e7260dad6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.920Z",
+      "fileSize": 48188,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-birthday-cake-decor-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9f56670468ca024f8f53186016377838bb3242a8-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.920Z",
+      "fileSize": 55622,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-with-flowers-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7237a90dc2617804c754b5afbcd0311ba9631cba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.972Z",
+      "fileSize": 57814,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-themed-cake-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/f456fcfc78cb89f9a031590130f990d28cb5576c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.974Z",
+      "fileSize": 44688,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-flowers-whimsical-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2408a67a3d52eb6a4691fd51a06b2c4c0f2c6ce4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:53.977Z",
+      "fileSize": 49808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-floral-decoration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/76d0ac713eb6d38e72ec82aab0fe1e331a8ba2a0-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:54.008Z",
+      "fileSize": 27274,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-smiling-face-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4b675f9ea4ceb8aa16c6648f8b6cab1c1245bba9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:54.016Z",
+      "fileSize": 21674,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-fantasy-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/4347ef58ee270235c322398dc83181ad4210c92b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:54.071Z",
+      "fileSize": 42060,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ce6584478819e918b93e9e1925156086545fabaa-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:54.456Z",
+      "fileSize": 45632,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/food-coloring-pages/unicorn-cake-coloring-pages/unicorn-cake-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9c0ea6e575c6d5a8ab1c6940fcd29067238ead69-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-12T11:00:55.754Z",
+      "fileSize": 10288,
       "dimensions": "300x400"
     }
   }
