@@ -13,9 +13,22 @@
       {{ $coloringPages = $coloringPages | append . }}
     {{ end }}
   {{ end }}
-  
-  {{/* Sort by date descending and take the most recent pages - same as latest section */}}
-  {{ $finalPages := ($coloringPages.ByDate.Reverse | first $limit) }}
+
+  {{/* Filter pages that are marked as featured/popular */}}
+  {{ $featuredPages := slice }}
+  {{ range $coloringPages }}
+    {{ if .Params.featured }}
+      {{ $featuredPages = $featuredPages | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* If we have featured pages, use them. Otherwise fallback to recent if enabled */}}
+  {{ $finalPages := slice }}
+  {{ if gt (len $featuredPages) 0 }}
+    {{ $finalPages = ($featuredPages | first $limit) }}
+  {{ else if $fallbackToRecent }}
+    {{ $finalPages = ($coloringPages.ByDate.Reverse | first $limit) }}
+  {{ end }}
   
   {{ if $finalPages }}
     <section class="popular-pages-section py-16" aria-labelledby="popular-pages-heading">

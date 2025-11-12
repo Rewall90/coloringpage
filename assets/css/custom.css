@@ -675,8 +675,39 @@ main {
 /* Inline Search Styles */
 .inline-search-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 600px; /* Limit width for better readability */
   position: relative;
+  margin: 0 auto; /* Center the search box */
+}
+
+/* Align search box left in hero section */
+.hero-section .inline-search-container {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+/* Vertically center hero section content */
+.hero-section .lg\:grid {
+  align-items: center !important;
+}
+
+/* Make left column flex container for better vertical centering */
+@media (min-width: 1024px) {
+  .hero-section .lg\:grid > div:first-child {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}
+
+/* Hero section - left align title and description */
+.hero-section h1 {
+  text-align: left !important;
+}
+
+.hero-section p {
+  text-align: left !important;
+  margin-bottom: 2rem !important; /* Add space between paragraph and search */
 }
 
 .inline-search-wrapper {
