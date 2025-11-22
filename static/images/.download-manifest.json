@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-12T11:00:55.959Z",
+  "lastUpdate": "2025-11-22T07:27:01.960Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -29379,6 +29379,209 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-12T11:00:55.754Z",
       "fileSize": 10288,
+      "dimensions": "300x400"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-letter-a-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9294eaad951f9a9129743c13d89dd201b4fba20-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:55.148Z",
+      "fileSize": 79550,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/letter-b-floral-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/73c4d3cbfadc74af061cdcca82f44165fa06bf3d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:55.591Z",
+      "fileSize": 51092,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/letter-c-cupcake-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0ea1a9e8682d7547586c2dc6eaa7d9fa2753481d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:55.695Z",
+      "fileSize": 55168,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-ferry-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/114859ffd67d5ce6eba558b508e4374917fdd186-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:55.739Z",
+      "fileSize": 64400,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-g-musical-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9d2865dbfe4a9a6e31748d62d99b4f713e77097f-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.141Z",
+      "fileSize": 64566,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/floral-mandala-e-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/dde617581c266d0048cf0b1870d4a2c90aa8f11d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.184Z",
+      "fileSize": 66606,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/floral-letter-f-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c0e18372f0a52471ae71a3fa17e78e53495395ba-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.316Z",
+      "fileSize": 87336,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/ferry-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/e635f722a8289c10018a99320e1750ec1f9e248a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.707Z",
+      "fileSize": 52424,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-ice-cream-letter-i-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/174bf46e6980abc1e545c13485444fac2994311a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.740Z",
+      "fileSize": 59072,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/decorative-s-symbol-intricate-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/aa17db799b14d4e6b66787e581e66fc606ad9b9d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:56.754Z",
+      "fileSize": 64250,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/jellyfish-mandala-letter-j-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/0091da5abd7a45bbb3ef53ae01f60a2340242ecc-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.147Z",
+      "fileSize": 80736,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/ladybug-monogram-l-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2789ee1c9126d409ab12d553285eda88d176c8c7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.219Z",
+      "fileSize": 73938,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/letter-k-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/75ea61d49faf6ec5cd5d1de2497e3db28d3c9008-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.271Z",
+      "fileSize": 65326,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mushroom-letter-m-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/fd2aa059046f13fa5f5e3e14a488441898d8c58c-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.670Z",
+      "fileSize": 65784,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/intricate-mandala-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/22220fd9f6e9a4bae364e5505c5005624ccb2ef7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.735Z",
+      "fileSize": 85954,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/n-narwhal-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/12bd384232e4211f7d9249e23837e062a226e541-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:57.867Z",
+      "fileSize": 64344,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/alphabet-pandas-pineapples-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/6820c52a488caf38a5ccefc485626b12a4940f04-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:58.285Z",
+      "fileSize": 85432,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-rabbit-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8dc8b0e00e9bcdfbb6224a9f7aab6278b5badab9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:58.398Z",
+      "fileSize": 83728,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-letter-q-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/65315fe1ec14c90d005435f62d5ad2dc8d8d8a23-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:59.605Z",
+      "fileSize": 71808,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/unicorn-umbrella-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2ff9be6a12df96df09f69511349c4a5ccd511c80-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:26:59.988Z",
+      "fileSize": 68454,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/train-letter-t-border-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/819baa98e451d9b6c3c058537efa274f14471669-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:00.027Z",
+      "fileSize": 78952,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-letter-s-intricate-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/73dfcf949a2f1bebb2dcce60ca1eeedee994db7e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:00.278Z",
+      "fileSize": 64696,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-ferry-design-v-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/51bce83175d74784fb5db4191f30408b5adfe6b4-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:00.702Z",
+      "fileSize": 103884,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-w-industry-theme-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/ec26d861e746be865647f68e786ccb97de11a8c9-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:00.734Z",
+      "fileSize": 70624,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-geometric-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/27a3039081183ab205a8a3d0657d7d95f795c93e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:00.773Z",
+      "fileSize": 77024,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/z-ornate-mandala-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/54a026e035b7bfa54ec4ead8b27b771a2add9e96-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:01.240Z",
+      "fileSize": 80718,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-alphabet-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/680a4fd5e06ecf9903070cf7c3719f49344a7d93-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:01.286Z",
+      "fileSize": 159054,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/mandala-intricate-animal-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/7b12624481b5715615765174279aead7763cb54b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:01.290Z",
+      "fileSize": 82452,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/education-coloring-pages/mandala-alphabet-coloring-pages/letter-a-mandala-coloring-page-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9294eaad951f9a9129743c13d89dd201b4fba20-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-22T07:27:01.680Z",
+      "fileSize": 21364,
       "dimensions": "300x400"
     }
   }
