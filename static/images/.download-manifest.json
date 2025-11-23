@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdate": "2025-11-23T06:52:40.578Z",
+  "lastUpdate": "2025-11-23T07:48:43.296Z",
   "images": {
     "/images/categories/vehicles-coloring-pages-600x600.webp": {
       "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31792548772b1ca2fd17a5a255929f2ac135f926-600x600.webp",
@@ -30219,6 +30219,223 @@
       "urlHash": "aHR0cHM6Ly9jZG4u",
       "downloadedAt": "2025-11-23T06:52:40.315Z",
       "fileSize": 118658,
+      "dimensions": "1312x656"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/fireworks-over-cityscape-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b6dca726a43b8cdf2ae5fd0a7604646a903434b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:39.853Z",
+      "fileSize": 46974,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/firework-rocket-burst-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/64a1a69c9136d0e8e82e8c4a0585caea30bcec68-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:39.865Z",
+      "fileSize": 24762,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/kids-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b4d0dfa77861fe5ea951fa300b8a5d59544748bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:39.871Z",
+      "fileSize": 35422,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/fireworks-display-burst-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9b2d71695d452817184a1c2d3e6a9902eca45ddf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.118Z",
+      "fileSize": 61582,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/fireworks-symmetrical-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/3be39f00c084e87858b10e24076895d35682c030-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.133Z",
+      "fileSize": 28392,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/family-watching-fireworks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a6c66cea67e9c6c7a7c6469e9f2dcc58f91f0ac7-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.217Z",
+      "fileSize": 42790,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/eiffel-tower-fireworks-festive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/429bb7823129729641cfab6a31c89ac2020858f6-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.478Z",
+      "fileSize": 53898,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/children-sparkler-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/41d3673eb55ffea295a0bc25f08ed1076bda3807-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.489Z",
+      "fileSize": 44002,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/big-ben-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/05a41bf11f2f3413e40d65d8d550d6d70168ae28-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.548Z",
+      "fileSize": 46436,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/liberty-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b2b1590f8d01482642868f5b8f5dd6ec8509d398-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.771Z",
+      "fileSize": 46076,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/heart-fireworks-festive-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/d7de92a996e272dace360997fb7c0c6bcba406fa-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.843Z",
+      "fileSize": 64792,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/new-year-fireworks-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/446c9ce2bb90b1d7fc3ade09a1cc1cbc18fda914-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:40.853Z",
+      "fileSize": 37162,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/kids-new-year-celebration-party-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/2877ad4ddd9399a87481c0ad837bc1e8fc2f1e03-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.102Z",
+      "fileSize": 39446,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/sydney-harbor-fireworks-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a5d1ea1fe149e08493ec14a5304a0ced72a8422e-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.102Z",
+      "fileSize": 32610,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/intricate-floral-mandala-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/40a31a7ef45f55227b7569bd739f517d6cb12cdf-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.233Z",
+      "fileSize": 132946,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/village-fireworks-festive-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/edb8ff8c79f0879b8af3d6832720b205dc7838bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.464Z",
+      "fileSize": 44684,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/colorful-new-year-s-fireworks-display-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/53316140e4a91131f0cf70476df422db3038f0e5-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.485Z",
+      "fileSize": 35480,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/family-new-year-s-celebration-scene-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/84c58d6d968795bd9797d6c659320ff96ececa9d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.514Z",
+      "fileSize": 69410,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/children-new-year-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a2053f78d74047eec071859dcfe42bedd0ca4a4b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.764Z",
+      "fileSize": 65234,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/mandala-intricate-starry-design-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c6646f315f5cd5ba1d14de5f77861171757ae138-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:41.851Z",
+      "fileSize": 118196,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/fireworks-festive-pattern-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/cdd7770910d9bf3b90984b8ce7897dcd7fce240a-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.086Z",
+      "fileSize": 54216,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/new-year-s-party-table-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/8614f362172c52f123dfd82d7d31400b30d9632b-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.133Z",
+      "fileSize": 60092,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/balloon-bouquet-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/35a2b225b94983a560c5659330fae02d31d668da-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.142Z",
+      "fileSize": 39258,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/kids-new-year-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/31c16d41f8debae91ed334e979db9746dfd5f8b3-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.374Z",
+      "fileSize": 42646,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/party-popper-explosion-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/1df849e1049d74c05c4e21c16a9c834a2198d4db-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.428Z",
+      "fileSize": 32248,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/boy-new-year-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/a9d13d6981dc58fcff90cb0c5b43d893c9882a21-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.432Z",
+      "fileSize": 31916,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/new-year-celebration-decorations-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/c5649a7a056cb3554beeb182aeb61a3cfee95968-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.681Z",
+      "fileSize": 27210,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/masquerade-intricate-masks-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/5be093a58e85747e4a85c420f76e300c92ca8f55-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.696Z",
+      "fileSize": 93452,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/kids-new-year-party-celebration-750x1000.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/43cd9ca3f97472fab6daa009388bc7761bdb015d-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.741Z",
+      "fileSize": 48324,
+      "dimensions": "750x1000"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/two-excited-kids-standing-on-a-hill-300x400.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/b4d0dfa77861fe5ea951fa300b8a5d59544748bb-750x1000.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:42.925Z",
+      "fileSize": 10240,
+      "dimensions": "300x400"
+    },
+    "/images/collections/holidays-coloring-pages/new-year-coloring-pages/new-year-coloring-pages-1312x656.webp": {
+      "sanityUrl": "https://cdn.sanity.io/images/zjqmnotc/production/9cd7ebf366011ded3e70b2152fab4fb1c15d0387-1312x656.webp",
+      "urlHash": "aHR0cHM6Ly9jZG4u",
+      "downloadedAt": "2025-11-23T07:48:43.134Z",
+      "fileSize": 92408,
       "dimensions": "1312x656"
     }
   }
